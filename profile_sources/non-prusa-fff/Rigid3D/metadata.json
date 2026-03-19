@@ -1,0 +1,171 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Rigid3D",
+  "version": "2.1.0",
+  "index_name": "Rigid3D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Zero2",
+      "path": "printer_model/Zero2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Zero3",
+      "path": "printer_model/Zero3.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Mucit",
+      "path": "printer_model/Mucit.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Mucit2",
+      "path": "printer_model/Mucit2.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm - Ultra @Rigid3D",
+      "path": "print/0.06mm - Ultra @Rigid3D.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm - Super @Rigid3D",
+      "path": "print/0.12mm - Super @Rigid3D.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm - Good @Rigid3D",
+      "path": "print/0.16mm - Good @Rigid3D.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm - Standard @Rigid3D",
+      "path": "print/0.20mm - Standard @Rigid3D.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm - Draft @Rigid3D",
+      "path": "print/0.24mm - Draft @Rigid3D.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm - Low @Rigid3D",
+      "path": "print/0.28mm - Low @Rigid3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETG*",
+      "path": "filament/_PETG_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*FLEX*",
+      "path": "filament/_FLEX_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*NYLON*",
+      "path": "filament/_NYLON_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Rigid3D",
+      "path": "filament/Generic PLA @Rigid3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Rigid3D PLA @Rigid3D",
+      "path": "filament/Rigid3D PLA @Rigid3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Rigid3D",
+      "path": "filament/Generic ABS @Rigid3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Rigid3D",
+      "path": "filament/Generic PETG @Rigid3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @Rigid3D",
+      "path": "filament/Generic FLEX @Rigid3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic Nylon @Rigid3D",
+      "path": "filament/Generic Nylon @Rigid3D.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Rigid3D Zero2",
+      "path": "printer/Rigid3D Zero2.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Rigid3D Zero3",
+      "path": "printer/Rigid3D Zero3.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Rigid3D Mucit",
+      "path": "printer/Rigid3D Mucit.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Rigid3D Mucit2",
+      "path": "printer/Rigid3D Mucit2.ini"
+    }
+  ],
+  "asset_paths": [
+    "Mucit2_thumbnail.png",
+    "Mucit_thumbnail.png",
+    "Zero2_thumbnail.png",
+    "Zero3_thumbnail.png",
+    "mucit2_bed.png",
+    "mucit2_bed.stl",
+    "mucit_bed.png",
+    "mucit_bed.stl",
+    "zero2_bed.png",
+    "zero3_bed.png",
+    "zero_bed.stl"
+  ]
+}

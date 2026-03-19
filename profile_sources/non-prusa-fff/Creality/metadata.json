@@ -1,0 +1,2207 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Creality",
+  "version": "1.1.0",
+  "index_name": "Creality.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3",
+      "path": "printer_model/ENDER3.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3BLTOUCH",
+      "path": "printer_model/ENDER3BLTOUCH.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3PRO",
+      "path": "printer_model/ENDER3PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3NEO",
+      "path": "printer_model/ENDER3NEO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3V2",
+      "path": "printer_model/ENDER3V2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3V2NEO",
+      "path": "printer_model/ENDER3V2NEO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3S1",
+      "path": "printer_model/ENDER3S1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3S1PRO",
+      "path": "printer_model/ENDER3S1PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3S1PLUS",
+      "path": "printer_model/ENDER3S1PLUS.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3MAX",
+      "path": "printer_model/ENDER3MAX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER3MAXNEO",
+      "path": "printer_model/ENDER3MAXNEO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER4",
+      "path": "printer_model/ENDER4.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER5",
+      "path": "printer_model/ENDER5.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER5PRO",
+      "path": "printer_model/ENDER5PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER5PLUS",
+      "path": "printer_model/ENDER5PLUS.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER5S1",
+      "path": "printer_model/ENDER5S1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER6",
+      "path": "printer_model/ENDER6.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER7",
+      "path": "printer_model/ENDER7.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER2",
+      "path": "printer_model/ENDER2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ENDER2PRO",
+      "path": "printer_model/ENDER2PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR5PRO",
+      "path": "printer_model/CR5PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR5PROH",
+      "path": "printer_model/CR5PROH.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR6SE",
+      "path": "printer_model/CR6SE.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR6MAX",
+      "path": "printer_model/CR6MAX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10SMART",
+      "path": "printer_model/CR10SMART.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10SMARTPRO",
+      "path": "printer_model/CR10SMARTPRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10MINI",
+      "path": "printer_model/CR10MINI.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10MAX",
+      "path": "printer_model/CR10MAX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10",
+      "path": "printer_model/CR10.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10V2",
+      "path": "printer_model/CR10V2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10V3",
+      "path": "printer_model/CR10V3.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10S",
+      "path": "printer_model/CR10S.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10SPRO",
+      "path": "printer_model/CR10SPRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10SPROV2",
+      "path": "printer_model/CR10SPROV2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10S4",
+      "path": "printer_model/CR10S4.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR10S5",
+      "path": "printer_model/CR10S5.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR20",
+      "path": "printer_model/CR20.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR20PRO",
+      "path": "printer_model/CR20PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR200B",
+      "path": "printer_model/CR200B.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "CR8",
+      "path": "printer_model/CR8.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SERMOOND1",
+      "path": "printer_model/SERMOOND1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SERMOONV1",
+      "path": "printer_model/SERMOONV1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SERMOONV1PRO",
+      "path": "printer_model/SERMOONV1PRO.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*speed*",
+      "path": "print/_speed_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*highspeed*",
+      "path": "print/_highspeed_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*superspeed*",
+      "path": "print/_superspeed_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.06mm*",
+      "path": "print/_0.06mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.08mm*",
+      "path": "print/_0.08mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.12mm*",
+      "path": "print/_0.12mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.16mm*",
+      "path": "print/_0.16mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.24mm*",
+      "path": "print/_0.24mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.28mm*",
+      "path": "print/_0.28mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.36mm*",
+      "path": "print/_0.36mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.44mm*",
+      "path": "print/_0.44mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzle*",
+      "path": "print/_0.3nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4nozzle*",
+      "path": "print/_0.4nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.5nozzle*",
+      "path": "print/_0.5nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzle*",
+      "path": "print/_0.6nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.06 mm ULTRADETAIL (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.06 mm ULTRADETAIL (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.06 mm ULTRADETAIL (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.06 mm ULTRADETAIL (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.08 mm SUPERDETAIL (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.08 mm SUPERDETAIL (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.08 mm SUPERDETAIL (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.08 mm SUPERDETAIL (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.10 mm HIGHDETAIL (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.10 mm HIGHDETAIL (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.10 mm HIGHDETAIL (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.10 mm HIGHDETAIL (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.12 mm DETAIL (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.12 mm DETAIL (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.12 mm DETAIL (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.12 mm DETAIL (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SPEED (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SPEED (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL HIGHSPEED (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL HIGHSPEED (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL HIGHSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL HIGHSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL HIGHSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL HIGHSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL HIGHSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL HIGHSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SUPERSPEED (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SUPERSPEED (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SUPERSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SUPERSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SUPERSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SUPERSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL SUPERSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.16 mm OPTIMAL SUPERSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SPEED (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SPEED (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL HIGHSPEED (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL HIGHSPEED (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL HIGHSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL HIGHSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL HIGHSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL HIGHSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL HIGHSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL HIGHSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SUPERSPEED (0.3 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SUPERSPEED (0.3 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SUPERSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SUPERSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SUPERSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SUPERSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL SUPERSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.20 mm NORMAL SUPERSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT SPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT SPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT SPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT SPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT SPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT SPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT HIGHSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT HIGHSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT HIGHSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT HIGHSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT HIGHSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT HIGHSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT SUPERSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT SUPERSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT SUPERSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT SUPERSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT SUPERSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.24 mm DRAFT SUPERSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT SPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT SPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT SPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT SPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT SPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT SPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT HIGHSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT HIGHSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT HIGHSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT HIGHSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT HIGHSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT HIGHSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT SUPERSPEED (0.4 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT SUPERSPEED (0.4 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT SUPERSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT SUPERSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT SUPERSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.28 mm SUPERDRAFT SUPERSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY SPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY SPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY SPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY SPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY HIGHSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY HIGHSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY HIGHSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY HIGHSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY SUPERSPEED (0.5 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY SUPERSPEED (0.5 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY SUPERSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.36 mm CHUNKY SUPERSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.44 mm SUPERCHUNKY (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY SPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.44 mm SUPERCHUNKY SPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY HIGHSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.44 mm SUPERCHUNKY HIGHSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY SUPERSPEED (0.6 mm nozzle) @CREALITY",
+      "path": "print/0.44 mm SUPERCHUNKY SUPERSPEED (0.6 mm nozzle) @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*TPU*",
+      "path": "filament/_TPU_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @CREALITY",
+      "path": "filament/Generic PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @CREALITY",
+      "path": "filament/Generic PETG @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @CREALITY",
+      "path": "filament/Generic ABS @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Creality PLA @CREALITY",
+      "path": "filament/Creality PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Creality PETG @CREALITY",
+      "path": "filament/Creality PETG @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Creality ABS @CREALITY",
+      "path": "filament/Creality ABS @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @CREALITY",
+      "path": "filament/Prusament PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @CREALITY",
+      "path": "filament/Prusament PETG @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "AzureFilm PLA @CREALITY",
+      "path": "filament/AzureFilm PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PLA @CREALITY",
+      "path": "filament/Devil Design PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PLA Matt @CREALITY",
+      "path": "filament/Devil Design PLA Matt @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PLA Galaxy @CREALITY",
+      "path": "filament/Devil Design PLA Galaxy @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PLA NX2 @CREALITY",
+      "path": "filament/Extrudr PLA NX2 @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr GreenTEC Pro @CREALITY",
+      "path": "filament/Extrudr GreenTEC Pro @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Real Filament PLA @CREALITY",
+      "path": "filament/Real Filament PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Velleman PLA @CREALITY",
+      "path": "filament/Velleman PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3DJAKE ecoPLA @CREALITY",
+      "path": "filament/3DJAKE ecoPLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3DJAKE ecoPLA Matt @CREALITY",
+      "path": "filament/3DJAKE ecoPLA Matt @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3DJAKE ecoPLA Tough @CREALITY",
+      "path": "filament/3DJAKE ecoPLA Tough @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "FormFutura Tough PLA @CREALITY",
+      "path": "filament/FormFutura Tough PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "123-3D Jupiter PLA @CREALITY",
+      "path": "filament/123-3D Jupiter PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Das Filament PLA @CREALITY",
+      "path": "filament/Das Filament PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Das Filament PETG @CREALITY",
+      "path": "filament/Das Filament PETG @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim PLA @CREALITY",
+      "path": "filament/Verbatim PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Geeetech Matte PLA @CREALITY",
+      "path": "filament/Geeetech Matte PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyTerra PLA @CREALITY",
+      "path": "filament/Polymaker PolyTerra PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "VOXELPLA PLA Plus @CREALITY",
+      "path": "filament/VOXELPLA PLA Plus @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MatterHackers MH Build Series PLA @CREALITY",
+      "path": "filament/MatterHackers MH Build Series PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MatterHackers MH Build Series PETG @CREALITY",
+      "path": "filament/MatterHackers MH Build Series PETG @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MatterHackers MH Build Series ABS @CREALITY",
+      "path": "filament/MatterHackers MH Build Series ABS @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MatterHackers MH Build Series TPU @CREALITY",
+      "path": "filament/MatterHackers MH Build Series TPU @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PLA @CREALITY",
+      "path": "filament/Eolas Prints PLA @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PLA Matte @CREALITY",
+      "path": "filament/Eolas Prints PLA Matte @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints INGEO 850 @CREALITY",
+      "path": "filament/Eolas Prints INGEO 850 @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints INGEO 870 @CREALITY",
+      "path": "filament/Eolas Prints INGEO 870 @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PETG @CREALITY",
+      "path": "filament/Eolas Prints PETG @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PETG - UV Resistant @CREALITY",
+      "path": "filament/Eolas Prints PETG - UV Resistant @CREALITY.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints TPU 93A @CREALITY",
+      "path": "filament/Eolas Prints TPU 93A @CREALITY.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*32bitmainboard*",
+      "path": "printer/_32bitmainboard_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*straingauge*",
+      "path": "printer/_straingauge_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*fastabl*",
+      "path": "printer/_fastabl_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*slowabl*",
+      "path": "printer/_slowabl_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*storedabl*",
+      "path": "printer/_storedabl_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*pauseprint*",
+      "path": "printer/_pauseprint_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*descendingz*",
+      "path": "printer/_descendingz_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*largebedinertia*",
+      "path": "printer/_largebedinertia_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*bowdencapricorn*",
+      "path": "printer/_bowdencapricorn_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*bowdenshort*",
+      "path": "printer/_bowdenshort_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*bowden*",
+      "path": "printer/_bowden_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*bowdenlong*",
+      "path": "printer/_bowdenlong_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*bowdenallmetalhotend*",
+      "path": "printer/_bowdenallmetalhotend_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*directdriveextruder*",
+      "path": "printer/_directdriveextruder_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*spriteextruder*",
+      "path": "printer/_spriteextruder_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.3nozzle*",
+      "path": "printer/_0.3nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.4nozzle*",
+      "path": "printer/_0.4nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.5nozzle*",
+      "path": "printer/_0.5nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.6nozzle*",
+      "path": "printer/_0.6nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3*",
+      "path": "printer/_ENDER3_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3BLTOUCH*",
+      "path": "printer/_ENDER3BLTOUCH_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 BLTouch (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 BLTouch (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 BLTouch (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 BLTouch (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 BLTouch (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 BLTouch (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 BLTouch (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 BLTouch (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3PRO*",
+      "path": "printer/_ENDER3PRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Pro (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Pro (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Pro (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Pro (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3NEO*",
+      "path": "printer/_ENDER3NEO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Neo (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 Neo (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Neo (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 Neo (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Neo (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 Neo (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Neo (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 Neo (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3V2*",
+      "path": "printer/_ENDER3V2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3V2NEO*",
+      "path": "printer/_ENDER3V2NEO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 Neo (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 Neo (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 Neo (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 Neo (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 Neo (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 Neo (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 V2 Neo (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 V2 Neo (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3S1*",
+      "path": "printer/_ENDER3S1_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3S1PRO*",
+      "path": "printer/_ENDER3S1PRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Pro (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Pro (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Pro (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Pro (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3S1PLUS*",
+      "path": "printer/_ENDER3S1PLUS_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Plus (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Plus (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Plus (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Plus (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Plus (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Plus (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 S1 Plus (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 S1 Plus (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3MAX*",
+      "path": "printer/_ENDER3MAX_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER3MAXNEO*",
+      "path": "printer/_ENDER3MAXNEO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max Neo (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max Neo (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max Neo (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max Neo (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max Neo (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max Neo (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-3 Max Neo (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-3 Max Neo (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER4*",
+      "path": "printer/_ENDER4_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-4 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-4 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-4 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-4 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-4 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-4 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-4 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-4 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER5*",
+      "path": "printer/_ENDER5_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-5 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-5 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-5 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-5 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER5PRO*",
+      "path": "printer/_ENDER5PRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Pro (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-5 Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Pro (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-5 Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Pro (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-5 Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Pro (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-5 Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER5PLUS*",
+      "path": "printer/_ENDER5PLUS_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Plus (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-5 Plus (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Plus (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-5 Plus (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Plus (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-5 Plus (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 Plus (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-5 Plus (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER5S1*",
+      "path": "printer/_ENDER5S1_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 S1 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-5 S1 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 S1 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-5 S1 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 S1 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-5 S1 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-5 S1 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-5 S1 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER6*",
+      "path": "printer/_ENDER6_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-6 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-6 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-6 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-6 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-6 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-6 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-6 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-6 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER7*",
+      "path": "printer/_ENDER7_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-7 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-7 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-7 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-7 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-7 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-7 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-7 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-7 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER2*",
+      "path": "printer/_ENDER2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-2 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-2 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-2 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-2 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ENDER2PRO*",
+      "path": "printer/_ENDER2PRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 Pro (0.3 mm nozzle)",
+      "path": "printer/Creality Ender-2 Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 Pro (0.4 mm nozzle)",
+      "path": "printer/Creality Ender-2 Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 Pro (0.5 mm nozzle)",
+      "path": "printer/Creality Ender-2 Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Ender-2 Pro (0.6 mm nozzle)",
+      "path": "printer/Creality Ender-2 Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR5PRO*",
+      "path": "printer/_CR5PRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro (0.3 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro (0.4 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro (0.5 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro (0.6 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR5PROH*",
+      "path": "printer/_CR5PROH_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro H (0.3 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro H (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro H (0.4 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro H (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro H (0.5 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro H (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-5 Pro H (0.6 mm nozzle)",
+      "path": "printer/Creality CR-5 Pro H (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR6SE*",
+      "path": "printer/_CR6SE_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 SE (0.3 mm nozzle)",
+      "path": "printer/Creality CR-6 SE (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 SE (0.4 mm nozzle)",
+      "path": "printer/Creality CR-6 SE (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 SE (0.5 mm nozzle)",
+      "path": "printer/Creality CR-6 SE (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 SE (0.6 mm nozzle)",
+      "path": "printer/Creality CR-6 SE (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR6MAX*",
+      "path": "printer/_CR6MAX_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 Max (0.3 mm nozzle)",
+      "path": "printer/Creality CR-6 Max (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 Max (0.4 mm nozzle)",
+      "path": "printer/Creality CR-6 Max (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 Max (0.5 mm nozzle)",
+      "path": "printer/Creality CR-6 Max (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-6 Max (0.6 mm nozzle)",
+      "path": "printer/Creality CR-6 Max (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10SMART*",
+      "path": "printer/_CR10SMART_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10SMARTPRO*",
+      "path": "printer/_CR10SMARTPRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART Pro (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART Pro (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART Pro (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 SMART Pro (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 SMART Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10MINI*",
+      "path": "printer/_CR10MINI_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Mini (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 Mini (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Mini (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 Mini (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Mini (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 Mini (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Mini (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 Mini (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10MAX*",
+      "path": "printer/_CR10MAX_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Max (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 Max (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Max (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 Max (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Max (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 Max (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 Max (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 Max (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10*",
+      "path": "printer/_CR10_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10V2*",
+      "path": "printer/_CR10V2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V2 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 V2 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V2 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 V2 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V2 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 V2 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V2 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 V2 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10V3*",
+      "path": "printer/_CR10V3_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V3 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 V3 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V3 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 V3 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V3 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 V3 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 V3 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 V3 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10S*",
+      "path": "printer/_CR10S_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 S (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 S (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 S (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 S (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10SPRO*",
+      "path": "printer/_CR10SPRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10SPROV2*",
+      "path": "printer/_CR10SPROV2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro V2 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro V2 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro V2 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro V2 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro V2 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro V2 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S Pro V2 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 S Pro V2 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10S4*",
+      "path": "printer/_CR10S4_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S4 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 S4 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S4 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 S4 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S4 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 S4 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S4 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 S4 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR10S5*",
+      "path": "printer/_CR10S5_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S5 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-10 S5 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S5 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-10 S5 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S5 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-10 S5 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-10 S5 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-10 S5 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR20*",
+      "path": "printer/_CR20_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-20 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-20 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-20 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-20 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR20PRO*",
+      "path": "printer/_CR20PRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 Pro (0.3 mm nozzle)",
+      "path": "printer/Creality CR-20 Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 Pro (0.4 mm nozzle)",
+      "path": "printer/Creality CR-20 Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 Pro (0.5 mm nozzle)",
+      "path": "printer/Creality CR-20 Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-20 Pro (0.6 mm nozzle)",
+      "path": "printer/Creality CR-20 Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR200B*",
+      "path": "printer/_CR200B_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-200B (0.3 mm nozzle)",
+      "path": "printer/Creality CR-200B (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-200B (0.4 mm nozzle)",
+      "path": "printer/Creality CR-200B (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-200B (0.5 mm nozzle)",
+      "path": "printer/Creality CR-200B (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-200B (0.6 mm nozzle)",
+      "path": "printer/Creality CR-200B (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CR8*",
+      "path": "printer/_CR8_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-8 (0.3 mm nozzle)",
+      "path": "printer/Creality CR-8 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-8 (0.4 mm nozzle)",
+      "path": "printer/Creality CR-8 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-8 (0.5 mm nozzle)",
+      "path": "printer/Creality CR-8 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality CR-8 (0.6 mm nozzle)",
+      "path": "printer/Creality CR-8 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*SERMOOND1*",
+      "path": "printer/_SERMOOND1_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-D1 (0.3 mm nozzle)",
+      "path": "printer/Creality Sermoon-D1 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-D1 (0.4 mm nozzle)",
+      "path": "printer/Creality Sermoon-D1 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-D1 (0.5 mm nozzle)",
+      "path": "printer/Creality Sermoon-D1 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-D1 (0.6 mm nozzle)",
+      "path": "printer/Creality Sermoon-D1 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*SERMOONV1*",
+      "path": "printer/_SERMOONV1_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 (0.3 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 (0.4 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 (0.5 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 (0.6 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "*SERMOONV1PRO*",
+      "path": "printer/_SERMOONV1PRO_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 Pro (0.3 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 Pro (0.4 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 Pro (0.4 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 Pro (0.5 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Creality Sermoon-V1 Pro (0.6 mm nozzle)",
+      "path": "printer/Creality Sermoon-V1 Pro (0.6 mm nozzle).ini"
+    }
+  ],
+  "asset_paths": [
+    "CR10MAX_thumbnail.png",
+    "CR10MINI_thumbnail.png",
+    "CR10S4_thumbnail.png",
+    "CR10S5_thumbnail.png",
+    "CR10SMARTPRO_thumbnail.png",
+    "CR10SMART_thumbnail.png",
+    "CR10SPROV2_thumbnail.png",
+    "CR10SPRO_thumbnail.png",
+    "CR10S_thumbnail.png",
+    "CR10V2_thumbnail.png",
+    "CR10V3_thumbnail.png",
+    "CR10_thumbnail.png",
+    "CR200B_thumbnail.png",
+    "CR20PRO_thumbnail.png",
+    "CR20_thumbnail.png",
+    "CR5PROH_thumbnail.png",
+    "CR5PRO_thumbnail.png",
+    "CR6MAX_thumbnail.png",
+    "CR6SE_thumbnail.png",
+    "CR8_thumbnail.png",
+    "ENDER2PRO_thumbnail.png",
+    "ENDER2_thumbnail.png",
+    "ENDER3BLTOUCH_thumbnail.png",
+    "ENDER3MAXNEO_thumbnail.png",
+    "ENDER3MAX_thumbnail.png",
+    "ENDER3NEO_thumbnail.png",
+    "ENDER3PRO_thumbnail.png",
+    "ENDER3S1PLUS_thumbnail.png",
+    "ENDER3S1PRO_thumbnail.png",
+    "ENDER3S1_thumbnail.png",
+    "ENDER3V2NEO_thumbnail.png",
+    "ENDER3V2_thumbnail.png",
+    "ENDER3_thumbnail.png",
+    "ENDER4_thumbnail.png",
+    "ENDER5PLUS_thumbnail.png",
+    "ENDER5PRO_thumbnail.png",
+    "ENDER5S1_thumbnail.png",
+    "ENDER5_thumbnail.png",
+    "ENDER6_thumbnail.png",
+    "ENDER7_thumbnail.png",
+    "SERMOOND1_thumbnail.png",
+    "SERMOONV1PRO_thumbnail.png",
+    "SERMOONV1_thumbnail.png",
+    "cr10.svg",
+    "cr10_bed.stl",
+    "cr10max.svg",
+    "cr10max_bed.stl",
+    "cr10mini.svg",
+    "cr10mini_bed.stl",
+    "cr10s4.svg",
+    "cr10s4_bed.stl",
+    "cr10s5.svg",
+    "cr10s5_bed.stl",
+    "cr10spro.svg",
+    "cr10v2_bed.stl",
+    "cr20.svg",
+    "cr200b.svg",
+    "cr200b_bed.stl",
+    "cr5pro.svg",
+    "cr5pro_bed.stl",
+    "cr6se.svg",
+    "cr6se_bed.stl",
+    "cr8.svg",
+    "cr8_bed.stl",
+    "ender2.svg",
+    "ender2_bed.stl",
+    "ender2pro.svg",
+    "ender2pro_bed.stl",
+    "ender3.svg",
+    "ender3_bed.stl",
+    "ender3v2.svg",
+    "ender3v2_bed.stl",
+    "ender5plus.svg",
+    "ender5plus_bed.stl",
+    "ender6.svg",
+    "ender6_bed.stl",
+    "ender7.svg",
+    "ender7_bed.stl",
+    "sermoond1.svg",
+    "sermoond1_bed.stl",
+    "sermoonv1.svg",
+    "sermoonv1_bed.stl"
+  ]
+}

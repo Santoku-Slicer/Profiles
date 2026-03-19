@@ -1,0 +1,4208 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Voron",
+  "version": "3.0.0",
+  "index_name": "Voron.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "V2_250",
+      "path": "printer_model/V2_250.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "V2_300",
+      "path": "printer_model/V2_300.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "V2_350",
+      "path": "printer_model/V2_350.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VT_250",
+      "path": "printer_model/VT_250.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VT_300",
+      "path": "printer_model/VT_300.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VT_350",
+      "path": "printer_model/VT_350.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "V0_120",
+      "path": "printer_model/V0_120.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VS_MK52",
+      "path": "printer_model/VS_MK52.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_025*",
+      "path": "print/_common_025_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_03*",
+      "path": "print/_common_03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_05*",
+      "path": "print/_common_05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_06*",
+      "path": "print/_common_06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_08*",
+      "path": "print/_common_08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY*",
+      "path": "print/_CORE_XY_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED*",
+      "path": "print/_CORE_XY_SPEED_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL*",
+      "path": "print/_CORE_XY_STRUCTURAL_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XZ*",
+      "path": "print/_CORE_XZ_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XZ_025*",
+      "path": "print/_CORE_XZ_025_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XZ_03*",
+      "path": "print/_CORE_XZ_03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XZ_04*",
+      "path": "print/_CORE_XZ_04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XZ_05*",
+      "path": "print/_CORE_XZ_05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XZ_06*",
+      "path": "print/_CORE_XZ_06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XZ_08*",
+      "path": "print/_CORE_XZ_08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_025*",
+      "path": "print/_CORE_XY_025_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_DETAIL_0.05@0.25*",
+      "path": "print/_CORE_XY_DETAIL_0.05@0.25_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_DETAIL_0.07@0.25*",
+      "path": "print/_CORE_XY_DETAIL_0.07@0.25_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.12@0.25*",
+      "path": "print/_CORE_XY_SPEED_0.12@0.25_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.12@0.25*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.12@0.25_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.15@0.25*",
+      "path": "print/_CORE_XY_SPEED_0.15@0.25_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.15@0.25*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.15@0.25_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_03*",
+      "path": "print/_CORE_XY_03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.12@0.3*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.12@0.3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.16@0.3*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.16@0.3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.16@0.3*",
+      "path": "print/_CORE_XY_SPEED_0.16@0.3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.20@0.3*",
+      "path": "print/_CORE_XY_SPEED_0.20@0.3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.20@0.3*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.20@0.3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_DETAIL_0.10@0.4*",
+      "path": "print/_CORE_XY_DETAIL_0.10@0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.15@0.4*",
+      "path": "print/_CORE_XY_SPEED_0.15@0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.15@HF0.4*",
+      "path": "print/_CORE_XY_SPEED_0.15@HF0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.15@0.4*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.15@0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.20@0.4*",
+      "path": "print/_CORE_XY_SPEED_0.20@0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.20@HF0.4*",
+      "path": "print/_CORE_XY_SPEED_0.20@HF0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.20@0.4*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.20@0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.25@HF0.4*",
+      "path": "print/_CORE_XY_SPEED_0.25@HF0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.25@HF0.4*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.25@HF0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_DRAFT_0.28@HF0.4*",
+      "path": "print/_CORE_XY_DRAFT_0.28@HF0.4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.10@0.5*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.10@0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.15@0.5*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.15@0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.20@0.5*",
+      "path": "print/_CORE_XY_SPEED_0.20@0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.20@HF0.5*",
+      "path": "print/_CORE_XY_SPEED_0.20@HF0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.20@0.5*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.20@0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.25@0.5*",
+      "path": "print/_CORE_XY_SPEED_0.25@0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.25@HF0.5*",
+      "path": "print/_CORE_XY_SPEED_0.25@HF0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.25@0.5*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.25@0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.32@HF0.5*",
+      "path": "print/_CORE_XY_SPEED_0.32@HF0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.32@HF0.5*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.32@HF0.5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.15@0.6*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.15@0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.20@0.6*",
+      "path": "print/_CORE_XY_SPEED_0.20@0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.20@HF0.6*",
+      "path": "print/_CORE_XY_SPEED_0.20@HF0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.20@0.6*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.20@0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.25@0.6*",
+      "path": "print/_CORE_XY_SPEED_0.25@0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.25@HF0.6*",
+      "path": "print/_CORE_XY_SPEED_0.25@HF0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.25@0.6*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.25@0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.32@0.6*",
+      "path": "print/_CORE_XY_SPEED_0.32@0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.32@0.6*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.32@0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.32@HF0.6*",
+      "path": "print/_CORE_XY_SPEED_0.32@HF0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.32@HF0.6*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.32@HF0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.40@HF0.6*",
+      "path": "print/_CORE_XY_SPEED_0.40@HF0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.40@HF0.6*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.40@HF0.6_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_DETAIL_0.30@0.8*",
+      "path": "print/_CORE_XY_DETAIL_0.30@0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.30@HF0.8*",
+      "path": "print/_CORE_XY_SPEED_0.30@HF0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.30@HF0.8*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.30@HF0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.40@0.8*",
+      "path": "print/_CORE_XY_SPEED_0.40@0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.40@HF0.8*",
+      "path": "print/_CORE_XY_SPEED_0.40@HF0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.40@HF0.8*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.40@HF0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_DRAFT_0.55@0.8*",
+      "path": "print/_CORE_XY_DRAFT_0.55@0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_SPEED_0.55@HF0.8*",
+      "path": "print/_CORE_XY_SPEED_0.55@HF0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*CORE_XY_STRUCTURAL_0.55@HF0.8*",
+      "path": "print/_CORE_XY_STRUCTURAL_0.55@HF0.8_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VORON_PRINTED_PARTS*",
+      "path": "print/_VORON_PRINTED_PARTS_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VORON_PRINTED_PARTS_HF*",
+      "path": "print/_VORON_PRINTED_PARTS_HF_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_025*",
+      "path": "print/_V2_025_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_03*",
+      "path": "print/_V2_03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_04*",
+      "path": "print/_V2_04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_SF04*",
+      "path": "print/_V2_SF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_HF04*",
+      "path": "print/_V2_HF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_05*",
+      "path": "print/_V2_05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_SF05*",
+      "path": "print/_V2_SF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_HF05*",
+      "path": "print/_V2_HF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_06*",
+      "path": "print/_V2_06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_SF06*",
+      "path": "print/_V2_SF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_HF06*",
+      "path": "print/_V2_HF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_08*",
+      "path": "print/_V2_08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_SF08*",
+      "path": "print/_V2_SF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V2_HF08*",
+      "path": "print/_V2_HF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Detail @VORON2 - 0.25mm",
+      "path": "print/0.05mm Detail @VORON2 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm Detail @VORON2 - 0.25mm",
+      "path": "print/0.07mm Detail @VORON2 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Standard @VORON2 - 0.25mm",
+      "path": "print/0.12mm Standard @VORON2 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @VORON2 - 0.25mm",
+      "path": "print/0.12mm Strength @VORON2 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @VORON2 - 0.25mm",
+      "path": "print/0.15mm Standard @VORON2 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @VORON2 - 0.25mm",
+      "path": "print/0.15mm Strength @VORON2 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @VORON2 - 0.3mm",
+      "path": "print/0.12mm Strength @VORON2 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Strength @VORON2 - 0.3mm",
+      "path": "print/0.16mm Strength @VORON2 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Standard @VORON2 - 0.3mm",
+      "path": "print/0.16mm Standard @VORON2 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @VORON2 - 0.3mm",
+      "path": "print/0.20mm Standard @VORON2 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @VORON2 - 0.3mm",
+      "path": "print/0.20mm Strength @VORON2 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Detail @VORON2 - 0.4mm",
+      "path": "print/0.10mm Detail @VORON2 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @VORON2 - 0.4mm",
+      "path": "print/0.15mm Standard @VORON2 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @VORON2 - HF0.4mm",
+      "path": "print/0.15mm Standard @VORON2 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @VORON2 - 0.4mm",
+      "path": "print/0.15mm Strength @VORON2 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @VORON2 - 0.4mm",
+      "path": "print/0.20mm Strength @VORON2 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts @VORON2 - 0.4mm",
+      "path": "print/0.20mm VORON Printed Parts @VORON2 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts (HF) @VORON2 - HF0.4mm",
+      "path": "print/0.20mm VORON Printed Parts (HF) @VORON2 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @VORON2 - 0.4mm",
+      "path": "print/0.20mm Standard @VORON2 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @VORON2 - HF0.4mm",
+      "path": "print/0.20mm Standard @VORON2 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @VORON2 - HF0.4mm",
+      "path": "print/0.25mm Standard @VORON2 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @VORON2 - HF0.4mm",
+      "path": "print/0.25mm Strength @VORON2 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Draft @VORON2 - HF0.4mm",
+      "path": "print/0.28mm Draft @VORON2 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Strength @VORON2 - 0.5mm",
+      "path": "print/0.10mm Strength @VORON2 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @VORON2 - 0.5mm",
+      "path": "print/0.15mm Strength @VORON2 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @VORON2 - 0.5mm",
+      "path": "print/0.20mm Standard @VORON2 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @VORON2 - HF0.5mm",
+      "path": "print/0.20mm Standard @VORON2 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @VORON2 - 0.5mm",
+      "path": "print/0.20mm Strength @VORON2 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @VORON2 - 0.5mm",
+      "path": "print/0.25mm Standard @VORON2 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @VORON2 - HF0.5mm",
+      "path": "print/0.25mm Standard @VORON2 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @VORON2 - 0.5mm",
+      "path": "print/0.25mm Strength @VORON2 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @VORON2 - HF0.5mm",
+      "path": "print/0.32mm Standard @VORON2 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @VORON2 - HF0.5mm",
+      "path": "print/0.32mm Strength @VORON2 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @VORON2 - 0.6mm",
+      "path": "print/0.15mm Strength @VORON2 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @VORON2 - 0.6mm",
+      "path": "print/0.20mm Standard @VORON2 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @VORON2 - HF0.6mm",
+      "path": "print/0.20mm Standard @VORON2 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @VORON2 - 0.6mm",
+      "path": "print/0.20mm Strength @VORON2 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @VORON2 - 0.6mm",
+      "path": "print/0.25mm Standard @VORON2 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @VORON2 - HF0.6mm",
+      "path": "print/0.25mm Standard @VORON2 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @VORON2 - 0.6mm",
+      "path": "print/0.25mm Strength @VORON2 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @VORON2 - 0.6mm",
+      "path": "print/0.32mm Standard @VORON2 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @VORON2 - 0.6mm",
+      "path": "print/0.32mm Strength @VORON2 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @VORON2 - HF0.6mm",
+      "path": "print/0.32mm Standard @VORON2 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @VORON2 - HF0.6mm",
+      "path": "print/0.32mm Strength @VORON2 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @VORON2 - HF0.6mm",
+      "path": "print/0.40mm Standard @VORON2 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @VORON2 - HF0.6mm",
+      "path": "print/0.40mm Strength @VORON2 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Detail @VORON2 - 0.8mm",
+      "path": "print/0.30mm Detail @VORON2 - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @VORON2 - HF0.8mm",
+      "path": "print/0.30mm Standard @VORON2 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @VORON2 - HF0.8mm",
+      "path": "print/0.30mm Strength @VORON2 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @VORON2 - 0.8mm",
+      "path": "print/0.40mm Standard @VORON2 - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @VORON2 - HF0.8mm",
+      "path": "print/0.40mm Standard @VORON2 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @VORON2 - HF0.8mm",
+      "path": "print/0.40mm Strength @VORON2 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Draft @VORON2 - 0.8mm",
+      "path": "print/0.55mm Draft @VORON2 - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Standard @VORON2 - HF0.8mm",
+      "path": "print/0.55mm Standard @VORON2 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Strength @VORON2 - HF0.8mm",
+      "path": "print/0.55mm Strength @VORON2 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_025*",
+      "path": "print/_VT_025_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_03*",
+      "path": "print/_VT_03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_04*",
+      "path": "print/_VT_04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_SF04*",
+      "path": "print/_VT_SF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_HF04*",
+      "path": "print/_VT_HF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_05*",
+      "path": "print/_VT_05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_SF05*",
+      "path": "print/_VT_SF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_HF05*",
+      "path": "print/_VT_HF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_06*",
+      "path": "print/_VT_06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_SF06*",
+      "path": "print/_VT_SF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_HF06*",
+      "path": "print/_VT_HF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_08*",
+      "path": "print/_VT_08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_SF08*",
+      "path": "print/_VT_SF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VT_HF08*",
+      "path": "print/_VT_HF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Detail @TRIDENT - 0.25mm",
+      "path": "print/0.05mm Detail @TRIDENT - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm Detail @TRIDENT - 0.25mm",
+      "path": "print/0.07mm Detail @TRIDENT - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Standard @TRIDENT - 0.25mm",
+      "path": "print/0.12mm Standard @TRIDENT - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @TRIDENT - 0.25mm",
+      "path": "print/0.12mm Strength @TRIDENT - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @TRIDENT - 0.25mm",
+      "path": "print/0.15mm Standard @TRIDENT - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @TRIDENT - 0.25mm",
+      "path": "print/0.15mm Strength @TRIDENT - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @TRIDENT - 0.3mm",
+      "path": "print/0.12mm Strength @TRIDENT - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Strength @TRIDENT - 0.3mm",
+      "path": "print/0.16mm Strength @TRIDENT - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Standard @TRIDENT - 0.3mm",
+      "path": "print/0.16mm Standard @TRIDENT - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TRIDENT - 0.3mm",
+      "path": "print/0.20mm Standard @TRIDENT - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @TRIDENT - 0.3mm",
+      "path": "print/0.20mm Strength @TRIDENT - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Detail @TRIDENT - 0.4mm",
+      "path": "print/0.10mm Detail @TRIDENT - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @TRIDENT - 0.4mm",
+      "path": "print/0.15mm Standard @TRIDENT - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @TRIDENT - HF0.4mm",
+      "path": "print/0.15mm Standard @TRIDENT - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @TRIDENT - 0.4mm",
+      "path": "print/0.15mm Strength @TRIDENT - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @TRIDENT - 0.4mm",
+      "path": "print/0.20mm Strength @TRIDENT - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts @TRIDENT - 0.4mm",
+      "path": "print/0.20mm VORON Printed Parts @TRIDENT - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts (HF) @TRIDENT - HF0.4mm",
+      "path": "print/0.20mm VORON Printed Parts (HF) @TRIDENT - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TRIDENT - 0.4mm",
+      "path": "print/0.20mm Standard @TRIDENT - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TRIDENT - HF0.4mm",
+      "path": "print/0.20mm Standard @TRIDENT - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @TRIDENT - HF0.4mm",
+      "path": "print/0.25mm Standard @TRIDENT - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @TRIDENT - HF0.4mm",
+      "path": "print/0.25mm Strength @TRIDENT - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Draft @TRIDENT - HF0.4mm",
+      "path": "print/0.28mm Draft @TRIDENT - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Strength @TRIDENT - 0.5mm",
+      "path": "print/0.10mm Strength @TRIDENT - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @TRIDENT - 0.5mm",
+      "path": "print/0.15mm Strength @TRIDENT - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TRIDENT - 0.5mm",
+      "path": "print/0.20mm Standard @TRIDENT - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TRIDENT - HF0.5mm",
+      "path": "print/0.20mm Standard @TRIDENT - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @TRIDENT - 0.5mm",
+      "path": "print/0.20mm Strength @TRIDENT - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @TRIDENT - 0.5mm",
+      "path": "print/0.25mm Standard @TRIDENT - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @TRIDENT - HF0.5mm",
+      "path": "print/0.25mm Standard @TRIDENT - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @TRIDENT - 0.5mm",
+      "path": "print/0.25mm Strength @TRIDENT - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @TRIDENT - HF0.5mm",
+      "path": "print/0.32mm Standard @TRIDENT - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @TRIDENT - HF0.5mm",
+      "path": "print/0.32mm Strength @TRIDENT - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @TRIDENT - 0.6mm",
+      "path": "print/0.15mm Strength @TRIDENT - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TRIDENT - 0.6mm",
+      "path": "print/0.20mm Standard @TRIDENT - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TRIDENT - HF0.6mm",
+      "path": "print/0.20mm Standard @TRIDENT - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @TRIDENT - 0.6mm",
+      "path": "print/0.20mm Strength @TRIDENT - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @TRIDENT - 0.6mm",
+      "path": "print/0.25mm Standard @TRIDENT - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @TRIDENT - HF0.6mm",
+      "path": "print/0.25mm Standard @TRIDENT - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @TRIDENT - 0.6mm",
+      "path": "print/0.25mm Strength @TRIDENT - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @TRIDENT - 0.6mm",
+      "path": "print/0.32mm Standard @TRIDENT - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @TRIDENT - 0.6mm",
+      "path": "print/0.32mm Strength @TRIDENT - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @TRIDENT - HF0.6mm",
+      "path": "print/0.32mm Standard @TRIDENT - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @TRIDENT - HF0.6mm",
+      "path": "print/0.32mm Strength @TRIDENT - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @TRIDENT - HF0.6mm",
+      "path": "print/0.40mm Standard @TRIDENT - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @TRIDENT - HF0.6mm",
+      "path": "print/0.40mm Strength @TRIDENT - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Detail @TRIDENT - 0.8mm",
+      "path": "print/0.30mm Detail @TRIDENT - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @TRIDENT - HF0.8mm",
+      "path": "print/0.30mm Standard @TRIDENT - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @TRIDENT - HF0.8mm",
+      "path": "print/0.30mm Strength @TRIDENT - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @TRIDENT - 0.8mm",
+      "path": "print/0.40mm Standard @TRIDENT - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @TRIDENT - HF0.8mm",
+      "path": "print/0.40mm Standard @TRIDENT - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @TRIDENT - HF0.8mm",
+      "path": "print/0.40mm Strength @TRIDENT - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Draft @TRIDENT - 0.8mm",
+      "path": "print/0.55mm Draft @TRIDENT - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Standard @TRIDENT - HF0.8mm",
+      "path": "print/0.55mm Standard @TRIDENT - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Strength @TRIDENT - HF0.8mm",
+      "path": "print/0.55mm Strength @TRIDENT - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_025*",
+      "path": "print/_V0_025_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_03*",
+      "path": "print/_V0_03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_04*",
+      "path": "print/_V0_04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_SF04*",
+      "path": "print/_V0_SF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_HF04*",
+      "path": "print/_V0_HF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_05*",
+      "path": "print/_V0_05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_SF05*",
+      "path": "print/_V0_SF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_HF05*",
+      "path": "print/_V0_HF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_06*",
+      "path": "print/_V0_06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_SF06*",
+      "path": "print/_V0_SF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_HF06*",
+      "path": "print/_V0_HF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_08*",
+      "path": "print/_V0_08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_SF08*",
+      "path": "print/_V0_SF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*V0_HF08*",
+      "path": "print/_V0_HF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Detail @V0 - 0.25mm",
+      "path": "print/0.05mm Detail @V0 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm Detail @V0 - 0.25mm",
+      "path": "print/0.07mm Detail @V0 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Standard @V0 - 0.25mm",
+      "path": "print/0.12mm Standard @V0 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @V0 - 0.25mm",
+      "path": "print/0.12mm Strength @V0 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @V0 - 0.25mm",
+      "path": "print/0.15mm Standard @V0 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @V0 - 0.25mm",
+      "path": "print/0.15mm Strength @V0 - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @V0 - 0.3mm",
+      "path": "print/0.12mm Strength @V0 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Strength @V0 - 0.3mm",
+      "path": "print/0.16mm Strength @V0 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Standard @V0 - 0.3mm",
+      "path": "print/0.16mm Standard @V0 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @V0 - 0.3mm",
+      "path": "print/0.20mm Standard @V0 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @V0 - 0.3mm",
+      "path": "print/0.20mm Strength @V0 - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Detail @V0 - 0.4mm",
+      "path": "print/0.10mm Detail @V0 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @V0 - 0.4mm",
+      "path": "print/0.15mm Standard @V0 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @V0 - HF0.4mm",
+      "path": "print/0.15mm Standard @V0 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @V0 - 0.4mm",
+      "path": "print/0.15mm Strength @V0 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @V0 - 0.4mm",
+      "path": "print/0.20mm Strength @V0 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts @V0 - 0.4mm",
+      "path": "print/0.20mm VORON Printed Parts @V0 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts (HF) @V0 - HF0.4mm",
+      "path": "print/0.20mm VORON Printed Parts (HF) @V0 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @V0 - 0.4mm",
+      "path": "print/0.20mm Standard @V0 - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @V0 - HF0.4mm",
+      "path": "print/0.20mm Standard @V0 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @V0 - HF0.4mm",
+      "path": "print/0.25mm Standard @V0 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @V0 - HF0.4mm",
+      "path": "print/0.25mm Strength @V0 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Draft @V0 - HF0.4mm",
+      "path": "print/0.28mm Draft @V0 - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Strength @V0 - 0.5mm",
+      "path": "print/0.10mm Strength @V0 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @V0 - 0.5mm",
+      "path": "print/0.15mm Strength @V0 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @V0 - 0.5mm",
+      "path": "print/0.20mm Standard @V0 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @V0 - HF0.5mm",
+      "path": "print/0.20mm Standard @V0 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @V0 - 0.5mm",
+      "path": "print/0.20mm Strength @V0 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @V0 - 0.5mm",
+      "path": "print/0.25mm Standard @V0 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @V0 - HF0.5mm",
+      "path": "print/0.25mm Standard @V0 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @V0 - 0.5mm",
+      "path": "print/0.25mm Strength @V0 - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @V0 - HF0.5mm",
+      "path": "print/0.32mm Standard @V0 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @V0 - HF0.5mm",
+      "path": "print/0.32mm Strength @V0 - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @V0 - 0.6mm",
+      "path": "print/0.15mm Strength @V0 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @V0 - 0.6mm",
+      "path": "print/0.20mm Standard @V0 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @V0 - HF0.6mm",
+      "path": "print/0.20mm Standard @V0 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @V0 - 0.6mm",
+      "path": "print/0.20mm Strength @V0 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @V0 - 0.6mm",
+      "path": "print/0.25mm Standard @V0 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @V0 - HF0.6mm",
+      "path": "print/0.25mm Standard @V0 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @V0 - 0.6mm",
+      "path": "print/0.25mm Strength @V0 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @V0 - 0.6mm",
+      "path": "print/0.32mm Standard @V0 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @V0 - 0.6mm",
+      "path": "print/0.32mm Strength @V0 - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @V0 - HF0.6mm",
+      "path": "print/0.32mm Standard @V0 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @V0 - HF0.6mm",
+      "path": "print/0.32mm Strength @V0 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @V0 - HF0.6mm",
+      "path": "print/0.40mm Standard @V0 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @V0 - HF0.6mm",
+      "path": "print/0.40mm Strength @V0 - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Detail @V0 - 0.8mm",
+      "path": "print/0.30mm Detail @V0 - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @V0 - HF0.8mm",
+      "path": "print/0.30mm Standard @V0 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @V0 - HF0.8mm",
+      "path": "print/0.30mm Strength @V0 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @V0 - 0.8mm",
+      "path": "print/0.40mm Standard @V0 - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @V0 - HF0.8mm",
+      "path": "print/0.40mm Standard @V0 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @V0 - HF0.8mm",
+      "path": "print/0.40mm Strength @V0 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Draft @V0 - 0.8mm",
+      "path": "print/0.55mm Draft @V0 - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Standard @V0 - HF0.8mm",
+      "path": "print/0.55mm Standard @V0 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Strength @V0 - HF0.8mm",
+      "path": "print/0.55mm Strength @V0 - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_025*",
+      "path": "print/_VSW_025_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_03*",
+      "path": "print/_VSW_03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_04*",
+      "path": "print/_VSW_04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_SF04*",
+      "path": "print/_VSW_SF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_HF04*",
+      "path": "print/_VSW_HF04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_05*",
+      "path": "print/_VSW_05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_SF05*",
+      "path": "print/_VSW_SF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_HF05*",
+      "path": "print/_VSW_HF05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_06*",
+      "path": "print/_VSW_06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_SF06*",
+      "path": "print/_VSW_SF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_HF06*",
+      "path": "print/_VSW_HF06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_08*",
+      "path": "print/_VSW_08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_SF08*",
+      "path": "print/_VSW_SF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VSW_HF08*",
+      "path": "print/_VSW_HF08_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Detail @SWITCHWIRE - 0.25mm",
+      "path": "print/0.05mm Detail @SWITCHWIRE - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm Detail @SWITCHWIRE - 0.25mm",
+      "path": "print/0.07mm Detail @SWITCHWIRE - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Standard @SWITCHWIRE - 0.25mm",
+      "path": "print/0.12mm Standard @SWITCHWIRE - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @SWITCHWIRE - 0.25mm",
+      "path": "print/0.12mm Strength @SWITCHWIRE - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @SWITCHWIRE - 0.25mm",
+      "path": "print/0.15mm Standard @SWITCHWIRE - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @SWITCHWIRE - 0.25mm",
+      "path": "print/0.15mm Strength @SWITCHWIRE - 0.25mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Strength @SWITCHWIRE - 0.3mm",
+      "path": "print/0.12mm Strength @SWITCHWIRE - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Strength @SWITCHWIRE - 0.3mm",
+      "path": "print/0.16mm Strength @SWITCHWIRE - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Standard @SWITCHWIRE - 0.3mm",
+      "path": "print/0.16mm Standard @SWITCHWIRE - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SWITCHWIRE - 0.3mm",
+      "path": "print/0.20mm Standard @SWITCHWIRE - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @SWITCHWIRE - 0.3mm",
+      "path": "print/0.20mm Strength @SWITCHWIRE - 0.3mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Detail @SWITCHWIRE - 0.4mm",
+      "path": "print/0.10mm Detail @SWITCHWIRE - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @SWITCHWIRE - 0.4mm",
+      "path": "print/0.15mm Standard @SWITCHWIRE - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @SWITCHWIRE - HF0.4mm",
+      "path": "print/0.15mm Standard @SWITCHWIRE - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @SWITCHWIRE - 0.4mm",
+      "path": "print/0.15mm Strength @SWITCHWIRE - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SWITCHWIRE - 0.4mm",
+      "path": "print/0.20mm Standard @SWITCHWIRE - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @SWITCHWIRE - 0.4mm",
+      "path": "print/0.20mm Strength @SWITCHWIRE - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts @SWITCHWIRE - 0.4mm",
+      "path": "print/0.20mm VORON Printed Parts @SWITCHWIRE - 0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm VORON Printed Parts (HF) @SWITCHWIRE - HF0.4mm",
+      "path": "print/0.20mm VORON Printed Parts (HF) @SWITCHWIRE - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SWITCHWIRE - HF0.4mm",
+      "path": "print/0.20mm Standard @SWITCHWIRE - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @SWITCHWIRE - HF0.4mm",
+      "path": "print/0.25mm Standard @SWITCHWIRE - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @SWITCHWIRE - HF0.4mm",
+      "path": "print/0.25mm Strength @SWITCHWIRE - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Draft @SWITCHWIRE - HF0.4mm",
+      "path": "print/0.28mm Draft @SWITCHWIRE - HF0.4mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Strength @SWITCHWIRE - 0.5mm",
+      "path": "print/0.10mm Strength @SWITCHWIRE - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @SWITCHWIRE - 0.5mm",
+      "path": "print/0.15mm Strength @SWITCHWIRE - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SWITCHWIRE - 0.5mm",
+      "path": "print/0.20mm Standard @SWITCHWIRE - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SWITCHWIRE - HF0.5mm",
+      "path": "print/0.20mm Standard @SWITCHWIRE - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @SWITCHWIRE - 0.5mm",
+      "path": "print/0.20mm Strength @SWITCHWIRE - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @SWITCHWIRE - 0.5mm",
+      "path": "print/0.25mm Standard @SWITCHWIRE - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @SWITCHWIRE - HF0.5mm",
+      "path": "print/0.25mm Standard @SWITCHWIRE - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @SWITCHWIRE - 0.5mm",
+      "path": "print/0.25mm Strength @SWITCHWIRE - 0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @SWITCHWIRE - HF0.5mm",
+      "path": "print/0.32mm Standard @SWITCHWIRE - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @SWITCHWIRE - HF0.5mm",
+      "path": "print/0.32mm Strength @SWITCHWIRE - HF0.5mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Strength @SWITCHWIRE - 0.6mm",
+      "path": "print/0.15mm Strength @SWITCHWIRE - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SWITCHWIRE - 0.6mm",
+      "path": "print/0.20mm Standard @SWITCHWIRE - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SWITCHWIRE - HF0.6mm",
+      "path": "print/0.20mm Standard @SWITCHWIRE - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @SWITCHWIRE - 0.6mm",
+      "path": "print/0.20mm Strength @SWITCHWIRE - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @SWITCHWIRE - 0.6mm",
+      "path": "print/0.25mm Standard @SWITCHWIRE - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @SWITCHWIRE - HF0.6mm",
+      "path": "print/0.25mm Standard @SWITCHWIRE - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Strength @SWITCHWIRE - 0.6mm",
+      "path": "print/0.25mm Strength @SWITCHWIRE - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @SWITCHWIRE - 0.6mm",
+      "path": "print/0.32mm Standard @SWITCHWIRE - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @SWITCHWIRE - 0.6mm",
+      "path": "print/0.32mm Strength @SWITCHWIRE - 0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @SWITCHWIRE - HF0.6mm",
+      "path": "print/0.32mm Standard @SWITCHWIRE - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Strength @SWITCHWIRE - HF0.6mm",
+      "path": "print/0.32mm Strength @SWITCHWIRE - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @SWITCHWIRE - HF0.6mm",
+      "path": "print/0.40mm Standard @SWITCHWIRE - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @SWITCHWIRE - HF0.6mm",
+      "path": "print/0.40mm Strength @SWITCHWIRE - HF0.6mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Detail @SWITCHWIRE - 0.8mm",
+      "path": "print/0.30mm Detail @SWITCHWIRE - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @SWITCHWIRE - HF0.8mm",
+      "path": "print/0.30mm Standard @SWITCHWIRE - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @SWITCHWIRE - HF0.8mm",
+      "path": "print/0.30mm Strength @SWITCHWIRE - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @SWITCHWIRE - 0.8mm",
+      "path": "print/0.40mm Standard @SWITCHWIRE - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @SWITCHWIRE - HF0.8mm",
+      "path": "print/0.40mm Standard @SWITCHWIRE - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Strength @SWITCHWIRE - HF0.8mm",
+      "path": "print/0.40mm Strength @SWITCHWIRE - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Draft @SWITCHWIRE - 0.8mm",
+      "path": "print/0.55mm Draft @SWITCHWIRE - 0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Standard @SWITCHWIRE - HF0.8mm",
+      "path": "print/0.55mm Standard @SWITCHWIRE - HF0.8mm.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm Strength @SWITCHWIRE - HF0.8mm",
+      "path": "print/0.55mm Strength @SWITCHWIRE - HF0.8mm.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_CORE_XY*",
+      "path": "printer/_VORON_CORE_XY_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VSW_COMMON*",
+      "path": "printer/_VSW_COMMON_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_BED_SIZE_120*",
+      "path": "printer/_VORON_BED_SIZE_120_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_BED_SIZE_250*",
+      "path": "printer/_VORON_BED_SIZE_250_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_BED_SIZE_300*",
+      "path": "printer/_VORON_BED_SIZE_300_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_BED_SIZE_350*",
+      "path": "printer/_VORON_BED_SIZE_350_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_HEIGHT_120*",
+      "path": "printer/_VORON_HEIGHT_120_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_HEIGHT_250*",
+      "path": "printer/_VORON_HEIGHT_250_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_HEIGHT_300*",
+      "path": "printer/_VORON_HEIGHT_300_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*VORON_HEIGHT_350*",
+      "path": "printer/_VORON_HEIGHT_350_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 250mm - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 250mm - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 250mm - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 250mm - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.25mm Nozzle",
+      "path": "printer/VORON V2 250mm - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.3mm Nozzle",
+      "path": "printer/VORON V2 250mm - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.4mm Nozzle",
+      "path": "printer/VORON V2 250mm - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.5mm Nozzle",
+      "path": "printer/VORON V2 250mm - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.6mm Nozzle",
+      "path": "printer/VORON V2 250mm - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 250mm - 0.8mm Nozzle",
+      "path": "printer/VORON V2 250mm - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 300mm - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 300mm - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 300mm - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 300mm - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.25mm Nozzle",
+      "path": "printer/VORON V2 300mm - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.3mm Nozzle",
+      "path": "printer/VORON V2 300mm - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.4mm Nozzle",
+      "path": "printer/VORON V2 300mm - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.5mm Nozzle",
+      "path": "printer/VORON V2 300mm - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.6mm Nozzle",
+      "path": "printer/VORON V2 300mm - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 300mm - 0.8mm Nozzle",
+      "path": "printer/VORON V2 300mm - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 350mm - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 350mm - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 350mm - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON V2 350mm - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.25mm Nozzle",
+      "path": "printer/VORON V2 350mm - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.3mm Nozzle",
+      "path": "printer/VORON V2 350mm - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.4mm Nozzle",
+      "path": "printer/VORON V2 350mm - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.5mm Nozzle",
+      "path": "printer/VORON V2 350mm - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.6mm Nozzle",
+      "path": "printer/VORON V2 350mm - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON V2 350mm - 0.8mm Nozzle",
+      "path": "printer/VORON V2 350mm - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 250mm - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 250mm - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 250mm - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 250mm - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.25mm Nozzle",
+      "path": "printer/VORON Trident 250mm - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.3mm Nozzle",
+      "path": "printer/VORON Trident 250mm - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.4mm Nozzle",
+      "path": "printer/VORON Trident 250mm - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.5mm Nozzle",
+      "path": "printer/VORON Trident 250mm - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.6mm Nozzle",
+      "path": "printer/VORON Trident 250mm - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 250mm - 0.8mm Nozzle",
+      "path": "printer/VORON Trident 250mm - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 300mm - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 300mm - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 300mm - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 300mm - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.25mm Nozzle",
+      "path": "printer/VORON Trident 300mm - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.3mm Nozzle",
+      "path": "printer/VORON Trident 300mm - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.4mm Nozzle",
+      "path": "printer/VORON Trident 300mm - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.5mm Nozzle",
+      "path": "printer/VORON Trident 300mm - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.6mm Nozzle",
+      "path": "printer/VORON Trident 300mm - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 300mm - 0.8mm Nozzle",
+      "path": "printer/VORON Trident 300mm - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 350mm - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 350mm - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 350mm - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON Trident 350mm - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.25mm Nozzle",
+      "path": "printer/VORON Trident 350mm - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.3mm Nozzle",
+      "path": "printer/VORON Trident 350mm - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.4mm Nozzle",
+      "path": "printer/VORON Trident 350mm - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.5mm Nozzle",
+      "path": "printer/VORON Trident 350mm - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.6mm Nozzle",
+      "path": "printer/VORON Trident 350mm - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Trident 350mm - 0.8mm Nozzle",
+      "path": "printer/VORON Trident 350mm - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON Zero - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON Zero - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON Zero - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON Zero - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.25mm Nozzle",
+      "path": "printer/VORON Zero - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.3mm Nozzle",
+      "path": "printer/VORON Zero - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.4mm Nozzle",
+      "path": "printer/VORON Zero - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.5mm Nozzle",
+      "path": "printer/VORON Zero - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.6mm Nozzle",
+      "path": "printer/VORON Zero - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Zero - 0.8mm Nozzle",
+      "path": "printer/VORON Zero - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.4mm Nozzle (High Flow)",
+      "path": "printer/VORON Switchwire - 0.4mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.5mm Nozzle (High Flow)",
+      "path": "printer/VORON Switchwire - 0.5mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.6mm Nozzle (High Flow)",
+      "path": "printer/VORON Switchwire - 0.6mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.8mm Nozzle (High Flow)",
+      "path": "printer/VORON Switchwire - 0.8mm Nozzle (High Flow).ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.25mm Nozzle",
+      "path": "printer/VORON Switchwire - 0.25mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.3mm Nozzle",
+      "path": "printer/VORON Switchwire - 0.3mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.4mm Nozzle",
+      "path": "printer/VORON Switchwire - 0.4mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.5mm Nozzle",
+      "path": "printer/VORON Switchwire - 0.5mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.6mm Nozzle",
+      "path": "printer/VORON Switchwire - 0.6mm Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "VORON Switchwire - 0.8mm Nozzle",
+      "path": "printer/VORON Switchwire - 0.8mm Nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ASA*",
+      "path": "filament/_ASA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETG*",
+      "path": "filament/_PETG_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABSHF*",
+      "path": "filament/_ABSHF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ASAHF*",
+      "path": "filament/_ASAHF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETGHF*",
+      "path": "filament/_PETGHF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLAHF*",
+      "path": "filament/_PLAHF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron 0.25",
+      "path": "filament/Generic ABS @Voron 0.25.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron 0.3",
+      "path": "filament/Generic ABS @Voron 0.3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron 0.4",
+      "path": "filament/Generic ABS @Voron 0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron 0.5",
+      "path": "filament/Generic ABS @Voron 0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron 0.6",
+      "path": "filament/Generic ABS @Voron 0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron 0.8",
+      "path": "filament/Generic ABS @Voron 0.8.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron 0.25",
+      "path": "filament/Generic ASA @Voron 0.25.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron 0.3",
+      "path": "filament/Generic ASA @Voron 0.3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron 0.4",
+      "path": "filament/Generic ASA @Voron 0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron 0.5",
+      "path": "filament/Generic ASA @Voron 0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron 0.6",
+      "path": "filament/Generic ASA @Voron 0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron 0.8",
+      "path": "filament/Generic ASA @Voron 0.8.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron 0.25",
+      "path": "filament/Generic PLA @Voron 0.25.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron 0.3",
+      "path": "filament/Generic PLA @Voron 0.3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron 0.4",
+      "path": "filament/Generic PLA @Voron 0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron 0.5",
+      "path": "filament/Generic PLA @Voron 0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron 0.6",
+      "path": "filament/Generic PLA @Voron 0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron 0.8",
+      "path": "filament/Generic PLA @Voron 0.8.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron 0.25",
+      "path": "filament/Generic PETG @Voron 0.25.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron 0.3",
+      "path": "filament/Generic PETG @Voron 0.3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron 0.4",
+      "path": "filament/Generic PETG @Voron 0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron 0.5",
+      "path": "filament/Generic PETG @Voron 0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron 0.6",
+      "path": "filament/Generic PETG @Voron 0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron 0.8",
+      "path": "filament/Generic PETG @Voron 0.8.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron HF0.4",
+      "path": "filament/Generic ABS @Voron HF0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron HF0.5",
+      "path": "filament/Generic ABS @Voron HF0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron HF0.6",
+      "path": "filament/Generic ABS @Voron HF0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Voron HF0.8",
+      "path": "filament/Generic ABS @Voron HF0.8.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron HF0.4",
+      "path": "filament/Generic ASA @Voron HF0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron HF0.5",
+      "path": "filament/Generic ASA @Voron HF0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron HF0.6",
+      "path": "filament/Generic ASA @Voron HF0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Voron HF0.8",
+      "path": "filament/Generic ASA @Voron HF0.8.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron HF0.4",
+      "path": "filament/Generic PETG @Voron HF0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron HF0.5",
+      "path": "filament/Generic PETG @Voron HF0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron HF0.6",
+      "path": "filament/Generic PETG @Voron HF0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Voron HF0.8",
+      "path": "filament/Generic PETG @Voron HF0.8.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron HF0.4",
+      "path": "filament/Generic PLA @Voron HF0.4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron HF0.5",
+      "path": "filament/Generic PLA @Voron HF0.5.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron HF0.6",
+      "path": "filament/Generic PLA @Voron HF0.6.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Voron HF0.8",
+      "path": "filament/Generic PLA @Voron HF0.8.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v2_250_afterburner",
+      "path": "printer_model/Voron_v2_250_afterburner.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v2_300_afterburner",
+      "path": "printer_model/Voron_v2_300_afterburner.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v2_350_afterburner",
+      "path": "printer_model/Voron_v2_350_afterburner.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v2_250",
+      "path": "printer_model/Voron_v2_250.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v2_300",
+      "path": "printer_model/Voron_v2_300.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v2_350",
+      "path": "printer_model/Voron_v2_350.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v1_250_afterburner",
+      "path": "printer_model/Voron_v1_250_afterburner.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v1_300_afterburner",
+      "path": "printer_model/Voron_v1_300_afterburner.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v1_350_afterburner",
+      "path": "printer_model/Voron_v1_350_afterburner.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_v0_120",
+      "path": "printer_model/Voron_v0_120.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_SW_afterburner",
+      "path": "printer_model/Voron_SW_afterburner.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron_SW",
+      "path": "printer_model/Voron_SW.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.25nozzle*",
+      "path": "printer/_0.25nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.3nozzle*",
+      "path": "printer/_0.3nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.4nozzle*",
+      "path": "printer/_0.4nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.5nozzle*",
+      "path": "printer/_0.5nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.6nozzle*",
+      "path": "printer/_0.6nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.8nozzle*",
+      "path": "printer/_0.8nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*1.0nozzle*",
+      "path": "printer/_1.0nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*1.2nozzle*",
+      "path": "printer/_1.2nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*legacy_common*",
+      "path": "printer/_legacy_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*volcano*",
+      "path": "printer/_volcano_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*volcano_afterburner*",
+      "path": "printer/_volcano_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*afterburner*",
+      "path": "printer/_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*zero*",
+      "path": "printer/_zero_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v2_250*",
+      "path": "printer/_Voron_v2_250_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v2_300*",
+      "path": "printer/_Voron_v2_300_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v2_350*",
+      "path": "printer/_Voron_v2_350_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v2_250_afterburner*",
+      "path": "printer/_Voron_v2_250_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v2_300_afterburner*",
+      "path": "printer/_Voron_v2_300_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v2_350_afterburner*",
+      "path": "printer/_Voron_v2_350_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v1_250_afterburner*",
+      "path": "printer/_Voron_v1_250_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v1_300_afterburner*",
+      "path": "printer/_Voron_v1_300_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v1_350_afterburner*",
+      "path": "printer/_Voron_v1_350_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_v0_120*",
+      "path": "printer/_Voron_v0_120_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_Switchwire*",
+      "path": "printer/_Voron_Switchwire_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Voron_Switchwire_afterburner*",
+      "path": "printer/_Voron_Switchwire_afterburner_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.25 nozzle",
+      "path": "printer/Voron_v2_250 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.3 nozzle",
+      "path": "printer/Voron_v2_250 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.4 nozzle",
+      "path": "printer/Voron_v2_250 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.5 nozzle",
+      "path": "printer/Voron_v2_250 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.6 nozzle",
+      "path": "printer/Voron_v2_250 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.8 nozzle",
+      "path": "printer/Voron_v2_250 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.6 volcano",
+      "path": "printer/Voron_v2_250 0.6 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 0.8 volcano",
+      "path": "printer/Voron_v2_250 0.8 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 1.0 volcano",
+      "path": "printer/Voron_v2_250 1.0 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250 1.2 volcano",
+      "path": "printer/Voron_v2_250 1.2 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.25 nozzle",
+      "path": "printer/Voron_v2_300 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.3 nozzle",
+      "path": "printer/Voron_v2_300 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.4 nozzle",
+      "path": "printer/Voron_v2_300 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.5 nozzle",
+      "path": "printer/Voron_v2_300 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.6 nozzle",
+      "path": "printer/Voron_v2_300 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.8 nozzle",
+      "path": "printer/Voron_v2_300 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.6 volcano",
+      "path": "printer/Voron_v2_300 0.6 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 0.8 volcano",
+      "path": "printer/Voron_v2_300 0.8 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 1.0 volcano",
+      "path": "printer/Voron_v2_300 1.0 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300 1.2 volcano",
+      "path": "printer/Voron_v2_300 1.2 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 0.25 nozzle",
+      "path": "printer/Voron_v2_350 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 0.3 nozzle",
+      "path": "printer/Voron_v2_350 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 0.4 nozzle",
+      "path": "printer/Voron_v2_350 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 0.5 nozzle",
+      "path": "printer/Voron_v2_350 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 0.6 nozzle",
+      "path": "printer/Voron_v2_350 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 0.8 nozzle",
+      "path": "printer/Voron_v2_350 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 volcano 0.6 nozzle",
+      "path": "printer/Voron_v2_350 volcano 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 volcano 0.8 nozzle",
+      "path": "printer/Voron_v2_350 volcano 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 volcano 1.0 nozzle",
+      "path": "printer/Voron_v2_350 volcano 1.0 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350 volcano 1.2 nozzle",
+      "path": "printer/Voron_v2_350 volcano 1.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_250_afterburner 0.25 nozzle",
+      "path": "printer/Voron_v1_250_afterburner 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_250_afterburner 0.3 nozzle",
+      "path": "printer/Voron_v1_250_afterburner 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_250_afterburner 0.4 nozzle",
+      "path": "printer/Voron_v1_250_afterburner 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_250_afterburner 0.5 nozzle",
+      "path": "printer/Voron_v1_250_afterburner 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_250_afterburner 0.6 nozzle",
+      "path": "printer/Voron_v1_250_afterburner 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_250_afterburner 0.8 nozzle",
+      "path": "printer/Voron_v1_250_afterburner 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_300_afterburner 0.25 nozzle",
+      "path": "printer/Voron_v1_300_afterburner 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_300_afterburner 0.3 nozzle",
+      "path": "printer/Voron_v1_300_afterburner 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_300_afterburner 0.4 nozzle",
+      "path": "printer/Voron_v1_300_afterburner 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_300_afterburner 0.5 nozzle",
+      "path": "printer/Voron_v1_300_afterburner 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_300_afterburner 0.6 nozzle",
+      "path": "printer/Voron_v1_300_afterburner 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_300_afterburner 0.8 nozzle",
+      "path": "printer/Voron_v1_300_afterburner 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_350_afterburner 0.25 nozzle",
+      "path": "printer/Voron_v1_350_afterburner 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_350_afterburner 0.3 nozzle",
+      "path": "printer/Voron_v1_350_afterburner 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_350_afterburner 0.4 nozzle",
+      "path": "printer/Voron_v1_350_afterburner 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_350_afterburner 0.5 nozzle",
+      "path": "printer/Voron_v1_350_afterburner 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_350_afterburner 0.6 nozzle",
+      "path": "printer/Voron_v1_350_afterburner 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v1_350_afterburner 0.8 nozzle",
+      "path": "printer/Voron_v1_350_afterburner 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.25 nozzle",
+      "path": "printer/Voron_v2_250_afterburner 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.3 nozzle",
+      "path": "printer/Voron_v2_250_afterburner 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.4 nozzle",
+      "path": "printer/Voron_v2_250_afterburner 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.5 nozzle",
+      "path": "printer/Voron_v2_250_afterburner 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.6 nozzle",
+      "path": "printer/Voron_v2_250_afterburner 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.8 nozzle",
+      "path": "printer/Voron_v2_250_afterburner 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.6 volcano",
+      "path": "printer/Voron_v2_250_afterburner 0.6 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 0.8 volcano",
+      "path": "printer/Voron_v2_250_afterburner 0.8 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 1.0 volcano",
+      "path": "printer/Voron_v2_250_afterburner 1.0 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_250_afterburner 1.2 volcano",
+      "path": "printer/Voron_v2_250_afterburner 1.2 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.25 nozzle",
+      "path": "printer/Voron_v2_300_afterburner 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.3 nozzle",
+      "path": "printer/Voron_v2_300_afterburner 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.4 nozzle",
+      "path": "printer/Voron_v2_300_afterburner 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.5 nozzle",
+      "path": "printer/Voron_v2_300_afterburner 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.6 nozzle",
+      "path": "printer/Voron_v2_300_afterburner 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.8 nozzle",
+      "path": "printer/Voron_v2_300_afterburner 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.6 volcano",
+      "path": "printer/Voron_v2_300_afterburner 0.6 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 0.8 volcano",
+      "path": "printer/Voron_v2_300_afterburner 0.8 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 1.0 volcano",
+      "path": "printer/Voron_v2_300_afterburner 1.0 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_300_afterburner 1.2 volcano",
+      "path": "printer/Voron_v2_300_afterburner 1.2 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner 0.25 nozzle",
+      "path": "printer/Voron_v2_350_afterburner 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner 0.3 nozzle",
+      "path": "printer/Voron_v2_350_afterburner 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner 0.4 nozzle",
+      "path": "printer/Voron_v2_350_afterburner 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner 0.5 nozzle",
+      "path": "printer/Voron_v2_350_afterburner 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner 0.6 nozzle",
+      "path": "printer/Voron_v2_350_afterburner 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner 0.8 nozzle",
+      "path": "printer/Voron_v2_350_afterburner 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner volcano 0.6 nozzle",
+      "path": "printer/Voron_v2_350_afterburner volcano 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner volcano 0.8 nozzle",
+      "path": "printer/Voron_v2_350_afterburner volcano 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner volcano 1.0 nozzle",
+      "path": "printer/Voron_v2_350_afterburner volcano 1.0 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v2_350_afterburner volcano 1.2 nozzle",
+      "path": "printer/Voron_v2_350_afterburner volcano 1.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 0.25 nozzle",
+      "path": "printer/Voron_v0 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 0.3 nozzle",
+      "path": "printer/Voron_v0 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 0.4 nozzle",
+      "path": "printer/Voron_v0 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 0.5 nozzle",
+      "path": "printer/Voron_v0 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 0.6 nozzle",
+      "path": "printer/Voron_v0 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 0.8 nozzle",
+      "path": "printer/Voron_v0 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 volcano 0.6 nozzle",
+      "path": "printer/Voron_v0 volcano 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 volcano 0.8 nozzle",
+      "path": "printer/Voron_v0 volcano 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 volcano 1.0 nozzle",
+      "path": "printer/Voron_v0 volcano 1.0 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_v0 volcano 1.2 nozzle",
+      "path": "printer/Voron_v0 volcano 1.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.25 nozzle",
+      "path": "printer/Voron_Switchwire 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.3 nozzle",
+      "path": "printer/Voron_Switchwire 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.4 nozzle",
+      "path": "printer/Voron_Switchwire 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.5 nozzle",
+      "path": "printer/Voron_Switchwire 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.6 nozzle",
+      "path": "printer/Voron_Switchwire 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.8 nozzle",
+      "path": "printer/Voron_Switchwire 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.6 volcano",
+      "path": "printer/Voron_Switchwire 0.6 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 0.8 volcano",
+      "path": "printer/Voron_Switchwire 0.8 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 1.0 volcano",
+      "path": "printer/Voron_Switchwire 1.0 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire 1.2 volcano",
+      "path": "printer/Voron_Switchwire 1.2 volcano.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner 0.25 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner 0.3 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner 0.4 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner 0.5 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner 0.5 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner 0.6 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner 0.8 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner volcano 0.6 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner volcano 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner volcano 0.8 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner volcano 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner volcano 1.0 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner volcano 1.0 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Voron_Switchwire_afterburner volcano 1.2 nozzle",
+      "path": "printer/Voron_Switchwire_afterburner volcano 1.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "*legacy_common*",
+      "path": "print/_legacy_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25nozzle*",
+      "path": "print/_0.25nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzle*",
+      "path": "print/_0.3nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4nozzle*",
+      "path": "print/_0.4nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.5nozzle*",
+      "path": "print/_0.5nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzle*",
+      "path": "print/_0.6nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzle*",
+      "path": "print/_0.8nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*1.0nozzle*",
+      "path": "print/_1.0nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*1.2nozzle*",
+      "path": "print/_1.2nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.05mm*",
+      "path": "print/_0.05mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm*",
+      "path": "print/_0.15mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.2mm*",
+      "path": "print/_0.2mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25mm*",
+      "path": "print/_0.25mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3mm*",
+      "path": "print/_0.3mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4mm*",
+      "path": "print/_0.4mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6mm*",
+      "path": "print/_0.6mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8mm*",
+      "path": "print/_0.8mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.25nozzle V2",
+      "path": "print/0.05mm 0.25nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.3nozzle V2",
+      "path": "print/0.05mm 0.3nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.4nozzle V2",
+      "path": "print/0.05mm 0.4nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.5nozzle V2",
+      "path": "print/0.05mm 0.5nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.25nozzle V1",
+      "path": "print/0.05mm 0.25nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.3nozzle V1",
+      "path": "print/0.05mm 0.3nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.4nozzle V1",
+      "path": "print/0.05mm 0.4nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.5nozzle V1",
+      "path": "print/0.05mm 0.5nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.25nozzle V0",
+      "path": "print/0.05mm 0.25nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.3nozzle V0",
+      "path": "print/0.05mm 0.3nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.4nozzle V0",
+      "path": "print/0.05mm 0.4nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.5nozzle V0",
+      "path": "print/0.05mm 0.5nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.25nozzle SW",
+      "path": "print/0.05mm 0.25nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.3nozzle SW",
+      "path": "print/0.05mm 0.3nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.4nozzle SW",
+      "path": "print/0.05mm 0.4nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm 0.5nozzle SW",
+      "path": "print/0.05mm 0.5nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.25nozzle V2",
+      "path": "print/0.10mm 0.25nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.3nozzle V2",
+      "path": "print/0.10mm 0.3nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.4nozzle V2",
+      "path": "print/0.10mm 0.4nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.5nozzle V2",
+      "path": "print/0.10mm 0.5nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.6nozzle V2",
+      "path": "print/0.10mm 0.6nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.8nozzle V2",
+      "path": "print/0.10mm 0.8nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.25nozzle V1",
+      "path": "print/0.10mm 0.25nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.3nozzle V1",
+      "path": "print/0.10mm 0.3nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.4nozzle V1",
+      "path": "print/0.10mm 0.4nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.5nozzle V1",
+      "path": "print/0.10mm 0.5nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.6nozzle V1",
+      "path": "print/0.10mm 0.6nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.8nozzle V1",
+      "path": "print/0.10mm 0.8nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.25nozzle V0",
+      "path": "print/0.10mm 0.25nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.3nozzle V0",
+      "path": "print/0.10mm 0.3nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.4nozzle V0",
+      "path": "print/0.10mm 0.4nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.5nozzle V0",
+      "path": "print/0.10mm 0.5nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.6nozzle V0",
+      "path": "print/0.10mm 0.6nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.8nozzle V0",
+      "path": "print/0.10mm 0.8nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.25nozzle SW",
+      "path": "print/0.10mm 0.25nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.3nozzle SW",
+      "path": "print/0.10mm 0.3nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.4nozzle SW",
+      "path": "print/0.10mm 0.4nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.5nozzle SW",
+      "path": "print/0.10mm 0.5nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.6nozzle SW",
+      "path": "print/0.10mm 0.6nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 0.8nozzle SW",
+      "path": "print/0.10mm 0.8nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.25nozzle V2",
+      "path": "print/0.15mm 0.25nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.3nozzle V2",
+      "path": "print/0.15mm 0.3nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.4nozzle V2",
+      "path": "print/0.15mm 0.4nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.5nozzle V2",
+      "path": "print/0.15mm 0.5nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.6nozzle V2",
+      "path": "print/0.15mm 0.6nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.8nozzle V2",
+      "path": "print/0.15mm 0.8nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 1.0nozzle V2",
+      "path": "print/0.15mm 1.0nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 1.2nozzle V2",
+      "path": "print/0.15mm 1.2nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.25nozzle V1",
+      "path": "print/0.15mm 0.25nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.3nozzle V1",
+      "path": "print/0.15mm 0.3nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.4nozzle V1",
+      "path": "print/0.15mm 0.4nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.5nozzle V1",
+      "path": "print/0.15mm 0.5nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.6nozzle V1",
+      "path": "print/0.15mm 0.6nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.8nozzle V1",
+      "path": "print/0.15mm 0.8nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.25nozzle V0",
+      "path": "print/0.15mm 0.25nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.3nozzle V0",
+      "path": "print/0.15mm 0.3nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.4nozzle V0",
+      "path": "print/0.15mm 0.4nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.5nozzle V0",
+      "path": "print/0.15mm 0.5nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.6nozzle V0",
+      "path": "print/0.15mm 0.6nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.8nozzle V0",
+      "path": "print/0.15mm 0.8nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 1.0nozzle V0",
+      "path": "print/0.15mm 1.0nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 1.2nozzle V0",
+      "path": "print/0.15mm 1.2nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.25nozzle SW",
+      "path": "print/0.15mm 0.25nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.3nozzle SW",
+      "path": "print/0.15mm 0.3nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.4nozzle SW",
+      "path": "print/0.15mm 0.4nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.5nozzle SW",
+      "path": "print/0.15mm 0.5nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.6nozzle SW",
+      "path": "print/0.15mm 0.6nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 0.8nozzle SW",
+      "path": "print/0.15mm 0.8nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 1.0nozzle SW",
+      "path": "print/0.15mm 1.0nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm 1.2nozzle SW",
+      "path": "print/0.15mm 1.2nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.3nozzle V2",
+      "path": "print/0.2mm 0.3nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.4nozzle V2",
+      "path": "print/0.2mm 0.4nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.5nozzle V2",
+      "path": "print/0.2mm 0.5nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.6nozzle V2",
+      "path": "print/0.2mm 0.6nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.8nozzle V2",
+      "path": "print/0.2mm 0.8nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 1.0nozzle V2",
+      "path": "print/0.2mm 1.0nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 1.2nozzle V2",
+      "path": "print/0.2mm 1.2nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.25nozzle V1",
+      "path": "print/0.2mm 0.25nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.3nozzle V1",
+      "path": "print/0.2mm 0.3nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.4nozzle V1",
+      "path": "print/0.2mm 0.4nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.5nozzle V1",
+      "path": "print/0.2mm 0.5nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.6nozzle V1",
+      "path": "print/0.2mm 0.6nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.8nozzle V1",
+      "path": "print/0.2mm 0.8nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.3nozzle V0",
+      "path": "print/0.2mm 0.3nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.4nozzle V0",
+      "path": "print/0.2mm 0.4nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.5nozzle V0",
+      "path": "print/0.2mm 0.5nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.6nozzle V0",
+      "path": "print/0.2mm 0.6nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.8nozzle V0",
+      "path": "print/0.2mm 0.8nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 1.0nozzle V0",
+      "path": "print/0.2mm 1.0nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 1.2nozzle V0",
+      "path": "print/0.2mm 1.2nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.25nozzle SW",
+      "path": "print/0.2mm 0.25nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.3nozzle SW",
+      "path": "print/0.2mm 0.3nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.4nozzle SW",
+      "path": "print/0.2mm 0.4nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.5nozzle SW",
+      "path": "print/0.2mm 0.5nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.6nozzle SW",
+      "path": "print/0.2mm 0.6nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 0.8nozzle SW",
+      "path": "print/0.2mm 0.8nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 1.0nozzle SW",
+      "path": "print/0.2mm 1.0nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm 1.2nozzle SW",
+      "path": "print/0.2mm 1.2nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.4nozzle V2",
+      "path": "print/0.3mm 0.4nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.5nozzle V2",
+      "path": "print/0.3mm 0.5nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.6nozzle V2",
+      "path": "print/0.3mm 0.6nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.8nozzle V2",
+      "path": "print/0.3mm 0.8nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 1.0nozzle V2",
+      "path": "print/0.3mm 1.0nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 1.2nozzle V2",
+      "path": "print/0.3mm 1.2nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.25nozzle V1",
+      "path": "print/0.3mm 0.25nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.3nozzle V1",
+      "path": "print/0.3mm 0.3nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.4nozzle V1",
+      "path": "print/0.3mm 0.4nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.5nozzle V1",
+      "path": "print/0.3mm 0.5nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.6nozzle V1",
+      "path": "print/0.3mm 0.6nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.8nozzle V1",
+      "path": "print/0.3mm 0.8nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.4nozzle V0",
+      "path": "print/0.3mm 0.4nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.5nozzle V0",
+      "path": "print/0.3mm 0.5nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.6nozzle V0",
+      "path": "print/0.3mm 0.6nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.8nozzle V0",
+      "path": "print/0.3mm 0.8nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 1.0nozzle V0",
+      "path": "print/0.3mm 1.0nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 1.2nozzle V0",
+      "path": "print/0.3mm 1.2nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.25nozzle SW",
+      "path": "print/0.3mm 0.25nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.3nozzle SW",
+      "path": "print/0.3mm 0.3nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.4nozzle SW",
+      "path": "print/0.3mm 0.4nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.5nozzle SW",
+      "path": "print/0.3mm 0.5nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.6nozzle SW",
+      "path": "print/0.3mm 0.6nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 0.8nozzle SW",
+      "path": "print/0.3mm 0.8nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 1.0nozzle SW",
+      "path": "print/0.3mm 1.0nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm 1.2nozzle SW",
+      "path": "print/0.3mm 1.2nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.6nozzle V2",
+      "path": "print/0.4mm 0.6nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.8nozzle V2",
+      "path": "print/0.4mm 0.8nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 1.0nozzle V2",
+      "path": "print/0.4mm 1.0nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 1.2nozzle V2",
+      "path": "print/0.4mm 1.2nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.25nozzle V1",
+      "path": "print/0.4mm 0.25nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.3nozzle V1",
+      "path": "print/0.4mm 0.3nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.4nozzle V1",
+      "path": "print/0.4mm 0.4nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.5nozzle V1",
+      "path": "print/0.4mm 0.5nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.6nozzle V1",
+      "path": "print/0.4mm 0.6nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.8nozzle V1",
+      "path": "print/0.4mm 0.8nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.6nozzle V0",
+      "path": "print/0.4mm 0.6nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.8nozzle V0",
+      "path": "print/0.4mm 0.8nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 1.0nozzle V0",
+      "path": "print/0.4mm 1.0nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 1.2nozzle V0",
+      "path": "print/0.4mm 1.2nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.25nozzle SW",
+      "path": "print/0.4mm 0.25nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.3nozzle SW",
+      "path": "print/0.4mm 0.3nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.4nozzle SW",
+      "path": "print/0.4mm 0.4nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.5nozzle SW",
+      "path": "print/0.4mm 0.5nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.6nozzle SW",
+      "path": "print/0.4mm 0.6nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 0.8nozzle SW",
+      "path": "print/0.4mm 0.8nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 1.0nozzle SW",
+      "path": "print/0.4mm 1.0nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm 1.2nozzle SW",
+      "path": "print/0.4mm 1.2nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 0.8nozzle V2",
+      "path": "print/0.6mm 0.8nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.0nozzle V2",
+      "path": "print/0.6mm 1.0nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.2nozzle V2",
+      "path": "print/0.6mm 1.2nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 0.8nozzle V1",
+      "path": "print/0.6mm 0.8nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.0nozzle V1",
+      "path": "print/0.6mm 1.0nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.2nozzle V1",
+      "path": "print/0.6mm 1.2nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 0.8nozzle V0",
+      "path": "print/0.6mm 0.8nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.0nozzle V0",
+      "path": "print/0.6mm 1.0nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.2nozzle V0",
+      "path": "print/0.6mm 1.2nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 0.8nozzle SW",
+      "path": "print/0.6mm 0.8nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.0nozzle SW",
+      "path": "print/0.6mm 1.0nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.6mm 1.2nozzle SW",
+      "path": "print/0.6mm 1.2nozzle SW.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.8mm 1.2nozzle V2",
+      "path": "print/0.8mm 1.2nozzle V2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.8mm 1.2nozzle V1",
+      "path": "print/0.8mm 1.2nozzle V1.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.8mm 1.2nozzle V0",
+      "path": "print/0.8mm 1.2nozzle V0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.8mm 1.2nozzle SW",
+      "path": "print/0.8mm 1.2nozzle SW.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*legacy_common*",
+      "path": "filament/_legacy_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*BasicPLA*",
+      "path": "filament/_BasicPLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Basic PLA @VORON",
+      "path": "filament/Basic PLA @VORON.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Basic PLA VOLCANO @VORON",
+      "path": "filament/Basic PLA VOLCANO @VORON.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*BasicPET*",
+      "path": "filament/_BasicPET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Basic PET @VORON",
+      "path": "filament/Basic PET @VORON.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Basic PET VOLCANO @VORON",
+      "path": "filament/Basic PET VOLCANO @VORON.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*BasicABS*",
+      "path": "filament/_BasicABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Basic ABS @VORON",
+      "path": "filament/Basic ABS @VORON.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Basic ABS VOLCANO @VORON",
+      "path": "filament/Basic ABS VOLCANO @VORON.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*kvpABS*",
+      "path": "filament/_kvpABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "KVP ABS @VORON",
+      "path": "filament/KVP ABS @VORON.ini"
+    },
+    {
+      "type": "filament",
+      "name": "KVP ABS VOLCANO @VORON",
+      "path": "filament/KVP ABS VOLCANO @VORON.ini"
+    }
+  ],
+  "asset_paths": [
+    "bedmodel_120x120.stl",
+    "bedmodel_250x250.stl",
+    "bedmodel_252x241.stl",
+    "bedmodel_300x300.stl",
+    "bedmodel_350x350.stl",
+    "bedtexture_120x120-dark.png",
+    "bedtexture_250x250-dark.png",
+    "bedtexture_252x241-dark.png",
+    "bedtexture_300x300-dark.png",
+    "bedtexture_350x350-dark.png",
+    "thumbnail_v0.png",
+    "thumbnail_v0_miniab.png",
+    "thumbnail_v2.png",
+    "thumbnail_v2_afterburner.png",
+    "thumbnail_vs.png",
+    "thumbnail_vs_afterburner.png",
+    "thumbnail_vt.png",
+    "thumbnail_vt_afterburner.png"
+  ]
+}

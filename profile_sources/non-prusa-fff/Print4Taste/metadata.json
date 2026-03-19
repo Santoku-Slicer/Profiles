@@ -1,0 +1,58 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Print4Taste",
+  "version": "1.1.2",
+  "index_name": "Print4Taste.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MC2.0",
+      "path": "printer_model/MC2.0.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_MC2.0*",
+      "path": "print/_common_MC2.0_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm SOLID @MC2.0",
+      "path": "print/0.50mm SOLID @MC2.0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm FILLABLE @MC2.0",
+      "path": "print/0.50mm FILLABLE @MC2.0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm OUTLINES @MC2.0",
+      "path": "print/0.50mm OUTLINES @MC2.0.ini"
+    },
+    {
+      "type": "filament",
+      "name": "mycusini 3D Choco @MC2.0",
+      "path": "filament/mycusini 3D Choco @MC2.0.ini"
+    },
+    {
+      "type": "printer",
+      "name": "mycusini 2.0",
+      "path": "printer/mycusini 2.0.ini"
+    }
+  ],
+  "asset_paths": [
+    "MC2.0_bed.stl",
+    "MC2.0_texture.svg",
+    "MC2.0_thumbnail_v2.png"
+  ]
+}

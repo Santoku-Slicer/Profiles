@@ -1,0 +1,256 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "FLSun",
+  "version": "1.1.0",
+  "index_name": "FLSun.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "QQSP",
+      "path": "printer_model/QQSP.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Q5",
+      "path": "printer_model/Q5.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_flsunq*",
+      "path": "print/_common_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*QQSP*",
+      "path": "print/_QQSP_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*Q5*",
+      "path": "print/_Q5_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleFLSUN*",
+      "path": "print/_0.6nozzleFLSUN_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.08mm_flsunq*",
+      "path": "print/_0.08mm_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm DETAIL @FLSUN",
+      "path": "print/0.08mm DETAIL @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm_vase_flsunq*",
+      "path": "print/_0.15mm_vase_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm VASE @FLSUN",
+      "path": "print/0.15mm VASE @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm VASE SPEED @FLSUN",
+      "path": "print/0.15mm VASE SPEED @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.16mm_flsunq*",
+      "path": "print/_0.16mm_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm QUALITY @FLSUN",
+      "path": "print/0.16mm QUALITY @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm SPEED @FLSUN",
+      "path": "print/0.16mm SPEED @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm DETAIL @0.6 nozzle FLSUN",
+      "path": "print/0.16mm DETAIL @0.6 nozzle FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm_flsunq*",
+      "path": "print/_0.20mm_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @FLSUN",
+      "path": "print/0.20mm QUALITY @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL @0.6 nozzle FLSUN",
+      "path": "print/0.20mm DETAIL @0.6 nozzle FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @FLSUN",
+      "path": "print/0.20mm SPEED @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.24mm_flsunq*",
+      "path": "print/_0.24mm_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm DRAFT @FLSUN",
+      "path": "print/0.24mm DRAFT @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm_flsunq*",
+      "path": "print/_0.30mm_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY @0.6 nozzle FLSUN",
+      "path": "print/0.30mm QUALITY @0.6 nozzle FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm SPEED @FLSUN",
+      "path": "print/0.30mm SPEED @FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.35mm_flsunq*",
+      "path": "print/_0.35mm_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm SPEED @0.6 nozzle FLSUN",
+      "path": "print/0.35mm SPEED @0.6 nozzle FLSUN.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.40mm_flsunq*",
+      "path": "print/_0.40mm_flsunq_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT @0.6 nozzle FLSUN",
+      "path": "print/0.40mm DRAFT @0.6 nozzle FLSUN.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_flsunq*",
+      "path": "filament/_common_flsunq_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA_flsunq*",
+      "path": "filament/_PLA_flsunq_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA_VASE_flsunq*",
+      "path": "filament/_PLA_VASE_flsunq_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*SPLA_flsunq*",
+      "path": "filament/_SPLA_flsunq_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET_flsunq*",
+      "path": "filament/_PET_flsunq_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*FLEX_flsunq*",
+      "path": "filament/_FLEX_flsunq_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS_flsunq*",
+      "path": "filament/_ABS_flsunq_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @FLSUN",
+      "path": "filament/Generic PLA @FLSUN.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA VASE @FLSUN",
+      "path": "filament/Generic PLA VASE @FLSUN.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @FLSUN",
+      "path": "filament/Generic PETG @FLSUN.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @FLSUN",
+      "path": "filament/Generic ABS @FLSUN.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @FLSUN",
+      "path": "filament/Generic FLEX @FLSUN.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic SPLA @FLSUN",
+      "path": "filament/Generic SPLA @FLSUN.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_flsunq*",
+      "path": "printer/_common_flsunq_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun QQS Pro",
+      "path": "printer/FLSun QQS Pro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun QQS Pro 0.6 nozzle",
+      "path": "printer/FLSun QQS Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun Q5",
+      "path": "printer/FLSun Q5.ini"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun Q5 0.6 nozzle",
+      "path": "printer/FLSun Q5 0.6 nozzle.ini"
+    }
+  ],
+  "asset_paths": [
+    "Q5.svg",
+    "Q5_bed.stl",
+    "Q5_thumbnail.png",
+    "QQSP.svg",
+    "QQSP_bed.stl",
+    "QQSP_thumbnail.png"
+  ]
+}

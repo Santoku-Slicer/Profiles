@@ -1,0 +1,178 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "BIQU",
+  "version": "1.1.0",
+  "index_name": "BIQU.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "BIQUBX",
+      "path": "printer_model/BIQUBX.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.08mm*",
+      "path": "print/_0.08mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.12mm*",
+      "path": "print/_0.12mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.16mm*",
+      "path": "print/_0.16mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.24mm*",
+      "path": "print/_0.24mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.28mm*",
+      "path": "print/_0.28mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.32mm*",
+      "path": "print/_0.32mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm HIGHDETAIL @BIQU",
+      "path": "print/0.08mm HIGHDETAIL @BIQU.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm HIGHDETAIL @BIQU",
+      "path": "print/0.10mm HIGHDETAIL @BIQU.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm DETAIL @BIQU",
+      "path": "print/0.12mm DETAIL @BIQU.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm OPTIMAL @BIQU",
+      "path": "print/0.16mm OPTIMAL @BIQU.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @BIQU",
+      "path": "print/0.20mm NORMAL @BIQU.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm DRAFT @BIQU",
+      "path": "print/0.24mm DRAFT @BIQU.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm SUPERDRAFT @BIQU",
+      "path": "print/0.28mm SUPERDRAFT @BIQU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @BIQU",
+      "path": "filament/Generic PLA @BIQU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @BIQU",
+      "path": "filament/Generic PETG @BIQU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @BIQU",
+      "path": "filament/Generic ABS @BIQU.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*spriteextruder*",
+      "path": "printer/_spriteextruder_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*dualextruder*",
+      "path": "printer/_dualextruder_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*SmallBowden*",
+      "path": "printer/_SmallBowden_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.4nozzle*",
+      "path": "printer/_0.4nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*BIQU BX*",
+      "path": "printer/_BIQU BX_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "BIQU BX",
+      "path": "printer/BIQU BX.ini"
+    }
+  ],
+  "asset_paths": [
+    "BIQUBX_thumbnail.png",
+    "BX_Bed.stl",
+    "BX_Texture.png"
+  ]
+}

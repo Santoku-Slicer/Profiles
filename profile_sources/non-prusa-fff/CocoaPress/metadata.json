@@ -1,0 +1,105 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "CocoaPress",
+  "version": "3.0.0",
+  "index_name": "CocoaPress.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Cocoa_Press",
+      "path": "printer_model/Cocoa_Press.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Cocoa_Press2",
+      "path": "printer_model/Cocoa_Press2.ini"
+    },
+    {
+      "type": "print",
+      "name": "Cocoa Press (0.5mm layerheight)",
+      "path": "print/Cocoa Press (0.5mm layerheight).ini"
+    },
+    {
+      "type": "print",
+      "name": "Cocoa Press (1.0mm layerheight)",
+      "path": "print/Cocoa Press (1.0mm layerheight).ini"
+    },
+    {
+      "type": "print",
+      "name": "Cocoa Press 2 (0.5mm layerheight)",
+      "path": "print/Cocoa Press 2 (0.5mm layerheight).ini"
+    },
+    {
+      "type": "print",
+      "name": "Cocoa Press 2 (1.0mm layerheight)",
+      "path": "print/Cocoa Press 2 (1.0mm layerheight).ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Cocoa Press Chocolates",
+      "path": "filament/Cocoa Press Chocolates.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CCP1 0.8mm*",
+      "path": "printer/_CCP1 0.8mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CCP1 1.6mm*",
+      "path": "printer/_CCP1 1.6mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CCP2 0.8mm*",
+      "path": "printer/_CCP2 0.8mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*CCP2 1.6mm*",
+      "path": "printer/_CCP2 1.6mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Cocoa Press\uff5c0.8mm",
+      "path": "printer/Cocoa Press\uff5c0.8mm.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Cocoa Press\uff5c1.6mm",
+      "path": "printer/Cocoa Press\uff5c1.6mm.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Cocoa Press 2\uff5c0.8mm",
+      "path": "printer/Cocoa Press 2\uff5c0.8mm.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Cocoa Press 2\uff5c1.6mm",
+      "path": "printer/Cocoa Press 2\uff5c1.6mm.ini"
+    }
+  ],
+  "asset_paths": [
+    "CocoaPress_CCP2.png",
+    "CocoaPress_MiniChef.png",
+    "cocoapress2_PS_Bed_Texture.svg",
+    "minichef_bed.stl",
+    "minichef_texture.svg"
+  ]
+}

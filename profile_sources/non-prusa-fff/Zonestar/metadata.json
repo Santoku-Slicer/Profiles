@@ -1,0 +1,151 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Zonestar",
+  "version": "2.1.0",
+  "index_name": "Zonestar.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z5",
+      "path": "printer_model/Z5.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z6",
+      "path": "printer_model/Z6.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z5X",
+      "path": "printer_model/Z5X.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z8",
+      "path": "printer_model/Z8.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z9",
+      "path": "printer_model/Z9.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm @Zonestar MULTI",
+      "path": "print/0.20mm @Zonestar MULTI.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm @Zonestar SINGLE",
+      "path": "print/0.20mm @Zonestar SINGLE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Zonestar",
+      "path": "filament/Generic ABS @Zonestar.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Zonestar",
+      "path": "filament/Generic PETG @Zonestar.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Zonestar",
+      "path": "filament/Generic PLA @Zonestar.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @Zonestar",
+      "path": "filament/Generic TPU @Zonestar.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z5+M2 HOTEND",
+      "path": "printer/Zonestar Z5+M2 HOTEND.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z6",
+      "path": "printer/Zonestar Z6.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z5X",
+      "path": "printer/Zonestar Z5X.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z8+M3 HOTEND",
+      "path": "printer/Zonestar Z8+M3 HOTEND.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z8+M4 HOTEND",
+      "path": "printer/Zonestar Z8+M4 HOTEND.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z8+E4 HOTEND",
+      "path": "printer/Zonestar Z8+E4 HOTEND.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z8+DDE",
+      "path": "printer/Zonestar Z8+DDE.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z9+M3 HOTEND",
+      "path": "printer/Zonestar Z9+M3 HOTEND.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z9+M4 HOTEND",
+      "path": "printer/Zonestar Z9+M4 HOTEND.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z9+E4 HOTEND",
+      "path": "printer/Zonestar Z9+E4 HOTEND.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Zonestar Z9+DDE",
+      "path": "printer/Zonestar Z9+DDE.ini"
+    }
+  ],
+  "asset_paths": [
+    "150_texture.svg",
+    "220_texture.svg",
+    "310_texture.svg",
+    "Z5X_thumbnail.png",
+    "Z5_thumbnail.png",
+    "Z6_thumbnail.png",
+    "Z8_thumbnail.png",
+    "Z9_thumbnail.png",
+    "bed_150.stl",
+    "bed_220.stl",
+    "bed_310.stl"
+  ]
+}

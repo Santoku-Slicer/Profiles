@@ -1,0 +1,141 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Trimaker",
+  "version": "2.1.0",
+  "index_name": "Trimaker.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Trimaker Nebula Cloud",
+      "path": "printer_model/Trimaker Nebula Cloud.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Trimaker Cosmos II",
+      "path": "printer_model/Trimaker Cosmos II.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Trimaker Nebula ",
+      "path": "printer_model/Trimaker Nebula.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm*",
+      "path": "print/_0.30mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.1 Layer - 0,4 Nozzle",
+      "path": "print/0.1 Layer - 0,4 Nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 Layer - 0,4 Nozzle",
+      "path": "print/0.2 Layer - 0,4 Nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 Layer - 0,4 Nozzle - Speed",
+      "path": "print/0.2 Layer - 0,4 Nozzle - Speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 Layer - 0,4 Nozzle",
+      "path": "print/0.3 Layer - 0,4 Nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Trimaker Nebula Cloud",
+      "path": "filament/Generic PLA @Trimaker Nebula Cloud.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Speed PLA @Trimaker Nebula Cloud",
+      "path": "filament/Speed PLA @Trimaker Nebula Cloud.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.40nozzle*",
+      "path": "printer/_0.40nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Trimaker Nebula Cloud*",
+      "path": "printer/_Trimaker Nebula Cloud_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Trimaker Nebula*",
+      "path": "printer/_Trimaker Nebula_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Trimaker Cosmos II*",
+      "path": "printer/_Trimaker Cosmos II_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Trimaker Nebula Cloud 0.4 nozzle",
+      "path": "printer/Trimaker Nebula Cloud 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Trimaker Nebula  0.4 nozzle",
+      "path": "printer/Trimaker Nebula  0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Trimaker Cosmos II 0.4 nozzle",
+      "path": "printer/Trimaker Cosmos II 0.4 nozzle.ini"
+    }
+  ],
+  "asset_paths": [
+    "CosmosII_bed.stl",
+    "Cosmos_II_thumbnail.png",
+    "NPC_thumbnail.png",
+    "NebulaCloud.svg",
+    "NebulaCloud_bed.stl",
+    "Nebula_thumbnail.png"
+  ]
+}

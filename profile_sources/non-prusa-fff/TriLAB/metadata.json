@@ -1,0 +1,923 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "TriLAB",
+  "version": "2.1.0",
+  "index_name": "TriLAB.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "AQI",
+      "path": "printer_model/AQI.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "AQD",
+      "path": "printer_model/AQD.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQ2",
+      "path": "printer_model/DQ2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQ2P",
+      "path": "printer_model/DQ2P.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQ2+FP2",
+      "path": "printer_model/DQ2+FP2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQ2P+FP2",
+      "path": "printer_model/DQ2P+FP2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQ2+FP",
+      "path": "printer_model/DQ2+FP.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQ2P+FP",
+      "path": "printer_model/DQ2P+FP.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQM",
+      "path": "printer_model/DQM.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQL",
+      "path": "printer_model/DQL.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DQXL",
+      "path": "printer_model/DQXL.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Normal @DQ",
+      "path": "print/0.20mm Normal @DQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Detail @DQ",
+      "path": "print/0.10mm Detail @DQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Normal @DQ",
+      "path": "print/0.15mm Normal @DQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Vase @DQ",
+      "path": "print/0.20mm Vase @DQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm FLEX @DQ",
+      "path": "print/0.20mm FLEX @DQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm Quality @DQ2 0.25 nozzle",
+      "path": "print/0.07mm Quality @DQ2 0.25 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Normal @DQ2 0.25 nozzle",
+      "path": "print/0.20mm Normal @DQ2 0.25 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Normal @DQ2 0.6 nozzle",
+      "path": "print/0.30mm Normal @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strong @DQ2 0.6 nozzle",
+      "path": "print/0.30mm Strong @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm Fast @DQ2 0.6 nozzle",
+      "path": "print/0.35mm Fast @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Normal @DQ2 0.8 nozzle",
+      "path": "print/0.40mm Normal @DQ2 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Vase @DQ2 0.8 nozzle",
+      "path": "print/0.40mm Vase @DQ2 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Normal @AQ",
+      "path": "print/0.20mm Normal @AQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Detail @AQ",
+      "path": "print/0.15mm Detail @AQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strong @AQ",
+      "path": "print/0.20mm Strong @AQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Vase @AQ",
+      "path": "print/0.20mm Vase @AQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Fast @AQ",
+      "path": "print/0.25mm Fast @AQ.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Normal @AQ 0.6 nozzle",
+      "path": "print/0.30mm Normal @AQ 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strong @AQ 0.6 nozzle",
+      "path": "print/0.30mm Strong @AQ 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm Fast @AQ 0.6 nozzle",
+      "path": "print/0.35mm Fast @AQ 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Normal @AQ 0.8 nozzle",
+      "path": "print/0.40mm Normal @AQ 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Vase @AQ 0.8 nozzle",
+      "path": "print/0.40mm Vase @AQ 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2 0.4*",
+      "path": "filament/_DQ2 0.4_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2 0.4X*",
+      "path": "filament/_DQ2 0.4X_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2 0.25*",
+      "path": "filament/_DQ2 0.25_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2 0.6*",
+      "path": "filament/_DQ2 0.6_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2 0.6X*",
+      "path": "filament/_DQ2 0.6X_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2 0.8*",
+      "path": "filament/_DQ2 0.8_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2FP 0.4*",
+      "path": "filament/_DQ2FP 0.4_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*DQ2FP2 0.4*",
+      "path": "filament/_DQ2FP2 0.4_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQI 0.4*",
+      "path": "filament/_AQI 0.4_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQI 0.4X*",
+      "path": "filament/_AQI 0.4X_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQI 0.6*",
+      "path": "filament/_AQI 0.6_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQI 0.6X*",
+      "path": "filament/_AQI 0.6X_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQI 0.8*",
+      "path": "filament/_AQI 0.8_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQD 0.4*",
+      "path": "filament/_AQD 0.4_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQD 0.6*",
+      "path": "filament/_AQD 0.6_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*AQD 0.8*",
+      "path": "filament/_AQD 0.8_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @DQ2",
+      "path": "filament/Generic PLA @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @DQ2FP",
+      "path": "filament/Generic PLA @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @DQ2",
+      "path": "filament/Prusament PLA @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @DQ2 0.6 nozzle",
+      "path": "filament/Prusament PLA @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @DQ2 0.8 nozzle",
+      "path": "filament/Prusament PLA @DQ2 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA (Door Opened) @AQI",
+      "path": "filament/Prusament PLA (Door Opened) @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA (Door Opened) @AQD",
+      "path": "filament/Prusament PLA (Door Opened) @AQD.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @DQ2",
+      "path": "filament/Fillamentum PLA @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @DQ2 0.25 nozzle",
+      "path": "filament/Fillamentum PLA @DQ2 0.25 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @DQ2 0.6 nozzle",
+      "path": "filament/Fillamentum PLA @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @DQ2 0.8 nozzle",
+      "path": "filament/Fillamentum PLA @DQ2 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PVB @DQ2",
+      "path": "filament/Prusament PVB @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @DQ2FP",
+      "path": "filament/Fillamentum PLA @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @DQ2FP2",
+      "path": "filament/Generic PLA @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @DQ2FP2",
+      "path": "filament/Prusament PLA @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @DQ2FP2",
+      "path": "filament/Fillamentum PLA @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PP @DQ2FP2",
+      "path": "filament/Fiberlogy PP @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @DQ2",
+      "path": "filament/Generic PETG @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @DQ2",
+      "path": "filament/Devil Design PETG @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @DQ2 0.25 nozzle",
+      "path": "filament/Devil Design PETG @DQ2 0.25 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @DQ2 0.6 nozzle",
+      "path": "filament/Devil Design PETG @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @DQ2 0.8 nozzle",
+      "path": "filament/Devil Design PETG @DQ2 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @DQ2",
+      "path": "filament/Prusament PETG @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @AQI",
+      "path": "filament/Prusament PETG @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @AQD",
+      "path": "filament/Prusament PETG @AQD.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG Carbon Fiber @AQI",
+      "path": "filament/Prusament PETG Carbon Fiber @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG Carbon Fiber @AQD",
+      "path": "filament/Prusament PETG Carbon Fiber @AQD.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @DQ2FP",
+      "path": "filament/Generic PETG @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @DQ2FP",
+      "path": "filament/Devil Design PETG @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @DQ2FP2",
+      "path": "filament/Generic PETG @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @DQ2FP2",
+      "path": "filament/Devil Design PETG @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @DQ2",
+      "path": "filament/Generic ABS @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @DQ2",
+      "path": "filament/Fillamentum ABS @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @DQ2 0.6 nozzle",
+      "path": "filament/Fillamentum ABS @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @DQ2FP",
+      "path": "filament/Generic ABS @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @DQ2FP",
+      "path": "filament/Fillamentum ABS @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @DQ2FP2",
+      "path": "filament/Generic ABS @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @DQ2FP2",
+      "path": "filament/Fillamentum ABS @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @DQ2",
+      "path": "filament/Fillamentum ASA @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @DQ2 0.6 nozzle",
+      "path": "filament/Fillamentum ASA @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @DQ2FP",
+      "path": "filament/Fillamentum ASA @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @DQ2FP2",
+      "path": "filament/Fillamentum ASA @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Spectrum ASA @DQ2",
+      "path": "filament/Spectrum ASA @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Spectrum ASA @DQ2 0.6 nozzle",
+      "path": "filament/Spectrum ASA @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum CPE HG100 @DQ2",
+      "path": "filament/Fillamentum CPE HG100 @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum CPE HG100 @DQ2 0.6 nozzle",
+      "path": "filament/Fillamentum CPE HG100 @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum CPE HG100 @DQ2FP",
+      "path": "filament/Fillamentum CPE HG100 @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum CPE HG100 @DQ2FP2",
+      "path": "filament/Fillamentum CPE HG100 @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @DQ2FP",
+      "path": "filament/Generic FLEX @DQ2FP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @DQ2FP2",
+      "path": "filament/Generic FLEX @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "NinjaTek TPU 75D @DQ2FP2",
+      "path": "filament/NinjaTek TPU 75D @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum TPU 92A @DQ2FP2",
+      "path": "filament/Fillamentum TPU 92A @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum TPU 98A @DQ2FP2",
+      "path": "filament/Fillamentum TPU 98A @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Smartfil TPU 93A @DQ2FP2",
+      "path": "filament/Smartfil TPU 93A @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PEBA 90A @DQ2FP2",
+      "path": "filament/Fillamentum PEBA 90A @DQ2FP2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12 @DQ2",
+      "path": "filament/Fiberlogy Nylon PA12 @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12+CF15 @DQ2",
+      "path": "filament/Fiberlogy Nylon PA12+CF15 @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12+CF15 @DQ2 0.6 nozzle",
+      "path": "filament/Fiberlogy Nylon PA12+CF15 @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12+GF15 @DQ2",
+      "path": "filament/Fiberlogy Nylon PA12+GF15 @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12+GF15 @DQ2 0.6 nozzle",
+      "path": "filament/Fiberlogy Nylon PA12+GF15 @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Nylon CF15 @DQ2",
+      "path": "filament/Fillamentum Nylon CF15 @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PA11 Carbon Fiber @DQ2",
+      "path": "filament/Prusament PA11 Carbon Fiber @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PA11 Carbon Fiber @AQI",
+      "path": "filament/Prusament PA11 Carbon Fiber @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PAJet 160 @AQI",
+      "path": "filament/Filament PM PAJet 160 @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend Carbon Fiber @DQ2",
+      "path": "filament/Prusament PC Blend Carbon Fiber @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend Carbon Fiber @DQ2 0.6 nozzle",
+      "path": "filament/Prusament PC Blend Carbon Fiber @DQ2 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Wax-Alike MoldLay @DQ2",
+      "path": "filament/Wax-Alike MoldLay @DQ2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA (Door Opened) @AQI",
+      "path": "filament/Generic PLA (Door Opened) @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Smartfil PLA (Door Opened) @AQI",
+      "path": "filament/Smartfil PLA (Door Opened) @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Smartfil PLA (Door Opened) @AQD",
+      "path": "filament/Smartfil PLA (Door Opened) @AQD.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA (Door Opened) @AQI 0.6 nozzle",
+      "path": "filament/Generic PLA (Door Opened) @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA (Door Opened) @AQI",
+      "path": "filament/Fillamentum PLA (Door Opened) @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA (Door Opened) @AQI 0.6 nozzle",
+      "path": "filament/Fillamentum PLA (Door Opened) @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA (PLA Printhead) @AQI",
+      "path": "filament/Fillamentum PLA (PLA Printhead) @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA (PLA Printhead) @AQI 0.6 nozzle",
+      "path": "filament/Fillamentum PLA (PLA Printhead) @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @AQI",
+      "path": "filament/Generic ABS @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @AQI 0.6 nozzle",
+      "path": "filament/Generic ABS @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @AQI 0.8 nozzle",
+      "path": "filament/Generic ABS @AQI 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @AQI",
+      "path": "filament/Fillamentum ABS @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @AQI 0.6 nozzle",
+      "path": "filament/Fillamentum ABS @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @AQI 0.8 nozzle",
+      "path": "filament/Fillamentum ABS @AQI 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa EasyABS @AQI",
+      "path": "filament/Prusa EasyABS @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa EasyABS @AQD",
+      "path": "filament/Prusa EasyABS @AQD.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PC/ABS @AQI",
+      "path": "filament/Fillamentum PC_ABS @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PC/ABS @AQI 0.6 nozzle",
+      "path": "filament/Fillamentum PC_ABS @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PC @AQI",
+      "path": "filament/Polymaker PC @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PC @AQI 0.6 nozzle",
+      "path": "filament/Polymaker PC @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @AQI",
+      "path": "filament/Generic ASA @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @AQI 0.6 nozzle",
+      "path": "filament/Generic ASA @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @AQI",
+      "path": "filament/Fillamentum ASA @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @AQI 0.6 nozzle",
+      "path": "filament/Fillamentum ASA @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @AQI 0.8 nozzle",
+      "path": "filament/Fillamentum ASA @AQI 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA @AQI",
+      "path": "filament/Prusament ASA @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA @AQI 0.6 nozzle",
+      "path": "filament/Prusament ASA @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA @AQI 0.8 nozzle",
+      "path": "filament/Prusament ASA @AQI 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA @AQD",
+      "path": "filament/Prusament ASA @AQD.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12 @AQI",
+      "path": "filament/Fiberlogy Nylon PA12 @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12 @AQI 0.6 nozzle",
+      "path": "filament/Fiberlogy Nylon PA12 @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Nylon FX256 @AQI",
+      "path": "filament/Fillamentum Nylon FX256 @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Nylon FX256 @AQI 0.6 nozzle",
+      "path": "filament/Fillamentum Nylon FX256 @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend @AQI",
+      "path": "filament/Prusament PC Blend @AQI.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend @AQI 0.6 nozzle",
+      "path": "filament/Prusament PC Blend @AQI 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend @AQI 0.8 nozzle",
+      "path": "filament/Prusament PC Blend @AQI 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*DeltiQ*",
+      "path": "printer/_DeltiQ_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ L",
+      "path": "printer/DeltiQ L.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ M",
+      "path": "printer/DeltiQ M.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ XL",
+      "path": "printer/DeltiQ XL.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*DeltiQ 2*",
+      "path": "printer/_DeltiQ 2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2",
+      "path": "printer/DeltiQ 2.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 - 0.25 nozzle",
+      "path": "printer/DeltiQ 2 - 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 - 0.6 nozzle",
+      "path": "printer/DeltiQ 2 - 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 - 0.8 nozzle",
+      "path": "printer/DeltiQ 2 - 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 Plus",
+      "path": "printer/DeltiQ 2 Plus.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 Plus - 0.25 nozzle",
+      "path": "printer/DeltiQ 2 Plus - 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 Plus - 0.6 nozzle",
+      "path": "printer/DeltiQ 2 Plus - 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 Plus - 0.8 nozzle",
+      "path": "printer/DeltiQ 2 Plus - 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*DeltiQ 2 FlexPrint*",
+      "path": "printer/_DeltiQ 2 FlexPrint_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 + FlexPrint",
+      "path": "printer/DeltiQ 2 + FlexPrint.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 Plus + FlexPrint",
+      "path": "printer/DeltiQ 2 Plus + FlexPrint.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*DeltiQ 2 FlexPrint 2*",
+      "path": "printer/_DeltiQ 2 FlexPrint 2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 + FlexPrint 2",
+      "path": "printer/DeltiQ 2 + FlexPrint 2.ini"
+    },
+    {
+      "type": "printer",
+      "name": "DeltiQ 2 Plus + FlexPrint 2",
+      "path": "printer/DeltiQ 2 Plus + FlexPrint 2.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*AQI*",
+      "path": "printer/_AQI_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "AzteQ Industrial",
+      "path": "printer/AzteQ Industrial.ini"
+    },
+    {
+      "type": "printer",
+      "name": "AzteQ Industrial - 0.6 nozzle",
+      "path": "printer/AzteQ Industrial - 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "AzteQ Industrial - 0.8 nozzle",
+      "path": "printer/AzteQ Industrial - 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*AQD*",
+      "path": "printer/_AQD_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "AzteQ Dynamic",
+      "path": "printer/AzteQ Dynamic.ini"
+    },
+    {
+      "type": "presets",
+      "name": "presets",
+      "path": "presets/presets.ini"
+    }
+  ],
+  "asset_paths": [
+    "AQD_thumbnail.png",
+    "AQI_thumbnail.png",
+    "DQ2+FP2_thumbnail.png",
+    "DQ2+FP_thumbnail.png",
+    "DQ2P+FP2_thumbnail.png",
+    "DQ2P+FP_thumbnail.png",
+    "DQ2P_thumbnail.png",
+    "DQ2_thumbnail.png",
+    "DQL_thumbnail.png",
+    "DQM_thumbnail.png",
+    "DQXL_thumbnail.png",
+    "aq_bed.stl",
+    "dq2_bed.stl"
+  ]
+}

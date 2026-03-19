@@ -1,0 +1,113 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Jubilee",
+  "version": "2.1.0",
+  "index_name": "Jubilee.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Jubilee",
+      "path": "printer_model/Jubilee.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm V6, aesthetic @Jubilee",
+      "path": "print/0.2mm V6, aesthetic @Jubilee.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm V6, functional @Jubilee",
+      "path": "print/0.2mm V6, functional @Jubilee.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Volcano, aesthetic @Jubilee",
+      "path": "print/0.2mm Volcano, aesthetic @Jubilee.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Volcano, functional @Jubilee",
+      "path": "print/0.2mm Volcano, functional @Jubilee.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Jubilee",
+      "path": "filament/Generic PLA @Jubilee.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Hatchbox PLA @Jubilee",
+      "path": "filament/Hatchbox PLA @Jubilee.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Jubilee",
+      "path": "filament/Generic PETG @Jubilee.ini"
+    },
+    {
+      "type": "filament",
+      "name": " Proto-pasta HTPLA @Jubilee",
+      "path": "filament/Proto-pasta HTPLA @Jubilee.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa PLA @Jubilee",
+      "path": "filament/Prusa PLA @Jubilee.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Solutech PLA @Jubilee",
+      "path": "filament/Solutech PLA @Jubilee.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim BVOH @Jubilee",
+      "path": "filament/Verbatim BVOH @Jubilee.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Jubilee",
+      "path": "printer/Jubilee.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Jubilee Volcano 0.4mm",
+      "path": "printer/Jubilee Volcano 0.4mm.ini"
+    }
+  ],
+  "asset_paths": [
+    "Jubilee_bed.stl",
+    "Jubilee_texture.svg",
+    "Jubilee_thumbnail.png"
+  ]
+}

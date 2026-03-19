@@ -1,0 +1,1347 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Sovol",
+  "version": "2.1.0",
+  "index_name": "Sovol.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV06",
+      "path": "printer_model/SV06.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV06 PLUS",
+      "path": "printer_model/SV06 PLUS.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV05",
+      "path": "printer_model/SV05.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV04",
+      "path": "printer_model/SV04.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV03",
+      "path": "printer_model/SV03.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV02",
+      "path": "printer_model/SV02.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV01",
+      "path": "printer_model/SV01.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "SV01 PRO",
+      "path": "printer_model/SV01 PRO.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV06*",
+      "path": "print/_SV06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV06 PLUS*",
+      "path": "print/_SV06 PLUS_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV01*",
+      "path": "print/_SV01_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV01 PRO*",
+      "path": "print/_SV01 PRO_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV02*",
+      "path": "print/_SV02_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV03*",
+      "path": "print/_SV03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV04*",
+      "path": "print/_SV04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SV05*",
+      "path": "print/_SV05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzle*",
+      "path": "print/_0.3nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV06*",
+      "path": "print/_0.3nozzleSV06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV06 PLUS*",
+      "path": "print/_0.3nozzleSV06 PLUS_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV06 PRO*",
+      "path": "print/_0.3nozzleSV06 PRO_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV01*",
+      "path": "print/_0.3nozzleSV01_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV01 PRO*",
+      "path": "print/_0.3nozzleSV01 PRO_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV02*",
+      "path": "print/_0.3nozzleSV02_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV03*",
+      "path": "print/_0.3nozzleSV03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV04*",
+      "path": "print/_0.3nozzleSV04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzleSV05*",
+      "path": "print/_0.3nozzleSV05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzle*",
+      "path": "print/_0.6nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV06*",
+      "path": "print/_0.6nozzleSV06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV06 PLUS*",
+      "path": "print/_0.6nozzleSV06 PLUS_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV01*",
+      "path": "print/_0.6nozzleSV01_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV01 PRO*",
+      "path": "print/_0.6nozzleSV01 PRO_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV02*",
+      "path": "print/_0.6nozzleSV02_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV03*",
+      "path": "print/_0.6nozzleSV03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV04*",
+      "path": "print/_0.6nozzleSV04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzleSV05*",
+      "path": "print/_0.6nozzleSV05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzle*",
+      "path": "print/_0.8nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV06*",
+      "path": "print/_0.8nozzleSV06_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV06 PLUS*",
+      "path": "print/_0.8nozzleSV06 PLUS_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV01*",
+      "path": "print/_0.8nozzleSV01_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV01 PRO*",
+      "path": "print/_0.8nozzleSV01 PRO_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV02*",
+      "path": "print/_0.8nozzleSV02_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV03*",
+      "path": "print/_0.8nozzleSV03_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV04*",
+      "path": "print/_0.8nozzleSV04_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleSV05*",
+      "path": "print/_0.8nozzleSV05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*soluble_support*",
+      "path": "print/_soluble_support_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.05mm*",
+      "path": "print/_0.05mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.07mm*",
+      "path": "print/_0.07mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm*",
+      "path": "print/_0.15mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3mm*",
+      "path": "print/_0.3mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm*",
+      "path": "print/_0.30mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.35mm*",
+      "path": "print/_0.35mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.40mm*",
+      "path": "print/_0.40mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @SV01",
+      "path": "print/0.05mm ULTRADETAIL @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @SV01",
+      "path": "print/0.07mm ULTRADETAIL @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @SV01",
+      "path": "print/0.10mm DETAIL @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @SV01",
+      "path": "print/0.15mm QUALITY @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SPEED @SV01",
+      "path": "print/0.15mm SPEED @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @SV01",
+      "path": "print/0.20mm QUALITY @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @SV01",
+      "path": "print/0.20mm SPEED @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @SV01",
+      "path": "print/0.30mm DRAFT @SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @0.3 nozzle SV01",
+      "path": "print/0.05mm ULTRADETAIL @0.3 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @0.3 nozzle SV01",
+      "path": "print/0.07mm ULTRADETAIL @0.3 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @0.3 nozzle SV01",
+      "path": "print/0.10mm DETAIL @0.3 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @0.3 nozzle SV01",
+      "path": "print/0.15mm QUALITY @0.3 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE FULL @0.3 nozzle SV01",
+      "path": "print/0.15mm SOLUBLE FULL @0.3 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE INTERFACE @0.3 nozzle SV01",
+      "path": "print/0.15mm SOLUBLE INTERFACE @0.3 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL @0.6 nozzle SV01",
+      "path": "print/0.15mm DETAIL @0.6 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL @0.6 nozzle SV01",
+      "path": "print/0.20mm DETAIL @0.6 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY @0.6 nozzle SV01",
+      "path": "print/0.30mm QUALITY @0.6 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm SPEED @0.6 nozzle SV01",
+      "path": "print/0.35mm SPEED @0.6 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT @0.6 nozzle SV01",
+      "path": "print/0.40mm DRAFT @0.6 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DETAIL @0.8 nozzle SV01",
+      "path": "print/0.30mm DETAIL @0.8 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm QUALITY @0.8 nozzle SV01",
+      "path": "print/0.40mm QUALITY @0.8 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm DRAFT @0.8 nozzle SV01",
+      "path": "print/0.55mm DRAFT @0.8 nozzle SV01.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @SV02",
+      "path": "print/0.05mm ULTRADETAIL @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @SV02",
+      "path": "print/0.07mm ULTRADETAIL @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @SV02",
+      "path": "print/0.10mm DETAIL @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @SV02",
+      "path": "print/0.15mm QUALITY @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SPEED @SV02",
+      "path": "print/0.15mm SPEED @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @SV02",
+      "path": "print/0.20mm QUALITY @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @SV02",
+      "path": "print/0.20mm SPEED @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @SV02",
+      "path": "print/0.30mm DRAFT @SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @0.3 nozzle SV02",
+      "path": "print/0.05mm ULTRADETAIL @0.3 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @0.3 nozzle SV02",
+      "path": "print/0.07mm ULTRADETAIL @0.3 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @0.3 nozzle SV02",
+      "path": "print/0.10mm DETAIL @0.3 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @0.3 nozzle SV02",
+      "path": "print/0.15mm QUALITY @0.3 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE FULL @0.3 nozzle SV02",
+      "path": "print/0.15mm SOLUBLE FULL @0.3 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE INTERFACE @0.3 nozzle SV02",
+      "path": "print/0.15mm SOLUBLE INTERFACE @0.3 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL @0.6 nozzle SV02",
+      "path": "print/0.15mm DETAIL @0.6 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL @0.6 nozzle SV02",
+      "path": "print/0.20mm DETAIL @0.6 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY @0.6 nozzle SV02",
+      "path": "print/0.30mm QUALITY @0.6 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm SPEED @0.6 nozzle SV02",
+      "path": "print/0.35mm SPEED @0.6 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT @0.6 nozzle SV02",
+      "path": "print/0.40mm DRAFT @0.6 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DETAIL @0.8 nozzle SV02",
+      "path": "print/0.30mm DETAIL @0.8 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm QUALITY @0.8 nozzle SV02",
+      "path": "print/0.40mm QUALITY @0.8 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm DRAFT @0.8 nozzle SV02",
+      "path": "print/0.55mm DRAFT @0.8 nozzle SV02.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @SV03",
+      "path": "print/0.05mm ULTRADETAIL @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @SV03",
+      "path": "print/0.07mm ULTRADETAIL @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @SV03",
+      "path": "print/0.10mm DETAIL @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @SV03",
+      "path": "print/0.15mm QUALITY @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SPEED @SV03",
+      "path": "print/0.15mm SPEED @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @SV03",
+      "path": "print/0.20mm QUALITY @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @SV03",
+      "path": "print/0.20mm SPEED @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @SV03",
+      "path": "print/0.30mm DRAFT @SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @0.3 nozzle SV03",
+      "path": "print/0.05mm ULTRADETAIL @0.3 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @0.3 nozzle SV03",
+      "path": "print/0.07mm ULTRADETAIL @0.3 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @0.3 nozzle SV03",
+      "path": "print/0.10mm DETAIL @0.3 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @0.3 nozzle SV03",
+      "path": "print/0.15mm QUALITY @0.3 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE FULL @0.3 nozzle SV03",
+      "path": "print/0.15mm SOLUBLE FULL @0.3 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE INTERFACE @0.3 nozzle SV03",
+      "path": "print/0.15mm SOLUBLE INTERFACE @0.3 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL @0.6 nozzle SV03",
+      "path": "print/0.15mm DETAIL @0.6 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL @0.6 nozzle SV03",
+      "path": "print/0.20mm DETAIL @0.6 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY @0.6 nozzle SV03",
+      "path": "print/0.30mm QUALITY @0.6 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm SPEED @0.6 nozzle SV03",
+      "path": "print/0.35mm SPEED @0.6 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT @0.6 nozzle SV03",
+      "path": "print/0.40mm DRAFT @0.6 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DETAIL @0.8 nozzle SV03",
+      "path": "print/0.30mm DETAIL @0.8 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm QUALITY @0.8 nozzle SV03",
+      "path": "print/0.40mm QUALITY @0.8 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm DRAFT @0.8 nozzle SV03",
+      "path": "print/0.55mm DRAFT @0.8 nozzle SV03.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @SV04",
+      "path": "print/0.05mm ULTRADETAIL @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @SV04",
+      "path": "print/0.07mm ULTRADETAIL @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @SV04",
+      "path": "print/0.10mm DETAIL @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @SV04",
+      "path": "print/0.15mm QUALITY @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SPEED @SV04",
+      "path": "print/0.15mm SPEED @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @SV04",
+      "path": "print/0.20mm QUALITY @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @SV04",
+      "path": "print/0.20mm SPEED @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @SV04",
+      "path": "print/0.30mm DRAFT @SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @0.3 nozzle SV04",
+      "path": "print/0.05mm ULTRADETAIL @0.3 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @0.3 nozzle SV04",
+      "path": "print/0.07mm ULTRADETAIL @0.3 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @0.3 nozzle SV04",
+      "path": "print/0.10mm DETAIL @0.3 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @0.3 nozzle SV04",
+      "path": "print/0.15mm QUALITY @0.3 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE FULL @0.3 nozzle SV04",
+      "path": "print/0.15mm SOLUBLE FULL @0.3 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE INTERFACE @0.3 nozzle SV04",
+      "path": "print/0.15mm SOLUBLE INTERFACE @0.3 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL @0.6 nozzle SV04",
+      "path": "print/0.15mm DETAIL @0.6 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL @0.6 nozzle SV04",
+      "path": "print/0.20mm DETAIL @0.6 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY @0.6 nozzle SV04",
+      "path": "print/0.30mm QUALITY @0.6 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm SPEED @0.6 nozzle SV04",
+      "path": "print/0.35mm SPEED @0.6 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT @0.6 nozzle SV04",
+      "path": "print/0.40mm DRAFT @0.6 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DETAIL @0.8 nozzle SV04",
+      "path": "print/0.30mm DETAIL @0.8 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm QUALITY @0.8 nozzle SV04",
+      "path": "print/0.40mm QUALITY @0.8 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm DRAFT @0.8 nozzle SV04",
+      "path": "print/0.55mm DRAFT @0.8 nozzle SV04.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @SV05",
+      "path": "print/0.05mm ULTRADETAIL @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @SV05",
+      "path": "print/0.07mm ULTRADETAIL @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @SV05",
+      "path": "print/0.10mm DETAIL @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @SV05",
+      "path": "print/0.15mm QUALITY @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SPEED @SV05",
+      "path": "print/0.15mm SPEED @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @SV05",
+      "path": "print/0.20mm QUALITY @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @SV05",
+      "path": "print/0.20mm SPEED @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @SV05",
+      "path": "print/0.30mm DRAFT @SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @0.3 nozzle SV05",
+      "path": "print/0.05mm ULTRADETAIL @0.3 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @0.3 nozzle SV05",
+      "path": "print/0.07mm ULTRADETAIL @0.3 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @0.3 nozzle SV05",
+      "path": "print/0.10mm DETAIL @0.3 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @0.3 nozzle SV05",
+      "path": "print/0.15mm QUALITY @0.3 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE FULL @0.3 nozzle SV05",
+      "path": "print/0.15mm SOLUBLE FULL @0.3 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE INTERFACE @0.3 nozzle SV05",
+      "path": "print/0.15mm SOLUBLE INTERFACE @0.3 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL @0.6 nozzle SV05",
+      "path": "print/0.15mm DETAIL @0.6 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL @0.6 nozzle SV05",
+      "path": "print/0.20mm DETAIL @0.6 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY @0.6 nozzle SV05",
+      "path": "print/0.30mm QUALITY @0.6 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm SPEED @0.6 nozzle SV05",
+      "path": "print/0.35mm SPEED @0.6 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT @0.6 nozzle SV05",
+      "path": "print/0.40mm DRAFT @0.6 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DETAIL @0.8 nozzle SV05",
+      "path": "print/0.30mm DETAIL @0.8 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm QUALITY @0.8 nozzle SV05",
+      "path": "print/0.40mm QUALITY @0.8 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm DRAFT @0.8 nozzle SV05",
+      "path": "print/0.55mm DRAFT @0.8 nozzle SV05.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @SV06",
+      "path": "print/0.05mm ULTRADETAIL @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @SV06",
+      "path": "print/0.07mm ULTRADETAIL @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @SV06",
+      "path": "print/0.10mm DETAIL @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @SV06",
+      "path": "print/0.15mm QUALITY @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SPEED @SV06",
+      "path": "print/0.15mm SPEED @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @SV06",
+      "path": "print/0.20mm QUALITY @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @SV06",
+      "path": "print/0.20mm SPEED @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @SV06",
+      "path": "print/0.30mm DRAFT @SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @0.3 nozzle SV06",
+      "path": "print/0.05mm ULTRADETAIL @0.3 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @0.3 nozzle SV06",
+      "path": "print/0.07mm ULTRADETAIL @0.3 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @0.3 nozzle SV06",
+      "path": "print/0.10mm DETAIL @0.3 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @0.3 nozzle SV06",
+      "path": "print/0.15mm QUALITY @0.3 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE FULL @0.3 nozzle SV06",
+      "path": "print/0.15mm SOLUBLE FULL @0.3 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SOLUBLE INTERFACE @0.3 nozzle SV06",
+      "path": "print/0.15mm SOLUBLE INTERFACE @0.3 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL @0.6 nozzle SV06",
+      "path": "print/0.15mm DETAIL @0.6 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL @0.6 nozzle SV06",
+      "path": "print/0.20mm DETAIL @0.6 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY @0.6 nozzle SV06",
+      "path": "print/0.30mm QUALITY @0.6 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm SPEED @0.6 nozzle SV06",
+      "path": "print/0.35mm SPEED @0.6 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT @0.6 nozzle SV06",
+      "path": "print/0.40mm DRAFT @0.6 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DETAIL @0.8 nozzle SV06",
+      "path": "print/0.30mm DETAIL @0.8 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm QUALITY @0.8 nozzle SV06",
+      "path": "print/0.40mm QUALITY @0.8 nozzle SV06.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm DRAFT @0.8 nozzle SV06",
+      "path": "print/0.55mm DRAFT @0.8 nozzle SV06.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABSC*",
+      "path": "filament/_ABSC_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*FLEX*",
+      "path": "filament/_FLEX_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA @SOVOL",
+      "path": "filament/Prusament ASA @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend @SOVOL",
+      "path": "filament/Prusament PC Blend @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend Carbon Fiber @SOVOL",
+      "path": "filament/Prusament PC Blend Carbon Fiber @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PA11 Carbon Fiber @SOVOL",
+      "path": "filament/Prusament PA11 Carbon Fiber @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @SOVOL",
+      "path": "filament/Generic PLA @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @SOVOL",
+      "path": "filament/Generic ABS @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @SOVOL",
+      "path": "filament/Generic PETG @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @SOVOL",
+      "path": "filament/Generic FLEX @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS @SOVOL",
+      "path": "filament/Generic HIPS @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA 0.8 @SOVOL",
+      "path": "filament/Generic PLA 0.8 @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS 0.8 @SOVOL",
+      "path": "filament/Generic ABS 0.8 @SOVOL.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG 0.8 @SOVOL",
+      "path": "filament/Generic PETG 0.8 @SOVOL.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*multimaterial*",
+      "path": "printer/_multimaterial_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01",
+      "path": "printer/SV01.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01 0.3 nozzle",
+      "path": "printer/SV01 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01 0.6 nozzle",
+      "path": "printer/SV01 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01 0.8 nozzle",
+      "path": "printer/SV01 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01 PRO",
+      "path": "printer/SV01 PRO.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01 PRO 0.3 nozzle",
+      "path": "printer/SV01 PRO 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01 PRO 0.6 nozzle",
+      "path": "printer/SV01 PRO 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01 PRO 0.8 nozzle",
+      "path": "printer/SV01 PRO 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV02",
+      "path": "printer/SV02.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV02 0.3 nozzle",
+      "path": "printer/SV02 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV02 0.6 nozzle",
+      "path": "printer/SV02 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV02 0.8 nozzle",
+      "path": "printer/SV02 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV03",
+      "path": "printer/SV03.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV03 0.3 nozzle",
+      "path": "printer/SV03 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV03 0.6 nozzle",
+      "path": "printer/SV03 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV03 0.8 nozzle",
+      "path": "printer/SV03 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04",
+      "path": "printer/SV04.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 0.3 nozzle",
+      "path": "printer/SV04 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 0.6 nozzle",
+      "path": "printer/SV04 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 0.8 nozzle",
+      "path": "printer/SV04 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Copy Mode",
+      "path": "printer/SV04 Copy Mode.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Copy Mode 0.3 nozzle",
+      "path": "printer/SV04 Copy Mode 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Copy Mode 0.6 nozzle",
+      "path": "printer/SV04 Copy Mode 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Copy Mode 0.8 nozzle",
+      "path": "printer/SV04 Copy Mode 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Dual Mode",
+      "path": "printer/SV04 Dual Mode.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Dual Mode 0.3 nozzle",
+      "path": "printer/SV04 Dual Mode 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Dual Mode 0.6 nozzle",
+      "path": "printer/SV04 Dual Mode 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Dual Mode 0.8 nozzle",
+      "path": "printer/SV04 Dual Mode 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Mirror Mode",
+      "path": "printer/SV04 Mirror Mode.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Mirror Mode 0.3 nozzle",
+      "path": "printer/SV04 Mirror Mode 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Mirror Mode 0.6 nozzle",
+      "path": "printer/SV04 Mirror Mode 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Mirror Mode 0.8 nozzle",
+      "path": "printer/SV04 Mirror Mode 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 01",
+      "path": "printer/SV04 Single Mode 01.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 01 0.3 nozzle",
+      "path": "printer/SV04 Single Mode 01 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 01 0.6 nozzle",
+      "path": "printer/SV04 Single Mode 01 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 01 0.8 nozzle",
+      "path": "printer/SV04 Single Mode 01 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 02",
+      "path": "printer/SV04 Single Mode 02.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 02 0.3 nozzle",
+      "path": "printer/SV04 Single Mode 02 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 02 0.6 nozzle",
+      "path": "printer/SV04 Single Mode 02 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV04 Single Mode 02 0.8 nozzle",
+      "path": "printer/SV04 Single Mode 02 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV05",
+      "path": "printer/SV05.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV05 0.3 nozzle",
+      "path": "printer/SV05 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV05 0.6 nozzle",
+      "path": "printer/SV05 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV05 0.8 nozzle",
+      "path": "printer/SV05 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06",
+      "path": "printer/SV06.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06 0.3 nozzle",
+      "path": "printer/SV06 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06 0.6 nozzle",
+      "path": "printer/SV06 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06 0.8 nozzle",
+      "path": "printer/SV06 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06 PLUS",
+      "path": "printer/SV06 PLUS.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06 PLUS 0.3 nozzle",
+      "path": "printer/SV06 PLUS 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06 PLUS 0.6 nozzle",
+      "path": "printer/SV06 PLUS 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV06 PLUS 0.8 nozzle",
+      "path": "printer/SV06 PLUS 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV01_BLTouch",
+      "path": "printer/SV01_BLTouch.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV02_BLTouch",
+      "path": "printer/SV02_BLTouch.ini"
+    },
+    {
+      "type": "printer",
+      "name": "SV03_BLTouch",
+      "path": "printer/SV03_BLTouch.ini"
+    }
+  ],
+  "asset_paths": [
+    "SV01 PRO_thumbnail.png",
+    "SV01_bed.stl",
+    "SV01_thumbnail.png",
+    "SV02_thumbnail.png",
+    "SV03_bed.stl",
+    "SV03_texture.svg",
+    "SV03_thumbnail.png",
+    "SV04_bed.stl",
+    "SV04_thumbnail.png",
+    "SV05_bed.stl",
+    "SV05_thumbnail.png",
+    "SV06 PLUS_thumbnail.png",
+    "SV06PLUS_bed.stl",
+    "SV06PLUS_texture.svg",
+    "SV06_bed.stl",
+    "SV06_texture.svg",
+    "SV06_thumbnail.png"
+  ]
+}

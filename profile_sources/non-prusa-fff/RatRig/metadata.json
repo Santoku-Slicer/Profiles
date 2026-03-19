@@ -1,0 +1,1110 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "RatRig",
+  "version": "2.2.0",
+  "index_name": "RatRig.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_300_XY",
+      "path": "printer_model/VC4_300_XY.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_300_HY",
+      "path": "printer_model/VC4_300_HY.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_300_IDEX",
+      "path": "printer_model/VC4_300_IDEX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_300_IDEX_Copy",
+      "path": "printer_model/VC4_300_IDEX_Copy.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_300_IDEX_Mirror",
+      "path": "printer_model/VC4_300_IDEX_Mirror.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_400_XY",
+      "path": "printer_model/VC4_400_XY.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_400_HY",
+      "path": "printer_model/VC4_400_HY.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_400_IDEX",
+      "path": "printer_model/VC4_400_IDEX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_400_IDEX_Copy",
+      "path": "printer_model/VC4_400_IDEX_Copy.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_400_IDEX_Mirror",
+      "path": "printer_model/VC4_400_IDEX_Mirror.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_500_XY",
+      "path": "printer_model/VC4_500_XY.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_500_HY",
+      "path": "printer_model/VC4_500_HY.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_500_IDEX",
+      "path": "printer_model/VC4_500_IDEX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_500_IDEX_Copy",
+      "path": "printer_model/VC4_500_IDEX_Copy.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC4_500_IDEX_Mirror",
+      "path": "printer_model/VC4_500_IDEX_Mirror.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC3_300",
+      "path": "printer_model/VC3_300.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC3_400",
+      "path": "printer_model/VC3_400.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VC3_500",
+      "path": "printer_model/VC3_500.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "VMINION",
+      "path": "printer_model/VMINION.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_05*",
+      "path": "print/_common_05_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_HY 0.6",
+      "path": "print/0.2 QUALITY @ VC4_300_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_HY 0.4",
+      "path": "print/0.2 QUALITY @ VC4_300_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_HY 0.5",
+      "path": "print/0.2 QUALITY @ VC4_300_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_HY 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_HY 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_HY 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_HY 0.6",
+      "path": "print/0.25 SPEED @ VC4_300_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_HY 0.4",
+      "path": "print/0.25 SPEED @ VC4_300_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_HY 0.5",
+      "path": "print/0.25 SPEED @ VC4_300_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_300_HY 0.6",
+      "path": "print/0.3 BIG @ VC4_300_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_IDEX 0.4",
+      "path": "print/0.2 QUALITY @ VC4_300_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_IDEX 0.5",
+      "path": "print/0.2 QUALITY @ VC4_300_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_IDEX 0.6",
+      "path": "print/0.2 QUALITY @ VC4_300_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_IDEX 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_IDEX 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_IDEX 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_IDEX 0.4",
+      "path": "print/0.25 SPEED @ VC4_300_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_IDEX 0.5",
+      "path": "print/0.25 SPEED @ VC4_300_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_IDEX 0.6",
+      "path": "print/0.25 SPEED @ VC4_300_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_300_IDEX 0.6",
+      "path": "print/0.3 BIG @ VC4_300_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_XY 0.4",
+      "path": "print/0.2 QUALITY @ VC4_300_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_XY 0.5",
+      "path": "print/0.2 QUALITY @ VC4_300_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_300_XY 0.6",
+      "path": "print/0.2 QUALITY @ VC4_300_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_XY 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_XY 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_300_XY 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_300_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_XY 0.4",
+      "path": "print/0.25 SPEED @ VC4_300_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_XY 0.5",
+      "path": "print/0.25 SPEED @ VC4_300_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_300_XY 0.6",
+      "path": "print/0.25 SPEED @ VC4_300_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_300_XY 0.6",
+      "path": "print/0.3 BIG @ VC4_300_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_HY 0.4",
+      "path": "print/0.2 QUALITY @ VC4_400_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_HY 0.5",
+      "path": "print/0.2 QUALITY @ VC4_400_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_HY 0.6",
+      "path": "print/0.2 QUALITY @ VC4_400_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_HY 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_HY 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_HY 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_HY 0.4",
+      "path": "print/0.25 SPEED @ VC4_400_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_HY 0.5",
+      "path": "print/0.25 SPEED @ VC4_400_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_HY 0.6",
+      "path": "print/0.25 SPEED @ VC4_400_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_400_HY 0.6",
+      "path": "print/0.3 BIG @ VC4_400_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_IDEX 0.4",
+      "path": "print/0.2 QUALITY @ VC4_400_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_IDEX 0.5",
+      "path": "print/0.2 QUALITY @ VC4_400_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_IDEX 0.6",
+      "path": "print/0.2 QUALITY @ VC4_400_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_IDEX 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_IDEX 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_IDEX 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_IDEX 0.4",
+      "path": "print/0.25 SPEED @ VC4_400_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_IDEX 0.5",
+      "path": "print/0.25 SPEED @ VC4_400_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_IDEX 0.6",
+      "path": "print/0.25 SPEED @ VC4_400_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_400_IDEX 0.6",
+      "path": "print/0.3 BIG @ VC4_400_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_XY 0.4",
+      "path": "print/0.2 QUALITY @ VC4_400_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_XY 0.5",
+      "path": "print/0.2 QUALITY @ VC4_400_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_400_XY 0.6",
+      "path": "print/0.2 QUALITY @ VC4_400_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_XY 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_XY 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_400_XY 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_400_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_XY 0.4",
+      "path": "print/0.25 SPEED @ VC4_400_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_XY 0.5",
+      "path": "print/0.25 SPEED @ VC4_400_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_400_XY 0.6",
+      "path": "print/0.25 SPEED @ VC4_400_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_400_XY 0.6",
+      "path": "print/0.3 BIG @ VC4_400_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_HY 0.4",
+      "path": "print/0.2 QUALITY @ VC4_500_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_HY 0.5",
+      "path": "print/0.2 QUALITY @ VC4_500_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_HY 0.6",
+      "path": "print/0.2 QUALITY @ VC4_500_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_HY 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_HY 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_HY 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_HY 0.4",
+      "path": "print/0.25 SPEED @ VC4_500_HY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_HY 0.5",
+      "path": "print/0.25 SPEED @ VC4_500_HY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_HY 0.6",
+      "path": "print/0.25 SPEED @ VC4_500_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_500_HY 0.6",
+      "path": "print/0.3 BIG @ VC4_500_HY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_IDEX 0.4",
+      "path": "print/0.2 QUALITY @ VC4_500_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_IDEX 0.5",
+      "path": "print/0.2 QUALITY @ VC4_500_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_IDEX 0.6",
+      "path": "print/0.2 QUALITY @ VC4_500_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_IDEX 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_IDEX 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_IDEX 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_IDEX 0.4",
+      "path": "print/0.25 SPEED @ VC4_500_IDEX 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_IDEX 0.5",
+      "path": "print/0.25 SPEED @ VC4_500_IDEX 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_IDEX 0.6",
+      "path": "print/0.25 SPEED @ VC4_500_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_500_IDEX 0.6",
+      "path": "print/0.3 BIG @ VC4_500_IDEX 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_XY 0.4",
+      "path": "print/0.2 QUALITY @ VC4_500_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_XY 0.5",
+      "path": "print/0.2 QUALITY @ VC4_500_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY @ VC4_500_XY 0.6",
+      "path": "print/0.2 QUALITY @ VC4_500_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_XY 0.4",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_XY 0.5",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2 QUALITY SPEED @ VC4_500_XY 0.6",
+      "path": "print/0.2 QUALITY SPEED @ VC4_500_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_XY 0.6",
+      "path": "print/0.25 SPEED @ VC4_500_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_XY 0.4",
+      "path": "print/0.25 SPEED @ VC4_500_XY 0.4.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25 SPEED @ VC4_500_XY 0.5",
+      "path": "print/0.25 SPEED @ VC4_500_XY 0.5.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.3 BIG @ VC4_500_XY 0.6",
+      "path": "print/0.3 BIG @ VC4_500_XY 0.6.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_RatRigOLD*",
+      "path": "print/_common_RatRigOLD_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4nozzle*",
+      "path": "print/_0.4nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.5nozzle*",
+      "path": "print/_0.5nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzle*",
+      "path": "print/_0.6nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25mm*",
+      "path": "print/_0.25mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm*",
+      "path": "print/_0.30mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VC3_SPEED*",
+      "path": "print/_VC3_SPEED_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VC3_COREXY_SPEED*",
+      "path": "print/_VC3_COREXY_SPEED_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*VM1_SPEED*",
+      "path": "print/_VM1_SPEED_.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_0.20mm_Nozzle_0.4_VC3",
+      "path": "print/QUALITY_0.20mm_Nozzle_0.4_VC3.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_SPEED_0.25mm_Nozzle_0.4_VC3",
+      "path": "print/QUALITY_SPEED_0.25mm_Nozzle_0.4_VC3.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_0.20mm_Nozzle_0.5_VC3",
+      "path": "print/QUALITY_0.20mm_Nozzle_0.5_VC3.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_SPEED_0.25mm_Nozzle_0.5_VC3",
+      "path": "print/QUALITY_SPEED_0.25mm_Nozzle_0.5_VC3.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_SPEED_0.25mm_Nozzle_0.6_VC3",
+      "path": "print/QUALITY_SPEED_0.25mm_Nozzle_0.6_VC3.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_0.20mm_Nozzle_0.6_VC3",
+      "path": "print/QUALITY_0.20mm_Nozzle_0.6_VC3.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_0.20mm_Nozzle_0.4_VM",
+      "path": "print/QUALITY_0.20mm_Nozzle_0.4_VM.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_SPEED_0.25mm_Nozzle_0.4_VM",
+      "path": "print/QUALITY_SPEED_0.25mm_Nozzle_0.4_VM.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_0.20mm_Nozzle_0.5_VM",
+      "path": "print/QUALITY_0.20mm_Nozzle_0.5_VM.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_SPEED_0.25mm_Nozzle_0.5_VM",
+      "path": "print/QUALITY_SPEED_0.25mm_Nozzle_0.5_VM.ini"
+    },
+    {
+      "type": "print",
+      "name": "QUALITY_SPEED_0.25mm_Nozzle_0.6_VM",
+      "path": "print/QUALITY_SPEED_0.25mm_Nozzle_0.6_VM.ini"
+    },
+    {
+      "type": "print",
+      "name": "BIG_0.30mm_Nozzle_0.6_VM",
+      "path": "print/BIG_0.30mm_Nozzle_0.6_VM.ini"
+    },
+    {
+      "type": "filament",
+      "name": "GENERIC PLA @0.4 V2",
+      "path": "filament/GENERIC PLA @0.4 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "GENERIC PLA @0.6 V2",
+      "path": "filament/GENERIC PLA @0.6 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil ABS @0.4 V2",
+      "path": "filament/PunkFil ABS @0.4 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil ABS @0.6 V2",
+      "path": "filament/PunkFil ABS @0.6 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil ASACF @0.4 V2",
+      "path": "filament/PunkFil ASACF @0.4 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil ASACF @0.6 V2",
+      "path": "filament/PunkFil ASACF @0.6 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG @0.4 V2",
+      "path": "filament/PunkFil PETG @0.4 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG-CF @0.4 V2",
+      "path": "filament/PunkFil PETG-CF @0.4 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG @0.6 V2",
+      "path": "filament/PunkFil PETG @0.6 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG-CF @0.6 V2",
+      "path": "filament/PunkFil PETG-CF @0.6 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "GENERIC PLA @0.5 V2",
+      "path": "filament/GENERIC PLA @0.5 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil ABS @0.5 V2",
+      "path": "filament/PunkFil ABS @0.5 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil ASACF @0.5 V2",
+      "path": "filament/PunkFil ASACF @0.5 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG @0.5 V2",
+      "path": "filament/PunkFil PETG @0.5 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG-CF @0.5 V2",
+      "path": "filament/PunkFil PETG-CF @0.5 V2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil ABS VC3 @RatRig",
+      "path": "filament/PunkFil ABS VC3 @RatRig.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG VC3 @RatRig",
+      "path": "filament/PunkFil PETG VC3 @RatRig.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PunkFil PETG CF 10 VC3 @RatRig",
+      "path": "filament/PunkFil PETG CF 10 VC3 @RatRig.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*V-Core 4.0 Base*",
+      "path": "printer/_V-Core 4.0 Base_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 Hybrid 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 Hybrid 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 Hybrid 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 Hybrid 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 Hybrid 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 Hybrid 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 CoreXY 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 CoreXY 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 CoreXY 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 CoreXY 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 CoreXY 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 CoreXY 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 Hybrid 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 Hybrid 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 Hybrid 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 Hybrid 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 Hybrid 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 Hybrid 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 CoreXY 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 CoreXY 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 CoreXY 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 CoreXY 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 CoreXY 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 CoreXY 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 Hybrid 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 Hybrid 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 Hybrid 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 Hybrid 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 Hybrid 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 Hybrid 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 CoreXY 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 CoreXY 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 CoreXY 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 CoreXY 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 CoreXY 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 CoreXY 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX Copy 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX Copy 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX Mirror 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX Mirror 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX Copy 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX Copy 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX Mirror 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX Mirror 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX Copy 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX Copy 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 300x300 IDEX Mirror 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 300x300 IDEX Mirror 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX Copy 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX Copy 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX Mirror 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX Mirror 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX Copy 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX Copy 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX Mirror 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX Mirror 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX Copy 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX Copy 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 400x400 IDEX Mirror 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 400x400 IDEX Mirror 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX Copy 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX Copy 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX Mirror 0.6mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX Mirror 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX Copy 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX Copy 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX Mirror 0.4mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX Mirror 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX Copy 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX Copy 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "V-Core 4.0 500x500 IDEX Mirror 0.5mm nozzle",
+      "path": "printer/V-Core 4.0 500x500 IDEX Mirror 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*V-Core3_0.4Nozzle*",
+      "path": "printer/_V-Core3_0.4Nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*vminion*",
+      "path": "printer/_vminion_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-300 0.4Nozzle",
+      "path": "printer/RatRig V-Core-3.1-300 0.4Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-300 0.5Nozzle",
+      "path": "printer/RatRig V-Core-3.1-300 0.5Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-300 0.6Nozzle",
+      "path": "printer/RatRig V-Core-3.1-300 0.6Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-400 0.4Nozzle",
+      "path": "printer/RatRig V-Core-3.1-400 0.4Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-400 0.5Nozzle",
+      "path": "printer/RatRig V-Core-3.1-400 0.5Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-400 0.6Nozzle",
+      "path": "printer/RatRig V-Core-3.1-400 0.6Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-500 0.4Nozzle",
+      "path": "printer/RatRig V-Core-3.1-500 0.4Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-500 0.5Nozzle",
+      "path": "printer/RatRig V-Core-3.1-500 0.5Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Core-3.1-500 0.6Nozzle",
+      "path": "printer/RatRig V-Core-3.1-500 0.6Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Minion-180 0.4Nozzle",
+      "path": "printer/RatRig V-Minion-180 0.4Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Minion-180 0.5Nozzle",
+      "path": "printer/RatRig V-Minion-180 0.5Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "RatRig V-Minion-180 0.6Nozzle",
+      "path": "printer/RatRig V-Minion-180 0.6Nozzle.ini"
+    }
+  ],
+  "asset_paths": [
+    "VC3_300_thumbnail.png",
+    "VC3_400_thumbnail.png",
+    "VC3_500_thumbnail.png",
+    "VC4_300.stl",
+    "VC4_300.svg",
+    "VC4_300_Copy.stl",
+    "VC4_300_Copy.svg",
+    "VC4_300_Mirror.stl",
+    "VC4_300_Mirror.svg",
+    "VC4_400.stl",
+    "VC4_400.svg",
+    "VC4_400_Copy.stl",
+    "VC4_400_Copy.svg",
+    "VC4_400_Mirror.stl",
+    "VC4_400_Mirror.svg",
+    "VC4_500.stl",
+    "VC4_500.svg",
+    "VC4_500_Copy.stl",
+    "VC4_500_Copy.svg",
+    "VC4_500_Mirror.stl",
+    "VC4_500_Mirror.svg",
+    "VC4_HY.png",
+    "VC4_IDEX.png",
+    "VC4_IDEX_Copy.png",
+    "VC4_IDEX_Mirror.png",
+    "VC4_XY.png",
+    "VMINION_thumbnail.png",
+    "rr-vc-300.stl",
+    "rr-vc-300.svg",
+    "rr-vc-400.stl",
+    "rr-vc-400.svg",
+    "rr-vc-500.stl",
+    "rr-vc-500.svg",
+    "rr-vminion.stl",
+    "rr-vminion.svg"
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "repo": {
+    "id": "vendordumps-fff",
+    "name": "Vendor Dumps",
+    "description": "Profiles from proprietary slicers",
+    "visibility": ""
+  },
+  "vendor": "Anycubic",
+  "version": "1.4.34",
+  "index_name": "Anycubic.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "KOBRA2",
+      "path": "printer_model/KOBRA2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "KOBRA2 PRO",
+      "path": "printer_model/KOBRA2 PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "KOBRA2 NEO",
+      "path": "printer_model/KOBRA2 NEO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "KOBRA2 PLUS",
+      "path": "printer_model/KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "KOBRA2 MAX",
+      "path": "printer_model/KOBRA2 MAX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "KOBRA3",
+      "path": "printer_model/KOBRA3.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MEGA0",
+      "path": "printer_model/MEGA0.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "I3MEGA",
+      "path": "printer_model/I3MEGA.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "I3MEGAS",
+      "path": "printer_model/I3MEGAS.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_print*",
+      "path": "print/_common_print_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_mega*",
+      "path": "print/_common_mega_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm_mega*",
+      "path": "print/_0.15mm_mega_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @MEGA",
+      "path": "print/0.15mm QUALITY @MEGA.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm_mega*",
+      "path": "print/_0.20mm_mega_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @MEGA",
+      "path": "print/0.20mm NORMAL @MEGA.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm_mega*",
+      "path": "print/_0.30mm_mega_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @MEGA",
+      "path": "print/0.30mm DRAFT @MEGA.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_mega0*",
+      "path": "print/_common_mega0_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm_mega0*",
+      "path": "print/_0.10mm_mega0_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm_mega0*",
+      "path": "print/_0.20mm_mega0_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm_mega0*",
+      "path": "print/_0.30mm_mega0_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @MEGA0",
+      "path": "print/0.10mm DETAIL @MEGA0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @MEGA0",
+      "path": "print/0.20mm NORMAL @MEGA0.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT @MEGA0",
+      "path": "print/0.30mm DRAFT @MEGA0.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_printer*",
+      "path": "printer/_common_printer_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_mega0*",
+      "path": "printer/_common_mega0_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic Mega Zero",
+      "path": "printer/Anycubic Mega Zero.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_mega*",
+      "path": "printer/_common_mega_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic i3 Mega",
+      "path": "printer/Anycubic i3 Mega.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic i3 Mega S",
+      "path": "printer/Anycubic i3 Mega S.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_filament*",
+      "path": "filament/_common_filament_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_PLA*",
+      "path": "filament/_common_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_ABS*",
+      "path": "filament/_common_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_PETG*",
+      "path": "filament/_common_PETG_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA_kobra2*",
+      "path": "filament/_PLA_kobra2_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETG_kobra2*",
+      "path": "filament/_PETG_kobra2_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS_kobra2*",
+      "path": "filament/_ABS_kobra2_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_mega0*",
+      "path": "filament/_common_mega0_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA_mega0*",
+      "path": "filament/_PLA_mega0_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETG_mega0*",
+      "path": "filament/_PETG_mega0_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS_mega0*",
+      "path": "filament/_ABS_mega0_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @MEGA0",
+      "path": "filament/Generic PLA @MEGA0.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @MEGA0",
+      "path": "filament/Generic PETG @MEGA0.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @MEGA0",
+      "path": "filament/Generic ABS @MEGA0.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA @MEGA0",
+      "path": "filament/Anycubic PLA @MEGA0.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_mega*",
+      "path": "filament/_common_mega_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS_mega*",
+      "path": "filament/_ABS_mega_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @MEGA",
+      "path": "filament/Generic ABS @MEGA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETG_mega*",
+      "path": "filament/_PETG_mega_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @MEGA",
+      "path": "filament/Generic PETG @MEGA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA_mega*",
+      "path": "filament/_PLA_mega_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @MEGA",
+      "path": "filament/Generic PLA @MEGA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA @MEGA",
+      "path": "filament/Anycubic PLA @MEGA.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @KOBRA2",
+      "path": "print/0.20mm NORMAL @KOBRA2.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @KOBRA2 NEO",
+      "path": "print/0.20mm NORMAL @KOBRA2 NEO.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm QUALITY @KOBRA2 MAX",
+      "path": "print/0.16mm QUALITY @KOBRA2 MAX.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @KOBRA2 MAX",
+      "path": "print/0.20mm NORMAL @KOBRA2 MAX.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm DRAFT @KOBRA2 MAX",
+      "path": "print/0.28mm DRAFT @KOBRA2 MAX.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm QUALITY @KOBRA2 PLUS",
+      "path": "print/0.16mm QUALITY @KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @KOBRA2 PLUS",
+      "path": "print/0.20mm NORMAL @KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm DRAFT @KOBRA2 PLUS",
+      "path": "print/0.28mm DRAFT @KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm QUALITY @KOBRA2 PRO",
+      "path": "print/0.16mm QUALITY @KOBRA2 PRO.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @KOBRA2 PRO",
+      "path": "print/0.20mm NORMAL @KOBRA2 PRO.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm DRAFT @KOBRA2 PRO",
+      "path": "print/0.28mm DRAFT @KOBRA2 PRO.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm 3D Photo @KOBRA3",
+      "path": "print/0.08mm 3D Photo @KOBRA3.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm 3D Photo @KOBRA3",
+      "path": "print/0.10mm 3D Photo @KOBRA3.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm QUALITY @KOBRA3",
+      "path": "print/0.16mm QUALITY @KOBRA3.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @KOBRA3",
+      "path": "print/0.20mm NORMAL @KOBRA3.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm DRAFT @KOBRA3",
+      "path": "print/0.28mm DRAFT @KOBRA3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @KOBRA2",
+      "path": "filament/Generic ABS @KOBRA2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @KOBRA2",
+      "path": "filament/Generic PETG @KOBRA2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @KOBRA2",
+      "path": "filament/Generic PLA @KOBRA2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @KOBRA2 MAX",
+      "path": "filament/Generic ABS @KOBRA2 MAX.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PETG @KOBRA2 MAX",
+      "path": "filament/Anycubic PETG @KOBRA2 MAX.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA @KOBRA2 MAX",
+      "path": "filament/Anycubic PLA @KOBRA2 MAX.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @KOBRA2 MAX",
+      "path": "filament/Generic TPU @KOBRA2 MAX.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @KOBRA2 NEO",
+      "path": "filament/Generic ABS @KOBRA2 NEO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PETG @KOBRA2 NEO",
+      "path": "filament/Anycubic PETG @KOBRA2 NEO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA @KOBRA2 NEO",
+      "path": "filament/Anycubic PLA @KOBRA2 NEO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @KOBRA2 NEO",
+      "path": "filament/Generic TPU @KOBRA2 NEO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @KOBRA2 PLUS",
+      "path": "filament/Generic ABS @KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PETG @KOBRA2 PLUS",
+      "path": "filament/Anycubic PETG @KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA @KOBRA2 PLUS",
+      "path": "filament/Anycubic PLA @KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @KOBRA2 PLUS",
+      "path": "filament/Generic TPU @KOBRA2 PLUS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @KOBRA2 PRO",
+      "path": "filament/Generic ABS @KOBRA2 PRO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PETG @KOBRA2 PRO",
+      "path": "filament/Anycubic PETG @KOBRA2 PRO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA @KOBRA2 PRO",
+      "path": "filament/Anycubic PLA @KOBRA2 PRO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @KOBRA2 PRO",
+      "path": "filament/Generic TPU @KOBRA2 PRO.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @KOBRA3",
+      "path": "filament/Generic ABS @KOBRA3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PETG @KOBRA3",
+      "path": "filament/Anycubic PETG @KOBRA3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @KOBRA3",
+      "path": "filament/Generic TPU @KOBRA3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA @KOBRA3",
+      "path": "filament/Anycubic PLA @KOBRA3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Anycubic PLA High Speed @KOBRA3",
+      "path": "filament/Anycubic PLA High Speed @KOBRA3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PLA SE @KOBRA3",
+      "path": "filament/PLA SE @KOBRA3.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic Kobra 2 Max",
+      "path": "printer/Anycubic Kobra 2 Max.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic Kobra 2 Neo",
+      "path": "printer/Anycubic Kobra 2 Neo.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic Kobra 2 Plus",
+      "path": "printer/Anycubic Kobra 2 Plus.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic Kobra 2 Pro",
+      "path": "printer/Anycubic Kobra 2 Pro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic Kobra 3",
+      "path": "printer/Anycubic Kobra 3.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Anycubic Kobra 2",
+      "path": "printer/Anycubic Kobra 2.ini"
+    }
+  ]
+}

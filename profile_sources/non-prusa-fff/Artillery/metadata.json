@@ -1,0 +1,534 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Artillery",
+  "version": "1.1.1",
+  "index_name": "Artillery.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X1",
+      "path": "printer_model/X1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Genius",
+      "path": "printer_model/Genius.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Hornet",
+      "path": "printer_model/Hornet.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X3 Plus",
+      "path": "printer_model/X3 Plus.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X3 Pro",
+      "path": "printer_model/X3 Pro.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X4 Plus",
+      "path": "printer_model/X4 Plus.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X4 Pro",
+      "path": "printer_model/X4 Pro.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X4 Max",
+      "path": "printer_model/X4 Max.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_STOCK_FW*",
+      "path": "printer/_common_STOCK_FW_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_UPD_FW*",
+      "path": "printer/_common_UPD_FW_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*bowden*",
+      "path": "printer/_bowden_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.4nozzle*",
+      "path": "printer/_0.4nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_X3_X4*",
+      "path": "printer/_common_X3_X4_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_X3*",
+      "path": "printer/_common_X3_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_X4*",
+      "path": "printer/_common_X4_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X1",
+      "path": "printer/Artillery Sidewinder X1.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X1 BL-TOUCH",
+      "path": "printer/Artillery Sidewinder X1 BL-TOUCH.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Genius",
+      "path": "printer/Artillery Genius.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Genius BL-TOUCH",
+      "path": "printer/Artillery Genius BL-TOUCH.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Hornet",
+      "path": "printer/Artillery Hornet.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X3 Plus",
+      "path": "printer/Artillery Sidewinder X3 Plus.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X3 Pro",
+      "path": "printer/Artillery Sidewinder X3 Pro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X4 Plus",
+      "path": "printer/Artillery Sidewinder X4 Plus.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X4 Pro",
+      "path": "printer/Artillery Sidewinder X4 Pro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X4 Max",
+      "path": "printer/Artillery Sidewinder X4 Max.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.08mm*",
+      "path": "print/_0.08mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.12mm*",
+      "path": "print/_0.12mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.16mm*",
+      "path": "print/_0.16mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.24mm*",
+      "path": "print/_0.24mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.28mm*",
+      "path": "print/_0.28mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm SUPERDETAIL @Artillery",
+      "path": "print/0.08mm SUPERDETAIL @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm HIGHDETAIL @Artillery",
+      "path": "print/0.10mm HIGHDETAIL @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm DETAIL @Artillery",
+      "path": "print/0.12mm DETAIL @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm OPTIMAL @Artillery",
+      "path": "print/0.16mm OPTIMAL @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SLOW @Artillery",
+      "path": "print/0.20mm SLOW @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @Artillery",
+      "path": "print/0.20mm NORMAL @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED @Artillery",
+      "path": "print/0.20mm SPEED @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm DRAFT @Artillery",
+      "path": "print/0.24mm DRAFT @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm SUPERDRAFT @Artillery",
+      "path": "print/0.28mm SUPERDRAFT @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x3_x4*",
+      "path": "print/_common_x3_x4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x3*",
+      "path": "print/_common_x3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "X3 Default (0.20mm) @Artillery",
+      "path": "print/X3 Default (0.20mm) @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X3 TPU @Artillery",
+      "path": "print/ArtillerySlicer X3 TPU @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x4*",
+      "path": "print/_common_x4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x4_max*",
+      "path": "print/_common_x4_max_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x4_plus*",
+      "path": "print/_common_x4_plus_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x4_pro*",
+      "path": "print/_common_x4_pro_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x4_ABS_PETG_PLA*",
+      "path": "print/_common_x4_ABS_PETG_PLA_.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Max ABS @Artillery",
+      "path": "print/ArtillerySlicer X4 Max ABS @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Plus ABS @Artillery",
+      "path": "print/ArtillerySlicer X4 Plus ABS @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Pro ABS @Artillery",
+      "path": "print/ArtillerySlicer X4 Pro ABS @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Max PETG & PLA & PLA+ @Artillery",
+      "path": "print/ArtillerySlicer X4 Max PETG & PLA & PLA+ @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Plus PETG & PLA & PLA+ @Artillery",
+      "path": "print/ArtillerySlicer X4 Plus PETG & PLA & PLA+ @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Pro PETG & PLA & PLA+ @Artillery",
+      "path": "print/ArtillerySlicer X4 Pro PETG & PLA & PLA+ @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Max PLA HS @Artillery",
+      "path": "print/ArtillerySlicer X4 Max PLA HS @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Plus PLA HS @Artillery",
+      "path": "print/ArtillerySlicer X4 Plus PLA HS @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Pro PLA HS @Artillery",
+      "path": "print/ArtillerySlicer X4 Pro PLA HS @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Max PLA Silk @Artillery",
+      "path": "print/ArtillerySlicer X4 Max PLA Silk @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Plus PLA Silk @Artillery",
+      "path": "print/ArtillerySlicer X4 Plus PLA Silk @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Pro PLA Silk @Artillery",
+      "path": "print/ArtillerySlicer X4 Pro PLA Silk @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_x4_TPU*",
+      "path": "print/_common_x4_TPU_.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Max TPU @Artillery",
+      "path": "print/ArtillerySlicer X4 Max TPU @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Plus TPU @Artillery",
+      "path": "print/ArtillerySlicer X4 Plus TPU @Artillery.ini"
+    },
+    {
+      "type": "print",
+      "name": "ArtillerySlicer X4 Pro TPU @Artillery",
+      "path": "print/ArtillerySlicer X4 Pro TPU @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_x3_x4*",
+      "path": "filament/_common_x3_x4_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_x3*",
+      "path": "filament/_common_x3_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_x4*",
+      "path": "filament/_common_x4_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*TPU*",
+      "path": "filament/_TPU_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Artillery",
+      "path": "filament/Generic PLA @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Artillery",
+      "path": "filament/Generic PETG @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Artillery",
+      "path": "filament/Generic ABS @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @Artillery",
+      "path": "filament/Generic TPU @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PLA @Artillery",
+      "path": "filament/Eolas Prints PLA @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PLA Matte @Artillery",
+      "path": "filament/Eolas Prints PLA Matte @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints INGEO 850 @Artillery",
+      "path": "filament/Eolas Prints INGEO 850 @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints INGEO 870 @Artillery",
+      "path": "filament/Eolas Prints INGEO 870 @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PETG @Artillery",
+      "path": "filament/Eolas Prints PETG @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PETG - UV Resistant @Artillery",
+      "path": "filament/Eolas Prints PETG - UV Resistant @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints TPU 93A @Artillery",
+      "path": "filament/Eolas Prints TPU 93A @Artillery.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ABS @X3",
+      "path": "filament/Artillery ABS @X3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG @X3",
+      "path": "filament/Artillery PETG @X3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA @X3",
+      "path": "filament/Artillery PLA @X3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA HS @X3",
+      "path": "filament/Artillery PLA HS @X3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Silk @X3",
+      "path": "filament/Artillery PLA Silk @X3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery TPU @X3",
+      "path": "filament/Artillery TPU @X3.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ABS @X4",
+      "path": "filament/Artillery ABS @X4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG @X4",
+      "path": "filament/Artillery PETG @X4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA & PLA HS @X4",
+      "path": "filament/Artillery PLA & PLA HS @X4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA+ @X4",
+      "path": "filament/Artillery PLA+ @X4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Silk @X4",
+      "path": "filament/Artillery PLA Silk @X4.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery TPU @X4",
+      "path": "filament/Artillery TPU @X4.ini"
+    }
+  ],
+  "asset_paths": [
+    "Genius_thumbnail.png",
+    "Hornet_thumbnail.png",
+    "X1_thumbnail.png",
+    "X3 Plus_thumbnail.png",
+    "X3 Pro_thumbnail.png",
+    "X4 Max_thumbnail.png",
+    "X4 Plus_thumbnail.png",
+    "X4 Pro_thumbnail.png",
+    "bed-genius.png",
+    "bed-genius.stl",
+    "bed-hornet.png",
+    "bed-hornet.stl",
+    "bed-x1.png",
+    "bed-x1.stl",
+    "bed-x3-plus.stl",
+    "bed-x3-pro.stl",
+    "bed-x4-max.stl",
+    "bed-x4-plus.stl",
+    "bed-x4-pro.stl"
+  ]
+}

@@ -1,0 +1,1500 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Geeetech",
+  "version": "1.1.0",
+  "index_name": "Geeetech.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Thunder",
+      "path": "printer_model/Thunder.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "ThunderPro",
+      "path": "printer_model/ThunderPro.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MizarS",
+      "path": "printer_model/MizarS.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MizarPro",
+      "path": "printer_model/MizarPro.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Mizar",
+      "path": "printer_model/Mizar.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MizarMax",
+      "path": "printer_model/MizarMax.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MizarM",
+      "path": "printer_model/MizarM.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A10Pro",
+      "path": "printer_model/A10Pro.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A10M",
+      "path": "printer_model/A10M.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A10T",
+      "path": "printer_model/A10T.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A20",
+      "path": "printer_model/A20.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A20M",
+      "path": "printer_model/A20M.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A20T",
+      "path": "printer_model/A20T.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A30Pro",
+      "path": "printer_model/A30Pro.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A30M",
+      "path": "printer_model/A30M.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "A30T",
+      "path": "printer_model/A30T.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "E180",
+      "path": "printer_model/E180.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MeDucer",
+      "path": "printer_model/MeDucer.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MeCreator",
+      "path": "printer_model/MeCreator.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MeCreator2",
+      "path": "printer_model/MeCreator2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "GiantArmD200",
+      "path": "printer_model/GiantArmD200.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "I3ProB",
+      "path": "printer_model/I3ProB.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "I3ProW",
+      "path": "printer_model/I3ProW.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "I3ProC",
+      "path": "printer_model/I3ProC.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "M1",
+      "path": "printer_model/M1.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*M1_speed*",
+      "path": "print/_M1_speed_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*High-speed*",
+      "path": "print/_High-speed_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*Multi-extruder*",
+      "path": "print/_Multi-extruder_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.08mm*",
+      "path": "print/_0.08mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.12mm*",
+      "path": "print/_0.12mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.16mm*",
+      "path": "print/_0.16mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.24mm*",
+      "path": "print/_0.24mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.28mm*",
+      "path": "print/_0.28mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.36mm*",
+      "path": "print/_0.36mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.44mm*",
+      "path": "print/_0.44mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.2nozzle*",
+      "path": "print/_0.2nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzle*",
+      "path": "print/_0.3nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4nozzle*",
+      "path": "print/_0.4nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.5nozzle*",
+      "path": "print/_0.5nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzle*",
+      "path": "print/_0.6nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzle*",
+      "path": "print/_0.8nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.2mm nozzle) @Geeetech",
+      "path": "print/0.08 mm SUPERDETAIL (0.2mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.3mm nozzle) @Geeetech",
+      "path": "print/0.08 mm SUPERDETAIL (0.3mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL @Geeetech",
+      "path": "print/0.08 mm SUPERDETAIL @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.5mm nozzle) @Geeetech",
+      "path": "print/0.08 mm SUPERDETAIL (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.6mm nozzle) @Geeetech",
+      "path": "print/0.08 mm SUPERDETAIL (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.2mm nozzle) @Geeetech",
+      "path": "print/0.10 mm HIGHDETAIL (0.2mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.3mm nozzle) @Geeetech",
+      "path": "print/0.10 mm HIGHDETAIL (0.3mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL @Geeetech",
+      "path": "print/0.10 mm HIGHDETAIL @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.5mm nozzle) @Geeetech",
+      "path": "print/0.10 mm HIGHDETAIL (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.6mm nozzle) @Geeetech",
+      "path": "print/0.10 mm HIGHDETAIL (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.2mm nozzle) @Geeetech",
+      "path": "print/0.12 mm DETAIL (0.2mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.3mm nozzle) @Geeetech",
+      "path": "print/0.12 mm DETAIL (0.3mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL @Geeetech",
+      "path": "print/0.12 mm DETAIL @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.5mm nozzle) @Geeetech",
+      "path": "print/0.12 mm DETAIL (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.6mm nozzle) @Geeetech",
+      "path": "print/0.12 mm DETAIL (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.2mm nozzle) @Geeetech",
+      "path": "print/0.16 mm OPTIMAL (0.2mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.3mm nozzle) @Geeetech",
+      "path": "print/0.16 mm OPTIMAL (0.3mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL @Geeetech",
+      "path": "print/0.16 mm OPTIMAL @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.5mm nozzle) @Geeetech",
+      "path": "print/0.16 mm OPTIMAL (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.6mm nozzle) @Geeetech",
+      "path": "print/0.16 mm OPTIMAL (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.3mm nozzle) @Geeetech",
+      "path": "print/0.20 mm NORMAL (0.3mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL @Geeetech",
+      "path": "print/0.20 mm NORMAL @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.5mm nozzle) @Geeetech",
+      "path": "print/0.20 mm NORMAL (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.6mm nozzle) @Geeetech",
+      "path": "print/0.20 mm NORMAL (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT @Geeetech",
+      "path": "print/0.24 mm DRAFT @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT (0.5mm nozzle) @Geeetech",
+      "path": "print/0.24 mm DRAFT (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT (0.6mm nozzle) @Geeetech",
+      "path": "print/0.24 mm DRAFT (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT @Geeetech",
+      "path": "print/0.28 mm SUPERDRAFT @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT (0.5mm nozzle) @Geeetech",
+      "path": "print/0.28 mm SUPERDRAFT (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT (0.6mm nozzle) @Geeetech",
+      "path": "print/0.28 mm SUPERDRAFT (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.5mm nozzle) @Geeetech",
+      "path": "print/0.36 mm CHUNKY (0.5mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.6mm nozzle) @Geeetech",
+      "path": "print/0.36 mm CHUNKY (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.8mm nozzle) @Geeetech",
+      "path": "print/0.36 mm CHUNKY (0.8mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY (0.6mm nozzle) @Geeetech",
+      "path": "print/0.44 mm SUPERCHUNKY (0.6mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY (0.8mm nozzle) @Geeetech",
+      "path": "print/0.44 mm SUPERCHUNKY (0.8mm nozzle) @Geeetech.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.2mm nozzle) @High-speed",
+      "path": "print/0.08 mm SUPERDETAIL (0.2mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL @High-speed",
+      "path": "print/0.08 mm SUPERDETAIL @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.6mm nozzle) @High-speed",
+      "path": "print/0.08 mm SUPERDETAIL (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.2mm nozzle) @High-speed",
+      "path": "print/0.10 mm HIGHDETAIL (0.2mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL @High-speed",
+      "path": "print/0.10 mm HIGHDETAIL @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.6mm nozzle) @High-speed",
+      "path": "print/0.10 mm HIGHDETAIL (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.2mm nozzle) @High-speed",
+      "path": "print/0.12 mm DETAIL (0.2mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL @High-speed",
+      "path": "print/0.12 mm DETAIL @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.6mm nozzle) @High-speed",
+      "path": "print/0.12 mm DETAIL (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.2mm nozzle) @High-speed",
+      "path": "print/0.16 mm OPTIMAL (0.2mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL @High-speed",
+      "path": "print/0.16 mm OPTIMAL @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.6mm nozzle) @High-speed",
+      "path": "print/0.16 mm OPTIMAL (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL @High-speed",
+      "path": "print/0.20 mm NORMAL @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.6mm nozzle) @High-speed",
+      "path": "print/0.20 mm NORMAL (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT @High-speed",
+      "path": "print/0.24 mm DRAFT @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT (0.6mm nozzle) @High-speed",
+      "path": "print/0.24 mm DRAFT (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT @High-speed",
+      "path": "print/0.28 mm SUPERDRAFT @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT (0.6mm nozzle) @High-speed",
+      "path": "print/0.28 mm SUPERDRAFT (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.6mm nozzle) @High-speed",
+      "path": "print/0.36 mm CHUNKY (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.8mm nozzle) @High-speed",
+      "path": "print/0.36 mm CHUNKY (0.8mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY (0.6mm nozzle) @High-speed",
+      "path": "print/0.44 mm SUPERCHUNKY (0.6mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY (0.8mm nozzle) @High-speed",
+      "path": "print/0.44 mm SUPERCHUNKY (0.8mm nozzle) @High-speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.2mm nozzle) @M1_speed",
+      "path": "print/0.08 mm SUPERDETAIL (0.2mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL @M1_speed",
+      "path": "print/0.08 mm SUPERDETAIL @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL (0.6mm nozzle) @M1_speed",
+      "path": "print/0.08 mm SUPERDETAIL (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.2mm nozzle) @M1_speed",
+      "path": "print/0.10 mm HIGHDETAIL (0.2mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL @M1_speed",
+      "path": "print/0.10 mm HIGHDETAIL @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL (0.6mm nozzle) @M1_speed",
+      "path": "print/0.10 mm HIGHDETAIL (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.2mm nozzle) @M1_speed",
+      "path": "print/0.12 mm DETAIL (0.2mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL @M1_speed",
+      "path": "print/0.12 mm DETAIL @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL (0.6mm nozzle) @M1_speed",
+      "path": "print/0.12 mm DETAIL (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.2mm nozzle) @M1_speed",
+      "path": "print/0.16 mm OPTIMAL (0.2mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL @M1_speed",
+      "path": "print/0.16 mm OPTIMAL @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL (0.6mm nozzle) @M1_speed",
+      "path": "print/0.16 mm OPTIMAL (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL @M1_speed",
+      "path": "print/0.20 mm NORMAL @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL (0.6mm nozzle) @M1_speed",
+      "path": "print/0.20 mm NORMAL (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT @M1_speed",
+      "path": "print/0.24 mm DRAFT @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DRAFT (0.6mm nozzle) @M1_speed",
+      "path": "print/0.24 mm DRAFT (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT @M1_speed",
+      "path": "print/0.28 mm SUPERDRAFT @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT (0.6mm nozzle) @M1_speed",
+      "path": "print/0.28 mm SUPERDRAFT (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.6mm nozzle) @M1_speed",
+      "path": "print/0.36 mm CHUNKY (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36 mm CHUNKY (0.8mm nozzle) @M1_speed",
+      "path": "print/0.36 mm CHUNKY (0.8mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY (0.6mm nozzle) @M1_speed",
+      "path": "print/0.44 mm SUPERCHUNKY (0.6mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.44 mm SUPERCHUNKY (0.8mm nozzle) @M1_speed",
+      "path": "print/0.44 mm SUPERCHUNKY (0.8mm nozzle) @M1_speed.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08 mm SUPERDETAIL @Multi-extruder",
+      "path": "print/0.08 mm SUPERDETAIL @Multi-extruder.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10 mm HIGHDETAIL @Multi-extruder",
+      "path": "print/0.10 mm HIGHDETAIL @Multi-extruder.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12 mm DETAIL @Multi-extruder",
+      "path": "print/0.12 mm DETAIL @Multi-extruder.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16 mm OPTIMAL @Multi-extruder",
+      "path": "print/0.16 mm OPTIMAL @Multi-extruder.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20 mm NORMAL @Multi-extruder",
+      "path": "print/0.20 mm NORMAL @Multi-extruder.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24 mm DETAIL @Multi-extruder",
+      "path": "print/0.24 mm DETAIL @Multi-extruder.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28 mm SUPERDRAFT @Multi-extruder",
+      "path": "print/0.28 mm SUPERDRAFT @Multi-extruder.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETG*",
+      "path": "filament/_PETG_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*TPU*",
+      "path": "filament/_TPU_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*HS-PLA*",
+      "path": "filament/_HS-PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Geeetech",
+      "path": "filament/Generic PLA @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Geeetech",
+      "path": "filament/Generic PETG @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Geeetech",
+      "path": "filament/Generic ABS @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @Geeetech",
+      "path": "filament/Generic TPU @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Geeetech PLA @Geeetech",
+      "path": "filament/Geeetech PLA @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Geeetech PETG @Geeetech",
+      "path": "filament/Geeetech PETG @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Geeetech ABS @Geeetech",
+      "path": "filament/Geeetech ABS @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Thunder HS-PLA @Geeetech",
+      "path": "filament/Thunder HS-PLA @Geeetech.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Thunder PLA @Geeetech",
+      "path": "filament/Thunder PLA @Geeetech.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*M1_SpeedPrinter*",
+      "path": "printer/_M1_SpeedPrinter_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*HighSpeedPrinter*",
+      "path": "printer/_HighSpeedPrinter_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*DualExtruderPrinter*",
+      "path": "printer/_DualExtruderPrinter_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*MultiExtruderPrinter*",
+      "path": "printer/_MultiExtruderPrinter_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*PausePrint*",
+      "path": "printer/_PausePrint_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_1mm*",
+      "path": "printer/_Retract_1mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_2mm*",
+      "path": "printer/_Retract_2mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_3mm*",
+      "path": "printer/_Retract_3mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_4mm*",
+      "path": "printer/_Retract_4mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_5mm*",
+      "path": "printer/_Retract_5mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_6mm*",
+      "path": "printer/_Retract_6mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_6.5mm*",
+      "path": "printer/_Retract_6.5mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_7mm*",
+      "path": "printer/_Retract_7mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Retract_8mm*",
+      "path": "printer/_Retract_8mm_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.2nozzle*",
+      "path": "printer/_0.2nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.3nozzle*",
+      "path": "printer/_0.3nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.4nozzle*",
+      "path": "printer/_0.4nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.5nozzle*",
+      "path": "printer/_0.5nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.6nozzle*",
+      "path": "printer/_0.6nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.8nozzle*",
+      "path": "printer/_0.8nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Thunder*",
+      "path": "printer/_Thunder_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*ThunderPro*",
+      "path": "printer/_ThunderPro_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*MizarS*",
+      "path": "printer/_MizarS_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*MizarPro*",
+      "path": "printer/_MizarPro_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Mizar*",
+      "path": "printer/_Mizar_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*MizarMax*",
+      "path": "printer/_MizarMax_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*A10Pro*",
+      "path": "printer/_A10Pro_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*A20*",
+      "path": "printer/_A20_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*A30Pro*",
+      "path": "printer/_A30Pro_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*E180*",
+      "path": "printer/_E180_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*MeDucer*",
+      "path": "printer/_MeDucer_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*MeCreator*",
+      "path": "printer/_MeCreator_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*MeCreator2*",
+      "path": "printer/_MeCreator2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*GiantArmD200*",
+      "path": "printer/_GiantArmD200_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*I3ProB*",
+      "path": "printer/_I3ProB_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*I3ProW*",
+      "path": "printer/_I3ProW_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*M1*",
+      "path": "printer/_M1_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech M1 (0.2 mm nozzle)",
+      "path": "printer/Geeetech M1 (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech M1",
+      "path": "printer/Geeetech M1.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech M1 (0.6 mm nozzle)",
+      "path": "printer/Geeetech M1 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech M1 (0.8 mm nozzle)",
+      "path": "printer/Geeetech M1 (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Thunder (0.2 mm nozzle)",
+      "path": "printer/Geeetech Thunder (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Thunder",
+      "path": "printer/Geeetech Thunder.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Thunder (0.6 mm nozzle)",
+      "path": "printer/Geeetech Thunder (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Thunder (0.8 mm nozzle)",
+      "path": "printer/Geeetech Thunder (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech ThunderPro (0.2 mm nozzle)",
+      "path": "printer/Geeetech ThunderPro (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech ThunderPro",
+      "path": "printer/Geeetech ThunderPro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech ThunderPro (0.6 mm nozzle)",
+      "path": "printer/Geeetech ThunderPro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech ThunderPro (0.8 mm nozzle)",
+      "path": "printer/Geeetech ThunderPro (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarS (0.2 mm nozzle)",
+      "path": "printer/Geeetech MizarS (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarS (0.3 mm nozzle)",
+      "path": "printer/Geeetech MizarS (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarS",
+      "path": "printer/Geeetech MizarS.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarS (0.5 mm nozzle)",
+      "path": "printer/Geeetech MizarS (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarS (0.6 mm nozzle)",
+      "path": "printer/Geeetech MizarS (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarS (0.8 mm nozzle)",
+      "path": "printer/Geeetech MizarS (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarPro (0.2 mm nozzle)",
+      "path": "printer/Geeetech MizarPro (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarPro (0.3 mm nozzle)",
+      "path": "printer/Geeetech MizarPro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarPro",
+      "path": "printer/Geeetech MizarPro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarPro (0.5 mm nozzle)",
+      "path": "printer/Geeetech MizarPro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarPro (0.6 mm nozzle)",
+      "path": "printer/Geeetech MizarPro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarPro (0.8 mm nozzle)",
+      "path": "printer/Geeetech MizarPro (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Mizar (0.2 mm nozzle)",
+      "path": "printer/Geeetech Mizar (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Mizar (0.3 mm nozzle)",
+      "path": "printer/Geeetech Mizar (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Mizar",
+      "path": "printer/Geeetech Mizar.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Mizar (0.5 mm nozzle)",
+      "path": "printer/Geeetech Mizar (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Mizar (0.6 mm nozzle)",
+      "path": "printer/Geeetech Mizar (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech Mizar (0.8 mm nozzle)",
+      "path": "printer/Geeetech Mizar (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarMax (0.2 mm nozzle)",
+      "path": "printer/Geeetech MizarMax (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarMax (0.3 mm nozzle)",
+      "path": "printer/Geeetech MizarMax (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarMax",
+      "path": "printer/Geeetech MizarMax.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarMax (0.5 mm nozzle)",
+      "path": "printer/Geeetech MizarMax (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarMax (0.6 mm nozzle)",
+      "path": "printer/Geeetech MizarMax (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarMax (0.8 mm nozzle)",
+      "path": "printer/Geeetech MizarMax (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MizarM",
+      "path": "printer/Geeetech MizarM.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10Pro (0.2 mm nozzle)",
+      "path": "printer/Geeetech A10Pro (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10Pro (0.3 mm nozzle)",
+      "path": "printer/Geeetech A10Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10Pro",
+      "path": "printer/Geeetech A10Pro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10Pro (0.5 mm nozzle)",
+      "path": "printer/Geeetech A10Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10Pro (0.6 mm nozzle)",
+      "path": "printer/Geeetech A10Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10Pro (0.8 mm nozzle)",
+      "path": "printer/Geeetech A10Pro (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10M",
+      "path": "printer/Geeetech A10M.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A10T",
+      "path": "printer/Geeetech A10T.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20 (0.2 mm nozzle)",
+      "path": "printer/Geeetech A20 (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20 (0.3 mm nozzle)",
+      "path": "printer/Geeetech A20 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20",
+      "path": "printer/Geeetech A20.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20 (0.5 mm nozzle)",
+      "path": "printer/Geeetech A20 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20 (0.6 mm nozzle)",
+      "path": "printer/Geeetech A20 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20 (0.8 mm nozzle)",
+      "path": "printer/Geeetech A20 (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20M",
+      "path": "printer/Geeetech A20M.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A20T",
+      "path": "printer/Geeetech A20T.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30Pro (0.2 mm nozzle)",
+      "path": "printer/Geeetech A30Pro (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30Pro (0.3 mm nozzle)",
+      "path": "printer/Geeetech A30Pro (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30Pro",
+      "path": "printer/Geeetech A30Pro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30Pro (0.5 mm nozzle)",
+      "path": "printer/Geeetech A30Pro (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30Pro (0.6 mm nozzle)",
+      "path": "printer/Geeetech A30Pro (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30Pro (0.8 mm nozzle)",
+      "path": "printer/Geeetech A30Pro (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30M",
+      "path": "printer/Geeetech A30M.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech A30T",
+      "path": "printer/Geeetech A30T.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech E180 (0.2 mm nozzle)",
+      "path": "printer/Geeetech E180 (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech E180 (0.3 mm nozzle)",
+      "path": "printer/Geeetech E180 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech E180",
+      "path": "printer/Geeetech E180.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech E180 (0.5 mm nozzle)",
+      "path": "printer/Geeetech E180 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech E180 (0.6 mm nozzle)",
+      "path": "printer/Geeetech E180 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech E180 (0.8 mm nozzle)",
+      "path": "printer/Geeetech E180 (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeDucer (0.2 mm nozzle)",
+      "path": "printer/Geeetech MeDucer (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeDucer (0.3 mm nozzle)",
+      "path": "printer/Geeetech MeDucer (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeDucer",
+      "path": "printer/Geeetech MeDucer.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeDucer (0.5 mm nozzle)",
+      "path": "printer/Geeetech MeDucer (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeDucer (0.6 mm nozzle)",
+      "path": "printer/Geeetech MeDucer (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeDucer (0.8 mm nozzle)",
+      "path": "printer/Geeetech MeDucer (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator (0.2 mm nozzle)",
+      "path": "printer/Geeetech MeCreator (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator (0.3 mm nozzle)",
+      "path": "printer/Geeetech MeCreator (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator",
+      "path": "printer/Geeetech MeCreator.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator (0.5 mm nozzle)",
+      "path": "printer/Geeetech MeCreator (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator (0.6 mm nozzle)",
+      "path": "printer/Geeetech MeCreator (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator (0.8 mm nozzle)",
+      "path": "printer/Geeetech MeCreator (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator2 (0.2 mm nozzle)",
+      "path": "printer/Geeetech MeCreator2 (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator2 (0.3 mm nozzle)",
+      "path": "printer/Geeetech MeCreator2 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator2",
+      "path": "printer/Geeetech MeCreator2.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator2 (0.5 mm nozzle)",
+      "path": "printer/Geeetech MeCreator2 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator2 (0.6 mm nozzle)",
+      "path": "printer/Geeetech MeCreator2 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech MeCreator2 (0.8 mm nozzle)",
+      "path": "printer/Geeetech MeCreator2 (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech GiantArmD200 (0.2 mm nozzle)",
+      "path": "printer/Geeetech GiantArmD200 (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech GiantArmD200 (0.3 mm nozzle)",
+      "path": "printer/Geeetech GiantArmD200 (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech GiantArmD200",
+      "path": "printer/Geeetech GiantArmD200.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech GiantArmD200 (0.5 mm nozzle)",
+      "path": "printer/Geeetech GiantArmD200 (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech GiantArmD200 (0.6 mm nozzle)",
+      "path": "printer/Geeetech GiantArmD200 (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech GiantArmD200 (0.8 mm nozzle)",
+      "path": "printer/Geeetech GiantArmD200 (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProB (0.2 mm nozzle)",
+      "path": "printer/Geeetech I3ProB (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProB (0.3 mm nozzle)",
+      "path": "printer/Geeetech I3ProB (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProB",
+      "path": "printer/Geeetech I3ProB.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProB (0.5 mm nozzle)",
+      "path": "printer/Geeetech I3ProB (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProB (0.6 mm nozzle)",
+      "path": "printer/Geeetech I3ProB (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProB (0.8 mm nozzle)",
+      "path": "printer/Geeetech I3ProB (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProW (0.2 mm nozzle)",
+      "path": "printer/Geeetech I3ProW (0.2 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProW (0.3 mm nozzle)",
+      "path": "printer/Geeetech I3ProW (0.3 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProW",
+      "path": "printer/Geeetech I3ProW.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProW (0.5 mm nozzle)",
+      "path": "printer/Geeetech I3ProW (0.5 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProW (0.6 mm nozzle)",
+      "path": "printer/Geeetech I3ProW (0.6 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProW (0.8 mm nozzle)",
+      "path": "printer/Geeetech I3ProW (0.8 mm nozzle).ini"
+    },
+    {
+      "type": "printer",
+      "name": "Geeetech I3ProC",
+      "path": "printer/Geeetech I3ProC.ini"
+    }
+  ],
+  "asset_paths": [
+    "105x105.stl",
+    "125X130.stl",
+    "150x150.stl",
+    "150x150.svg",
+    "160x160.stl",
+    "160x160.svg",
+    "180X150.stl",
+    "200x200.stl",
+    "200x200.svg",
+    "220x220.stl",
+    "220x220.svg",
+    "250x250.stl",
+    "250x250.svg",
+    "255x255.stl",
+    "255x255.svg",
+    "300x180.stl",
+    "300x180.svg",
+    "320x320.stl",
+    "320x320.svg",
+    "A10M_thumbnail.png",
+    "A10Pro_thumbnail.png",
+    "A10T_thumbnail.png",
+    "A20M_thumbnail.png",
+    "A20T_thumbnail.png",
+    "A20_thumbnail.png",
+    "A30M_thumbnail.png",
+    "A30Pro_thumbnail.png",
+    "A30T_thumbnail.png",
+    "E180_thumbnail.png",
+    "GiantArmD200_thumbnail.png",
+    "I3ProB_thumbnail.png",
+    "I3ProC_thumbnail.png",
+    "I3ProW_thumbnail.png",
+    "M1.svg",
+    "M1_thumbnail.png",
+    "MeCreator2_thumbnail.png",
+    "MeCreator_thumbnail.png",
+    "MeDucer_thumbnail.png",
+    "MizarM_thumbnail.png",
+    "MizarMax_thumbnail.png",
+    "MizarPro_thumbnail.png",
+    "MizarS_thumbnail.png",
+    "Mizar_thumbnail.png",
+    "ThunderPro_thumbnail.png",
+    "Thunder_thumbnail.png"
+  ]
+}

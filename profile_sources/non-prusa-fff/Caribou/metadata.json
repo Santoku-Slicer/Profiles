@@ -1,0 +1,1109 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Caribou",
+  "version": "0.7.0",
+  "index_name": "Caribou.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_MK3S_220",
+      "path": "printer_model/Caribou_MK3S_220.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_MK3S_320",
+      "path": "printer_model/Caribou_MK3S_320.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_MK3S_420",
+      "path": "printer_model/Caribou_MK3S_420.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_MK3S_220_Klipper",
+      "path": "printer_model/Caribou_MK3S_220_Klipper.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_MK3S_320_Klipper",
+      "path": "printer_model/Caribou_MK3S_320_Klipper.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_MK3S_420_Klipper",
+      "path": "printer_model/Caribou_MK3S_420_Klipper.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_Duet_220",
+      "path": "printer_model/Caribou_Duet_220.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_Duet_320",
+      "path": "printer_model/Caribou_Duet_320.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_Duet_420",
+      "path": "printer_model/Caribou_Duet_420.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_IDEX_Standard",
+      "path": "printer_model/Caribou_IDEX_Standard.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_IDEX_Mirror",
+      "path": "printer_model/Caribou_IDEX_Mirror.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_IDEX_Duplicate",
+      "path": "printer_model/Caribou_IDEX_Duplicate.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Caribou_M",
+      "path": "printer_model/Caribou_M.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common_Caribou_print*",
+      "path": "print/_common_Caribou_print_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*Caribou_MK3*",
+      "path": "print/_Caribou_MK3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*Caribou_Duet*",
+      "path": "print/_Caribou_Duet_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25nozzle*",
+      "path": "print/_0.25nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzle*",
+      "path": "print/_0.3nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.5nozzle*",
+      "path": "print/_0.5nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6nozzle*",
+      "path": "print/_0.6nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzle*",
+      "path": "print/_0.8nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8nozzleM*",
+      "path": "print/_0.8nozzleM_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.05mm*",
+      "path": "print/_0.05mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL @Caribou",
+      "path": "print/0.05mm ULTRADETAIL @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL 0.25mm nozzle @Caribou",
+      "path": "print/0.05mm ULTRADETAIL 0.25mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm ULTRADETAIL 0.3mm nozzle @Caribou",
+      "path": "print/0.05mm ULTRADETAIL 0.3mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.07mm*",
+      "path": "print/_0.07mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL @Caribou",
+      "path": "print/0.07mm ULTRADETAIL @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL 0.25mm nozzle @Caribou",
+      "path": "print/0.07mm ULTRADETAIL 0.25mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm ULTRADETAIL 0.3mm nozzle @Caribou",
+      "path": "print/0.07mm ULTRADETAIL 0.3mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm QUALITY 0.4mm nozzle @Caribou",
+      "path": "print/0.10mm QUALITY 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm QUALITY 0.25mm nozzle @Caribou",
+      "path": "print/0.10mm QUALITY 0.25mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm M QUALITY 0.25mm nozzle @Caribou",
+      "path": "print/0.10mm M QUALITY 0.25mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL 0.3mm nozzle @Caribou",
+      "path": "print/0.10mm DETAIL 0.3mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm M QUALITY 0.3mm nozzle @Caribou",
+      "path": "print/0.10mm M QUALITY 0.3mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm*",
+      "path": "print/_0.15mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @Caribou",
+      "path": "print/0.15mm QUALITY @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm SPEED @Caribou",
+      "path": "print/0.15mm SPEED @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY 0.25mm nozzle @Caribou",
+      "path": "print/0.15mm QUALITY 0.25mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm M QUALITY 0.25mm nozzle @Caribou",
+      "path": "print/0.15mm M QUALITY 0.25mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm M QUALITY 0.3mm nozzle @Caribou",
+      "path": "print/0.15mm M QUALITY 0.3mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL 0.5mm nozzle @Caribou",
+      "path": "print/0.15mm DETAIL 0.5mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm DETAIL 0.6mm nozzle @Caribou",
+      "path": "print/0.15mm DETAIL 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY 0.4mm nozzle @Caribou",
+      "path": "print/0.20mm QUALITY 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm M QUALITY 0.4mm nozzle @Caribou",
+      "path": "print/0.20mm M QUALITY 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY SLOW 0.4mm nozzle @Caribou",
+      "path": "print/0.20mm QUALITY SLOW 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm CARIBOU PARTS 0.4mm nozzle @Caribou",
+      "path": "print/0.20mm CARIBOU PARTS 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm SPEED 0.4mm nozzle @Caribou",
+      "path": "print/0.20mm SPEED 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL 0.5mm nozzle @Caribou",
+      "path": "print/0.20mm DETAIL 0.5mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DETAIL 0.6mm nozzle @Caribou",
+      "path": "print/0.20mm DETAIL 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm M DETAIL 0.6mm nozzle @Caribou",
+      "path": "print/0.20mm M DETAIL 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25mm*",
+      "path": "print/_0.25mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm SPEED 0.4mm nozzle @Caribou",
+      "path": "print/0.25mm SPEED 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm QUALITY 0.4mm nozzle @Caribou",
+      "path": "print/0.25mm QUALITY 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm M QUALITY 0.4mm nozzle @Caribou",
+      "path": "print/0.25mm M QUALITY 0.4mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm DETAIL 0.5mm nozzle @Caribou",
+      "path": "print/0.25mm DETAIL 0.5mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm DETAIL 0.6mm nozzle @Caribou",
+      "path": "print/0.25mm DETAIL 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm*",
+      "path": "print/_0.30mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY 0.6mm nozzle @Caribou",
+      "path": "print/0.30mm QUALITY 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm M QUALITY 0.6mm nozzle @Caribou",
+      "path": "print/0.30mm M QUALITY 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DRAFT 0.4mm @Caribou",
+      "path": "print/0.30mm DRAFT 0.4mm @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm M DRAFT 0.4mm @Caribou",
+      "path": "print/0.30mm M DRAFT 0.4mm @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm QUALITY 0.5mm nozzle @Caribou",
+      "path": "print/0.30mm QUALITY 0.5mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.35mm*",
+      "path": "print/_0.35mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm DRAFT 0.6mm nozzle @Caribou",
+      "path": "print/0.35mm DRAFT 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm DRAFT 0.8nozzle @Caribou",
+      "path": "print/0.35mm DRAFT 0.8nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm DETAIL 0.8 nozzle @Caribou",
+      "path": "print/0.30mm DETAIL 0.8 nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.40mm*",
+      "path": "print/_0.40mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT 0.6mm nozzle @Caribou",
+      "path": "print/0.40mm DRAFT 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm DRAFT 0.8 nozzle @Caribou",
+      "path": "print/0.40mm DRAFT 0.8 nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm QUALITY 0.8 nozzle @Caribou",
+      "path": "print/0.40mm QUALITY 0.8 nozzle @Caribou.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.55mm DRAFT 0.8 nozzle @Caribou",
+      "path": "print/0.55mm DRAFT 0.8 nozzle @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common_Caribou_print*",
+      "path": "filament/_common_Caribou_print_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA_Caribou*",
+      "path": "filament/_PLA_Caribou_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET_Caribou*",
+      "path": "filament/_PET_Caribou_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET06_Caribou*",
+      "path": "filament/_PET06_Caribou_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS_Caribou*",
+      "path": "filament/_ABS_Caribou_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABSC_Caribou*",
+      "path": "filament/_ABSC_Caribou_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*FLEX_Caribou*",
+      "path": "filament/_FLEX_Caribou_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb bronzeFill @Caribou",
+      "path": "filament/ColorFabb bronzeFill @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb steelFill @Caribou",
+      "path": "filament/ColorFabb steelFill @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb copperFill @Caribou",
+      "path": "filament/ColorFabb copperFill @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb HT @Caribou",
+      "path": "filament/ColorFabb HT @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb PLA-PHA @Caribou",
+      "path": "filament/ColorFabb PLA-PHA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb woodFill @Caribou",
+      "path": "filament/ColorFabb woodFill @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb corkFill @Caribou",
+      "path": "filament/ColorFabb corkFill @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb XT @Caribou",
+      "path": "filament/ColorFabb XT @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb XT-CF20 @Caribou",
+      "path": "filament/ColorFabb XT-CF20 @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb nGen @Caribou",
+      "path": "filament/ColorFabb nGen @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb nGen flex @Caribou",
+      "path": "filament/ColorFabb nGen flex @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @Caribou",
+      "path": "filament/Fillamentum PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @Caribou",
+      "path": "filament/Fillamentum ABS @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Esun ABS @Caribou",
+      "path": "filament/Esun ABS @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @Caribou",
+      "path": "filament/Fillamentum ASA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA @Caribou",
+      "path": "filament/Prusament ASA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend @Caribou",
+      "path": "filament/Prusament PC Blend @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend Carbon Fiber @Caribou",
+      "path": "filament/Prusament PC Blend Carbon Fiber @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum CPE @Caribou",
+      "path": "filament/Fillamentum CPE @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Timberfill @Caribou",
+      "path": "filament/Fillamentum Timberfill @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Caribou",
+      "path": "filament/Generic ABS @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Caribou",
+      "path": "filament/Generic PETG @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Caribou PLA @Caribou",
+      "path": "filament/Caribou PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Caribou PETG @Caribou",
+      "path": "filament/Caribou PETG @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PETG @Caribou",
+      "path": "filament/Extrudr PETG @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr XPETG CF @Caribou",
+      "path": "filament/Extrudr XPETG CF @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr XPETG Matt @Caribou",
+      "path": "filament/Extrudr XPETG Matt @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr GreenTEC Pro @Caribou",
+      "path": "filament/Extrudr GreenTEC Pro @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PLA NX1 @Caribou",
+      "path": "filament/Extrudr PLA NX1 @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PLA NX2 @Caribou",
+      "path": "filament/Extrudr PLA NX2 @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Caribou",
+      "path": "filament/Generic PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @Caribou",
+      "path": "filament/Generic FLEX @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Flexfill 92A @Caribou",
+      "path": "filament/Fillamentum Flexfill 92A @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa ABS @Caribou",
+      "path": "filament/Prusa ABS @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa HIPS @Caribou",
+      "path": "filament/Prusa HIPS @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS @Caribou",
+      "path": "filament/Generic HIPS @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa PETG @Caribou",
+      "path": "filament/Prusa PETG @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PETG @Caribou",
+      "path": "filament/Fiberlogy PETG @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @Caribou",
+      "path": "filament/Prusament PETG @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa PETG 0.6mm nozzle @Caribou",
+      "path": "filament/Prusa PETG 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG 0.6mm nozzle @Caribou",
+      "path": "filament/Prusament PETG 0.6mm nozzle @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa PLA @Caribou",
+      "path": "filament/Prusa PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PLA @Caribou",
+      "path": "filament/Fiberlogy PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "AmazonBasics PLA @Caribou",
+      "path": "filament/AmazonBasics PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Esun PLA @Caribou",
+      "path": "filament/Esun PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Das Filament PLA @Caribou",
+      "path": "filament/Das Filament PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @Caribou",
+      "path": "filament/Prusament PLA @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PVB @Caribou",
+      "path": "filament/Prusament PVB @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Flexfill 98A @Caribou",
+      "path": "filament/Fillamentum Flexfill 98A @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Nylon FX256 @Caribou",
+      "path": "filament/Fillamentum Nylon FX256 @Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @0.8 nozzle Caribou",
+      "path": "filament/Generic PLA @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @0.8 nozzle Caribou",
+      "path": "filament/Generic ABS @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @0.8 nozzle Caribou",
+      "path": "filament/Generic PETG @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @0.8 nozzle Caribou",
+      "path": "filament/Generic FLEX @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS @0.8 nozzle Caribou",
+      "path": "filament/Generic HIPS @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @0.8 nozzle Caribou",
+      "path": "filament/Prusament PLA @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Caribou PLA @0.8 nozzle Caribou",
+      "path": "filament/Caribou PLA @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @0.8 nozzle Caribou",
+      "path": "filament/Prusament PETG @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA @0.8 nozzle Caribou",
+      "path": "filament/Prusament ASA @0.8 nozzle Caribou.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_CaribouMK3*",
+      "path": "printer/_common_CaribouMK3_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ 0.4mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ 0.25mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ 0.3mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ 0.5mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ 0.6mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ 0.8mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ 0.4mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ 0.25mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ 0.3mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ 0.5mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ 0.6mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ 0.8mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ 0.4mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ 0.25mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ 0.3mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ 0.5mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ 0.6mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ 0.8mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_CaribouMK3Klipper*",
+      "path": "printer/_common_CaribouMK3Klipper_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ Klipper 0.4mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ Klipper 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ Klipper 0.25mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ Klipper 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ Klipper 0.3mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ Klipper 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ Klipper 0.5mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ Klipper 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ Klipper 0.6mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ Klipper 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 220 MK3S+ Klipper 0.8mm nozzle",
+      "path": "printer/Caribou 220 MK3S+ Klipper 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ Klipper 0.4mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ Klipper 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ Klipper 0.25mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ Klipper 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ Klipper 0.3mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ Klipper 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ Klipper 0.5mm nozzle",
+      "path": "printer/Caribou 320 MK3S+ Klipper 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+ Klipper 0.6mmnozzle",
+      "path": "printer/Caribou 320 MK3S+ Klipper 0.6mmnozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 320 MK3S+  Klipper 0.8mm nozzle",
+      "path": "printer/Caribou 320 MK3S+  Klipper 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ Klipper 0.4mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ Klipper 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ Klipper 0.25mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ Klipper 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ Klipper 0.3mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ Klipper 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ Klipper 0.5mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ Klipper 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ Klipper 0.6mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ Klipper 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou 420 MK3S+ Klipper 0.8mm nozzle",
+      "path": "printer/Caribou 420 MK3S+ Klipper 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_CaribouDuet*",
+      "path": "printer/_common_CaribouDuet_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 220 0.4mm nozzle",
+      "path": "printer/CaribouDuet 220 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 220 0.25mm nozzle",
+      "path": "printer/CaribouDuet 220 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 220 0.3mm nozzle",
+      "path": "printer/CaribouDuet 220 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 220 0.5mm nozzle",
+      "path": "printer/CaribouDuet 220 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 220 0.6mm nozzle",
+      "path": "printer/CaribouDuet 220 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 220 0.8mm nozzle",
+      "path": "printer/CaribouDuet 220 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 320 0.4mm nozzle",
+      "path": "printer/CaribouDuet 320 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 320 0.25mm nozzle",
+      "path": "printer/CaribouDuet 320 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 320 0.3mm nozzle",
+      "path": "printer/CaribouDuet 320 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 320 0.5mm nozzle",
+      "path": "printer/CaribouDuet 320 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 320 0.6mm nozzle",
+      "path": "printer/CaribouDuet 320 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 320 0.8mm nozzle",
+      "path": "printer/CaribouDuet 320 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 420 0.4mm nozzle",
+      "path": "printer/CaribouDuet 420 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 420 0.25mm nozzle",
+      "path": "printer/CaribouDuet 420 0.25mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 420 0.3mm nozzle",
+      "path": "printer/CaribouDuet 420 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 420 0.5mm nozzle",
+      "path": "printer/CaribouDuet 420 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 420 0.6mm nozzle",
+      "path": "printer/CaribouDuet 420 0.6mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouDuet 420 0.8mm nozzle",
+      "path": "printer/CaribouDuet 420 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_CaribouIDEX_printer*",
+      "path": "printer/_common_CaribouIDEX_printer_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Standard 0.6 nozzle",
+      "path": "printer/Caribou IDEX Standard 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Standard 0.4 nozzle",
+      "path": "printer/Caribou IDEX Standard 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Standard 0.35 nozzle",
+      "path": "printer/Caribou IDEX Standard 0.35 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Standard 0.25 nozzle",
+      "path": "printer/Caribou IDEX Standard 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Duplicate 0.4 nozzle",
+      "path": "printer/Caribou IDEX Duplicate 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Duplicate 0.35 nozzle",
+      "path": "printer/Caribou IDEX Duplicate 0.35 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Duplicate 0.25 nozzle",
+      "path": "printer/Caribou IDEX Duplicate 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Mirror 0.4 nozzle",
+      "path": "printer/Caribou IDEX Mirror 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Mirror 0.35 nozzle",
+      "path": "printer/Caribou IDEX Mirror 0.35 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Caribou IDEX Mirror 0.25 nozzle",
+      "path": "printer/Caribou IDEX Mirror 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common_CaribouM_printer*",
+      "path": "printer/_common_CaribouM_printer_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouM 0.4 nozzle",
+      "path": "printer/CaribouM 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouM 0.6 nozzle",
+      "path": "printer/CaribouM 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouM 0.25 nozzle",
+      "path": "printer/CaribouM 0.25 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "CaribouM 0.3 nozzle",
+      "path": "printer/CaribouM 0.3 nozzle.ini"
+    }
+  ],
+  "asset_paths": [
+    "Caribou-O-R_dotted_lines_Duet_design.svg",
+    "Caribou-O-R_dotted_lines_IDEX_Duplicate_design.svg",
+    "Caribou-O-R_dotted_lines_IDEX_Mirror_design.svg",
+    "Caribou-O-R_dotted_lines_IDEX_Standard_design.svg",
+    "Caribou-O-R_dotted_lines_Klipper_design.svg",
+    "Caribou-O-R_dotted_lines_MK3S_design.svg",
+    "Caribou-O-R_dotted_lines_M_design.svg",
+    "CaribouM_bed.stl",
+    "Caribou_Duet_220_thumbnail.png",
+    "Caribou_Duet_320_thumbnail.png",
+    "Caribou_Duet_420_thumbnail.png",
+    "Caribou_IDEX_Duplicate_thumbnail.png",
+    "Caribou_IDEX_Mirror_thumbnail.png",
+    "Caribou_IDEX_Standard_thumbnail.png",
+    "Caribou_MK3S_220_Klipper_thumbnail.png",
+    "Caribou_MK3S_220_thumbnail.png",
+    "Caribou_MK3S_320_Klipper_thumbnail.png",
+    "Caribou_MK3S_320_thumbnail.png",
+    "Caribou_MK3S_420_Klipper_thumbnail.png",
+    "Caribou_MK3S_420_thumbnail.png",
+    "Caribou_M_thumbnail.png",
+    "Caribou_bed.stl",
+    "Caribou_bed_Duplicate.stl",
+    "Caribou_bed_Mirror.stl"
+  ]
+}

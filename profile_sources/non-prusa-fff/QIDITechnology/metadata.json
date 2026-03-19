@@ -1,0 +1,2891 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "QIDITechnology",
+  "version": "2.3.1",
+  "index_name": "QIDITechnology.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X-Plus 4",
+      "path": "printer_model/X-Plus 4.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X-Plus 4 + BOX",
+      "path": "printer_model/X-Plus 4 + BOX.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Q1 Pro",
+      "path": "printer_model/Q1 Pro.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X-MAX 3",
+      "path": "printer_model/X-MAX 3.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X-Plus 3",
+      "path": "printer_model/X-Plus 3.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "X-smart 3",
+      "path": "printer_model/X-smart 3.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*X-Plus 4*",
+      "path": "print/_X-Plus 4_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*X-Plus 4 + BOX*",
+      "path": "print/_X-Plus 4 + BOX_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*Q1 Pro*",
+      "path": "print/_Q1 Pro_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*X-MAX 3*",
+      "path": "print/_X-MAX 3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*X-Plus 3*",
+      "path": "print/_X-Plus 3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*X-smart 3*",
+      "path": "print/_X-smart 3_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.2 nozzle*",
+      "path": "print/_0.2 nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4 nozzle*",
+      "path": "print/_0.4 nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6 nozzle*",
+      "path": "print/_0.6 nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.8 nozzle*",
+      "path": "print/_0.8 nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.08mm Extra High*",
+      "path": "print/_0.08mm Extra High_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.12mm Fine*",
+      "path": "print/_0.12mm Fine_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.12mm Extra High*",
+      "path": "print/_0.12mm Extra High_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.16mm High*",
+      "path": "print/_0.16mm High_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm Fine*",
+      "path": "print/_0.20mm Fine_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm Strength*",
+      "path": "print/_0.20mm Strength_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.24mm Quick*",
+      "path": "print/_0.24mm Quick_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.24mm High*",
+      "path": "print/_0.24mm High_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm Fine*",
+      "path": "print/_0.30mm Fine_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.36mm Quick*",
+      "path": "print/_0.36mm Quick_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.32mm High*",
+      "path": "print/_0.32mm High_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.40mm Fine*",
+      "path": "print/_0.40mm Fine_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.48mm Quick*",
+      "path": "print/_0.48mm Quick_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra High @X-Plus 4 0.2 nozzle",
+      "path": "print/0.08mm Extra High @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @X-Plus 4 0.2 nozzle",
+      "path": "print/0.12mm Fine @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra High @X-Plus 4 0.4 nozzle",
+      "path": "print/0.12mm Extra High @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High @X-Plus 4 0.4 nozzle",
+      "path": "print/0.16mm High @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fine @X-Plus 4 0.4 nozzle",
+      "path": "print/0.20mm Fine @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @X-Plus 4 0.4 nozzle",
+      "path": "print/0.20mm Strength @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Quick @X-Plus 4 0.4 nozzle",
+      "path": "print/0.24mm Quick @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm High @X-Plus 4 0.6 nozzle",
+      "path": "print/0.24mm High @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine @X-Plus 4 0.6 nozzle",
+      "path": "print/0.30mm Fine @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Fine @X-Plus 4 0.6 nozzle",
+      "path": "print/0.36mm Fine @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm High @QX-Plus 4 0.8 nozzle",
+      "path": "print/0.32mm High @QX-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Fine @X-Plus 4 0.8 nozzle",
+      "path": "print/0.40mm Fine @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Fine @X-Plus 4 0.8 nozzle",
+      "path": "print/0.48mm Fine @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra High @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "print/0.08mm Extra High @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "print/0.12mm Fine @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra High @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "print/0.12mm Extra High @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "print/0.16mm High @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fine @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "print/0.20mm Fine @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "print/0.20mm Strength @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Quick @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "print/0.24mm Quick @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm High @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "print/0.24mm High @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "print/0.30mm Fine @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Fine @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "print/0.36mm Fine @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm High @QX-Plus 4 + BOX 0.8 nozzle",
+      "path": "print/0.32mm High @QX-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Fine @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "print/0.40mm Fine @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Fine @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "print/0.48mm Fine @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra High @Q1 Pro 0.2 nozzle",
+      "path": "print/0.08mm Extra High @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Q1 Pro 0.2 nozzle",
+      "path": "print/0.12mm Fine @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra High @Q1 Pro 0.4 nozzle",
+      "path": "print/0.12mm Extra High @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High @Q1 Pro 0.4 nozzle",
+      "path": "print/0.16mm High @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fine @Q1 Pro 0.4 nozzle",
+      "path": "print/0.20mm Fine @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Q1 Pro 0.4 nozzle",
+      "path": "print/0.20mm Strength @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Quick @Q1 Pro 0.4 nozzle",
+      "path": "print/0.24mm Quick @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm High @Q1 Pro 0.6 nozzle",
+      "path": "print/0.24mm High @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine @Q1 Pro 0.6 nozzle",
+      "path": "print/0.30mm Fine @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Fine @Q1 Pro 0.6 nozzle",
+      "path": "print/0.36mm Fine @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm High @Q1 Pro 0.8 nozzle",
+      "path": "print/0.32mm High @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Fine @Q1 Pro 0.8 nozzle",
+      "path": "print/0.40mm Fine @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Fine @Q1 Pro 0.8 nozzle",
+      "path": "print/0.48mm Fine @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra High @X-MAX 3 0.2 nozzle",
+      "path": "print/0.08mm Extra High @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @X-MAX 3 0.2 nozzle",
+      "path": "print/0.12mm Fine @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra High @X-MAX 3 0.4 nozzle",
+      "path": "print/0.12mm Extra High @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High @X-MAX 3 0.4 nozzle",
+      "path": "print/0.16mm High @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fine @X-MAX 3 0.4 nozzle",
+      "path": "print/0.20mm Fine @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @X-MAX 3 0.4 nozzle",
+      "path": "print/0.20mm Strength @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Quick @X-MAX 3 0.4 nozzle",
+      "path": "print/0.24mm Quick @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm High @X-MAX 3 0.6 nozzle",
+      "path": "print/0.24mm High @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine @X-MAX 3 0.6 nozzle",
+      "path": "print/0.30mm Fine @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Fine @X-MAX 3 0.6 nozzle",
+      "path": "print/0.36mm Fine @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm High @X-MAX 3 0.8 nozzle",
+      "path": "print/0.32mm High @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Fine @X-MAX 3 0.8 nozzle",
+      "path": "print/0.40mm Fine @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Fine @X-MAX 3 0.8 nozzle",
+      "path": "print/0.48mm Fine @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra High @X-Plus 3 0.2 nozzle",
+      "path": "print/0.08mm Extra High @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @X-Plus 3 0.2 nozzle",
+      "path": "print/0.12mm Fine @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra High @X-Plus 3 0.4 nozzle",
+      "path": "print/0.12mm Extra High @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High @X-Plus 3 0.4 nozzle",
+      "path": "print/0.16mm High @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fine @X-Plus 3 0.4 nozzle",
+      "path": "print/0.20mm Fine @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @X-Plus 3 0.4 nozzle",
+      "path": "print/0.20mm Strength @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Quick @X-Plus 3 0.4 nozzle",
+      "path": "print/0.24mm Quick @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm High @X-Plus 3 0.6 nozzle",
+      "path": "print/0.24mm High @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine @X-Plus 3 0.6 nozzle",
+      "path": "print/0.30mm Fine @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Fine @X-Plus 3 0.6 nozzle",
+      "path": "print/0.36mm Fine @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm High @X-Plus 3 0.8 nozzle",
+      "path": "print/0.32mm High @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Fine @X-Plus 3 0.8 nozzle",
+      "path": "print/0.40mm Fine @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Fine @X-Plus 3 0.8 nozzle",
+      "path": "print/0.48mm Fine @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra High @X-smart 3 0.2 nozzle",
+      "path": "print/0.08mm Extra High @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @X-smart 3 0.2 nozzle",
+      "path": "print/0.12mm Fine @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra High @X-smart 3 0.4 nozzle",
+      "path": "print/0.12mm Extra High @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High @X-smart 3 0.4 nozzle",
+      "path": "print/0.16mm High @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fine @X-smart 3 0.4 nozzle",
+      "path": "print/0.20mm Fine @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @X-smart 3 0.4 nozzle",
+      "path": "print/0.20mm Strength @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Quick @X-smart 3 0.4 nozzle",
+      "path": "print/0.24mm Quick @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm High @X-smart 3 0.6 nozzle",
+      "path": "print/0.24mm High @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine @X-smart 3 0.6 nozzle",
+      "path": "print/0.30mm Fine @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Fine @X-smart 3 0.6 nozzle",
+      "path": "print/0.36mm Fine @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm High @X-smart 3 0.8 nozzle",
+      "path": "print/0.32mm High @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Fine @X-smart 3 0.8 nozzle",
+      "path": "print/0.40mm Fine @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Fine @X-smart 3 0.8 nozzle",
+      "path": "print/0.48mm Fine @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI ABS Odorless*",
+      "path": "filament/_QIDI ABS Odorless_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI ABS Rapido*",
+      "path": "filament/_QIDI ABS Rapido_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI ABS-GF*",
+      "path": "filament/_QIDI ABS-GF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*Generic PP*",
+      "path": "filament/_Generic PP_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 4 0.4 nozzle",
+      "path": "filament/Generic PP @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 4 0.2 nozzle",
+      "path": "filament/Generic PP @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 4 0.6 nozzle",
+      "path": "filament/Generic PP @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 4 0.8 nozzle",
+      "path": "filament/Generic PP @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @Q1 Pro 0.4 nozzle",
+      "path": "filament/Generic PP @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @Q1 Pro 0.2 nozzle",
+      "path": "filament/Generic PP @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @Q1 Pro 0.6 nozzle",
+      "path": "filament/Generic PP @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @Q1 Pro 0.8 nozzle",
+      "path": "filament/Generic PP @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-MAX 3 0.4 nozzle",
+      "path": "filament/Generic PP @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-MAX 3 0.2 nozzle",
+      "path": "filament/Generic PP @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-MAX 3 0.6 nozzle",
+      "path": "filament/Generic PP @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-MAX 3 0.8 nozzle",
+      "path": "filament/Generic PP @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 3 0.4 nozzle",
+      "path": "filament/Generic PP @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 3 0.2 nozzle",
+      "path": "filament/Generic PP @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 3 0.6 nozzle",
+      "path": "filament/Generic PP @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP @X-Plus 3 0.8 nozzle",
+      "path": "filament/Generic PP @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*Generic PP-CF/GF*",
+      "path": "filament/_Generic PP-CF_GF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 4 0.4 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 4 0.2 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 4 0.6 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 4 0.8 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @Q1 Pro 0.4 nozzle",
+      "path": "filament/Generic PP-CF_GF @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @Q1 Pro 0.2 nozzle",
+      "path": "filament/Generic PP-CF_GF @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @Q1 Pro 0.6 nozzle",
+      "path": "filament/Generic PP-CF_GF @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @Q1 Pro 0.8 nozzle",
+      "path": "filament/Generic PP-CF_GF @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-MAX 3 0.4 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-MAX 3 0.2 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-MAX 3 0.6 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-MAX 3 0.8 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 3 0.4 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 3 0.2 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 3 0.6 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PP-CF/GF @X-Plus 3 0.8 nozzle",
+      "path": "filament/Generic PP-CF_GF @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI ASA*",
+      "path": "filament/_QIDI ASA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI ASA-Aero*",
+      "path": "filament/_QIDI ASA-Aero_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PA12-CF*",
+      "path": "filament/_QIDI PA12-CF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PAHT-CF*",
+      "path": "filament/_QIDI PAHT-CF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PC/ABS-FR*",
+      "path": "filament/_QIDI PC_ABS-FR_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PET-CF*",
+      "path": "filament/_QIDI PET-CF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PETG-Tough*",
+      "path": "filament/_QIDI PETG-Tough_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PLA Rapido*",
+      "path": "filament/_QIDI PLA Rapido_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PLA Rapido Matte*",
+      "path": "filament/_QIDI PLA Rapido Matte_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI PLA-CF*",
+      "path": "filament/_QIDI PLA-CF_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*QIDI UltraPA*",
+      "path": "filament/_QIDI UltraPA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*Generic ABS*",
+      "path": "filament/_Generic ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*Generic PETG*",
+      "path": "filament/_Generic PETG_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*Generic PLA*",
+      "path": "filament/_Generic PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*Generic PLA Silk*",
+      "path": "filament/_Generic PLA Silk_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*Generic TPU 95A*",
+      "path": "filament/_Generic TPU 95A_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 0.2 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 0.2 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 0.2 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 0.2 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 0.2 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 0.2 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 0.2 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA-Aero @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI ASA-Aero @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 4 0.4 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 0.4 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 0.4 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 0.4 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-Plus 4 0.4 nozzle",
+      "path": "filament/Generic PLA Silk @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 4 0.4 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 4 0.6 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 0.6 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 0.6 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 0.6 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-Plus 4 0.6 nozzle",
+      "path": "filament/Generic PLA Silk @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 4 0.6 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 4 0.8 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 0.8 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 0.8 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 0.8 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 4 0.8 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 + BOX 0.2 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA-Aero @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI ASA-Aero @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/Generic PLA Silk @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 4 + BOX 0.4 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/Generic PLA Silk @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 4 + BOX 0.6 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/Generic ABS @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/Generic PETG @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/Generic PLA @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 4 + BOX 0.8 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @Q1 Pro 0.2 nozzle",
+      "path": "filament/QIDI ABS Odorless @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @Q1 Pro 0.2 nozzle",
+      "path": "filament/QIDI ABS Rapido @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @Q1 Pro 0.2 nozzle",
+      "path": "filament/QIDI ASA @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @Q1 Pro 0.2 nozzle",
+      "path": "filament/QIDI PETG-Tough @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @Q1 Pro 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @Q1 Pro 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Q1 Pro 0.2 nozzle",
+      "path": "filament/Generic ABS @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Q1 Pro 0.2 nozzle",
+      "path": "filament/Generic PETG @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Q1 Pro 0.2 nozzle",
+      "path": "filament/Generic PLA @Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI ABS Odorless @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI ABS Rapido @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI ABS-GF @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI ASA @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA-Aero @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI ASA-Aero @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PA12-CF @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PAHT-CF @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PET-CF @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PETG-Tough @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI PLA-CF @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @Q1 Pro 0.4 nozzle",
+      "path": "filament/QIDI UltraPA @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Q1 Pro 0.4 nozzle",
+      "path": "filament/Generic ABS @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Q1 Pro 0.4 nozzle",
+      "path": "filament/Generic PETG @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Q1 Pro 0.4 nozzle",
+      "path": "filament/Generic PLA @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @Q1 Pro 0.4 nozzle",
+      "path": "filament/Generic PLA Silk @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @Q1 Pro 0.4 nozzle",
+      "path": "filament/Generic TPU 95A @Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI ABS Odorless @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI ABS Rapido @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI ABS-GF @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI ASA @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PA12-CF @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PAHT-CF @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PET-CF @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PETG-Tough @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI PLA-CF @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @Q1 Pro 0.6 nozzle",
+      "path": "filament/QIDI UltraPA @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Q1 Pro 0.6 nozzle",
+      "path": "filament/Generic ABS @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Q1 Pro 0.6 nozzle",
+      "path": "filament/Generic PETG @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Q1 Pro 0.6 nozzle",
+      "path": "filament/Generic PLA @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @Q1 Pro 0.6 nozzle",
+      "path": "filament/Generic PLA Silk @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @Q1 Pro 0.6 nozzle",
+      "path": "filament/Generic TPU 95A @Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI ABS Odorless @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI ABS Rapido @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI ABS-GF @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI ASA @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PA12-CF @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PAHT-CF @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PET-CF @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PETG-Tough @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI PLA-CF @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @Q1 Pro 0.8 nozzle",
+      "path": "filament/QIDI UltraPA @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Q1 Pro 0.8 nozzle",
+      "path": "filament/Generic ABS @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Q1 Pro 0.8 nozzle",
+      "path": "filament/Generic PETG @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Q1 Pro 0.8 nozzle",
+      "path": "filament/Generic PLA @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @Q1 Pro 0.8 nozzle",
+      "path": "filament/Generic TPU 95A @Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-MAX 3 0.2 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-MAX 3 0.2 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-MAX 3 0.2 nozzle",
+      "path": "filament/QIDI ASA @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-MAX 3 0.2 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-MAX 3 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-MAX 3 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-MAX 3 0.2 nozzle",
+      "path": "filament/Generic ABS @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-MAX 3 0.2 nozzle",
+      "path": "filament/Generic PETG @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-MAX 3 0.2 nozzle",
+      "path": "filament/Generic PLA @X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI ABS-GF @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI ASA @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA-Aero @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI ASA-Aero @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PA12-CF @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PET-CF @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI PLA-CF @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-MAX 3 0.4 nozzle",
+      "path": "filament/QIDI UltraPA @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-MAX 3 0.4 nozzle",
+      "path": "filament/Generic ABS @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-MAX 3 0.4 nozzle",
+      "path": "filament/Generic PETG @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-MAX 3 0.4 nozzle",
+      "path": "filament/Generic PLA @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-MAX 3 0.4 nozzle",
+      "path": "filament/Generic PLA Silk @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-MAX 3 0.4 nozzle",
+      "path": "filament/Generic TPU 95A @X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI ABS-GF @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI ASA @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PA12-CF @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PET-CF @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI PLA-CF @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-MAX 3 0.6 nozzle",
+      "path": "filament/QIDI UltraPA @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-MAX 3 0.6 nozzle",
+      "path": "filament/Generic ABS @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-MAX 3 0.6 nozzle",
+      "path": "filament/Generic PETG @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-MAX 3 0.6 nozzle",
+      "path": "filament/Generic PLA @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-MAX 3 0.6 nozzle",
+      "path": "filament/Generic PLA Silk @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-MAX 3 0.6 nozzle",
+      "path": "filament/Generic TPU 95A @X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI ABS-GF @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI ASA @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PA12-CF @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PET-CF @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI PLA-CF @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-MAX 3 0.8 nozzle",
+      "path": "filament/QIDI UltraPA @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-MAX 3 0.8 nozzle",
+      "path": "filament/Generic ABS @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-MAX 3 0.8 nozzle",
+      "path": "filament/Generic PETG @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-MAX 3 0.8 nozzle",
+      "path": "filament/Generic PLA @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-MAX 3 0.8 nozzle",
+      "path": "filament/Generic TPU 95A @X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 3 0.2 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 3 0.2 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 3 0.2 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 3 0.2 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 3 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 3 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 3 0.2 nozzle",
+      "path": "filament/Generic ABS @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 3 0.2 nozzle",
+      "path": "filament/Generic PETG @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 3 0.2 nozzle",
+      "path": "filament/Generic PLA @X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA-Aero @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI ASA-Aero @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 3 0.4 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 3 0.4 nozzle",
+      "path": "filament/Generic ABS @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 3 0.4 nozzle",
+      "path": "filament/Generic PETG @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 3 0.4 nozzle",
+      "path": "filament/Generic PLA @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-Plus 3 0.4 nozzle",
+      "path": "filament/Generic PLA Silk @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 3 0.4 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 3 0.6 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 3 0.6 nozzle",
+      "path": "filament/Generic ABS @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 3 0.6 nozzle",
+      "path": "filament/Generic PETG @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 3 0.6 nozzle",
+      "path": "filament/Generic PLA @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-Plus 3 0.6 nozzle",
+      "path": "filament/Generic PLA Silk @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 3 0.6 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI ABS-GF @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI ASA @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PA12-CF @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PET-CF @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI PLA-CF @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-Plus 3 0.8 nozzle",
+      "path": "filament/QIDI UltraPA @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-Plus 3 0.8 nozzle",
+      "path": "filament/Generic ABS @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-Plus 3 0.8 nozzle",
+      "path": "filament/Generic PETG @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-Plus 3 0.8 nozzle",
+      "path": "filament/Generic PLA @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-Plus 3 0.8 nozzle",
+      "path": "filament/Generic TPU 95A @X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-smart 3 0.2 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-smart 3 0.2 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-smart 3 0.2 nozzle",
+      "path": "filament/QIDI ASA @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-smart 3 0.2 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-smart 3 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-smart 3 0.2 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-smart 3 0.2 nozzle",
+      "path": "filament/Generic ABS @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-smart 3 0.2 nozzle",
+      "path": "filament/Generic PETG @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-smart 3 0.2 nozzle",
+      "path": "filament/Generic PLA @X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI ABS-GF @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI ASA @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA-Aero @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI ASA-Aero @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PA12-CF @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PET-CF @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI PLA-CF @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-smart 3 0.4 nozzle",
+      "path": "filament/QIDI UltraPA @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-smart 3 0.4 nozzle",
+      "path": "filament/Generic ABS @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-smart 3 0.4 nozzle",
+      "path": "filament/Generic PETG @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-smart 3 0.4 nozzle",
+      "path": "filament/Generic PLA @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-smart 3 0.4 nozzle",
+      "path": "filament/Generic PLA Silk @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-smart 3 0.4 nozzle",
+      "path": "filament/Generic TPU 95A @X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI ABS-GF @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI ASA @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PA12-CF @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PET-CF @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI PLA-CF @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-smart 3 0.6 nozzle",
+      "path": "filament/QIDI UltraPA @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-smart 3 0.6 nozzle",
+      "path": "filament/Generic ABS @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-smart 3 0.6 nozzle",
+      "path": "filament/Generic PETG @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-smart 3 0.6 nozzle",
+      "path": "filament/Generic PLA @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Silk @X-smart 3 0.6 nozzle",
+      "path": "filament/Generic PLA Silk @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-smart 3 0.6 nozzle",
+      "path": "filament/Generic TPU 95A @X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Odorless @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI ABS Odorless @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS Rapido @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI ABS Rapido @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ABS-GF @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI ABS-GF @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI ASA @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI ASA @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PA12-CF @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PA12-CF @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PAHT-CF @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PAHT-CF @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PC/ABS-FR @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PC_ABS-FR @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PET-CF @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PET-CF @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PETG-Tough @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PETG-Tough @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA Rapido Matte @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PLA Rapido Matte @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI PLA-CF @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI PLA-CF @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "QIDI UltraPA @X-smart 3 0.8 nozzle",
+      "path": "filament/QIDI UltraPA @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @X-smart 3 0.8 nozzle",
+      "path": "filament/Generic ABS @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @X-smart 3 0.8 nozzle",
+      "path": "filament/Generic PETG @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @X-smart 3 0.8 nozzle",
+      "path": "filament/Generic PLA @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 95A @X-smart 3 0.8 nozzle",
+      "path": "filament/Generic TPU 95A @X-smart 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*X-Plus 4*",
+      "path": "printer/_X-Plus 4_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 0.2 nozzle",
+      "path": "printer/X-Plus 4 0.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 0.4 nozzle",
+      "path": "printer/X-Plus 4 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 0.6 nozzle",
+      "path": "printer/X-Plus 4 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 0.8 nozzle",
+      "path": "printer/X-Plus 4 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*X-Plus 4 + BOX*",
+      "path": "printer/_X-Plus 4 + BOX_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 + BOX 0.2 nozzle",
+      "path": "printer/X-Plus 4 + BOX 0.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 + BOX 0.4 nozzle",
+      "path": "printer/X-Plus 4 + BOX 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 + BOX 0.6 nozzle",
+      "path": "printer/X-Plus 4 + BOX 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 4 + BOX 0.8 nozzle",
+      "path": "printer/X-Plus 4 + BOX 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*Q1 Pro*",
+      "path": "printer/_Q1 Pro_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Q1 Pro 0.2 nozzle",
+      "path": "printer/Q1 Pro 0.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Q1 Pro 0.4 nozzle",
+      "path": "printer/Q1 Pro 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Q1 Pro 0.6 nozzle",
+      "path": "printer/Q1 Pro 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Q1 Pro 0.8 nozzle",
+      "path": "printer/Q1 Pro 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*X-MAX 3*",
+      "path": "printer/_X-MAX 3_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-MAX 3 0.2 nozzle",
+      "path": "printer/X-MAX 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-MAX 3 0.4 nozzle",
+      "path": "printer/X-MAX 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-MAX 3 0.6 nozzle",
+      "path": "printer/X-MAX 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-MAX 3 0.8 nozzle",
+      "path": "printer/X-MAX 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*X-Plus 3*",
+      "path": "printer/_X-Plus 3_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 3 0.2 nozzle",
+      "path": "printer/X-Plus 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 3 0.4 nozzle",
+      "path": "printer/X-Plus 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 3 0.6 nozzle",
+      "path": "printer/X-Plus 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-Plus 3 0.8 nozzle",
+      "path": "printer/X-Plus 3 0.8 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*X-smart 3*",
+      "path": "printer/_X-smart 3_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-smart 3 0.2 nozzle",
+      "path": "printer/X-smart 3 0.2 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-smart 3 0.4 nozzle",
+      "path": "printer/X-smart 3 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-smart 3 0.6 nozzle",
+      "path": "printer/X-smart 3 0.6 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "X-smart 3 0.8 nozzle",
+      "path": "printer/X-smart 3 0.8 nozzle.ini"
+    }
+  ],
+  "asset_paths": [
+    "Q1 Pro.svg",
+    "Q1 Pro_bed.stl",
+    "Q1 Pro_thumbnail.png",
+    "X-MAX 3.svg",
+    "X-MAX 3_bed.stl",
+    "X-MAX 3_thumbnail.png",
+    "X-Plus 3.svg",
+    "X-Plus 3_bed.stl",
+    "X-Plus 3_thumbnail.png",
+    "X-Plus 4 + BOX_thumbnail.png",
+    "X-Plus 4.svg",
+    "X-Plus 4_bed.stl",
+    "X-Plus 4_thumbnail.png",
+    "X-smart 3.svg",
+    "X-smart 3_bed.stl",
+    "X-smart 3_thumbnail.png"
+  ]
+}

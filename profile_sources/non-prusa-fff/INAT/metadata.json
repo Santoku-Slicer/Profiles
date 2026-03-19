@@ -1,0 +1,393 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "INAT",
+  "version": "1.1.1",
+  "index_name": "INAT.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "PROTON_X_RAIL",
+      "path": "printer_model/PROTON_X_RAIL.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "PROTON_X_ROD",
+      "path": "printer_model/PROTON_X_ROD.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "PROTON_XE750",
+      "path": "printer_model/PROTON_XE750.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common 0.2mm Standard @INAT*",
+      "path": "print/_common 0.2mm Standard @INAT_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common 0.2mm Strong @INAT*",
+      "path": "print/_common 0.2mm Strong @INAT_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common 0.2mm Advanced Material @INAT*",
+      "path": "print/_common 0.2mm Advanced Material @INAT_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common 0.12mm Fine @INAT*",
+      "path": "print/_common 0.12mm Fine @INAT_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common 0.32mm Draft @INAT*",
+      "path": "print/_common 0.32mm Draft @INAT_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*proton_x_common*",
+      "path": "printer/_proton_x_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*proton_xe750_common*",
+      "path": "printer/_proton_xe750_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common PLA @INAT*",
+      "path": "filament/_common PLA @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common PETG @INAT*",
+      "path": "filament/_common PETG @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common ABS @INAT*",
+      "path": "filament/_common ABS @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common ASA @INAT*",
+      "path": "filament/_common ASA @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common TPE @INAT*",
+      "path": "filament/_common TPE @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common HIPS @INAT*",
+      "path": "filament/_common HIPS @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common Nylon @INAT*",
+      "path": "filament/_common Nylon @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common PC @INAT*",
+      "path": "filament/_common PC @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common CPE @INAT*",
+      "path": "filament/_common CPE @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common PEEK @INAT*",
+      "path": "filament/_common PEEK @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common PEI @INAT*",
+      "path": "filament/_common PEI @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common Polymaker PolyMide CoPA @INAT*",
+      "path": "filament/_common Polymaker PolyMide CoPA @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common Polymaker PolyMide PA6-CF @INAT*",
+      "path": "filament/_common Polymaker PolyMide PA6-CF @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common Polymaker PolyMide PA6-GF @INAT*",
+      "path": "filament/_common Polymaker PolyMide PA6-GF @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common Devil Design PETG @INAT*",
+      "path": "filament/_common Devil Design PETG @INAT_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common Filament PM PETG FRJet @INAT*",
+      "path": "filament/_common Filament PM PETG FRJet @INAT_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Proton X Rail",
+      "path": "printer/Proton X Rail.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Proton X Rod",
+      "path": "printer/Proton X Rod.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Standard @PROTON_X",
+      "path": "print/0.2mm Standard @PROTON_X.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Strong @PROTON_X",
+      "path": "print/0.2mm Strong @PROTON_X.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Advanced Material @PROTON_X",
+      "path": "print/0.2mm Advanced Material @PROTON_X.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @PROTON_X",
+      "path": "print/0.12mm Fine @PROTON_X.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Draft @PROTON_X",
+      "path": "print/0.32mm Draft @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @PROTON_X",
+      "path": "filament/Generic PLA @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @PROTON_X",
+      "path": "filament/Generic PETG @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @PROTON_X",
+      "path": "filament/Generic ABS @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @PROTON_X",
+      "path": "filament/Generic ASA @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPE @PROTON_X",
+      "path": "filament/Generic TPE @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS @PROTON_X",
+      "path": "filament/Generic HIPS @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic Nylon @PROTON_X",
+      "path": "filament/Generic Nylon @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PC @PROTON_X",
+      "path": "filament/Generic PC @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic CPE @PROTON_X",
+      "path": "filament/Generic CPE @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PEEK @PROTON_X",
+      "path": "filament/Generic PEEK @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PEI @PROTON_X",
+      "path": "filament/Generic PEI @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyMide CoPA @PROTON_X",
+      "path": "filament/Polymaker PolyMide CoPA @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyMide PA6-CF @PROTON_X",
+      "path": "filament/Polymaker PolyMide PA6-CF @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyMide PA6-GF @PROTON_X",
+      "path": "filament/Polymaker PolyMide PA6-GF @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @PROTON_X",
+      "path": "filament/Devil Design PETG @PROTON_X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PETG FRJet @PROTON_X",
+      "path": "filament/Filament PM PETG FRJet @PROTON_X.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Proton XE-750",
+      "path": "printer/Proton XE-750.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Standard @PROTON_XE750",
+      "path": "print/0.2mm Standard @PROTON_XE750.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Strong @PROTON_XE750",
+      "path": "print/0.2mm Strong @PROTON_XE750.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Advanced Material @PROTON_XE750",
+      "path": "print/0.2mm Advanced Material @PROTON_XE750.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @PROTON_XE750",
+      "path": "print/0.12mm Fine @PROTON_XE750.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Draft @PROTON_XE750",
+      "path": "print/0.32mm Draft @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*start_end_gcode @PROTON_XE750*",
+      "path": "filament/_start_end_gcode @PROTON_XE750_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @PROTON_XE750",
+      "path": "filament/Generic PLA @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @PROTON_XE750",
+      "path": "filament/Generic PETG @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @PROTON_XE750",
+      "path": "filament/Generic ABS @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @PROTON_XE750",
+      "path": "filament/Generic ASA @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPE @PROTON_XE750",
+      "path": "filament/Generic TPE @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS @PROTON_XE750",
+      "path": "filament/Generic HIPS @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic Nylon @PROTON_XE750",
+      "path": "filament/Generic Nylon @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PC @PROTON_XE750",
+      "path": "filament/Generic PC @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic CPE @PROTON_XE750",
+      "path": "filament/Generic CPE @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PEEK @PROTON_XE750",
+      "path": "filament/Generic PEEK @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PEI @PROTON_XE750",
+      "path": "filament/Generic PEI @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyMide CoPA @PROTON_XE750",
+      "path": "filament/Polymaker PolyMide CoPA @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyMide PA6-CF @PROTON_XE750",
+      "path": "filament/Polymaker PolyMide PA6-CF @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyMide PA6-GF @PROTON_XE750",
+      "path": "filament/Polymaker PolyMide PA6-GF @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG @PROTON_XE750",
+      "path": "filament/Devil Design PETG @PROTON_XE750.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PETG FRJet @PROTON_XE750",
+      "path": "filament/Filament PM PETG FRJet @PROTON_XE750.ini"
+    }
+  ],
+  "asset_paths": [
+    "PROTON_XE750_thumbnail.png",
+    "PROTON_X_RAIL_thumbnail.png",
+    "PROTON_X_ROD_thumbnail.png"
+  ]
+}

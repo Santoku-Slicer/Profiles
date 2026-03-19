@@ -1,0 +1,271 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "E2D",
+  "version": "1.1.0",
+  "index_name": "E2D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "i311",
+      "path": "printer_model/i311.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "i310",
+      "path": "printer_model/i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3nozzle*",
+      "path": "print/_0.3nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4nozzle*",
+      "path": "print/_0.4nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.05mm*",
+      "path": "print/_0.05mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.08mm*",
+      "path": "print/_0.08mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.12mm*",
+      "path": "print/_0.12mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm*",
+      "path": "print/_0.15mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.16mm*",
+      "path": "print/_0.16mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25mm*",
+      "path": "print/_0.25mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm*",
+      "path": "print/_0.30mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.40mm*",
+      "path": "print/_0.40mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*i310*",
+      "path": "print/_i310_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*i311*",
+      "path": "print/_i311_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @E2D i310",
+      "path": "print/0.10mm DETAIL @E2D i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm QUALITY @E2D i310",
+      "path": "print/0.20mm QUALITY @E2D i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @E2D i310",
+      "path": "print/0.20mm NORMAL @E2D i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm DRAFT @E2D i310",
+      "path": "print/0.25mm DRAFT @E2D i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm DETAIL @E2D 0.30 nozzle i310",
+      "path": "print/0.05mm DETAIL @E2D 0.30 nozzle i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm NORMAL @E2D 0.30 nozzle i310",
+      "path": "print/0.10mm NORMAL @E2D 0.30 nozzle i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm DRAFT @E2D 0.30 nozzle i310",
+      "path": "print/0.20mm DRAFT @E2D 0.30 nozzle i310.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @E2D i311",
+      "path": "print/0.10mm DETAIL @E2D i311.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm QUALITY @E2D i311",
+      "path": "print/0.15mm QUALITY @E2D i311.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @E2D i311",
+      "path": "print/0.20mm NORMAL @E2D i311.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm DETAIL @E2D 0.30 nozzle i311",
+      "path": "print/0.08mm DETAIL @E2D 0.30 nozzle i311.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm SPEED @E2D 0.30 nozzle i311",
+      "path": "print/0.16mm SPEED @E2D 0.30 nozzle i311.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm QUALITY @E2D 0.30 nozzle i311",
+      "path": "print/0.16mm QUALITY @E2D 0.30 nozzle i311.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @E2D 0.30 nozzle i311",
+      "path": "print/0.20mm NORMAL @E2D 0.30 nozzle i311.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*i310*",
+      "path": "printer/_i310_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*i311*",
+      "path": "printer/_i311_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "E2D i310 0.4 nozzle",
+      "path": "printer/E2D i310 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "E2D i310 0.3 nozzle",
+      "path": "printer/E2D i310 0.3 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "E2D i311 0.4 nozzle",
+      "path": "printer/E2D i311 0.4 nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "E2D i311 0.3 nozzle",
+      "path": "printer/E2D i311 0.3 nozzle.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PETG*",
+      "path": "filament/_PETG_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @E2D",
+      "path": "filament/Generic PLA @E2D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @E2D",
+      "path": "filament/Generic PETG @E2D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @E2D",
+      "path": "filament/Generic ABS @E2D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "E2D PLA @E2D",
+      "path": "filament/E2D PLA @E2D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "E2D PLA+ @E2D",
+      "path": "filament/E2D PLA+ @E2D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "E2D PLA-Silk @E2D",
+      "path": "filament/E2D PLA-Silk @E2D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "E2D PETG @E2D",
+      "path": "filament/E2D PETG @E2D.ini"
+    }
+  ],
+  "asset_paths": [
+    "i310.svg",
+    "i310_bed.stl",
+    "i310_thumbnail.png",
+    "i311.svg",
+    "i311_bed.stl",
+    "i311_thumbnail.png"
+  ]
+}

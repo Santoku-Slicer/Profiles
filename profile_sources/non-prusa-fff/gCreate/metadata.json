@@ -1,0 +1,414 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "gCreate",
+  "version": "2.1.0",
+  "index_name": "gCreate.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "GMAX15P",
+      "path": "printer_model/GMAX15P.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "GMAX2",
+      "path": "printer_model/GMAX2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "GMAX2PRO",
+      "path": "printer_model/GMAX2PRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "GMAX2DUAL2IN1",
+      "path": "printer_model/GMAX2DUAL2IN1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "GMAX2DUAL",
+      "path": "printer_model/GMAX2DUAL.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm*",
+      "path": "print/_0.15mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25mm*",
+      "path": "print/_0.25mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.3mm*",
+      "path": "print/_0.3mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.4mm*",
+      "path": "print/_0.4mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.5mm*",
+      "path": "print/_0.5mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.6mm*",
+      "path": "print/_0.6mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*SLOW*",
+      "path": "print/_SLOW_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*FAST*",
+      "path": "print/_FAST_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm - Very Thin Layers @GCREATE",
+      "path": "print/0.10mm - Very Thin Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm - Thin Layers @GCREATE",
+      "path": "print/0.15mm - Thin Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm - Standard Layers @GCREATE",
+      "path": "print/0.20mm - Standard Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm - Standard Layers Slow (PETG and TPU) @GCREATE",
+      "path": "print/0.20mm - Standard Layers Slow (PETG and TPU) @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm - Standard Layers Fast @GCREATE",
+      "path": "print/0.20mm - Standard Layers Fast @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm - Thick Layers @GCREATE",
+      "path": "print/0.25mm - Thick Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm - Very Thick Layers @GCREATE",
+      "path": "print/0.30mm - Very Thick Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm - High Output Layers @GCREATE",
+      "path": "print/0.40mm - High Output Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm - High Output Layers @GCREATE",
+      "path": "print/0.50mm - High Output Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.60mm - High Output Layers @GCREATE",
+      "path": "print/0.60mm - High Output Layers @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm - Dual 2in1 @GCREATE",
+      "path": "print/0.20mm - Dual 2in1 @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm - Dual Chimera @GCREATE",
+      "path": "print/0.20mm - Dual Chimera @GCREATE.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm - Dual 2in1 PLA with PVA Support @GCREATE",
+      "path": "print/0.20mm - Dual 2in1 PLA with PVA Support @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*TPU90A*",
+      "path": "filament/_TPU90A_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*CFPETG*",
+      "path": "filament/_CFPETG_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*CFNYLON*",
+      "path": "filament/_CFNYLON_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*CFPLA*",
+      "path": "filament/_CFPLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*WOODFILLPLA*",
+      "path": "filament/_WOODFILLPLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @GCREATE",
+      "path": "filament/Prusament PLA @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @GCREATE",
+      "path": "filament/Prusament PETG @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @GCREATE",
+      "path": "filament/Generic ABS @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @GCREATE",
+      "path": "filament/Generic PLA @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA no Heated Bed @GCREATE",
+      "path": "filament/Generic PLA no Heated Bed @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @GCREATE",
+      "path": "filament/Generic PETG @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Atomic PLA @GCREATE",
+      "path": "filament/Atomic PLA @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Push Plastic PLA @GCREATE",
+      "path": "filament/Push Plastic PLA @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "HT PLA @GCREATE",
+      "path": "filament/HT PLA @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS @GCREATE",
+      "path": "filament/Generic HIPS @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU 90A @GCREATE",
+      "path": "filament/Generic TPU 90A @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic CF PETG @GCREATE",
+      "path": "filament/Generic CF PETG @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic CF Nylon @GCREATE",
+      "path": "filament/Generic CF Nylon @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic CF PLA @GCREATE",
+      "path": "filament/Generic CF PLA @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb Woodfill PLA @GCREATE",
+      "path": "filament/ColorFabb Woodfill PLA @GCREATE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PVA @GCREATE - PLA and PVA Support",
+      "path": "filament/Generic PVA @GCREATE - PLA and PVA Support.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*gCreate gMax 2*",
+      "path": "printer/_gCreate gMax 2_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*gCreate gMax 2 Pro*",
+      "path": "printer/_gCreate gMax 2 Pro_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*gCreate gMax 1.5XT Plus*",
+      "path": "printer/_gCreate gMax 1.5XT Plus_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*gCreate gMax 2 Dual 2in1*",
+      "path": "printer/_gCreate gMax 2 Dual 2in1_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*gCreate gMax 2 Dual Chimera*",
+      "path": "printer/_gCreate gMax 2 Dual Chimera_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 1.5XT Plus - 0.3mm nozzle",
+      "path": "printer/gMax 1.5XT Plus - 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 1.5XT Plus - 0.4mm nozzle",
+      "path": "printer/gMax 1.5XT Plus - 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 1.5XT Plus - 0.5mm nozzle",
+      "path": "printer/gMax 1.5XT Plus - 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 1.5XT Plus - 0.8mm nozzle",
+      "path": "printer/gMax 1.5XT Plus - 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 1.5XT Plus - 1.0mm nozzle",
+      "path": "printer/gMax 1.5XT Plus - 1.0mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 - 0.3mm nozzle",
+      "path": "printer/gMax 2 - 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 - 0.4mm nozzle",
+      "path": "printer/gMax 2 - 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 - 0.5mm nozzle",
+      "path": "printer/gMax 2 - 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 - 0.8mm nozzle",
+      "path": "printer/gMax 2 - 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 - 1.0mm nozzle",
+      "path": "printer/gMax 2 - 1.0mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 Pro - 0.3mm nozzle",
+      "path": "printer/gMax 2 Pro - 0.3mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 Pro - 0.4mm nozzle",
+      "path": "printer/gMax 2 Pro - 0.4mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 Pro - 0.5mm nozzle",
+      "path": "printer/gMax 2 Pro - 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 Pro - 0.8mm nozzle",
+      "path": "printer/gMax 2 Pro - 0.8mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 Pro - 1.0mm nozzle",
+      "path": "printer/gMax 2 Pro - 1.0mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 Dual 2in1 - 0.5, 0.5mm nozzle",
+      "path": "printer/gMax 2 Dual 2in1 - 0.5, 0.5mm nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "gMax 2 Dual Chimera - 0.5, 0.5mm nozzle",
+      "path": "printer/gMax 2 Dual Chimera - 0.5, 0.5mm nozzle.ini"
+    }
+  ],
+  "asset_paths": [
+    "GMAX15P_thumbnail.png",
+    "GMAX2DUAL2IN1_thumbnail.png",
+    "GMAX2DUAL_thumbnail.png",
+    "GMAX2PRO_thumbnail.png",
+    "GMAX2_thumbnail.png",
+    "gmax15p.svg",
+    "gmax15p_bed.stl",
+    "gmax2.svg",
+    "gmax2_bed.stl"
+  ]
+}

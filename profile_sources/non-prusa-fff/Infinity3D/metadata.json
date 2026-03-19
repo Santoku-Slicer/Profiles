@@ -1,0 +1,246 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Infinity3D",
+  "version": "2.1.0",
+  "index_name": "Infinity3D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DEV-200",
+      "path": "printer_model/DEV-200.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "DEV-350",
+      "path": "printer_model/DEV-350.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm SUPERFINE @Infinity3D_DEV_200",
+      "path": "print/0.06mm SUPERFINE @Infinity3D_DEV_200.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @Infinity3D_DEV_200",
+      "path": "print/0.10mm Fine @Infinity3D_DEV_200.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm GOOD @Infinity3D_DEV_200",
+      "path": "print/0.20mm GOOD @Infinity3D_DEV_200.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm RAPID @Infinity3D_DEV_200",
+      "path": "print/0.30mm RAPID @Infinity3D_DEV_200.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm FAST @Infinity3D_DEV_200",
+      "path": "print/0.40mm FAST @Infinity3D_DEV_200.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm SUPERFINE @Infinity3D_DEV_350",
+      "path": "print/0.06mm SUPERFINE @Infinity3D_DEV_350.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @Infinity3D_DEV_350",
+      "path": "print/0.10mm Fine @Infinity3D_DEV_350.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm GOOD @Infinity3D_DEV_350",
+      "path": "print/0.20mm GOOD @Infinity3D_DEV_350.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm RAPID @Infinity3D_DEV_350",
+      "path": "print/0.30mm RAPID @Infinity3D_DEV_350.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm FAST @Infinity3D_DEV_350",
+      "path": "print/0.40mm FAST @Infinity3D_DEV_350.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Infinity3D",
+      "path": "filament/Generic PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Infinity3D",
+      "path": "filament/Generic PETG @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Infinity3D",
+      "path": "filament/Generic ABS @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Infinity3D PLA @Infinity3D",
+      "path": "filament/Infinity3D PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Infinity3D PETG @Infinity3D",
+      "path": "filament/Infinity3D PETG @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Infinity3D ABS @Infinity3D",
+      "path": "filament/Infinity3D ABS @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA @Infinity3D",
+      "path": "filament/Prusament PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG @Infinity3D",
+      "path": "filament/Prusament PETG @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "AzureFilm PLA @Infinity3D",
+      "path": "filament/AzureFilm PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PLA @Infinity3D",
+      "path": "filament/Devil Design PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PLA Matt @Infinity3D",
+      "path": "filament/Devil Design PLA Matt @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PLA Galaxy @Infinity3D",
+      "path": "filament/Devil Design PLA Galaxy @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PLA NX2 @Infinity3D",
+      "path": "filament/Extrudr PLA NX2 @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr GreenTEC Pro @Infinity3D",
+      "path": "filament/Extrudr GreenTEC Pro @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Real Filament PLA @Infinity3D",
+      "path": "filament/Real Filament PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Velleman PLA @Infinity3D",
+      "path": "filament/Velleman PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3DJAKE ecoPLA @Infinity3D",
+      "path": "filament/3DJAKE ecoPLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3DJAKE ecoPLA Matt @Infinity3D",
+      "path": "filament/3DJAKE ecoPLA Matt @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3DJAKE ecoPLA Tough @Infinity3D",
+      "path": "filament/3DJAKE ecoPLA Tough @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "FormFutura Tough PLA @Infinity3D",
+      "path": "filament/FormFutura Tough PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "123-3D Jupiter PLA @Infinity3D",
+      "path": "filament/123-3D Jupiter PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Das Filament PLA @Infinity3D",
+      "path": "filament/Das Filament PLA @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Das Filament PETG @Infinity3D",
+      "path": "filament/Das Filament PETG @Infinity3D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim PLA @Infinity3D",
+      "path": "filament/Verbatim PLA @Infinity3D.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Infinity3D DEV-350",
+      "path": "printer/Infinity3D DEV-350.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Infinity3D DEV-200",
+      "path": "printer/Infinity3D DEV-200.ini"
+    }
+  ],
+  "asset_paths": [
+    "DEV-200_thumbnail.png",
+    "DEV-350_thumbnail.png",
+    "DEV_200_bed.stl",
+    "DEV_200_texture.svg",
+    "DEV_350_bed.stl",
+    "DEV_350_texture.svg"
+  ]
+}

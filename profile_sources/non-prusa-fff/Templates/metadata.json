@@ -1,0 +1,1039 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "Templates",
+  "version": "2.0.3",
+  "index_name": "Templates.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABSC*",
+      "path": "filament/_ABSC_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*FLEX*",
+      "path": "filament/_FLEX_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb bronzeFill",
+      "path": "filament/ColorFabb bronzeFill.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb steelFill",
+      "path": "filament/ColorFabb steelFill.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb copperFill",
+      "path": "filament/ColorFabb copperFill.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb HT",
+      "path": "filament/ColorFabb HT.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb PLA-PHA",
+      "path": "filament/ColorFabb PLA-PHA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb woodFill",
+      "path": "filament/ColorFabb woodFill.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb corkFill",
+      "path": "filament/ColorFabb corkFill.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb XT",
+      "path": "filament/ColorFabb XT.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb XT-CF20",
+      "path": "filament/ColorFabb XT-CF20.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb nGen",
+      "path": "filament/ColorFabb nGen.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb nGen flex",
+      "path": "filament/ColorFabb nGen flex.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Kimya PETG Carbon",
+      "path": "filament/Kimya PETG Carbon.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Kimya ABS Carbon",
+      "path": "filament/Kimya ABS Carbon.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Kimya ABS Kevlar",
+      "path": "filament/Kimya ABS Kevlar.ini"
+    },
+    {
+      "type": "filament",
+      "name": "E3D Edge",
+      "path": "filament/E3D Edge.ini"
+    },
+    {
+      "type": "filament",
+      "name": "E3D PC-ABS",
+      "path": "filament/E3D PC-ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA",
+      "path": "filament/Fillamentum PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS",
+      "path": "filament/Fillamentum ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA",
+      "path": "filament/Fillamentum ASA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament ASA",
+      "path": "filament/Prusament ASA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend",
+      "path": "filament/Prusament PC Blend.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PC Blend Carbon Fiber",
+      "path": "filament/Prusament PC Blend Carbon Fiber.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PA11 Carbon Fiber",
+      "path": "filament/Prusament PA11 Carbon Fiber.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament rPLA",
+      "path": "filament/Prusament rPLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament Woodfill",
+      "path": "filament/Prusament Woodfill.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum CPE",
+      "path": "filament/Fillamentum CPE.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Timberfill",
+      "path": "filament/Fillamentum Timberfill.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Smartfil Wood",
+      "path": "filament/Smartfil Wood.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS",
+      "path": "filament/Generic ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Esun ABS",
+      "path": "filament/Esun ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Hatchbox ABS",
+      "path": "filament/Hatchbox ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM ABS",
+      "path": "filament/Filament PM ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim ABS",
+      "path": "filament/Verbatim ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG",
+      "path": "filament/Generic PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr DuraPro ASA",
+      "path": "filament/Extrudr DuraPro ASA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PETG",
+      "path": "filament/Extrudr PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr XPETG CF",
+      "path": "filament/Extrudr XPETG CF.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr XPETG Matt",
+      "path": "filament/Extrudr XPETG Matt.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr BioFusion",
+      "path": "filament/Extrudr BioFusion.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr Flax",
+      "path": "filament/Extrudr Flax.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr GreenTEC",
+      "path": "filament/Extrudr GreenTEC.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr GreenTEC Pro",
+      "path": "filament/Extrudr GreenTEC Pro.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr GreenTEC Pro Carbon",
+      "path": "filament/Extrudr GreenTEC Pro Carbon.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PLA NX1",
+      "path": "filament/Extrudr PLA NX1.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr PLA NX2",
+      "path": "filament/Extrudr PLA NX2.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr Flex Hard",
+      "path": "filament/Extrudr Flex Hard.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr Flex Medium",
+      "path": "filament/Extrudr Flex Medium.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Extrudr Flex SemiSoft",
+      "path": "filament/Extrudr Flex SemiSoft.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth Adamant S1",
+      "path": "filament/addnorth Adamant S1.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth Adura X",
+      "path": "filament/addnorth Adura X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth E-PLA",
+      "path": "filament/addnorth E-PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth ESD-PETG",
+      "path": "filament/addnorth ESD-PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth OBC Polyethylene",
+      "path": "filament/addnorth OBC Polyethylene.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth PETG",
+      "path": "filament/addnorth PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth Rigid X",
+      "path": "filament/addnorth Rigid X.ini"
+    },
+    {
+      "type": "filament",
+      "name": "addnorth Textura",
+      "path": "filament/addnorth Textura.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filamentworld ABS",
+      "path": "filament/Filamentworld ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filamentworld PETG",
+      "path": "filament/Filamentworld PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filamentworld PLA",
+      "path": "filament/Filamentworld PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PETG",
+      "path": "filament/Filament PM PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA",
+      "path": "filament/Generic PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Pro PCTG",
+      "path": "filament/3D-Fuel Pro PCTG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel PET-CF",
+      "path": "filament/3D-Fuel PET-CF.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Standard PLA+",
+      "path": "filament/3D-Fuel Standard PLA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Tough Pro PLA+",
+      "path": "filament/3D-Fuel Tough Pro PLA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Silk PLA+",
+      "path": "filament/3D-Fuel Silk PLA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Tough Pro PLA+ ReFuel",
+      "path": "filament/3D-Fuel Tough Pro PLA+ ReFuel.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Standard PLA+ ReFuel",
+      "path": "filament/3D-Fuel Standard PLA+ ReFuel.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Pro PCTG ReFuel",
+      "path": "filament/3D-Fuel Pro PCTG ReFuel.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Pro PETG",
+      "path": "filament/3D-Fuel Pro PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3D-Fuel Pro PETG Refuel",
+      "path": "filament/3D-Fuel Pro PETG Refuel.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Tectonic-3D AURA PLA",
+      "path": "filament/Tectonic-3D AURA PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Tectonic-3D AURA PETG",
+      "path": "filament/Tectonic-3D AURA PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Tectonic-3D AURA ASA+",
+      "path": "filament/Tectonic-3D AURA ASA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Cookiecad PLA",
+      "path": "filament/Cookiecad PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PolyTerra PLA",
+      "path": "filament/Polymaker PolyTerra PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Sunlu PLA+ 2.0",
+      "path": "filament/Sunlu PLA+ 2.0.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Sunlu PLA",
+      "path": "filament/Sunlu PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Sunlu PETG",
+      "path": "filament/Sunlu PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Jessie PLA",
+      "path": "filament/Jessie PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Jessie PETG",
+      "path": "filament/Jessie PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "VOXELPLA+",
+      "path": "filament/VOXELPLA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "VOXELPETG+",
+      "path": "filament/VOXELPETG+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PLA",
+      "path": "filament/Devil Design PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Devil Design PETG",
+      "path": "filament/Devil Design PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Spectrum PLA",
+      "path": "filament/Spectrum PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX",
+      "path": "filament/Generic FLEX.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Flexfill 92A",
+      "path": "filament/Fillamentum Flexfill 92A.ini"
+    },
+    {
+      "type": "filament",
+      "name": "AmazonBasics TPU",
+      "path": "filament/AmazonBasics TPU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "SainSmart TPU",
+      "path": "filament/SainSmart TPU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "NinjaTek NinjaFlex TPU",
+      "path": "filament/NinjaTek NinjaFlex TPU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "NinjaTek Cheetah TPU",
+      "path": "filament/NinjaTek Cheetah TPU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech FilaFlex40",
+      "path": "filament/Filatech FilaFlex40.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech FilaFlex30",
+      "path": "filament/Filatech FilaFlex30.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech FilaFlex55",
+      "path": "filament/Filatech FilaFlex55.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech TPU",
+      "path": "filament/Filatech TPU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech ABS",
+      "path": "filament/Filatech ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech FilaCarbon",
+      "path": "filament/Filatech FilaCarbon.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech FilaPLA",
+      "path": "filament/Filatech FilaPLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech PLA",
+      "path": "filament/Filatech PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech PLA+",
+      "path": "filament/Filatech PLA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech FilaTough",
+      "path": "filament/Filatech FilaTough.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech HIPS",
+      "path": "filament/Filatech HIPS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech PA",
+      "path": "filament/Filatech PA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech PC",
+      "path": "filament/Filatech PC.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech PC-ABS",
+      "path": "filament/Filatech PC-ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech PETG",
+      "path": "filament/Filatech PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filatech Wood-PLA",
+      "path": "filament/Filatech Wood-PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PET",
+      "path": "filament/Ultrafuse PET.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PRO1",
+      "path": "filament/Ultrafuse PRO1.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse ABS",
+      "path": "filament/Ultrafuse ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse ABS Fusion+",
+      "path": "filament/Ultrafuse ABS Fusion+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse ASA",
+      "path": "filament/Ultrafuse ASA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse HIPS",
+      "path": "filament/Ultrafuse HIPS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PA",
+      "path": "filament/Ultrafuse PA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PA6 GF30",
+      "path": "filament/Ultrafuse PA6 GF30.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PAHT-CF15",
+      "path": "filament/Ultrafuse PAHT-CF15.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PC-ABS-FR",
+      "path": "filament/Ultrafuse PC-ABS-FR.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PET-CF15",
+      "path": "filament/Ultrafuse PET-CF15.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PLA",
+      "path": "filament/Ultrafuse PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PP",
+      "path": "filament/Ultrafuse PP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse PP-GF30",
+      "path": "filament/Ultrafuse PP-GF30.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse TPC-45D",
+      "path": "filament/Ultrafuse TPC-45D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse TPU-64D",
+      "path": "filament/Ultrafuse TPU-64D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse TPU-85A",
+      "path": "filament/Ultrafuse TPU-85A.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse TPU-95A",
+      "path": "filament/Ultrafuse TPU-95A.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse rPET",
+      "path": "filament/Ultrafuse rPET.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Ultrafuse Metal",
+      "path": "filament/Ultrafuse Metal.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PC-Max",
+      "path": "filament/Polymaker PC-Max.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PrimaSelect PVA+",
+      "path": "filament/PrimaSelect PVA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa ABS",
+      "path": "filament/Prusa ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa HIPS",
+      "path": "filament/Prusa HIPS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS",
+      "path": "filament/Generic HIPS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa PETG",
+      "path": "filament/Prusa PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim PETG",
+      "path": "filament/Verbatim PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG",
+      "path": "filament/Prusament PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG Carbon Fiber",
+      "path": "filament/Prusament PETG Carbon Fiber.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PETG V0",
+      "path": "filament/Prusament PETG V0.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusa PLA",
+      "path": "filament/Prusa PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PLA",
+      "path": "filament/Eolas Prints PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PLA Matte",
+      "path": "filament/Eolas Prints PLA Matte.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints INGEO 850",
+      "path": "filament/Eolas Prints INGEO 850.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints INGEO 870",
+      "path": "filament/Eolas Prints INGEO 870.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PETG",
+      "path": "filament/Eolas Prints PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints PETG - UV Resistant",
+      "path": "filament/Eolas Prints PETG - UV Resistant.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Eolas Prints TPU 93A",
+      "path": "filament/Eolas Prints TPU 93A.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Easy PLA",
+      "path": "filament/Fiberlogy Easy PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Easy PET-G",
+      "path": "filament/Fiberlogy Easy PET-G.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy ASA",
+      "path": "filament/Fiberlogy ASA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Easy ABS",
+      "path": "filament/Fiberlogy Easy ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy CPE HT",
+      "path": "filament/Fiberlogy CPE HT.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PCTG",
+      "path": "filament/Fiberlogy PCTG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy FiberFlex 40D",
+      "path": "filament/Fiberlogy FiberFlex 40D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy MattFlex 40D",
+      "path": "filament/Fiberlogy MattFlex 40D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy FiberFlex 30D",
+      "path": "filament/Fiberlogy FiberFlex 30D.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy FiberSatin",
+      "path": "filament/Fiberlogy FiberSatin.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy FiberSilk",
+      "path": "filament/Fiberlogy FiberSilk.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy FiberWood",
+      "path": "filament/Fiberlogy FiberWood.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy HD PLA",
+      "path": "filament/Fiberlogy HD PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PLA Mineral",
+      "path": "filament/Fiberlogy PLA Mineral.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Impact PLA",
+      "path": "filament/Fiberlogy Impact PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12",
+      "path": "filament/Fiberlogy Nylon PA12.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12+CF15",
+      "path": "filament/Fiberlogy Nylon PA12+CF15.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12+GF15",
+      "path": "filament/Fiberlogy Nylon PA12+GF15.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PP",
+      "path": "filament/Fiberlogy PP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PLA",
+      "path": "filament/Filament PM PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PLA+",
+      "path": "filament/Filament PM PLA+.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM ASA",
+      "path": "filament/Filament PM ASA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM CFJet",
+      "path": "filament/Filament PM CFJet.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PAJet",
+      "path": "filament/Filament PM PAJet.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PA-CFJet",
+      "path": "filament/Filament PM PA-CFJet.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM FRJet",
+      "path": "filament/Filament PM FRJet.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PC-ABS",
+      "path": "filament/Filament PM PC-ABS.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM PPJet",
+      "path": "filament/Filament PM PPJet.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Filament PM TPE88 RubberJet",
+      "path": "filament/Filament PM TPE88 RubberJet.ini"
+    },
+    {
+      "type": "filament",
+      "name": "AmazonBasics PLA",
+      "path": "filament/AmazonBasics PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Overture PLA",
+      "path": "filament/Overture PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Overture PETG",
+      "path": "filament/Overture PETG.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Hatchbox PLA",
+      "path": "filament/Hatchbox PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Esun PLA",
+      "path": "filament/Esun PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Das Filament PLA",
+      "path": "filament/Das Filament PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "EUMAKERS PLA",
+      "path": "filament/EUMAKERS PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Floreon3D PLA",
+      "path": "filament/Floreon3D PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PLA",
+      "path": "filament/Prusament PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Prusament PVB",
+      "path": "filament/Prusament PVB.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Flexfill 98A",
+      "path": "filament/Fillamentum Flexfill 98A.ini"
+    },
+    {
+      "type": "filament",
+      "name": "ColorFabb VarioShore TPU",
+      "path": "filament/ColorFabb VarioShore TPU.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Taulman Bridge",
+      "path": "filament/Taulman Bridge.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum Nylon FX256",
+      "path": "filament/Fillamentum Nylon FX256.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberthree F3 PA Pure Pro",
+      "path": "filament/Fiberthree F3 PA Pure Pro.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberthree F3 PA-CF Pro",
+      "path": "filament/Fiberthree F3 PA-CF Pro.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberthree F3 PA-GF Pro",
+      "path": "filament/Fiberthree F3 PA-GF Pro.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberthree F3 PA-GF30 Pro",
+      "path": "filament/Fiberthree F3 PA-GF30 Pro.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Taulman T-Glase",
+      "path": "filament/Taulman T-Glase.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim PLA",
+      "path": "filament/Verbatim PLA.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim BVOH",
+      "path": "filament/Verbatim BVOH.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim PP",
+      "path": "filament/Verbatim PP.ini"
+    },
+    {
+      "type": "filament",
+      "name": "FormFutura Centaur PP",
+      "path": "filament/FormFutura Centaur PP.ini"
+    }
+  ],
+  "asset_paths": []
+}

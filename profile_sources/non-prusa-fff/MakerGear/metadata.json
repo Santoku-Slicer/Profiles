@@ -1,0 +1,629 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "MakerGear",
+  "version": "1.1.0",
+  "index_name": "MakerGear.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_MICRO",
+      "path": "printer_model/MAKERGEAR_MICRO.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_M2",
+      "path": "printer_model/MAKERGEAR_M2.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_M2_DUAL",
+      "path": "printer_model/MAKERGEAR_M2_DUAL.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_M3_SE",
+      "path": "printer_model/MAKERGEAR_M3_SE.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_M3_ID_0",
+      "path": "printer_model/MAKERGEAR_M3_ID_0.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_M3_ID_0_DUPLICATION",
+      "path": "printer_model/MAKERGEAR_M3_ID_0_DUPLICATION.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_M3_ID_1",
+      "path": "printer_model/MAKERGEAR_M3_ID_1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_M3_ID_1_DUPLICATION",
+      "path": "printer_model/MAKERGEAR_M3_ID_1_DUPLICATION.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_U1",
+      "path": "printer_model/MAKERGEAR_U1.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "MAKERGEAR_U1_DUPLICATION",
+      "path": "printer_model/MAKERGEAR_U1_DUPLICATION.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25nozzle*",
+      "path": "print/_0.25nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.40nozzle*",
+      "path": "print/_0.40nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.50nozzle*",
+      "path": "print/_0.50nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.75nozzle*",
+      "path": "print/_0.75nozzle_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.05mm*",
+      "path": "print/_0.05mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.07mm*",
+      "path": "print/_0.07mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @0.35 nozzle MakerGear",
+      "path": "print/0.10mm Fine @0.35 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm*",
+      "path": "print/_0.15mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Normal @0.25 nozzle MakerGear",
+      "path": "print/0.15mm Normal @0.25 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Quality @0.35 nozzle MakerGear",
+      "path": "print/0.15mm Quality @0.35 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Quality @0.40 nozzle MakerGear",
+      "path": "print/0.15mm Quality @0.40 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Quality @0.50 nozzle MakerGear",
+      "path": "print/0.20mm Quality @0.50 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Normal @0.35 nozzle MakerGear",
+      "path": "print/0.20mm Normal @0.35 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Normal @0.40 Nozzle MakerGear",
+      "path": "print/0.20mm Normal @0.40 Nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.25mm*",
+      "path": "print/_0.25mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Speed @0.35 nozzle MakerGear",
+      "path": "print/0.25mm Speed @0.35 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Fast @0.40 nozzle MakerGear",
+      "path": "print/0.25mm Fast @0.40 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Normal @0.50 nozzle MakerGear",
+      "path": "print/0.25mm Normal @0.50 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Quality @0.75 nozzle MakerGear",
+      "path": "print/0.25mm Quality @0.75 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.30mm*",
+      "path": "print/_0.30mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Speed @0.50 nozzle MakerGear",
+      "path": "print/0.30mm Speed @0.50 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Normal @0.75 nozzle MakerGear",
+      "path": "print/0.30mm Normal @0.75 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.35mm*",
+      "path": "print/_0.35mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm Speed @0.75 nozzle MakerGear",
+      "path": "print/0.35mm Speed @0.75 nozzle MakerGear.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.40mm*",
+      "path": "print/_0.40mm_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PET*",
+      "path": "filament/_PET_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*ABS*",
+      "path": "filament/_ABS_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*FLEX*",
+      "path": "filament/_FLEX_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*EMPTY*",
+      "path": "filament/_EMPTY_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MakerGear PLA @MakerGear",
+      "path": "filament/MakerGear PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MakerGear Translucent PLA @MakerGear",
+      "path": "filament/MakerGear Translucent PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MakerGear PLA @MakerGear_Micro",
+      "path": "filament/MakerGear PLA @MakerGear_Micro.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PLA @MakerGear",
+      "path": "filament/Fiberlogy PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "AmazonBasics PLA @MakerGear",
+      "path": "filament/AmazonBasics PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Overture PLA @MakerGear",
+      "path": "filament/Overture PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Hatchbox PLA @MakerGear",
+      "path": "filament/Hatchbox PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum PLA @MakerGear",
+      "path": "filament/Fillamentum PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Esun PLA @MakerGear",
+      "path": "filament/Esun PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Inland PLA @MakerGear",
+      "path": "filament/Inland PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MatterHackers PLA @MakerGear",
+      "path": "filament/MatterHackers PLA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MakerGear ABS @MakerGear",
+      "path": "filament/MakerGear ABS @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Esun ABS @MakerGear",
+      "path": "filament/Esun ABS @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Hatchbox ABS @MakerGear",
+      "path": "filament/Hatchbox ABS @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim ABS @MakerGear",
+      "path": "filament/Verbatim ABS @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ABS @MakerGear",
+      "path": "filament/Fillamentum ABS @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "E3D PC-ABS @MakerGear",
+      "path": "filament/E3D PC-ABS @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fillamentum ASA @MakerGear",
+      "path": "filament/Fillamentum ASA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy ASA @MakerGear",
+      "path": "filament/Fiberlogy ASA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Verbatim PETG @MakerGear",
+      "path": "filament/Verbatim PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy PETG @MakerGear",
+      "path": "filament/Fiberlogy PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Esun PETG @MakerGear",
+      "path": "filament/Esun PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Overture PETG @MakerGear",
+      "path": "filament/Overture PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "3DxTech PETG @MakerGear",
+      "path": "filament/3DxTech PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Hatchbox PETG @MakerGear",
+      "path": "filament/Hatchbox PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Inland PETG @MakerGear",
+      "path": "filament/Inland PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "MatterHackers PETG @MakerGear",
+      "path": "filament/MatterHackers PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12 @MakerGear",
+      "path": "filament/Fiberlogy Nylon PA12 @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberlogy Nylon PA12+CF15 @MakerGear",
+      "path": "filament/Fiberlogy Nylon PA12+CF15 @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "AmazonBasics TPU @MakerGear",
+      "path": "filament/AmazonBasics TPU @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "SainSmart TPU @MakerGear",
+      "path": "filament/SainSmart TPU @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "PolyMaker PolySmooth @MakerGear",
+      "path": "filament/PolyMaker PolySmooth @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Empty @MakerGear",
+      "path": "filament/Empty @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @MakerGear",
+      "path": "filament/Generic ABS @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @MakerGear",
+      "path": "filament/Generic PETG @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @MakerGear",
+      "path": "filament/Generic ASA @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic FLEX @MakerGear",
+      "path": "filament/Generic FLEX @MakerGear.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic HIPS @MakerGear",
+      "path": "filament/Generic HIPS @MakerGear.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*default*",
+      "path": "printer/_default_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Micro",
+      "path": "printer/MakerGear Micro.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 (V4 Hotend)",
+      "path": "printer/MakerGear M2 (V4 Hotend).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 0.25 Nozzle",
+      "path": "printer/MakerGear M2 0.25 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 0.50 Nozzle",
+      "path": "printer/MakerGear M2 0.50 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 0.75 Nozzle",
+      "path": "printer/MakerGear M2 0.75 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 Dual",
+      "path": "printer/MakerGear M2 Dual.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 Dual 0.25 Nozzle",
+      "path": "printer/MakerGear M2 Dual 0.25 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 Dual 0.50 Nozzle",
+      "path": "printer/MakerGear M2 Dual 0.50 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M2 Dual 0.75 Nozzle",
+      "path": "printer/MakerGear M2 Dual 0.75 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Single Extruder",
+      "path": "printer/MakerGear M3 Single Extruder.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Single Extruder 0.25 Nozzle",
+      "path": "printer/MakerGear M3 Single Extruder 0.25 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Single Extruder 0.50 Nozzle",
+      "path": "printer/MakerGear M3 Single Extruder 0.50 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Single Extruder 0.75 Nozzle",
+      "path": "printer/MakerGear M3 Single Extruder 0.75 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0 0.25 Nozzle",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0 0.25 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0 0.50 Nozzle",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0 0.50 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0 0.75 Nozzle",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0 0.75 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0 (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0 (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0 0.25 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0 0.25 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0 0.50 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0 0.50 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.0 0.75 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.0 0.75 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1 0.25 Nozzle",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1 0.25 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1 0.50 Nozzle",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1 0.50 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1 0.75 Nozzle",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1 0.75 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1 (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1 (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1 0.25 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1 0.25 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1 0.50 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1 0.50 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear M3 Independent Dual Rev.1 0.75 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear M3 Independent Dual Rev.1 0.75 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One",
+      "path": "printer/MakerGear Ultra One.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One 0.25 Nozzle",
+      "path": "printer/MakerGear Ultra One 0.25 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One 0.35 Nozzle",
+      "path": "printer/MakerGear Ultra One 0.35 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One 0.75 Nozzle",
+      "path": "printer/MakerGear Ultra One 0.75 Nozzle.ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One (Duplication Mode)",
+      "path": "printer/MakerGear Ultra One (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One 0.25 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear Ultra One 0.25 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One 0.35 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear Ultra One 0.35 Nozzle (Duplication Mode).ini"
+    },
+    {
+      "type": "printer",
+      "name": "MakerGear Ultra One 0.75 Nozzle (Duplication Mode)",
+      "path": "printer/MakerGear Ultra One 0.75 Nozzle (Duplication Mode).ini"
+    }
+  ],
+  "asset_paths": [
+    "M2_M3.stl",
+    "M2_M3.svg",
+    "MAKERGEAR_M2_DUAL_thumbnail.png",
+    "MAKERGEAR_M2_thumbnail.png",
+    "MAKERGEAR_M3_DUPLICATION_thumbnail.png",
+    "MAKERGEAR_M3_SE_thumbnail.png",
+    "MAKERGEAR_M3_thumbnail.png",
+    "MAKERGEAR_MICRO_thumbnail.png",
+    "MAKERGEAR_U1_thumbnail.png"
+  ]
+}

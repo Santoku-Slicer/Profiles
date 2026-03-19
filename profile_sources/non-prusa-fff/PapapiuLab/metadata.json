@@ -1,0 +1,98 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "PapapiuLab",
+  "version": "1.1.0",
+  "index_name": "PapapiuLab.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "Papapiu_N1S",
+      "path": "printer_model/Papapiu_N1S.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.15mm*",
+      "path": "print/_0.15mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.2mm*",
+      "path": "print/_0.2mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm NORMAL @Papapiu",
+      "path": "print/0.15mm NORMAL @Papapiu.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm FAST @Papapiu",
+      "path": "print/0.15mm FAST @Papapiu.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @Papapiu",
+      "path": "print/0.20mm NORMAL @Papapiu.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm FAST @Papapiu",
+      "path": "print/0.20mm FAST @Papapiu.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.4nozzle*",
+      "path": "printer/_0.4nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "Papapiu N1S",
+      "path": "printer/Papapiu N1S.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Papapiu",
+      "path": "filament/Generic ABS @Papapiu.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Papapiu",
+      "path": "filament/Generic PETG @Papapiu.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Papapiu",
+      "path": "filament/Generic PLA @Papapiu.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @Papapiu",
+      "path": "filament/Generic TPU @Papapiu.ini"
+    }
+  ],
+  "asset_paths": [
+    "Papapiu_N1S_Bed.stl",
+    "Papapiu_N1S_thumbnail.png",
+    "Papapiu_N1_Texture.png"
+  ]
+}
