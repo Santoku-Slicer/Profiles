@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": "",
+    "id": "non-prusa-fff",
+    "url": "./repos/non-prusa-fff",
+    "index_url": "./repos/non-prusa-fff/vendor_indices.zip"
+  },
+  {
+    "name": "Prusa FFF",
+    "description": "Prusa FFF printers",
+    "visibility": "",
+    "id": "prusa-fff",
+    "url": "./repos/prusa-fff",
+    "index_url": "./repos/prusa-fff/vendor_indices.zip"
+  },
+  {
+    "name": "Vendor Dumps",
+    "description": "Profiles from proprietary slicers",
+    "visibility": "",
+    "id": "vendordumps-fff",
+    "url": "./repos/vendordumps-fff",
+    "index_url": "./repos/vendordumps-fff/vendor_indices.zip"
+  }
+]
