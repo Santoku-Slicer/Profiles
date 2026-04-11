@@ -1,0 +1,98 @@
+{
+  "repo": {
+    "id": "non-prusa-fff",
+    "name": "Other FFF",
+    "description": "FFF Printers by other vendors",
+    "visibility": ""
+  },
+  "vendor": "EasyThreeD",
+  "version": "1.0.0",
+  "index_name": "EasyThreeD.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "vendor",
+      "path": "vendor/vendor.ini"
+    },
+    {
+      "type": "printer_model",
+      "name": "K10",
+      "path": "printer_model/K10.ini"
+    },
+    {
+      "type": "print",
+      "name": "*common*",
+      "path": "print/_common_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.10mm*",
+      "path": "print/_0.10mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.20mm*",
+      "path": "print/_0.20mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "*0.28mm*",
+      "path": "print/_0.28mm_.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm DETAIL @EasyThreeD",
+      "path": "print/0.10mm DETAIL @EasyThreeD.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm NORMAL @EasyThreeD",
+      "path": "print/0.20mm NORMAL @EasyThreeD.ini"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm DRAFT @EasyThreeD",
+      "path": "print/0.28mm DRAFT @EasyThreeD.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*common*",
+      "path": "printer/_common_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "*0.4nozzle*",
+      "path": "printer/_0.4nozzle_.ini"
+    },
+    {
+      "type": "printer",
+      "name": "EasyThreeD K10",
+      "path": "printer/EasyThreeD K10.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*common*",
+      "path": "filament/_common_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*PLA*",
+      "path": "filament/_PLA_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "*TPU*",
+      "path": "filament/_TPU_.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @EasyThreeD",
+      "path": "filament/Generic PLA @EasyThreeD.ini"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @EasyThreeD",
+      "path": "filament/Generic TPU @EasyThreeD.ini"
+    }
+  ]
+}
