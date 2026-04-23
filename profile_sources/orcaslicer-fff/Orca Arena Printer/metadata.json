@@ -1,0 +1,776 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Orca Arena Printer",
+  "version": "02.03.02.60",
+  "index_name": "Orca Arena Printer.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Orca Arena Printer",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Orca Arena X1 Carbon",
+      "path": "printer_model/Orca Arena X1 Carbon.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_bbl_3dp_001_common",
+      "path": "printer/fdm_bbl_3dp_001_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Orca Arena X1 Carbon 0.4 nozzle",
+      "path": "printer/Orca Arena X1 Carbon 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Orca Arena X1 Carbon 0.2 nozzle",
+      "path": "printer/Orca Arena X1 Carbon 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Orca Arena X1 Carbon 0.6 nozzle",
+      "path": "printer/Orca Arena X1 Carbon 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Orca Arena X1 Carbon 0.8 nozzle",
+      "path": "printer/Orca Arena X1 Carbon 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_common",
+      "path": "print/fdm_process_arena_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.06_nozzle_0.2",
+      "path": "print/fdm_process_arena_0.06_nozzle_0.2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.08",
+      "path": "print/fdm_process_arena_0.08.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.08_nozzle_0.2",
+      "path": "print/fdm_process_arena_0.08_nozzle_0.2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.10_nozzle_0.2",
+      "path": "print/fdm_process_arena_0.10_nozzle_0.2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.12",
+      "path": "print/fdm_process_arena_0.12.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.12_nozzle_0.2",
+      "path": "print/fdm_process_arena_0.12_nozzle_0.2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.14_nozzle_0.2",
+      "path": "print/fdm_process_arena_0.14_nozzle_0.2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.16",
+      "path": "print/fdm_process_arena_0.16.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.18_nozzle_0.6",
+      "path": "print/fdm_process_arena_0.18_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.20",
+      "path": "print/fdm_process_arena_0.20.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.24",
+      "path": "print/fdm_process_arena_0.24.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.24_nozzle_0.6",
+      "path": "print/fdm_process_arena_0.24_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.24_nozzle_0.8",
+      "path": "print/fdm_process_arena_0.24_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.28",
+      "path": "print/fdm_process_arena_0.28.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.30_nozzle_0.6",
+      "path": "print/fdm_process_arena_0.30_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.32_nozzle_0.8",
+      "path": "print/fdm_process_arena_0.32_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.36_nozzle_0.6",
+      "path": "print/fdm_process_arena_0.36_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.40_nozzle_0.8",
+      "path": "print/fdm_process_arena_0.40_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.42_nozzle_0.6",
+      "path": "print/fdm_process_arena_0.42_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.48_nozzle_0.8",
+      "path": "print/fdm_process_arena_0.48_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_arena_0.56_nozzle_0.8",
+      "path": "print/fdm_process_arena_0.56_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm Standard @Arena X1C 0.2 nozzle",
+      "path": "print/0.06mm Standard @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Arena X1C",
+      "path": "print/0.08mm Extra Fine @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Standard @Arena X1C 0.2 nozzle",
+      "path": "print/0.08mm Standard @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard @Arena X1C 0.2 nozzle",
+      "path": "print/0.10mm Standard @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Arena X1C",
+      "path": "print/0.12mm Fine @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Standard @Arena X1C 0.2 nozzle",
+      "path": "print/0.12mm Standard @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.14mm Standard @Arena X1C 0.2 nozzle",
+      "path": "print/0.14mm Standard @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Arena X1C",
+      "path": "print/0.16mm Optimal @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Standard @Arena X1C 0.6 nozzle",
+      "path": "print/0.18mm Standard @Arena X1C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Arena Support W @Arena X1C",
+      "path": "print/0.20mm Bambu Support W @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Arena X1C",
+      "path": "print/0.20mm Standard @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Arena X1C",
+      "path": "print/0.20mm Strength @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Arena X1C",
+      "path": "print/0.24mm Draft @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Standard @Arena X1C 0.6 nozzle",
+      "path": "print/0.24mm Standard @Arena X1C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Standard @Arena X1C 0.8 nozzle",
+      "path": "print/0.24mm Standard @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Arena X1C",
+      "path": "print/0.28mm Extra Draft @Arena X1C.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Arena X1C 0.6 nozzle",
+      "path": "print/0.30mm Standard @Arena X1C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @Arena X1C 0.6 nozzle",
+      "path": "print/0.30mm Strength @Arena X1C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @Arena X1C 0.8 nozzle",
+      "path": "print/0.32mm Standard @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Standard @Arena X1C 0.6 nozzle",
+      "path": "print/0.36mm Standard @Arena X1C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Arena X1C 0.8 nozzle",
+      "path": "print/0.40mm Standard @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Standard @Arena X1C 0.6 nozzle",
+      "path": "print/0.42mm Standard @Arena X1C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Standard @Arena X1C 0.8 nozzle",
+      "path": "print/0.48mm Standard @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm Standard @Arena X1C 0.8 nozzle",
+      "path": "print/0.56mm Standard @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pva",
+      "path": "filament/fdm_filament_pva.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena ABS @base",
+      "path": "filament/Arena ABS @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic ABS @base",
+      "path": "filament/OrcaArena Generic ABS @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic ASA @base",
+      "path": "filament/OrcaArena Generic ASA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PA-CF @base",
+      "path": "filament/Arena PA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PAHT-CF @base",
+      "path": "filament/Arena PAHT-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena Support G @base",
+      "path": "filament/Arena Support G @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PA",
+      "path": "filament/OrcaArena Generic PA.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PA-CF",
+      "path": "filament/OrcaArena Generic PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PC @base",
+      "path": "filament/Arena PC @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PC @base",
+      "path": "filament/OrcaArena Generic PC @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PET-CF @base",
+      "path": "filament/Arena PET-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PETG Basic @base",
+      "path": "filament/Arena PETG Basic @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PETG-CF @base",
+      "path": "filament/Arena PETG-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PETG @base",
+      "path": "filament/OrcaArena Generic PETG @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PETG-CF @base",
+      "path": "filament/OrcaArena Generic PETG-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Basic @base",
+      "path": "filament/Arena PLA Basic @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Impact @base",
+      "path": "filament/Arena PLA Impact @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Marble @base",
+      "path": "filament/Arena PLA Marble @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Matte @base",
+      "path": "filament/Arena PLA Matte @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Metal @base",
+      "path": "filament/Arena PLA Metal @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Silk @base",
+      "path": "filament/Arena PLA Silk @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Sparkle @base",
+      "path": "filament/Arena PLA Sparkle @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Tough @base",
+      "path": "filament/Arena PLA Tough @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA-CF @base",
+      "path": "filament/Arena PLA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena Support W @base",
+      "path": "filament/Arena Support W @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PLA @base",
+      "path": "filament/OrcaArena Generic PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PLA Silk @base",
+      "path": "filament/OrcaArena Generic PLA Silk @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PLA-CF @base",
+      "path": "filament/OrcaArena Generic PLA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA @base",
+      "path": "filament/PolyLite PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra PLA @base",
+      "path": "filament/PolyTerra PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PVA @base",
+      "path": "filament/OrcaArena Generic PVA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena TPU 95A @base",
+      "path": "filament/Arena TPU 95A @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic TPU",
+      "path": "filament/OrcaArena Generic TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena ABS @Arena X1C",
+      "path": "filament/Arena ABS @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena ABS @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena ABS @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena ABS @Arena X1C 0.8 nozzle",
+      "path": "filament/Arena ABS @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic ABS",
+      "path": "filament/OrcaArena Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic ABS @0.2 nozzle",
+      "path": "filament/OrcaArena Generic ABS @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic ASA",
+      "path": "filament/OrcaArena Generic ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic ASA @0.2 nozzle",
+      "path": "filament/OrcaArena Generic ASA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PA-CF @Arena X1C",
+      "path": "filament/Arena PA-CF @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PAHT-CF @Arena X1C",
+      "path": "filament/Arena PAHT-CF @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena Support G @Arena X1C",
+      "path": "filament/Arena Support G @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PC @Arena X1C",
+      "path": "filament/Arena PC @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PC @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena PC @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PC @Arena X1C 0.6 nozzle",
+      "path": "filament/Arena PC @Arena X1C 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PC @Arena X1C 0.8 nozzle",
+      "path": "filament/Arena PC @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PC",
+      "path": "filament/OrcaArena Generic PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PC @0.2 nozzle",
+      "path": "filament/OrcaArena Generic PC @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PET-CF @Arena X1C",
+      "path": "filament/Arena PET-CF @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PETG Basic @Arena X1C",
+      "path": "filament/Arena PETG Basic @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PETG Basic @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena PETG Basic @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PETG Basic @Arena X1C 0.8 nozzle",
+      "path": "filament/Arena PETG Basic @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PETG-CF @Arena X1C",
+      "path": "filament/Arena PETG-CF @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PETG",
+      "path": "filament/OrcaArena Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PETG @0.2 nozzle",
+      "path": "filament/OrcaArena Generic PETG @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PETG-CF @Arena X1C",
+      "path": "filament/OrcaArena Generic PETG-CF @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Basic @Arena X1C",
+      "path": "filament/Arena PLA Basic @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Basic @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena PLA Basic @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Basic @Arena X1C 0.8 nozzle",
+      "path": "filament/Arena PLA Basic @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Impact @Arena X1C",
+      "path": "filament/Arena PLA Impact @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Marble @Arena X1C",
+      "path": "filament/Arena PLA Marble @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Matte @Arena X1C",
+      "path": "filament/Arena PLA Matte @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Matte @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena PLA Matte @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Matte @Arena X1C 0.8 nozzle",
+      "path": "filament/Arena PLA Matte @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Metal @Arena X1C",
+      "path": "filament/Arena PLA Metal @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Metal @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena PLA Metal @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Silk @Arena X1C",
+      "path": "filament/Arena PLA Silk @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Silk @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena PLA Silk @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Sparkle @Arena X1C",
+      "path": "filament/Arena PLA Sparkle @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Tough @Arena X1C",
+      "path": "filament/Arena PLA Tough @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA Tough @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena PLA Tough @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA-CF @Arena X1C",
+      "path": "filament/Arena PLA-CF @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena PLA-CF @Arena X1C 0.8 nozzle",
+      "path": "filament/Arena PLA-CF @Arena X1C 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena Support W @Arena X1C",
+      "path": "filament/Arena Support W @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena Support W @Arena X1C 0.2 nozzle",
+      "path": "filament/Arena Support W @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PLA",
+      "path": "filament/OrcaArena Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PLA @0.2 nozzle",
+      "path": "filament/OrcaArena Generic PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PLA Silk",
+      "path": "filament/OrcaArena Generic PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PLA-CF",
+      "path": "filament/OrcaArena Generic PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA @Arena X1C",
+      "path": "filament/PolyLite PLA @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra PLA @Arena X1C",
+      "path": "filament/PolyTerra PLA @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PVA",
+      "path": "filament/OrcaArena Generic PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "OrcaArena Generic PVA @0.2 nozzle",
+      "path": "filament/OrcaArena Generic PVA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Arena TPU 95A @Arena X1C",
+      "path": "filament/Arena TPU 95A @Arena X1C.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA @Arena X1C 0.2 nozzle",
+      "path": "filament/PolyLite PLA @Arena X1C 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra PLA @Arena X1C 0.2 nozzle",
+      "path": "filament/PolyTerra PLA @Arena X1C 0.2 nozzle.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Orca Arena X1 Carbon_cover.png"
+  ]
+}

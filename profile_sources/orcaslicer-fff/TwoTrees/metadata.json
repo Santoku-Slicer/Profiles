@@ -1,0 +1,151 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "TwoTrees",
+  "version": "02.03.02.60",
+  "index_name": "TwoTrees.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "TwoTrees",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "TwoTrees SK1",
+      "path": "printer_model/TwoTrees SK1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "TwoTrees SP-5 Klipper",
+      "path": "printer_model/TwoTrees SP-5 Klipper.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "TwoTrees SK1 0.4 nozzle",
+      "path": "printer/TwoTrees SK1 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "TwoTrees SP-5 Klipper 0.4 nozzle",
+      "path": "printer/TwoTrees SP-5 Klipper 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @SK1",
+      "path": "print/0.08mm Extra Fine @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @TwoTrees",
+      "path": "print/0.08mm Extra Fine @TwoTrees.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @SK1",
+      "path": "print/0.12mm Fine @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @TwoTrees",
+      "path": "print/0.12mm Fine @TwoTrees.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @TwoTrees",
+      "path": "print/0.15mm Optimal @TwoTrees.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @SK1",
+      "path": "print/0.16mm Optimal @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Quality @SK1",
+      "path": "print/0.20mm Quality @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SK1",
+      "path": "print/0.20mm Standard @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @TwoTrees",
+      "path": "print/0.20mm Standard @TwoTrees.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @SK1",
+      "path": "print/0.24mm Draft @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @TwoTrees",
+      "path": "print/0.24mm Draft @TwoTrees.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm HSpeed @SK1",
+      "path": "print/0.24mm HSpeed @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @SK1",
+      "path": "print/0.28mm Extra Draft @SK1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @TwoTrees",
+      "path": "print/0.28mm Extra Draft @TwoTrees.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_TwoTrees_common",
+      "path": "print/fdm_process_TwoTrees_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "TwoTrees Generic 95A TPU @SK1",
+      "path": "filament/TwoTrees Generic 95A TPU @SK1.json"
+    },
+    {
+      "type": "filament",
+      "name": "TwoTrees Generic HS PLA @SK1",
+      "path": "filament/TwoTrees Generic HS PLA @SK1.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/SP-5_bed.stl",
+    "assets/SP-5_texture.svg",
+    "assets/TwoTrees SK1_buildplate_model.stl",
+    "assets/TwoTrees SK1_buildplate_texture.svg",
+    "assets/TwoTrees SK1_cover.png",
+    "assets/TwoTrees SP-5 Klipper_cover.png"
+  ]
+}

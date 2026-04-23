@@ -1,0 +1,165 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Folgertech",
+  "version": "02.03.02.60",
+  "index_name": "Folgertech.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Folgertech",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Folgertech FT-5",
+      "path": "printer_model/Folgertech FT-5.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Folgertech FT-6",
+      "path": "printer_model/Folgertech FT-6.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Folgertech i3",
+      "path": "printer_model/Folgertech i3.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_folgertech_common",
+      "path": "printer/fdm_folgertech_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Folgertech FT-5 0.4 nozzle",
+      "path": "printer/Folgertech FT-5 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Folgertech FT-5 0.6 nozzle",
+      "path": "printer/Folgertech FT-5 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Folgertech FT-6 0.4 nozzle",
+      "path": "printer/Folgertech FT-6 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Folgertech FT-6 0.6 nozzle",
+      "path": "printer/Folgertech FT-6 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Folgertech i3 0.4 nozzle",
+      "path": "printer/Folgertech i3 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Folgertech i3 0.6 nozzle",
+      "path": "printer/Folgertech i3 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_folgertech_common",
+      "path": "print/fdm_process_folgertech_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @FT 0.4 nozzle",
+      "path": "print/0.08mm Extra Fine @FT.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @FT 0.4 nozzle",
+      "path": "print/0.12mm Fine @FT.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FT 0.4 nozzle",
+      "path": "print/0.16mm Optimal @FT.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Fine @FT 0.6 nozzle",
+      "path": "print/0.18mm Fine @FT 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FT 0.4 nozzle",
+      "path": "print/0.20mm Standard @FT.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @FT 0.4 nozzle",
+      "path": "print/0.20mm Strength @FT.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FT 0.4 nozzle",
+      "path": "print/0.24mm Draft @FT.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Optimal @FT 0.6 nozzle",
+      "path": "print/0.24mm Optimal @FT 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @FT 0.4 nozzle",
+      "path": "print/0.28mm Extra Draft @FT.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @FT 0.6 nozzle",
+      "path": "print/0.30mm Standard @FT 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @FT 0.6 nozzle",
+      "path": "print/0.30mm Strength @FT 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Draft @FT 0.6 nozzle",
+      "path": "print/0.36mm Draft @FT 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Extra Draft @FT 0.6 nozzle",
+      "path": "print/0.42mm Extra Draft @FT 0.6 nozzle.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Folgertech FT-5_cover.png",
+    "assets/Folgertech FT-6_cover.png",
+    "assets/Folgertech i3_cover.png",
+    "assets/Folgertech_FT5_buildplate_model.stl",
+    "assets/Folgertech_FT5_buildplate_texture.png",
+    "assets/Folgertech_FT6_buildplate_model.stl",
+    "assets/Folgertech_FT6_buildplate_texture.png",
+    "assets/Folgertech_i3_buildplate_model.stl",
+    "assets/Folgertech_i3_buildplate_texture.png",
+    "assets/hotend.stl"
+  ]
+}

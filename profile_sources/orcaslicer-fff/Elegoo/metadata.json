@@ -1,0 +1,2098 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Elegoo",
+  "version": "02.03.02.60",
+  "index_name": "Elegoo.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Elegoo",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Centauri",
+      "path": "printer_model/EC/Elegoo Centauri.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Centauri Carbon",
+      "path": "printer_model/ECC/Elegoo Centauri Carbon.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Centauri Carbon 2",
+      "path": "printer_model/ECC2/Elegoo Centauri Carbon 2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune",
+      "path": "printer_model/EN2SERIES/Elegoo Neptune.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 2",
+      "path": "printer_model/EN2SERIES/Elegoo Neptune 2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 2D",
+      "path": "printer_model/EN2SERIES/Elegoo Neptune 2D.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 2S",
+      "path": "printer_model/EN2SERIES/Elegoo Neptune 2S.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 3",
+      "path": "printer_model/EN2SERIES/Elegoo Neptune 3.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 3 Max",
+      "path": "printer_model/EN3SERIES/Elegoo Neptune 3 Max.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 3 Plus",
+      "path": "printer_model/EN3SERIES/Elegoo Neptune 3 Plus.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 3 Pro",
+      "path": "printer_model/EN3SERIES/Elegoo Neptune 3 Pro.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 4",
+      "path": "printer_model/EN4SERIES/Elegoo Neptune 4.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 4 Max",
+      "path": "printer_model/EN4SERIES/Elegoo Neptune 4 Max.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 4 Plus",
+      "path": "printer_model/EN4SERIES/Elegoo Neptune 4 Plus.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune 4 Pro",
+      "path": "printer_model/EN4SERIES/Elegoo Neptune 4 Pro.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo Neptune X",
+      "path": "printer_model/EN2SERIES/Elegoo Neptune X.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Elegoo OrangeStorm Giga",
+      "path": "printer_model/EOSGIGA/Elegoo OrangeStorm Giga.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_ecc_common",
+      "path": "printer/ECC/fdm_machine_ecc_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_elegoo_3dp_001_common",
+      "path": "printer/fdm_elegoo_3dp_001_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_elegoo_common",
+      "path": "printer/fdm_elegoo_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_ecc",
+      "path": "printer/ECC/fdm_machine_ecc.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 2 0.4 nozzle",
+      "path": "printer/ECC2/Elegoo Centauri Carbon 2 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo OrangeStorm Giga 0.4 nozzle",
+      "path": "printer/EOSGIGA/Elegoo OrangeStorm Giga 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 0.4 nozzle",
+      "path": "printer/EN2SERIES/Elegoo Neptune 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 2 0.4 nozzle",
+      "path": "printer/EN2SERIES/Elegoo Neptune 2 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 2D 0.4 nozzle",
+      "path": "printer/EN2SERIES/Elegoo Neptune 2D 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 2S 0.4 nozzle",
+      "path": "printer/EN2SERIES/Elegoo Neptune 2S 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 3 0.4 nozzle",
+      "path": "printer/EN2SERIES/Elegoo Neptune 3 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 3 Max 0.4 nozzle",
+      "path": "printer/EN3SERIES/Elegoo Neptune 3 Max 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 3 Plus 0.4 nozzle",
+      "path": "printer/EN3SERIES/Elegoo Neptune 3 Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 3 Pro 0.4 nozzle",
+      "path": "printer/EN3SERIES/Elegoo Neptune 3 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune X 0.4 nozzle",
+      "path": "printer/EN2SERIES/Elegoo Neptune X 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_neptune_4_common",
+      "path": "printer/EN4SERIES/fdm_neptune_4_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri 0.4 nozzle",
+      "path": "printer/EC/Elegoo Centauri 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 0.4 nozzle",
+      "path": "printer/ECC/Elegoo Centauri Carbon 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 2 0.2 nozzle",
+      "path": "printer/ECC2/Elegoo Centauri Carbon 2 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 2 0.6 nozzle",
+      "path": "printer/ECC2/Elegoo Centauri Carbon 2 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 2 0.8 nozzle",
+      "path": "printer/ECC2/Elegoo Centauri Carbon 2 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo OrangeStorm Giga 0.6 nozzle",
+      "path": "printer/EOSGIGA/Elegoo OrangeStorm Giga 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo OrangeStorm Giga 0.8 nozzle",
+      "path": "printer/EOSGIGA/Elegoo OrangeStorm Giga 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo OrangeStorm Giga 1.0 nozzle",
+      "path": "printer/EOSGIGA/Elegoo OrangeStorm Giga 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 (0.2 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 (0.4 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 (0.6 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 (0.8 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Max (0.2 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Max (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Max (0.4 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Max (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Max (0.6 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Max (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Max (0.8 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Max (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Plus (0.2 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Plus (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Plus (0.4 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Plus (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Plus (0.6 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Plus (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Plus (0.8 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Plus (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Pro (0.2 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Pro (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Pro (0.4 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Pro (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Pro (0.6 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Pro (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Neptune 4 Pro (0.8 nozzle)",
+      "path": "printer/EN4SERIES/Elegoo Neptune 4 Pro (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri 0.2 nozzle",
+      "path": "printer/EC/Elegoo Centauri 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri 0.6 nozzle",
+      "path": "printer/EC/Elegoo Centauri 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri 0.8 nozzle",
+      "path": "printer/EC/Elegoo Centauri 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 0.2 nozzle",
+      "path": "printer/ECC/Elegoo Centauri Carbon 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 0.6 nozzle",
+      "path": "printer/ECC/Elegoo Centauri Carbon 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Elegoo Centauri Carbon 0.8 nozzle",
+      "path": "printer/ECC/Elegoo Centauri Carbon 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_ecc_common",
+      "path": "print/ECC/fdm_process_ecc_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_elegoo_common",
+      "path": "print/fdm_process_elegoo_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_ecc",
+      "path": "print/ECC/fdm_process_ecc.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune",
+      "path": "print/EN2SERIES/0.08mm Extra Fine @Elegoo Neptune.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune2",
+      "path": "print/EN2SERIES/0.08mm Extra Fine @Elegoo Neptune2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune2D",
+      "path": "print/EN2SERIES/0.08mm Extra Fine @Elegoo Neptune2D.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune2S",
+      "path": "print/EN2SERIES/0.08mm Extra Fine @Elegoo Neptune2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune3",
+      "path": "print/EN2SERIES/0.08mm Extra Fine @Elegoo Neptune3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune3Max",
+      "path": "print/EN3SERIES/0.08mm Extra Fine @Elegoo Neptune3Max.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune3Plus",
+      "path": "print/EN3SERIES/0.08mm Extra Fine @Elegoo Neptune3Plus.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune3Pro",
+      "path": "print/EN3SERIES/0.08mm Extra Fine @Elegoo Neptune3Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo NeptuneX",
+      "path": "print/EN2SERIES/0.08mm Extra Fine @Elegoo NeptuneX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune",
+      "path": "print/EN2SERIES/0.12mm Fine @Elegoo Neptune.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune2",
+      "path": "print/EN2SERIES/0.12mm Fine @Elegoo Neptune2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune2D",
+      "path": "print/EN2SERIES/0.12mm Fine @Elegoo Neptune2D.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune2S",
+      "path": "print/EN2SERIES/0.12mm Fine @Elegoo Neptune2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune3",
+      "path": "print/EN2SERIES/0.12mm Fine @Elegoo Neptune3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune3Max",
+      "path": "print/EN3SERIES/0.12mm Fine @Elegoo Neptune3Max.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune3Plus",
+      "path": "print/EN3SERIES/0.12mm Fine @Elegoo Neptune3Plus.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune3Pro",
+      "path": "print/EN3SERIES/0.12mm Fine @Elegoo Neptune3Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo NeptuneX",
+      "path": "print/EN2SERIES/0.12mm Fine @Elegoo NeptuneX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune",
+      "path": "print/EN2SERIES/0.16mm Optimal @Elegoo Neptune.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune2",
+      "path": "print/EN2SERIES/0.16mm Optimal @Elegoo Neptune2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune2D",
+      "path": "print/EN2SERIES/0.16mm Optimal @Elegoo Neptune2D.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune2S",
+      "path": "print/EN2SERIES/0.16mm Optimal @Elegoo Neptune2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune3",
+      "path": "print/EN2SERIES/0.16mm Optimal @Elegoo Neptune3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune3Max",
+      "path": "print/EN3SERIES/0.16mm Optimal @Elegoo Neptune3Max.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune3Plus",
+      "path": "print/EN3SERIES/0.16mm Optimal @Elegoo Neptune3Plus.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune3Pro",
+      "path": "print/EN3SERIES/0.16mm Optimal @Elegoo Neptune3Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo NeptuneX",
+      "path": "print/EN2SERIES/0.16mm Optimal @Elegoo NeptuneX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune",
+      "path": "print/EN2SERIES/0.20mm Standard @Elegoo Neptune.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune2",
+      "path": "print/EN2SERIES/0.20mm Standard @Elegoo Neptune2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune2D",
+      "path": "print/EN2SERIES/0.20mm Standard @Elegoo Neptune2D.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune2S",
+      "path": "print/EN2SERIES/0.20mm Standard @Elegoo Neptune2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune3",
+      "path": "print/EN2SERIES/0.20mm Standard @Elegoo Neptune3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune3Max",
+      "path": "print/EN3SERIES/0.20mm Standard @Elegoo Neptune3Max.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune3Plus",
+      "path": "print/EN3SERIES/0.20mm Standard @Elegoo Neptune3Plus.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune3Pro",
+      "path": "print/EN3SERIES/0.20mm Standard @Elegoo Neptune3Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo NeptuneX",
+      "path": "print/EN2SERIES/0.20mm Standard @Elegoo NeptuneX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune",
+      "path": "print/EN2SERIES/0.24mm Draft @Elegoo Neptune.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune2",
+      "path": "print/EN2SERIES/0.24mm Draft @Elegoo Neptune2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune2D",
+      "path": "print/EN2SERIES/0.24mm Draft @Elegoo Neptune2D.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune2S",
+      "path": "print/EN2SERIES/0.24mm Draft @Elegoo Neptune2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune3",
+      "path": "print/EN2SERIES/0.24mm Draft @Elegoo Neptune3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune3Max",
+      "path": "print/EN3SERIES/0.24mm Draft @Elegoo Neptune3Max.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune3Plus",
+      "path": "print/EN3SERIES/0.24mm Draft @Elegoo Neptune3Plus.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune3Pro",
+      "path": "print/EN3SERIES/0.24mm Draft @Elegoo Neptune3Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo NeptuneX",
+      "path": "print/EN2SERIES/0.24mm Draft @Elegoo NeptuneX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune",
+      "path": "print/EN2SERIES/0.28mm Extra Draft @Elegoo Neptune.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune2",
+      "path": "print/EN2SERIES/0.28mm Extra Draft @Elegoo Neptune2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune2D",
+      "path": "print/EN2SERIES/0.28mm Extra Draft @Elegoo Neptune2D.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune2S",
+      "path": "print/EN2SERIES/0.28mm Extra Draft @Elegoo Neptune2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune3",
+      "path": "print/EN2SERIES/0.28mm Extra Draft @Elegoo Neptune3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune3Max",
+      "path": "print/EN3SERIES/0.28mm Extra Draft @Elegoo Neptune3Max.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune3Plus",
+      "path": "print/EN3SERIES/0.28mm Extra Draft @Elegoo Neptune3Plus.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune3Pro",
+      "path": "print/EN3SERIES/0.28mm Extra Draft @Elegoo Neptune3Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo NeptuneX",
+      "path": "print/EN2SERIES/0.28mm Extra Draft @Elegoo NeptuneX.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_elegoo_02010",
+      "path": "print/fdm_process_elegoo_02010.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_elegoo_04020",
+      "path": "print/fdm_process_elegoo_04020.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_elegoo_06030",
+      "path": "print/fdm_process_elegoo_06030.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_elegoo_08040",
+      "path": "print/fdm_process_elegoo_08040.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_elegoo_10050",
+      "path": "print/fdm_process_elegoo_10050.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_neptune4_common",
+      "path": "print/EN4SERIES/fdm_process_neptune4_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_ecc_02010",
+      "path": "print/ECC/fdm_process_ecc_02010.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_ecc_04020",
+      "path": "print/ECC/fdm_process_ecc_04020.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_ecc_06030",
+      "path": "print/ECC/fdm_process_ecc_06030.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_ecc_08040",
+      "path": "print/ECC/fdm_process_ecc_08040.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard @Elegoo CC2 0.2 nozzle",
+      "path": "print/ECC2/0.10mm Standard @Elegoo CC2 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo CC2 0.4 nozzle",
+      "path": "print/ECC2/0.20mm Standard @Elegoo CC2 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Giga 0.4 nozzle",
+      "path": "print/EOSGIGA/0.20mm Standard @Elegoo Giga 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Elegoo CC2 0.6 nozzle",
+      "path": "print/ECC2/0.30mm Standard @Elegoo CC2 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Elegoo Giga 0.6 nozzle",
+      "path": "print/EOSGIGA/0.30mm Standard @Elegoo Giga 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Elegoo CC2 0.8 nozzle",
+      "path": "print/ECC2/0.40mm Standard @Elegoo CC2 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Elegoo Giga 0.8 nozzle",
+      "path": "print/EOSGIGA/0.40mm Standard @Elegoo Giga 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm Standard @Elegoo Giga 1.0 nozzle",
+      "path": "print/EOSGIGA/0.50mm Standard @Elegoo Giga 1.0 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 Plus (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 Plus (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 Plus (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 Plus (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 Plus (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 Plus (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4 Plus (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4 Plus (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Pro (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Pro (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Pro (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Pro (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Pro (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Pro (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Pro (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Pro (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 Plus (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 Plus (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 Plus (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 Plus (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 Plus (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 Plus (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4 Plus (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4 Plus (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Pro (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Pro (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Pro (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Pro (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Pro (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Pro (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Pro (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Pro (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 Plus (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 Plus (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 Plus (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 Plus (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 Plus (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 Plus (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4 Plus (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4 Plus (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Pro (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Pro (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Pro (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Pro (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Pro (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Pro (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Pro (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Pro (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 Plus (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 Plus (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 Plus (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 Plus (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 Plus (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 Plus (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4 Plus (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4 Plus (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Pro (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Pro (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Pro (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Pro (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Pro (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Pro (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Pro (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Pro (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 Plus (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 Plus (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 Plus (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 Plus (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 Plus (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 Plus (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4 Plus (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4 Plus (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Pro (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Pro (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Pro (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Pro (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Pro (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Pro (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Pro (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Pro (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 Plus (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 Plus (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 Plus (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 Plus (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 Plus (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 Plus (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4 Plus (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4 Plus (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Pro (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Pro (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Pro (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Pro (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Pro (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Pro (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Pro (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Pro (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_neptune4max_common",
+      "path": "print/EN4SERIES/fdm_process_neptune4max_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard @Elegoo C 0.2 nozzle",
+      "path": "print/EC/0.10mm Standard @Elegoo C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard @Elegoo CC 0.2 nozzle",
+      "path": "print/ECC/0.10mm Standard @Elegoo CC 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo C 0.4 nozzle",
+      "path": "print/EC/0.20mm Standard @Elegoo C 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo CC 0.4 nozzle",
+      "path": "print/ECC/0.20mm Standard @Elegoo CC 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Elegoo C 0.6 nozzle",
+      "path": "print/EC/0.30mm Standard @Elegoo C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Elegoo CC 0.6 nozzle",
+      "path": "print/ECC/0.30mm Standard @Elegoo CC 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Elegoo C 0.8 nozzle",
+      "path": "print/EC/0.40mm Standard @Elegoo C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Elegoo CC 0.8 nozzle",
+      "path": "print/ECC/0.40mm Standard @Elegoo CC 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Optimal @Elegoo CC2 0.2 nozzle",
+      "path": "print/ECC2/0.08mm Optimal @Elegoo CC2 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Draft @Elegoo CC2 0.2 nozzle",
+      "path": "print/ECC2/0.12mm Draft @Elegoo CC2 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.14mm Extra Draft @Elegoo CC2 0.2 nozzle",
+      "path": "print/ECC2/0.14mm Extra Draft @Elegoo CC2 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo CC2 0.4 nozzle",
+      "path": "print/ECC2/0.12mm Fine @Elegoo CC2 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo CC2 0.4 nozzle",
+      "path": "print/ECC2/0.16mm Optimal @Elegoo CC2 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Elegoo CC2 0.4 nozzle",
+      "path": "print/ECC2/0.20mm Strength @Elegoo CC2 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo CC2 0.4 nozzle",
+      "path": "print/ECC2/0.24mm Draft @Elegoo CC2 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo CC2 0.4 nozzle",
+      "path": "print/ECC2/0.28mm Extra Draft @Elegoo CC2 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Giga 0.4 nozzle",
+      "path": "print/EOSGIGA/0.16mm Optimal @Elegoo Giga 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Elegoo Giga 0.4 nozzle",
+      "path": "print/EOSGIGA/0.20mm Strength @Elegoo Giga 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Giga 0.4 nozzle",
+      "path": "print/EOSGIGA/0.24mm Draft @Elegoo Giga 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Giga 0.4 nozzle",
+      "path": "print/EOSGIGA/0.28mm Extra Draft @Elegoo Giga 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Fine @Elegoo CC2 0.6 nozzle",
+      "path": "print/ECC2/0.18mm Fine @Elegoo CC2 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Optimal @Elegoo CC2 0.6 nozzle",
+      "path": "print/ECC2/0.24mm Optimal @Elegoo CC2 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @Elegoo CC2 0.6 nozzle",
+      "path": "print/ECC2/0.30mm Strength @Elegoo CC2 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Draft @Elegoo CC2 0.6 nozzle",
+      "path": "print/ECC2/0.36mm Draft @Elegoo CC2 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Extra Draft @Elegoo CC2 0.6 nozzle",
+      "path": "print/ECC2/0.42mm Extra Draft @Elegoo CC2 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Fine @Elegoo Giga 0.6 nozzle",
+      "path": "print/EOSGIGA/0.18mm Fine @Elegoo Giga 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Optimal @Elegoo Giga 0.6 nozzle",
+      "path": "print/EOSGIGA/0.24mm Optimal @Elegoo Giga 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @Elegoo Giga 0.6 nozzle",
+      "path": "print/EOSGIGA/0.30mm Strength @Elegoo Giga 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Draft @Elegoo Giga 0.6 nozzle",
+      "path": "print/EOSGIGA/0.36mm Draft @Elegoo Giga 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Extra Draft @Elegoo Giga 0.6 nozzle",
+      "path": "print/EOSGIGA/0.42mm Extra Draft @Elegoo Giga 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Extra Fine @Elegoo CC2 0.8 nozzle",
+      "path": "print/ECC2/0.16mm Extra Fine @Elegoo CC2 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Fine @Elegoo CC2 0.8 nozzle",
+      "path": "print/ECC2/0.24mm Fine @Elegoo CC2 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Optimal @Elegoo CC2 0.8 nozzle",
+      "path": "print/ECC2/0.32mm Optimal @Elegoo CC2 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Draft @Elegoo CC2 0.8 nozzle",
+      "path": "print/ECC2/0.48mm Draft @Elegoo CC2 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Fine @Elegoo Giga 0.8 nozzle",
+      "path": "print/EOSGIGA/0.24mm Fine @Elegoo Giga 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Optimal @Elegoo Giga 0.8 nozzle",
+      "path": "print/EOSGIGA/0.32mm Optimal @Elegoo Giga 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Draft @Elegoo Giga 0.8 nozzle",
+      "path": "print/EOSGIGA/0.48mm Draft @Elegoo Giga 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm Extra Draft @Elegoo Giga 0.8 nozzle",
+      "path": "print/EOSGIGA/0.56mm Extra Draft @Elegoo Giga 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine @Elegoo Giga 1.0 nozzle",
+      "path": "print/EOSGIGA/0.30mm Fine @Elegoo Giga 1.0 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Optimal @Elegoo Giga 1.0 nozzle",
+      "path": "print/EOSGIGA/0.40mm Optimal @Elegoo Giga 1.0 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.60mm Draft @Elegoo Giga 1.0 nozzle",
+      "path": "print/EOSGIGA/0.60mm Draft @Elegoo Giga 1.0 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Max (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Max (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Max (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Max (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Max (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Max (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Elegoo Neptune4Max (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.08mm Extra Fine @Elegoo Neptune4Max (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Max (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Max (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Max (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Max (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Max (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Max (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo Neptune4Max (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.12mm Fine @Elegoo Neptune4Max (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Max (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Max (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Max (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Max (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Max (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Max (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo Neptune4Max (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.16mm Optimal @Elegoo Neptune4Max (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Max (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Max (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Max (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Max (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Max (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Max (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Elegoo Neptune4Max (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.20mm Standard @Elegoo Neptune4Max (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Max (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Max (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Max (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Max (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Max (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Max (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo Neptune4Max (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.24mm Draft @Elegoo Neptune4Max (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Max (0.2 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Max (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Max (0.4 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Max (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Max (0.6 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Max (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo Neptune4Max (0.8 nozzle)",
+      "path": "print/EN4SERIES/0.28mm Extra Draft @Elegoo Neptune4Max (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Optimal @Elegoo C 0.2 nozzle",
+      "path": "print/EC/0.08mm Optimal @Elegoo C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Draft @Elegoo C 0.2 nozzle",
+      "path": "print/EC/0.12mm Draft @Elegoo C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.14mm Extra Draft @Elegoo C 0.2 nozzle",
+      "path": "print/EC/0.14mm Extra Draft @Elegoo C 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Optimal @Elegoo CC 0.2 nozzle",
+      "path": "print/ECC/0.08mm Optimal @Elegoo CC 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Draft @Elegoo CC 0.2 nozzle",
+      "path": "print/ECC/0.12mm Draft @Elegoo CC 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.14mm Extra Draft @Elegoo CC 0.2 nozzle",
+      "path": "print/ECC/0.14mm Extra Draft @Elegoo CC 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo C 0.4 nozzle",
+      "path": "print/EC/0.12mm Fine @Elegoo C 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo C 0.4 nozzle",
+      "path": "print/EC/0.16mm Optimal @Elegoo C 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Elegoo C 0.4 nozzle",
+      "path": "print/EC/0.20mm Strength @Elegoo C 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo C 0.4 nozzle",
+      "path": "print/EC/0.24mm Draft @Elegoo C 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo C 0.4 nozzle",
+      "path": "print/EC/0.28mm Extra Draft @Elegoo C 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Elegoo CC 0.4 nozzle",
+      "path": "print/ECC/0.12mm Fine @Elegoo CC 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Elegoo CC 0.4 nozzle",
+      "path": "print/ECC/0.16mm Optimal @Elegoo CC 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Elegoo CC 0.4 nozzle",
+      "path": "print/ECC/0.20mm Strength @Elegoo CC 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Elegoo CC 0.4 nozzle",
+      "path": "print/ECC/0.24mm Draft @Elegoo CC 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Elegoo CC 0.4 nozzle",
+      "path": "print/ECC/0.28mm Extra Draft @Elegoo CC 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Fine @Elegoo C 0.6 nozzle",
+      "path": "print/EC/0.18mm Fine @Elegoo C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Optimal @Elegoo C 0.6 nozzle",
+      "path": "print/EC/0.24mm Optimal @Elegoo C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @Elegoo C 0.6 nozzle",
+      "path": "print/EC/0.30mm Strength @Elegoo C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Draft @Elegoo C 0.6 nozzle",
+      "path": "print/EC/0.36mm Draft @Elegoo C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Extra Draft @Elegoo C 0.6 nozzle",
+      "path": "print/EC/0.42mm Extra Draft @Elegoo C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Fine @Elegoo CC 0.6 nozzle",
+      "path": "print/ECC/0.18mm Fine @Elegoo CC 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Optimal @Elegoo CC 0.6 nozzle",
+      "path": "print/ECC/0.24mm Optimal @Elegoo CC 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @Elegoo CC 0.6 nozzle",
+      "path": "print/ECC/0.30mm Strength @Elegoo CC 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Draft @Elegoo CC 0.6 nozzle",
+      "path": "print/ECC/0.36mm Draft @Elegoo CC 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Extra Draft @Elegoo CC 0.6 nozzle",
+      "path": "print/ECC/0.42mm Extra Draft @Elegoo CC 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Extra Fine @Elegoo C 0.8 nozzle",
+      "path": "print/EC/0.16mm Extra Fine @Elegoo C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Fine @Elegoo C 0.8 nozzle",
+      "path": "print/EC/0.24mm Fine @Elegoo C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Optimal @Elegoo C 0.8 nozzle",
+      "path": "print/EC/0.32mm Optimal @Elegoo C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Draft @Elegoo C 0.8 nozzle",
+      "path": "print/EC/0.48mm Draft @Elegoo C 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Extra Fine @Elegoo CC 0.8 nozzle",
+      "path": "print/ECC/0.16mm Extra Fine @Elegoo CC 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Fine @Elegoo CC 0.8 nozzle",
+      "path": "print/ECC/0.24mm Fine @Elegoo CC 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Optimal @Elegoo CC 0.8 nozzle",
+      "path": "print/ECC/0.32mm Optimal @Elegoo CC 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Draft @Elegoo CC 0.8 nozzle",
+      "path": "print/ECC/0.48mm Draft @Elegoo CC 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_elegoo_filament_common",
+      "path": "filament/ELEGOO/fdm_elegoo_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_elegoo_filament_asa",
+      "path": "filament/ELEGOO/fdm_elegoo_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_elegoo_filament_pet",
+      "path": "filament/ELEGOO/fdm_elegoo_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_elegoo_filament_pla",
+      "path": "filament/ELEGOO/fdm_elegoo_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_elegoo_filament_tpu",
+      "path": "filament/ELEGOO/fdm_elegoo_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_paht",
+      "path": "filament/fdm_filament_paht.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Elegoo",
+      "path": "filament/Generic/Generic ABS @Elegoo.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @Elegoo",
+      "path": "filament/Generic/Generic ASA @Elegoo.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Elegoo",
+      "path": "filament/Generic/Generic PETG @Elegoo.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG PRO @Elegoo",
+      "path": "filament/Generic/Generic PETG PRO @Elegoo.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Elegoo",
+      "path": "filament/Generic/Generic PLA @Elegoo.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA Matte @Elegoo",
+      "path": "filament/Generic/Generic PLA Matte @Elegoo.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ASA @Elegoo Giga",
+      "path": "filament/EOSGIGA/Elegoo ASA @Elegoo Giga.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG PRO @Elegoo Giga",
+      "path": "filament/EOSGIGA/Elegoo PETG PRO @Elegoo Giga.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA @Elegoo Giga",
+      "path": "filament/EOSGIGA/Elegoo PLA @Elegoo Giga.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Matte @Elegoo Giga",
+      "path": "filament/EOSGIGA/Elegoo PLA Matte @Elegoo Giga.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ABS @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo ABS @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ABS @ECC2",
+      "path": "filament/ECC2/Elegoo ABS @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ASA",
+      "path": "filament/ELEGOO/Elegoo ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ASA @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo ASA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ASA @EC",
+      "path": "filament/EC/Elegoo ASA @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ASA @ECC",
+      "path": "filament/ECC/Elegoo ASA @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo ASA @ECC2",
+      "path": "filament/ECC2/Elegoo ASA @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PAHT-CF @ECC2",
+      "path": "filament/ECC2/Elegoo PAHT-CF @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PC @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PC @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PC @ECC2",
+      "path": "filament/ECC2/Elegoo PC @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PC-FR @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PC-FR @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PC-FR @ECC2",
+      "path": "filament/ECC2/Elegoo PC-FR @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PETG @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG @ECC2",
+      "path": "filament/ECC2/Elegoo PETG @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG PRO",
+      "path": "filament/ELEGOO/Elegoo PETG PRO.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG PRO @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PETG PRO @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG PRO @EC",
+      "path": "filament/EC/Elegoo PETG PRO @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG PRO @ECC",
+      "path": "filament/ECC/Elegoo PETG PRO @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG PRO @ECC2",
+      "path": "filament/ECC2/Elegoo PETG PRO @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG Translucent @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PETG Translucent @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG Translucent @ECC2",
+      "path": "filament/ECC2/Elegoo PETG Translucent @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG-CF @ECC2",
+      "path": "filament/ECC2/Elegoo PETG-CF @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PETG-GF @ECC2",
+      "path": "filament/ECC2/Elegoo PETG-GF @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA",
+      "path": "filament/ELEGOO/Elegoo PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA @EC",
+      "path": "filament/EC/Elegoo PLA @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA @ECC",
+      "path": "filament/ECC/Elegoo PLA @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA @ECC2",
+      "path": "filament/ECC2/Elegoo PLA @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Basic @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PLA Basic @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Basic @ECC2",
+      "path": "filament/ECC2/Elegoo PLA Basic @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Galaxy @ECC2",
+      "path": "filament/ECC2/Elegoo PLA Galaxy @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Marble @ECC2",
+      "path": "filament/ECC2/Elegoo PLA Marble @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Matte",
+      "path": "filament/ELEGOO/Elegoo PLA Matte.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Matte @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PLA Matte @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Matte @EC",
+      "path": "filament/EC/Elegoo PLA Matte @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Matte @ECC",
+      "path": "filament/ECC/Elegoo PLA Matte @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Matte @ECC2",
+      "path": "filament/ECC2/Elegoo PLA Matte @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA PRO",
+      "path": "filament/ELEGOO/Elegoo PLA PRO.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA PRO @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PLA PRO @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA PRO @EC",
+      "path": "filament/EC/Elegoo PLA PRO @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA PRO @ECC",
+      "path": "filament/ECC/Elegoo PLA PRO @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA PRO @ECC2",
+      "path": "filament/ECC2/Elegoo PLA PRO @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Silk",
+      "path": "filament/ELEGOO/Elegoo PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Silk @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PLA Silk @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Silk @EC",
+      "path": "filament/EC/Elegoo PLA Silk @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Silk @ECC",
+      "path": "filament/ECC/Elegoo PLA Silk @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Silk @ECC2",
+      "path": "filament/ECC2/Elegoo PLA Silk @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Sparkle @ECC2",
+      "path": "filament/ECC2/Elegoo PLA Sparkle @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA Wood @ECC2",
+      "path": "filament/ECC2/Elegoo PLA Wood @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA+",
+      "path": "filament/ELEGOO/Elegoo PLA+.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA+ @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo PLA+ @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA+ @EC",
+      "path": "filament/EC/Elegoo PLA+ @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA+ @ECC",
+      "path": "filament/ECC/Elegoo PLA+ @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA+ @ECC2",
+      "path": "filament/ECC2/Elegoo PLA+ @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA-CF",
+      "path": "filament/ELEGOO/Elegoo PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA-CF @ECC",
+      "path": "filament/ECC/Elegoo PLA-CF @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo PLA-CF @ECC2",
+      "path": "filament/ECC2/Elegoo PLA-CF @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PETG",
+      "path": "filament/ELEGOO/Elegoo Rapid PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PETG @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo Rapid PETG @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PETG @EC",
+      "path": "filament/EC/Elegoo Rapid PETG @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PETG @ECC",
+      "path": "filament/ECC/Elegoo Rapid PETG @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PETG @ECC2",
+      "path": "filament/ECC2/Elegoo Rapid PETG @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PETG+",
+      "path": "filament/ELEGOO/Elegoo Rapid PETG+.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PLA+",
+      "path": "filament/ELEGOO/Elegoo Rapid PLA+.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PLA+ @0.2 nozzle",
+      "path": "filament/ELEGOO/Elegoo Rapid PLA+ @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PLA+ @EC",
+      "path": "filament/EC/Elegoo Rapid PLA+ @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PLA+ @ECC",
+      "path": "filament/ECC/Elegoo Rapid PLA+ @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid PLA+ @ECC2",
+      "path": "filament/ECC2/Elegoo Rapid PLA+ @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo Rapid TPU 95A @ECC2",
+      "path": "filament/ECC2/Elegoo Rapid TPU 95A @ECC2.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo TPU 95A @EC",
+      "path": "filament/EC/Elegoo TPU 95A @EC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo TPU 95A @ECC",
+      "path": "filament/ECC/Elegoo TPU 95A @ECC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Elegoo TPU 95A @ECC2",
+      "path": "filament/ECC2/Elegoo TPU 95A @ECC2.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Elegoo Centauri Carbon 2_cover.png",
+    "assets/Elegoo Centauri Carbon_cover.png",
+    "assets/Elegoo Centauri_cover.png",
+    "assets/Elegoo Neptune 2D_cover.png",
+    "assets/Elegoo Neptune 2S_cover.png",
+    "assets/Elegoo Neptune 2_cover.png",
+    "assets/Elegoo Neptune 3 Max_cover.png",
+    "assets/Elegoo Neptune 3 Plus_cover.png",
+    "assets/Elegoo Neptune 3 Pro_cover.png",
+    "assets/Elegoo Neptune 3_cover.png",
+    "assets/Elegoo Neptune 4 Max_cover.png",
+    "assets/Elegoo Neptune 4 Plus_cover.png",
+    "assets/Elegoo Neptune 4 Pro_cover.png",
+    "assets/Elegoo Neptune 4_cover.png",
+    "assets/Elegoo Neptune X_cover.png",
+    "assets/Elegoo Neptune_cover.png",
+    "assets/Elegoo OrangeStorm Giga_cover.png",
+    "assets/elegoo_centuri_buildplate_model.stl",
+    "assets/elegoo_centuri_buildplate_texture.png",
+    "assets/elegoo_centuri_carbon_buildplate_model.stl",
+    "assets/elegoo_centuri_carbon_buildplate_texture.png",
+    "assets/elegoo_neptune2_buildplate_model.stl",
+    "assets/elegoo_neptune2_buildplate_texture.png",
+    "assets/elegoo_neptune2d_buildplate_model.stl",
+    "assets/elegoo_neptune2d_buildplate_texture.png",
+    "assets/elegoo_neptune2s_buildplate_model.stl",
+    "assets/elegoo_neptune2s_buildplate_texture.png",
+    "assets/elegoo_neptune3_buildplate_model.stl",
+    "assets/elegoo_neptune3_buildplate_texture.png",
+    "assets/elegoo_neptune3max_buildplate_model.stl",
+    "assets/elegoo_neptune3plus_buildplate_model.stl",
+    "assets/elegoo_neptune3plus_buildplate_texture.png",
+    "assets/elegoo_neptune3pro_buildplate_model.stl",
+    "assets/elegoo_neptune3pro_buildplate_texture.png",
+    "assets/elegoo_neptune4_buildplate_model.stl",
+    "assets/elegoo_neptune4_buildplate_texture.png",
+    "assets/elegoo_neptune4max_buildplate_model.stl",
+    "assets/elegoo_neptune4plus_buildplate_model.stl",
+    "assets/elegoo_neptune4plus_buildplate_texture.png",
+    "assets/elegoo_neptune4pro_buildplate_model.stl",
+    "assets/elegoo_neptune4pro_buildplate_texture.png",
+    "assets/elegoo_neptune_buildplate_model.stl",
+    "assets/elegoo_neptune_buildplate_texture.png",
+    "assets/elegoo_neptune_max_buildplate_texture.png",
+    "assets/elegoo_neptunex_buildplate_model.stl",
+    "assets/elegoo_neptunex_buildplate_texture.png",
+    "assets/elegoo_orangestorm_giga_buildplate_model.stl",
+    "assets/elegoo_orangestorm_giga_buildplate_texture.png"
+  ]
+}

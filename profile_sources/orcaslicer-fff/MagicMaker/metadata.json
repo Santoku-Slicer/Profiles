@@ -1,0 +1,241 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "MagicMaker",
+  "version": "02.03.02.60",
+  "index_name": "MagicMaker.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "MagicMaker",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "MM BoneKing",
+      "path": "printer_model/MM BoneKing.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "MM hj SK",
+      "path": "printer_model/MM hj SK.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "MM hqs SF",
+      "path": "printer_model/MM hqs SF.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "MM hqs hj",
+      "path": "printer_model/MM hqs hj.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "MM slb",
+      "path": "printer_model/MM slb.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "MM BoneKing 0.4 nozzle",
+      "path": "printer/MM BoneKing 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MM hj SK 0.4 nozzle",
+      "path": "printer/MM hj SK 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MM hqs SF 0.4 nozzle",
+      "path": "printer/MM hqs SF 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MM hqs hj 0.4 nozzle",
+      "path": "printer/MM hqs hj 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MM slb 0.4 nozzle",
+      "path": "printer/MM slb 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @MM BoneKing",
+      "path": "print/0.10mm Fine @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @MM hj SK",
+      "path": "print/0.10mm Fine @MM hj SK.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @MM hqs SF",
+      "path": "print/0.10mm Fine @MM hqs SF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @MM hqs hj",
+      "path": "print/0.10mm Fine @MM hqs hj.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine @MM slb",
+      "path": "print/0.10mm Fine @MM slb.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine Fast @MM BoneKing",
+      "path": "print/0.10mm Fine Fast @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine Fast @MM hj SK",
+      "path": "print/0.10mm Fine Fast @MM hj SK.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Fine Fast @MM hqs SF",
+      "path": "print/0.10mm Fine Fast @MM hqs SF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine BestFast @MM BoneKing",
+      "path": "print/0.12mm Fine BestFast @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine SuperFast @MM BoneKing",
+      "path": "print/0.12mm Fine SuperFast @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MM BoneKing",
+      "path": "print/0.20mm Standard @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MM hj SK",
+      "path": "print/0.20mm Standard @MM hj SK.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MM hqs SF",
+      "path": "print/0.20mm Standard @MM hqs SF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MM hqs hj",
+      "path": "print/0.20mm Standard @MM hqs hj.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MM slb",
+      "path": "print/0.20mm Standard @MM slb.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard Fast @MM BoneKing",
+      "path": "print/0.20mm Standard Fast @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard Fast @MM hj SK",
+      "path": "print/0.20mm Standard Fast @MM hj SK.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard Fast @MM hqs sf",
+      "path": "print/0.20mm Standard Fast @MM hqs SF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft @MM BoneKing",
+      "path": "print/0.30mm Draft @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft @MM hj SK",
+      "path": "print/0.30mm Draft @MM hj SK.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft @MM hqs SF",
+      "path": "print/0.30mm Draft @MM hqs SF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft @MM hqs hj",
+      "path": "print/0.30mm Draft @MM hqs hj.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft @MM slb",
+      "path": "print/0.30mm Draft @MM slb.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft Fast @MM BoneKing",
+      "path": "print/0.30mm Draft Fast @MM BoneKing.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft Fast @MM hj SK",
+      "path": "print/0.30mm Draft Fast @MM hj SK.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft Fast @MM hqs SF",
+      "path": "print/0.30mm Draft Fast @MM hqs SF.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_peek",
+      "path": "filament/fdm_filament_peek.json"
+    },
+    {
+      "type": "filament",
+      "name": "MM Generic PEEK",
+      "path": "filament/MM Generic PEEK.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/120_buildplate_model.stl",
+    "assets/125_buildplate_model.stl",
+    "assets/150_buildplate_model.stl",
+    "assets/160_buildplate_model.stl",
+    "assets/220210_buildplate_model.stl",
+    "assets/220_buildplate_model.stl",
+    "assets/250_buildplate_model.stl",
+    "assets/310_buildplate_model.stl",
+    "assets/MM BoneKing_cover.png",
+    "assets/MM hj SK_cover.png",
+    "assets/MM hj_buildplate_model.stl",
+    "assets/MM hqs SF_cover.png",
+    "assets/MM hqs hj_cover.png",
+    "assets/MM slb_cover.png",
+    "assets/MM_buildplate_texture.png",
+    "assets/magicmaker_hotend.stl"
+  ]
+}

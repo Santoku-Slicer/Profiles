@@ -1,0 +1,508 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "FlyingBear",
+  "version": "02.03.02.60",
+  "index_name": "FlyingBear.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "FlyingBear",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FlyingBear Ghost 6",
+      "path": "printer_model/FlyingBear Ghost 6.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FlyingBear Ghost7",
+      "path": "printer_model/Ghost7/FlyingBear Ghost7.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FlyingBear Reborn3",
+      "path": "printer_model/FlyingBear Reborn3.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FlyingBear S1",
+      "path": "printer_model/S1/FlyingBear S1.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_marlin_common",
+      "path": "printer/fdm_marlin_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "FlyingBear Ghost 6 0.4 nozzle",
+      "path": "printer/FlyingBear Ghost 6 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FlyingBear Ghost7 0.4 nozzle",
+      "path": "printer/Ghost7/FlyingBear Ghost7 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FlyingBear Reborn3 0.4 nozzle",
+      "path": "printer/FlyingBear Reborn3 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FlyingBear S1 0.4 nozzle",
+      "path": "printer/S1/FlyingBear S1 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common_Ghost7",
+      "path": "print/Ghost7/fdm_process_common_Ghost7.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common_S1",
+      "path": "print/S1/fdm_process_common_S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @FlyingBear Reborn3",
+      "path": "print/0.08mm Extra Fine @FlyingBear Reborn3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @FlyingBear Reborn3",
+      "path": "print/0.12mm Fine @FlyingBear Reborn3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FlyingBear Reborn3",
+      "path": "print/0.16mm Optimal @FlyingBear Reborn3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FlyingBear Reborn3",
+      "path": "print/0.20mm Standard @FlyingBear Reborn3.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FlyingBear Reborn3",
+      "path": "print/0.24mm Draft @FlyingBear Reborn3.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_marlin_common",
+      "path": "print/fdm_process_marlin_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @FlyingBear Ghost7",
+      "path": "print/Ghost7/0.08mm Extra Fine @FlyingBear Ghost7.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @FlyingBear Ghost7",
+      "path": "print/Ghost7/0.12mm Fine @FlyingBear Ghost7.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FlyingBear Ghost7",
+      "path": "print/Ghost7/0.16mm Optimal @FlyingBear Ghost7.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FlyingBear Ghost7",
+      "path": "print/Ghost7/0.20mm Standard @FlyingBear Ghost7.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FlyingBear Ghost7",
+      "path": "print/Ghost7/0.24mm Draft @FlyingBear Ghost7.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @FlyingBear S1",
+      "path": "print/S1/0.08mm Extra Fine @FlyingBear S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @FlyingBear S1",
+      "path": "print/S1/0.12mm Fine @FlyingBear S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FlyingBear S1",
+      "path": "print/S1/0.16mm Optimal @FlyingBear S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FlyingBear S1",
+      "path": "print/S1/0.20mm Standard @FlyingBear S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FlyingBear S1",
+      "path": "print/S1/0.24mm Draft @FlyingBear S1.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_ghost_6",
+      "path": "print/fdm_process_ghost_6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @FlyingBear Ghost 6 0.4 nozzle",
+      "path": "print/0.12mm Fine @FlyingBear Ghost 6 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FlyingBear Ghost 6 0.4 nozzle",
+      "path": "print/0.16mm Optimal @FlyingBear Ghost 6 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FlyingBear Ghost 6 0.4 nozzle",
+      "path": "print/0.20mm Standard @FlyingBear Ghost 6 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FlyingBear Ghost 6 0.4 nozzle",
+      "path": "print/0.24mm Draft @FlyingBear Ghost 6 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common_Ghost7",
+      "path": "filament/Ghost7/fdm_filament_common_Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common_S1",
+      "path": "filament/S1/fdm_filament_common_S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper",
+      "path": "filament/fdm_filament_pla_Hyper.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs @Ghost7",
+      "path": "filament/Ghost7/fdm_filament_abs @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa @Ghost7",
+      "path": "filament/Ghost7/fdm_filament_pa @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc @Ghost7",
+      "path": "filament/Ghost7/fdm_filament_pc @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet @Ghost7",
+      "path": "filament/Ghost7/fdm_filament_pet @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla @Ghost7",
+      "path": "filament/Ghost7/fdm_filament_pla @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper @Ghost7",
+      "path": "filament/Ghost7/fdm_filament_pla_Hyper @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu @Ghost7",
+      "path": "filament/Ghost7/fdm_filament_tpu @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs @S1",
+      "path": "filament/S1/fdm_filament_abs @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs_other @S1",
+      "path": "filament/S1/fdm_filament_abs_other @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa @S1",
+      "path": "filament/S1/fdm_filament_pa @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa_other @S1",
+      "path": "filament/S1/fdm_filament_pa_other @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc @S1",
+      "path": "filament/S1/fdm_filament_pc @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc_other @S1",
+      "path": "filament/S1/fdm_filament_pc_other @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet @S1",
+      "path": "filament/S1/fdm_filament_pet @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet_other @S1",
+      "path": "filament/S1/fdm_filament_pet_other @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla @S1",
+      "path": "filament/S1/fdm_filament_pla @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper @S1",
+      "path": "filament/S1/fdm_filament_pla_Hyper @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper_other @S1",
+      "path": "filament/S1/fdm_filament_pla_Hyper_other @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_other @S1",
+      "path": "filament/S1/fdm_filament_pla_other @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu @S1",
+      "path": "filament/S1/fdm_filament_tpu @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu_other @S1",
+      "path": "filament/S1/fdm_filament_tpu_other @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear Generic ABS",
+      "path": "filament/FlyingBear Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear Generic PA-CF",
+      "path": "filament/FlyingBear Generic PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear Generic PC",
+      "path": "filament/FlyingBear Generic PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear Generic PETG",
+      "path": "filament/FlyingBear Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear Generic PLA",
+      "path": "filament/FlyingBear Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PLA Hyper",
+      "path": "filament/FlyingBear PLA Hyper.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear Generic TPU",
+      "path": "filament/FlyingBear Generic TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear ABS @Ghost7",
+      "path": "filament/Ghost7/FlyingBear ABS @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PA-CF @Ghost7",
+      "path": "filament/Ghost7/FlyingBear PA-CF @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PC @Ghost7",
+      "path": "filament/Ghost7/FlyingBear PC @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PETG Basic @Ghost7",
+      "path": "filament/Ghost7/FlyingBear PETG Basic @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PLA Basic @Ghost7",
+      "path": "filament/Ghost7/FlyingBear PLA Basic @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PLA Hyper @Ghost7",
+      "path": "filament/Ghost7/FlyingBear PLA Hyper @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear TPU Basic @Ghost7",
+      "path": "filament/Ghost7/FlyingBear TPU Basic @Ghost7.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear ABS @S1",
+      "path": "filament/S1/FlyingBear ABS @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other ABS @S1",
+      "path": "filament/S1/Other ABS @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PA-CF @S1",
+      "path": "filament/S1/FlyingBear PA-CF @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PA-CF @S1",
+      "path": "filament/S1/Other PA-CF @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PC @S1",
+      "path": "filament/S1/FlyingBear PC @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PC @S1",
+      "path": "filament/S1/Other PC @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PETG @S1",
+      "path": "filament/S1/FlyingBear PETG @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PETG @S1",
+      "path": "filament/S1/Other PETG @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PLA @S1",
+      "path": "filament/S1/FlyingBear PLA @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear PLA Hyper @S1",
+      "path": "filament/S1/FlyingBear PLA Hyper @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PLA Hyper @S1",
+      "path": "filament/S1/Other PLA Hyper @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PLA @S1",
+      "path": "filament/S1/Other PLA @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "FlyingBear TPU @S1",
+      "path": "filament/S1/FlyingBear TPU @S1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other TPU @S1",
+      "path": "filament/S1/Other TPU @S1.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/FlyingBear Ghost 6-bed.stl",
+    "assets/FlyingBear Ghost 6-texture.png",
+    "assets/FlyingBear Ghost 6_cover.png",
+    "assets/FlyingBear Ghost7-bed.stl",
+    "assets/FlyingBear Ghost7-texture.png",
+    "assets/FlyingBear Ghost7_cover.png",
+    "assets/FlyingBear Reborn3-bed.stl",
+    "assets/FlyingBear Reborn3-texture.png",
+    "assets/FlyingBear Reborn3_cover.png",
+    "assets/FlyingBear S1-bed.stl",
+    "assets/FlyingBear S1-texture.png",
+    "assets/FlyingBear S1_cover.png",
+    "assets/error_hull_show"
+  ]
+}

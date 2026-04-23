@@ -1,0 +1,501 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Anker",
+  "version": "02.03.02.60",
+  "index_name": "Anker.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Anker",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Anker M5",
+      "path": "printer_model/Anker M5.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Anker M5 All-Metal Hot End",
+      "path": "printer_model/Anker M5 All-Metal Hot End.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Anker M5C",
+      "path": "printer_model/Anker M5C.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_marlin_common",
+      "path": "printer/fdm_marlin_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 0.2 nozzle",
+      "path": "printer/Anker M5 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 0.25 nozzle",
+      "path": "printer/Anker M5 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 0.4 nozzle",
+      "path": "printer/Anker M5 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 0.6 nozzle",
+      "path": "printer/Anker M5 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 All-Metal 0.2 nozzle",
+      "path": "printer/Anker M5 All-Metal 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 All-Metal 0.25 nozzle",
+      "path": "printer/Anker M5 All-Metal 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 All-Metal 0.4 nozzle",
+      "path": "printer/Anker M5 All-Metal 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5 All-Metal 0.6 nozzle",
+      "path": "printer/Anker M5 All-Metal 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5C 0.2 nozzle",
+      "path": "printer/Anker M5C 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5C 0.25 nozzle",
+      "path": "printer/Anker M5C 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5C 0.4 nozzle",
+      "path": "printer/Anker M5C 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Anker M5C 0.6 nozzle",
+      "path": "printer/Anker M5C 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_anker_common",
+      "path": "print/fdm_process_anker_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_anker_common_0_2",
+      "path": "print/fdm_process_anker_common_0_2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_anker_common_0_25",
+      "path": "print/fdm_process_anker_common_0_25.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_anker_common_0_6",
+      "path": "print/fdm_process_anker_common_0_6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Ultradetail @Anker",
+      "path": "print/0.05mm Ultradetail @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Detail @Anker",
+      "path": "print/0.10mm Detail @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @Anker",
+      "path": "print/0.15mm Optimal @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Anker",
+      "path": "print/0.20mm Standard @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Draft @Anker",
+      "path": "print/0.25mm Draft @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Superdraft @Anker",
+      "path": "print/0.30mm Superdraft @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_anker_fast_common",
+      "path": "print/fdm_process_anker_fast_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Optimal 0.2 nozzle @Anker",
+      "path": "print/0.05mm Optimal 0.2 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard 0.2 nozzle @Anker",
+      "path": "print/0.10mm Standard 0.2 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Draft 0.2 nozzle @Anker",
+      "path": "print/0.15mm Draft 0.2 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Optimal 0.25 nozzle @Anker",
+      "path": "print/0.05mm Optimal 0.25 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard 0.25 nozzle @Anker",
+      "path": "print/0.10mm Standard 0.25 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Draft 0.25 nozzle @Anker",
+      "path": "print/0.15mm Draft 0.25 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Detail 0.6 nozzle @Anker",
+      "path": "print/0.15mm Detail 0.6 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Optimal 0.6 nozzle @Anker",
+      "path": "print/0.20mm Optimal 0.6 nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard 0.6mm nozzle @Anker",
+      "path": "print/0.30mm Standard 0.6mm nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm Draft 0.6mm nozzle @Anker",
+      "path": "print/0.35mm Draft 0.6mm nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Superdraft 0.6mm nozzle @Anker",
+      "path": "print/0.40mm Superdraft 0.6mm nozzle @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Fast @Anker",
+      "path": "print/0.15mm Fast @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fast @Anker",
+      "path": "print/0.20mm Fast @Anker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Fast @Anker",
+      "path": "print/0.25mm Fast @Anker.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pva",
+      "path": "filament/fdm_filament_pva.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ABS @base",
+      "path": "filament/Anker Generic ABS @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ASA @base",
+      "path": "filament/Anker Generic ASA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PA @base",
+      "path": "filament/Anker Generic PA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PA-CF @base",
+      "path": "filament/Anker Generic PA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PC @base",
+      "path": "filament/Anker Generic PC @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PETG @base",
+      "path": "filament/Anker Generic PETG @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PETG-CF @base",
+      "path": "filament/Anker Generic PETG-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA @base",
+      "path": "filament/Anker Generic PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA Silk @base",
+      "path": "filament/Anker Generic PLA Silk @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA+ @base",
+      "path": "filament/Anker Generic PLA+ @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA-CF @base",
+      "path": "filament/Anker Generic PLA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PVA @base",
+      "path": "filament/Anker Generic PVA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic TPU @base",
+      "path": "filament/Anker Generic TPU @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ABS",
+      "path": "filament/Anker Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ABS 0.2 nozzle",
+      "path": "filament/Anker Generic ABS 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ABS 0.25 nozzle",
+      "path": "filament/Anker Generic ABS 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ASA",
+      "path": "filament/Anker Generic ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ASA 0.2 nozzle",
+      "path": "filament/Anker Generic ASA 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic ASA 0.25 nozzle",
+      "path": "filament/Anker Generic ASA 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PA",
+      "path": "filament/Anker Generic PA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PA 0.2 nozzle",
+      "path": "filament/Anker Generic PA 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PA 0.25 nozzle",
+      "path": "filament/Anker Generic PA 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PA-CF",
+      "path": "filament/Anker Generic PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PC",
+      "path": "filament/Anker Generic PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PC 0.2 nozzle",
+      "path": "filament/Anker Generic PC 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PC 0.25 nozzle",
+      "path": "filament/Anker Generic PC 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PETG",
+      "path": "filament/Anker Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PETG 0.2 nozzle",
+      "path": "filament/Anker Generic PETG 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PETG 0.25 nozzle",
+      "path": "filament/Anker Generic PETG 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PETG-CF",
+      "path": "filament/Anker Generic PETG-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA",
+      "path": "filament/Anker Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA 0.2 nozzle",
+      "path": "filament/Anker Generic PLA 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA 0.25 nozzle",
+      "path": "filament/Anker Generic PLA 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA Silk",
+      "path": "filament/Anker Generic PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA Silk 0.2 nozzle",
+      "path": "filament/Anker Generic PLA Silk 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA Silk 0.25 nozzle",
+      "path": "filament/Anker Generic PLA Silk 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA+",
+      "path": "filament/Anker Generic PLA+.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA+ 0.2 nozzle",
+      "path": "filament/Anker Generic PLA+ 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA+ 0.25 nozzle",
+      "path": "filament/Anker Generic PLA+ 0.25 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PLA-CF",
+      "path": "filament/Anker Generic PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic PVA",
+      "path": "filament/Anker Generic PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Anker Generic TPU",
+      "path": "filament/Anker Generic TPU.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Anker M5 All-Metal Hot End_cover.png",
+    "assets/Anker M5C_cover.png",
+    "assets/Anker M5_cover.png",
+    "assets/M5-CE-bed.stl",
+    "assets/M5-CE-texture.svg",
+    "assets/M5C-CE-bed.stl"
+  ]
+}

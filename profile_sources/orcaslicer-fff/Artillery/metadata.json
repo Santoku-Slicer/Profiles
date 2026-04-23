@@ -1,0 +1,841 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Artillery",
+  "version": "02.03.02.60",
+  "index_name": "Artillery.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Artillery",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Genius",
+      "path": "printer_model/Artillery Genius.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Genius Pro",
+      "path": "printer_model/Artillery Genius Pro.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Hornet",
+      "path": "printer_model/Artillery Hornet.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery M1 Pro",
+      "path": "printer_model/Artillery M1 Pro.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Sidewinder X1",
+      "path": "printer_model/Artillery Sidewinder X1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Sidewinder X2",
+      "path": "printer_model/Artillery Sidewinder X2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Sidewinder X3 Plus",
+      "path": "printer_model/Artillery Sidewinder X3 Plus.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Sidewinder X3 Pro",
+      "path": "printer_model/Artillery Sidewinder X3 Pro.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Sidewinder X4 Plus",
+      "path": "printer_model/Artillery Sidewinder X4 Plus.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Artillery Sidewinder X4 Pro",
+      "path": "printer_model/Artillery Sidewinder X4 Pro.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Genius 0.4 nozzle",
+      "path": "printer/Artillery Genius 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Genius Pro 0.4 nozzle",
+      "path": "printer/Artillery Genius Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Hornet 0.4 nozzle",
+      "path": "printer/Artillery Hornet 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery M1 Pro 0.4 nozzle",
+      "path": "printer/Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X1 0.4 nozzle",
+      "path": "printer/Artillery Sidewinder X1 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X2 0.4 nozzle",
+      "path": "printer/Artillery Sidewinder X2 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X3 Plus 0.4 nozzle",
+      "path": "printer/Artillery Sidewinder X3 Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X3 Pro 0.4 nozzle",
+      "path": "printer/Artillery Sidewinder X3 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X4 Plus 0.4 nozzle",
+      "path": "printer/Artillery Sidewinder X4 Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery Sidewinder X4 Pro 0.4 nozzle",
+      "path": "printer/Artillery Sidewinder X4 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery M1 Pro 0.2 nozzle",
+      "path": "printer/Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery M1 Pro 0.6 nozzle",
+      "path": "printer/Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Artillery M1 Pro 0.8 nozzle",
+      "path": "printer/Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm High Quality @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.08mm High Quality @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Artillery M1 Pro 0.6 nozzle",
+      "path": "print/0.24mm Draft @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Artillery M1 Pro 0.8 nozzle",
+      "path": "print/0.24mm Draft @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm High Quality @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.06mm High Quality @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm Standard @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.06mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Standard @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.08mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm High Quality @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.10mm High Quality @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.10mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Standard @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.12mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.14mm Standard @Artillery M1 Pro 0.2 nozzle",
+      "path": "print/0.14mm Standard @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Standard @Artillery M1 Pro 0.6 nozzle",
+      "path": "print/0.18mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Standard @Artillery M1 Pro 0.6 nozzle",
+      "path": "print/0.24mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Artillery M1 Pro 0.6 nozzle",
+      "path": "print/0.30mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @Artillery M1 Pro 0.6 nozzle",
+      "path": "print/0.30mm Strength @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Standard @Artillery M1 Pro 0.6 nozzle",
+      "path": "print/0.36mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Standard @Artillery M1 Pro 0.6 nozzle",
+      "path": "print/0.42mm Standard @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Standard @Artillery M1 Pro 0.8 nozzle",
+      "path": "print/0.24mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @Artillery M1 Pro 0.8 nozzle",
+      "path": "print/0.32mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Artillery M1 Pro 0.8 nozzle",
+      "path": "print/0.40mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Standard @Artillery M1 Pro 0.8 nozzle",
+      "path": "print/0.48mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm Standard @Artillery M1 Pro 0.8 nozzle",
+      "path": "print/0.56mm Standard @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.08mm Extra Fine @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm High Quality @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.08mm High Quality @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.12mm Fine @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm High Quality @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.12mm High Quality @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @Artillery Genius",
+      "path": "print/0.15mm Optimal @Artillery Genius.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @Artillery Genius Pro",
+      "path": "print/0.15mm Optimal @Artillery Genius Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High Quality @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.16mm High Quality @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Artillery Hornet",
+      "path": "print/0.16mm Optimal @Artillery Hornet.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.16mm Optimal @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Artillery X1",
+      "path": "print/0.16mm Optimal @Artillery X1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery Genius",
+      "path": "print/0.20mm Standard @Artillery Genius.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery Genius Pro",
+      "path": "print/0.20mm Standard @Artillery Genius Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery Hornet",
+      "path": "print/0.20mm Standard @Artillery Hornet.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.20mm Standard @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery X1",
+      "path": "print/0.20mm Standard @Artillery X1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery X2",
+      "path": "print/0.20mm Standard @Artillery X2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery X3Plus 0.4 nozzle",
+      "path": "print/0.20mm Standard @Artillery X3Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery X3Pro 0.4 nozzle",
+      "path": "print/0.20mm Standard @Artillery X3Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.20mm Standard @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.20mm Standard @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.20mm Strength @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Artillery Hornet",
+      "path": "print/0.24mm Draft @Artillery Hornet.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.24mm Draft @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Artillery X1",
+      "path": "print/0.24mm Draft @Artillery X1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Draft @Artillery Genius",
+      "path": "print/0.25mm Draft @Artillery Genius.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Draft @Artillery Genius Pro",
+      "path": "print/0.25mm Draft @Artillery Genius Pro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Artillery M1 Pro 0.4 nozzle",
+      "path": "print/0.28mm Extra Draft @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.08mm Extra Fine @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm High Quality @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.08mm High Quality @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.12mm Fine @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm High Quality @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.12mm High Quality @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High Quality @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.16mm High Quality @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.16mm Optimal @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.20mm Strength @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.24mm Draft @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Artillery X4Plus 0.4 nozzle",
+      "path": "print/0.28mm Extra Draft @Artillery X4Plus 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.08mm Extra Fine @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm High Quality @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.08mm High Quality @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.12mm Fine @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm High Quality @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.12mm High Quality @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High Quality @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.16mm High Quality @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.16mm Optimal @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.20mm Strength @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.24mm Draft @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Artillery X4Pro 0.4 nozzle",
+      "path": "print/0.28mm Extra Draft @Artillery X4Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PLA @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PLA @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PLA @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Basic @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PLA Basic @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Matte @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PLA Matte @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Silk @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PLA Silk @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Basic @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PLA Basic @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Matte @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PLA Matte @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Silk @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PLA Silk @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Basic @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PLA Basic @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Matte @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PLA Matte @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Silk @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PLA Silk @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery Generic ABS",
+      "path": "filament/Artillery Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery Generic ASA",
+      "path": "filament/Artillery Generic ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery Generic PETG",
+      "path": "filament/Artillery Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery Generic PLA",
+      "path": "filament/Artillery Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery Generic PLA-CF",
+      "path": "filament/Artillery Generic PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery Generic TPU",
+      "path": "filament/Artillery Generic TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ABS",
+      "path": "filament/Artillery ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ABS @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery ABS @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ASA @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery ASA @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PA @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PA @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PA-CF @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PA-CF @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PC @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PC @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PET @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PET @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG",
+      "path": "filament/Artillery PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PETG @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG Basic @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PETG Basic @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG-CF @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PETG-CF @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Basic",
+      "path": "filament/Artillery PLA Basic.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Basic @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PLA Basic @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Basic+ @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PLA Basic+ @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Matte",
+      "path": "filament/Artillery PLA Matte.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Matte @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PLA Matte @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Silk",
+      "path": "filament/Artillery PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Silk @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PLA Silk @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA Tough",
+      "path": "filament/Artillery PLA Tough.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PLA-CF @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PLA-CF @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PVA @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery PVA @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery TPU",
+      "path": "filament/Artillery TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery TPU @Artillery M1 Pro 0.4 nozzle",
+      "path": "filament/Artillery TPU @Artillery M1 Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ABS @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery ABS @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ABS @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery ABS @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ABS @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery ABS @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ASA @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery ASA @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ASA @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery ASA @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery ASA @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery ASA @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PET @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PET @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PET @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PET @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PET @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PET @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PETG @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PETG @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PETG @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG Basic @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PETG Basic @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG Basic @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PETG Basic @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PETG Basic @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PETG Basic @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PVA @Artillery M1 Pro 0.2 nozzle",
+      "path": "filament/Artillery PVA @Artillery M1 Pro 0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PVA @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery PVA @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery PVA @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery PVA @Artillery M1 Pro 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery TPU @Artillery M1 Pro 0.6 nozzle",
+      "path": "filament/Artillery TPU @Artillery M1 Pro 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Artillery TPU @Artillery M1 Pro 0.8 nozzle",
+      "path": "filament/Artillery TPU @Artillery M1 Pro 0.8 nozzle.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Artillery Genius Pro_cover.png",
+    "assets/Artillery Genius_cover.png",
+    "assets/Artillery Hornet_cover.png",
+    "assets/Artillery M1 Pro_cover.png",
+    "assets/Artillery Sidewinder X1_cover.png",
+    "assets/Artillery Sidewinder X2_cover.png",
+    "assets/Artillery Sidewinder X3 Plus_cover.png",
+    "assets/Artillery Sidewinder X3 Pro_cover.png",
+    "assets/Artillery Sidewinder X4 Plus_cover.png",
+    "assets/Artillery Sidewinder X4 Pro_cover.png",
+    "assets/artillery_genius_buildplate_model.stl",
+    "assets/artillery_genius_buildplate_texture.png",
+    "assets/artillery_geniuspro_buildplate_model.stl",
+    "assets/artillery_geniuspro_buildplate_texture.png",
+    "assets/artillery_hornet_buildplate_model.stl",
+    "assets/artillery_hornet_buildplate_texture.png",
+    "assets/artillery_m1_pro_buildplate_model.stl",
+    "assets/artillery_m1_pro_buildplate_texture.svg",
+    "assets/artillery_sidewinderx1_buildplate_model.stl",
+    "assets/artillery_sidewinderx1_buildplate_texture.png",
+    "assets/artillery_sidewinderx2_buildplate_model.stl",
+    "assets/artillery_sidewinderx2_buildplate_texture.png",
+    "assets/artillery_sidewinderx3plus_buildplate_model.stl",
+    "assets/artillery_sidewinderx3pro_buildplate_model.stl",
+    "assets/artillery_sidewinderx4plus_buildplate_model.stl",
+    "assets/artillery_sidewinderx4pro_buildplate_model.stl"
+  ]
+}

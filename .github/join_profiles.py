@@ -49,6 +49,8 @@ REPO_URLS = (
 USER_AGENT = "SliceBeamProfileDump/1.0"
 INVALID_FILE_CHARS = '<>:"/\\|?*'
 ASSET_KEYS = {"thumbnail", "bed_model", "bed_texture"}
+SPLIT_SOURCE_FORMAT_INI = "slic3r-ini-split"
+SPLIT_SOURCE_FORMAT_ORCA = "orcaslicer-json-split"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_SOURCES_DIR = REPO_ROOT / "profile_sources"
 BACKEND_STATIC_DIR = REPO_ROOT
@@ -367,6 +369,71 @@ def write_backend_static_repo(static_root: Path, repos: list[dict], vendor_artif
     (static_root / "manifest.json").write_text(json.dumps(manifest_entries, indent=2), encoding="utf-8")
 
 
+def orca_json_value_to_ini(value) -> str:
+    if isinstance(value, bool):
+        return "1" if value else "0"
+    if value is None:
+        return ""
+    if isinstance(value, (int, float)):
+        return str(value)
+    if isinstance(value, str):
+        return value
+    if isinstance(value, list):
+        return ",".join(orca_json_value_to_ini(item) for item in value)
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+
+
+def orca_vendor_manifest_to_ini(repo: dict, vendor_manifest: dict) -> str:
+    lines = [
+        "[vendor]",
+        f"repo_id = {repo['id']}",
+        f"name = {vendor_manifest['name']}",
+        f"config_version = {vendor_manifest['version']}",
+    ]
+    description = vendor_manifest.get("description")
+    if description:
+        lines.append(f"description = {description}")
+    force_update = vendor_manifest.get("force_update")
+    if force_update not in (None, ""):
+        lines.append(f"force_update = {orca_json_value_to_ini(force_update)}")
+    return "\n".join(lines) + "\n"
+
+
+def orca_json_section_to_ini(section_type: str, section_name: str, payload: dict) -> str:
+    lines = [f"[{section_type}:{section_name}]"]
+    for key, value in payload.items():
+        if key in {"type", "name"}:
+            continue
+        lines.append(f"{key} = {orca_json_value_to_ini(value)}")
+    return "\n".join(lines) + "\n"
+
+
+def build_orca_ini_from_split_vendor(vendor_dir: Path, metadata: dict) -> tuple[bytes, dict[str, bytes]]:
+    repo = metadata["repo"]
+    parts: list[str] = []
+    assets: dict[str, bytes] = {}
+
+    for section in metadata["section_order"]:
+        section_path = vendor_dir / Path(section["path"])
+        if not section_path.exists():
+            raise FileNotFoundError(f"Missing section file {section_path}")
+        if section["type"] == "vendor":
+            vendor_manifest = json.loads(section_path.read_text(encoding="utf-8"))
+            parts.append(orca_vendor_manifest_to_ini(repo, vendor_manifest).rstrip())
+        else:
+            payload = json.loads(section_path.read_text(encoding="utf-8"))
+            parts.append(orca_json_section_to_ini(section["type"], section["name"], payload).rstrip())
+
+    for asset_rel_path in metadata.get("asset_paths", []):
+        asset_path = vendor_dir / Path(asset_rel_path)
+        if asset_path.exists():
+            relative_name = Path(asset_rel_path).relative_to("assets").as_posix() if Path(asset_rel_path).parts and Path(asset_rel_path).parts[0] == "assets" else Path(asset_rel_path).as_posix()
+            assets[relative_name] = asset_path.read_bytes()
+
+    ini_text = "\n\n".join(parts) + "\n"
+    return ini_text.encode("utf-8"), assets
+
+
 def build_backend_static_from_split_source(split_root: Path, static_root: Path) -> None:
     repos_map: dict[str, dict] = {}
     vendor_artifacts: dict[str, list[dict]] = defaultdict(list)
@@ -378,6 +445,7 @@ def build_backend_static_from_split_source(split_root: Path, static_root: Path) 
                 raise FileNotFoundError(f"Missing metadata.json in {vendor_dir}")
 
             metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+            source_format = metadata.get("format", SPLIT_SOURCE_FORMAT_INI)
             repo = metadata["repo"]
             repo_id = repo["id"]
             repos_map[repo_id] = {
@@ -386,13 +454,19 @@ def build_backend_static_from_split_source(split_root: Path, static_root: Path) 
                 "description": repo.get("description", ""),
                 "visibility": repo.get("visibility", ""),
             }
-
-            parts: list[str] = []
-            for section in metadata["section_order"]:
-                section_path = vendor_dir / Path(section["path"])
-                content = section_path.read_text(encoding="utf-8").rstrip()
-                parts.append(content)
-            ini_text = "\n\n".join(parts) + "\n"
+            if source_format == SPLIT_SOURCE_FORMAT_INI:
+                parts: list[str] = []
+                for section in metadata["section_order"]:
+                    section_path = vendor_dir / Path(section["path"])
+                    content = section_path.read_text(encoding="utf-8").rstrip()
+                    parts.append(content)
+                ini_bytes = ("\n\n".join(parts) + "\n").encode("utf-8")
+                assets = collect_split_source_assets(vendor_dir)
+            elif source_format == SPLIT_SOURCE_FORMAT_ORCA:
+                ini_bytes, assets = build_orca_ini_from_split_vendor(vendor_dir, metadata)
+            else:
+                print(f"Skipping unsupported split source format {source_format!r} in {vendor_dir}")
+                continue
 
             vendor_artifacts[repo_id].append(
                 {
@@ -400,8 +474,8 @@ def build_backend_static_from_split_source(split_root: Path, static_root: Path) 
                     "index_name": metadata["index_name"],
                     "index_bytes": (vendor_dir / "vendor.idx").read_bytes(),
                     "version": metadata["version"],
-                    "ini_bytes": ini_text.encode("utf-8"),
-                    "assets": collect_split_source_assets(vendor_dir),
+                    "ini_bytes": ini_bytes,
+                    "assets": assets,
                 }
             )
 

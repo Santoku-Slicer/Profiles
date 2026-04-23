@@ -1,0 +1,78 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Wanhao",
+  "version": "02.03.02.60",
+  "index_name": "Wanhao.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Wanhao",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Wanhao D12-300",
+      "path": "printer_model/Wanhao D12-300.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_wanhao_common",
+      "path": "printer/fdm_wanhao_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Wanhao D12-300 0.4 nozzle",
+      "path": "printer/Wanhao D12-300 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_wanhao_common",
+      "path": "print/fdm_process_wanhao_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Wanhao D12-400",
+      "path": "print/0.12mm Fine @Wanhao D12-300.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @Wanhao D12-300",
+      "path": "print/0.15mm Optimal @Wanhao D12-300.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Wanhao D12-300",
+      "path": "print/0.20mm Standard @Wanhao D12-300.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Wanhao D12-300",
+      "path": "print/0.24mm Draft @Wanhao D12-300.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Wanhao D12-300_cover.png",
+    "assets/Wanhao D12-300_hotend.stl",
+    "assets/Wanhao_D12-300_buildplate_texture.png"
+  ]
+}

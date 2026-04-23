@@ -1,0 +1,455 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Blocks",
+  "version": "02.03.02.60",
+  "index_name": "Blocks.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Blocks",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "BLOCKS Pro S100",
+      "path": "printer_model/BLOCKS Pro S100.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "BLOCKS RD50 V2",
+      "path": "printer_model/BLOCKS RD50 V2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "BLOCKS RF50",
+      "path": "printer_model/BLOCKS RF50.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS Pro S100 0.4 nozzle",
+      "path": "printer/BLOCKS Pro S100 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS Pro S100 0.6 nozzle",
+      "path": "printer/BLOCKS Pro S100 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS Pro S100 0.8 nozzle",
+      "path": "printer/BLOCKS Pro S100 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS Pro S100 1.0 nozzle",
+      "path": "printer/BLOCKS Pro S100 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS Pro S100 1.2 nozzle",
+      "path": "printer/BLOCKS Pro S100 1.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS RD50 V2 0.4 nozzle",
+      "path": "printer/BLOCKS RD50 V2 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS RD50 V2 0.6 nozzle",
+      "path": "printer/BLOCKS RD50 V2 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS RD50 V2 0.8 nozzle",
+      "path": "printer/BLOCKS RD50 V2 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS RF50 0.4 nozzle",
+      "path": "printer/BLOCKS RF50 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS RF50 0.6 nozzle",
+      "path": "printer/BLOCKS RF50 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "BLOCKS RF50 0.8 nozzle",
+      "path": "printer/BLOCKS RF50 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_blocks_common",
+      "path": "print/fdm_process_blocks_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine 0.4 nozzle @Blocks_RD50_V2",
+      "path": "print/0.12mm Fine 0.4 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine 0.4 nozzle @Blocks_RF50",
+      "path": "print/0.12mm Fine 0.4 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal 0.4 nozzle @Blocks_RD50_V2",
+      "path": "print/0.16mm Optimal 0.4 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal 0.4 nozzle @Blocks_RF50",
+      "path": "print/0.16mm Optimal 0.4 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard 0.4 nozzle @Blocks",
+      "path": "print/0.20mm Standard 0.4 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard 0.4 nozzle @Blocks_RD50_V2",
+      "path": "print/0.20mm Standard 0.4 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard 0.4 nozzle @Blocks_RF50",
+      "path": "print/0.20mm Standard 0.4 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft 0.4 nozzle @Blocks",
+      "path": "print/0.24mm Draft 0.4 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft 0.4 nozzle @Blocks_RD50_V2",
+      "path": "print/0.24mm Draft 0.4 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft 0.4 nozzle @Blocks_RF50",
+      "path": "print/0.24mm Draft 0.4 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft 0.4 nozzle @Blocks_RD50_V2",
+      "path": "print/0.28mm Extra Draft 0.4 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft 0.4 nozzle @Blocks_RF50",
+      "path": "print/0.28mm Extra Draft 0.4 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Extra Draft 0.4 nozzle @Blocks",
+      "path": "print/0.30mm Extra Draft 0.4 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common 0.6 nozzle",
+      "path": "print/fdm_process_common 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common 0.8 nozzle",
+      "path": "print/fdm_process_common 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common 1.0 nozzle",
+      "path": "print/fdm_process_common 1.0 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common 1.2 nozzle",
+      "path": "print/fdm_process_common 1.2 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Optimal 0.6 nozzle @Blocks_RD50_V2",
+      "path": "print/0.20mm Optimal 0.6 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Optimal 0.6 nozzle @Blocks_RF50",
+      "path": "print/0.20mm Optimal 0.6 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.26mm Standard 0.6 nozzle @Blocks_RD50_V2",
+      "path": "print/0.26mm Standard 0.6 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.26mm Standard 0.6 nozzle @Blocks_RF50",
+      "path": "print/0.26mm Standard 0.6 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard 0.6 nozzle @Blocks",
+      "path": "print/0.30mm Standard 0.6 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Draft 0.6 nozzle @Blocks_RD50_V2",
+      "path": "print/0.32mm Draft 0.6 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Draft 0.6 nozzle @Blocks_RF50",
+      "path": "print/0.32mm Draft 0.6 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.38mm Extra Draft 0.6 nozzle @Blocks_RD50_V2",
+      "path": "print/0.38mm Extra Draft 0.6 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.38mm Extra Draft 0.6 nozzle @Blocks_RF50",
+      "path": "print/0.38mm Extra Draft 0.6 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Draft 0.6 nozzle @Blocks",
+      "path": "print/0.40mm Draft 0.6 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Optimal 0.8 nozzle @Blocks",
+      "path": "print/0.30mm Optimal 0.8 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Optimal 0.8 nozzle @Blocks_RD50_V2",
+      "path": "print/0.30mm Optimal 0.8 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Optimal 0.8 nozzle @Blocks_RF50",
+      "path": "print/0.30mm Optimal 0.8 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.38mm Standard 0.8 nozzle @Blocks_RD50_V2",
+      "path": "print/0.38mm Standard 0.8 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.38mm Standard 0.8 nozzle @Blocks_RF50",
+      "path": "print/0.38mm Standard 0.8 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard 0.8 nozzle @Blocks",
+      "path": "print/0.40mm Standard 0.8 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.46mm Draft 0.8 nozzle @Blocks_RD50_V2",
+      "path": "print/0.46mm Draft 0.8 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.46mm Draft 0.8 nozzle @Blocks_RF50",
+      "path": "print/0.46mm Draft 0.8 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm Draft 0.8 nozzle @Blocks",
+      "path": "print/0.50mm Draft 0.8 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.54mm Extra Draft 0.8 nozzle @Blocks_RD50_V2",
+      "path": "print/0.54mm Extra Draft 0.8 nozzle @Blocks_RD50_V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.54mm Extra Draft 0.8 nozzle @Blocks_RF50",
+      "path": "print/0.54mm Extra Draft 0.8 nozzle @Blocks_RF50.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Optimal 1.0 nozzle @Blocks",
+      "path": "print/0.30mm Optimal 1.0 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm Standard 1.0 nozzle @Blocks",
+      "path": "print/0.50mm Standard 1.0 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.60mm Draft 1.0 nozzle @Blocks",
+      "path": "print/0.60mm Draft 1.0 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.70mm Extra Draft 1.0 nozzle @Blocks",
+      "path": "print/0.70mm Extra Draft 1.0 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm Optimal 1.2 nozzle @Blocks",
+      "path": "print/0.50mm Optimal 1.2 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.60mm Standard 1.2 nozzle @Blocks",
+      "path": "print/0.60mm Standard 1.2 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.70mm Draft 1.2 nozzle @Blocks",
+      "path": "print/0.70mm Draft 1.2 nozzle @Blocks.json"
+    },
+    {
+      "type": "print",
+      "name": "0.80mm Extra Draft 1.2 nozzle @Blocks",
+      "path": "print/0.80mm Extra Draft 1.2 nozzle @Blocks.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_petg",
+      "path": "filament/fdm_filament_petg.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pva",
+      "path": "filament/fdm_filament_pva.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic ABS",
+      "path": "filament/Blocks Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic ASA",
+      "path": "filament/Blocks Generic ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic ASA-CF",
+      "path": "filament/Blocks Generic ASA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic PA",
+      "path": "filament/Blocks Generic PA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic PA-CF",
+      "path": "filament/Blocks Generic PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic PC",
+      "path": "filament/Blocks Generic PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic PETG",
+      "path": "filament/Blocks Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic PLA",
+      "path": "filament/Blocks Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic PLA-CF",
+      "path": "filament/Blocks Generic PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic PVA",
+      "path": "filament/Blocks Generic PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Blocks Generic TPU",
+      "path": "filament/Blocks Generic TPU.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/BLOCKS PrintCore.stl",
+    "assets/BLOCKS Pro S100_cover.png",
+    "assets/BLOCKS RD50 V2_cover.png",
+    "assets/BLOCKS RF50_cover.png",
+    "assets/PRO S100 HotBed model.stl",
+    "assets/PRO S100 HotBed texture.png",
+    "assets/RD50 V2 HotBed model.stl",
+    "assets/RD50 V2 HotBed texture.png",
+    "assets/RF50 HotBed model.stl",
+    "assets/RF50 HotBed texture.png"
+  ]
+}

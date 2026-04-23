@@ -1,0 +1,535 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Z-Bolt",
+  "version": "02.03.02.50",
+  "index_name": "Z-Bolt.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Z-Bolt",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S1000",
+      "path": "printer_model/Z-Bolt S1000.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S1000 Dual",
+      "path": "printer_model/Z-Bolt S1000 Dual.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S300",
+      "path": "printer_model/Z-Bolt S300.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S300 Dual",
+      "path": "printer_model/Z-Bolt S300 Dual.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S400",
+      "path": "printer_model/Z-Bolt S400.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S400 Dual",
+      "path": "printer_model/Z-Bolt S400 Dual.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S600",
+      "path": "printer_model/Z-Bolt S600.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S600 Dual",
+      "path": "printer_model/Z-Bolt S600 Dual.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Z-Bolt S800 Dual",
+      "path": "printer_model/Z-Bolt S800 Dual.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_zbolt_common",
+      "path": "printer/fdm_zbolt_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S1000 0.4 nozzle",
+      "path": "printer/Z-Bolt S1000 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S300 0.4 nozzle",
+      "path": "printer/Z-Bolt S300 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S400 0.4 nozzle",
+      "path": "printer/Z-Bolt S400 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S600 0.4 nozzle",
+      "path": "printer/Z-Bolt S600 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S800 Dual 0.4 nozzle",
+      "path": "printer/Z-Bolt S800 Dual 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S1000 0.6 nozzle",
+      "path": "printer/Z-Bolt S1000 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S1000 0.8 nozzle",
+      "path": "printer/Z-Bolt S1000 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S1000 Dual 0.4 nozzle",
+      "path": "printer/Z-Bolt S1000 Dual 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S300 0.6 nozzle",
+      "path": "printer/Z-Bolt S300 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S300 0.8 nozzle",
+      "path": "printer/Z-Bolt S300 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S300 Dual 0.4 nozzle",
+      "path": "printer/Z-Bolt S300 Dual 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S400 0.6 nozzle",
+      "path": "printer/Z-Bolt S400 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S400 0.8 nozzle",
+      "path": "printer/Z-Bolt S400 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S400 Dual 0.4 nozzle",
+      "path": "printer/Z-Bolt S400 Dual 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S600 0.6 nozzle",
+      "path": "printer/Z-Bolt S600 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S600 0.8 nozzle",
+      "path": "printer/Z-Bolt S600 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S600 Dual 0.4 nozzle",
+      "path": "printer/Z-Bolt S600 Dual 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S800 Dual 0.6 nozzle",
+      "path": "printer/Z-Bolt S800 Dual 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S800 Dual 0.8 nozzle",
+      "path": "printer/Z-Bolt S800 Dual 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S1000 Dual 0.6 nozzle",
+      "path": "printer/Z-Bolt S1000 Dual 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S1000 Dual 0.8 nozzle",
+      "path": "printer/Z-Bolt S1000 Dual 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S300 Dual 0.6 nozzle",
+      "path": "printer/Z-Bolt S300 Dual 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S300 Dual 0.8 nozzle",
+      "path": "printer/Z-Bolt S300 Dual 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S400 Dual 0.6 nozzle",
+      "path": "printer/Z-Bolt S400 Dual 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S400 Dual 0.8 nozzle",
+      "path": "printer/Z-Bolt S400 Dual 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S600 Dual 0.6 nozzle",
+      "path": "printer/Z-Bolt S600 Dual 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Z-Bolt S600 Dual 0.8 nozzle",
+      "path": "printer/Z-Bolt S600 Dual 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_common",
+      "path": "print/fdm_process_zbolt_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.08",
+      "path": "print/fdm_process_zbolt_0.08.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.12",
+      "path": "print/fdm_process_zbolt_0.12.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.16",
+      "path": "print/fdm_process_zbolt_0.16.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.16_nozzle_0.6",
+      "path": "print/fdm_process_zbolt_0.16_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.20",
+      "path": "print/fdm_process_zbolt_0.20.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.20_nozzle_0.6",
+      "path": "print/fdm_process_zbolt_0.20_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.24",
+      "path": "print/fdm_process_zbolt_0.24.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.24_nozzle_0.6",
+      "path": "print/fdm_process_zbolt_0.24_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.24_nozzle_0.8",
+      "path": "print/fdm_process_zbolt_0.24_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.28",
+      "path": "print/fdm_process_zbolt_0.28.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.30_nozzle_0.6",
+      "path": "print/fdm_process_zbolt_0.30_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.32_nozzle_0.8",
+      "path": "print/fdm_process_zbolt_0.32_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.36_nozzle_0.6",
+      "path": "print/fdm_process_zbolt_0.36_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.40_nozzle_0.8",
+      "path": "print/fdm_process_zbolt_0.40_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.42_nozzle_0.6",
+      "path": "print/fdm_process_zbolt_0.42_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_zbolt_0.48_nozzle_0.8",
+      "path": "print/fdm_process_zbolt_0.48_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Z-Bolt 0.4 nozzle",
+      "path": "print/0.08mm Extra Fine @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm High Quality @Z-Bolt 0.4 nozzle",
+      "path": "print/0.08mm High Quality @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Z-Bolt 0.4 nozzle",
+      "path": "print/0.12mm Fine @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm High Quality @Z-Bolt 0.4 nozzle",
+      "path": "print/0.12mm High Quality @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High Quality @Z-Bolt 0.4 nozzle",
+      "path": "print/0.16mm High Quality @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Z-Bolt 0.4 nozzle",
+      "path": "print/0.16mm Optimal @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm High Quality @Z-Bolt 0.6 nozzle",
+      "path": "print/0.16mm High Quality @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Standard @Z-Bolt 0.6 nozzle",
+      "path": "print/0.16mm Standard @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm High Quality @Z-Bolt 0.6 nozzle",
+      "path": "print/0.20mm High Quality @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Z-Bolt 0.4 nozzle",
+      "path": "print/0.20mm Standard @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Z-Bolt 0.4 nozzle",
+      "path": "print/0.20mm Strength @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Z-Bolt 0.6 nozzle",
+      "path": "print/0.20mm Standard @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Z-Bolt 0.4 nozzle",
+      "path": "print/0.24mm Draft @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Standard @Z-Bolt 0.6 nozzle",
+      "path": "print/0.24mm Standard @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Standard @Z-Bolt 0.8 nozzle",
+      "path": "print/0.24mm Standard @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Z-Bolt 0.4 nozzle",
+      "path": "print/0.28mm Extra Draft @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Z-Bolt 0.6 nozzle",
+      "path": "print/0.30mm Standard @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Strength @Z-Bolt 0.6 nozzle",
+      "path": "print/0.30mm Strength @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @Z-Bolt 0.8 nozzle",
+      "path": "print/0.32mm Standard @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Standard @Z-Bolt 0.6 nozzle",
+      "path": "print/0.36mm Standard @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Z-Bolt 0.8 nozzle",
+      "path": "print/0.40mm Standard @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Standard @Z-Bolt 0.6 nozzle",
+      "path": "print/0.42mm Standard @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Standard @Z-Bolt 0.8 nozzle",
+      "path": "print/0.48mm Standard @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Z-Bolt",
+      "path": "filament/Generic ABS @Z-Bolt.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Z-Bolt 0.4 nozzle",
+      "path": "filament/Generic ABS @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Z-Bolt 0.6 nozzle",
+      "path": "filament/Generic ABS @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @Z-Bolt 0.8 nozzle",
+      "path": "filament/Generic ABS @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PA @Z-Bolt",
+      "path": "filament/Generic PA @Z-Bolt.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PA @Z-Bolt 0.4 nozzle",
+      "path": "filament/Generic PA @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PA @Z-Bolt 0.6 nozzle",
+      "path": "filament/Generic PA @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PA @Z-Bolt 0.8 nozzle",
+      "path": "filament/Generic PA @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Z-Bolt",
+      "path": "filament/Generic PETG @Z-Bolt.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Z-Bolt 0.4 nozzle",
+      "path": "filament/Generic PETG @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Z-Bolt 0.6 nozzle",
+      "path": "filament/Generic PETG @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @Z-Bolt 0.8 nozzle",
+      "path": "filament/Generic PETG @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Z-Bolt",
+      "path": "filament/Generic PLA @Z-Bolt.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Z-Bolt 0.4 nozzle",
+      "path": "filament/Generic PLA @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Z-Bolt 0.6 nozzle",
+      "path": "filament/Generic PLA @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @Z-Bolt 0.8 nozzle",
+      "path": "filament/Generic PLA @Z-Bolt 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS HT @Z-Bolt",
+      "path": "filament/Generic ABS HT @Z-Bolt.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS HT @Z-Bolt 0.4 nozzle",
+      "path": "filament/Generic ABS HT @Z-Bolt 0.4 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS HT @Z-Bolt 0.6 nozzle",
+      "path": "filament/Generic ABS HT @Z-Bolt 0.6 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS HT @Z-Bolt 0.8 nozzle",
+      "path": "filament/Generic ABS HT @Z-Bolt 0.8 nozzle.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Z-Bolt S1000 Dual_cover.png",
+    "assets/Z-Bolt S1000_cover.png",
+    "assets/Z-Bolt S300 Dual_cover.png",
+    "assets/Z-Bolt S300_cover.png",
+    "assets/Z-Bolt S400 Dual_cover.png",
+    "assets/Z-Bolt S400_cover.png",
+    "assets/Z-Bolt S600 Dual_cover.png",
+    "assets/Z-Bolt S600_cover.png",
+    "assets/Z-Bolt S800 Dual_cover.png",
+    "assets/Z-Bolt_S1000_buildplate_model.STL",
+    "assets/Z-Bolt_S300_buildplate_model.stl",
+    "assets/Z-Bolt_S400_buildplate_model.stl",
+    "assets/Z-Bolt_S600_buildplate_model.stl",
+    "assets/Z-Bolt_S800_buildplate_model.stl",
+    "assets/Z-Bolt_buildplate_texture.png"
+  ]
+}

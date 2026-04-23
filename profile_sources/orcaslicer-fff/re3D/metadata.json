@@ -1,0 +1,217 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "re3D",
+  "version": "02.01.01.00",
+  "index_name": "re3D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "re3D",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "re3D Gigabot 4",
+      "path": "printer_model/re3D Gigabot 4.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "re3D Gigabot 4 XLT",
+      "path": "printer_model/re3D Gigabot 4 XLT.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "re3D Terabot 4",
+      "path": "printer_model/re3D Terabot 4.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "re3D Gigabot X2",
+      "path": "printer_model/re3D Gigabot X2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "re3D Gigabot X2 XLT",
+      "path": "printer_model/re3D Gigabot X2 XLT.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "re3D Terabot X2",
+      "path": "printer_model/re3D Terabot X2.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_re3D_common",
+      "path": "printer/fdm_re3D_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fgf_re3D_common",
+      "path": "printer/fgf_re3D_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Gigabot 4 0.4 nozzle",
+      "path": "printer/re3D Gigabot 4 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Gigabot 4 0.8 nozzle",
+      "path": "printer/re3D Gigabot 4 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Gigabot 4 XLT 0.4 nozzle",
+      "path": "printer/re3D Gigabot 4 XLT 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Gigabot 4 XLT 0.8 nozzle",
+      "path": "printer/re3D Gigabot 4 XLT 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Terabot 4 0.4 nozzle",
+      "path": "printer/re3D Terabot 4 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Terabot 4 0.8 nozzle",
+      "path": "printer/re3D Terabot 4 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Gigabot X2 1.75 nozzle",
+      "path": "printer/re3D Gigabot X2 1.75 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Gigabot X2 XLT 1.75 nozzle",
+      "path": "printer/re3D Gigabot X2 XLT 1.75 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "re3D Terabot X2 1.75 nozzle",
+      "path": "printer/re3D Terabot X2 1.75 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_re3D_common",
+      "path": "print/fdm_process_re3D_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fgf_process_re3D_common",
+      "path": "print/fgf_process_re3D_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Fine @re3D fdm 0.4",
+      "path": "print/0.2mm Fine @re3D fdm 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": "0.26mm Standard @re3D fdm 0.4",
+      "path": "print/0.26mm Standard @re3D fdm 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Draft @re3D fdm 0.4",
+      "path": "print/0.32mm Draft @re3D fdm 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Standard @re3D fdm 0.8",
+      "path": "print/0.2mm Standard @re3D fdm 0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm Draft @re3D fdm 0.8",
+      "path": "print/0.4mm Draft @re3D fdm 0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "1.0mm Standard @re3D fgf 1.75",
+      "path": "print/1.0mm Standard @re3D fgf 1.75.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "re3D Greengate rPETG",
+      "path": "filament/re3D Greengate rPETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "re3D PC",
+      "path": "filament/re3D PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "re3D PETG",
+      "path": "filament/re3D PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "re3D PLA",
+      "path": "filament/re3D PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "re3D rPP",
+      "path": "filament/re3D rPP.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/GB-HOTEND.stl",
+    "assets/GBX-HOTEND-COVER.stl",
+    "assets/GBX-HOTEND-COVERED.STL",
+    "assets/GBX-HOTEND-NOZZLE.stl",
+    "assets/GBX-HOTEND.stl",
+    "assets/Gigabot 4_buildplate_texture.png",
+    "assets/re3D Gigabot 4 XLT_cover.png",
+    "assets/re3D Gigabot 4_cover.png",
+    "assets/re3D Gigabot X2 XLT_cover.png",
+    "assets/re3D Gigabot X2_cover.png",
+    "assets/re3D Terabot 4_cover.png",
+    "assets/re3D Terabot X2_cover.png"
+  ]
+}

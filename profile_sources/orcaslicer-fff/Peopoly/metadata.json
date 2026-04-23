@@ -1,0 +1,211 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Peopoly",
+  "version": "02.03.02.60",
+  "index_name": "Peopoly.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Peopoly",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Peopoly Magneto X",
+      "path": "printer_model/Peopoly Magneto X.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Peopoly Magneto X 0.4 nozzle",
+      "path": "printer/Peopoly Magneto X 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Peopoly Magneto X 0.6 nozzle",
+      "path": "printer/Peopoly Magneto X 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Peopoly Magneto X 0.8 nozzle",
+      "path": "printer/Peopoly Magneto X 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_peopoly_common",
+      "path": "print/fdm_process_peopoly_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_pply_common",
+      "path": "print/fdm_process_pply_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_peopoly_common_0_2",
+      "path": "print/fdm_process_peopoly_common_0_2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_pply_0.16",
+      "path": "print/fdm_process_pply_0.16.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_pply_0.20",
+      "path": "print/fdm_process_pply_0.20.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_pply_0.24",
+      "path": "print/fdm_process_pply_0.24.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_pply_0.28",
+      "path": "print/fdm_process_pply_0.28.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_pply_0.30_nozzle_0.6",
+      "path": "print/fdm_process_pply_0.30_nozzle_0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_pply_0.40_nozzle_0.8",
+      "path": "print/fdm_process_pply_0.40_nozzle_0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Magneto X",
+      "path": "print/0.16mm Optimal @MagnetoX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm ABS-GF 0.4 Nozzle Standard @MagnetoX",
+      "path": "print/0.20mm ABS-GF 0.4 Nozzle Standard @MagnetoX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm PET-CF 0.4 Nozzle Standard @MagnetoX",
+      "path": "print/0.20mm PET-CF 0.4 Nozzle Standard @MagnetoX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Magneto X",
+      "path": "print/0.20mm Standard @MagnetoX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Strength @Magneto X",
+      "path": "print/0.20mm Strength @MagnetoX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Magneto X",
+      "path": "print/0.24mm Draft @MagnetoX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Magneto X",
+      "path": "print/0.28mm Extra Draft @MagnetoX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Magneto X 0.6 nozzle",
+      "path": "print/0.30mm Standard @Magneto X 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Magneto X 0.8 nozzle",
+      "path": "print/0.40mm Standard @Magneto X 0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_petg",
+      "path": "filament/fdm_filament_petg.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "Peopoly Generic ABS",
+      "path": "filament/Peopoly Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Peopoly Lancer ABS-GF",
+      "path": "filament/Peopoly Lancer ABS-GF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Peopoly Lancer PET-CF",
+      "path": "filament/Peopoly Lancer PET-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Peopoly Generic PETG",
+      "path": "filament/Peopoly Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Peopoly Lancer PETG-C",
+      "path": "filament/Peopoly Lancer PETG-C.json"
+    },
+    {
+      "type": "filament",
+      "name": "Peopoly Generic PLA",
+      "path": "filament/Peopoly Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Peopoly Lancer PLA-C",
+      "path": "filament/Peopoly Lancer PLA-C.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Peopoly Magneto X_cover.png",
+    "assets/magnetox_model-400x300.stl",
+    "assets/magnetox_model-back.stl",
+    "assets/magnetox_model.stl",
+    "assets/magnetox_model_texture-400x300.png",
+    "assets/magnetox_model_texture.png"
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "InfiMech",
+  "version": "02.03.02.60",
+  "index_name": "InfiMech.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "InfiMech",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "InfiMech EX",
+      "path": "printer_model/EX/InfiMech EX.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "InfiMech EX+APS",
+      "path": "printer_model/EX+APS/InfiMech EX+APS.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "InfiMech TX",
+      "path": "printer_model/InfiMech TX.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "InfiMech TX Hardened Steel Nozzle",
+      "path": "printer_model/HSN/InfiMech TX Hardened Steel Nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/HSN/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/HSN/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "InfiMech EX 0.4 nozzle",
+      "path": "printer/EX/InfiMech EX 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "InfiMech EX+APS 0.4 nozzle",
+      "path": "printer/EX+APS/InfiMech EX+APS 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "InfiMech TX 0.4 nozzle",
+      "path": "printer/InfiMech TX 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "InfiMech TX HSN 0.4 nozzle",
+      "path": "printer/HSN/InfiMech TX HSN 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common_EX",
+      "path": "print/EX/fdm_process_common_EX.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common_EX+APS",
+      "path": "print/EX+APS/fdm_process_common_EX+APS.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common_HSN",
+      "path": "print/HSN/fdm_process_common_HSN.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @InfiMech TX",
+      "path": "print/0.08mm Extra Fine @InfiMech TX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @InfiMech TX",
+      "path": "print/0.12mm Fine @InfiMech TX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @InfiMech TX",
+      "path": "print/0.16mm Optimal @InfiMech TX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @InfiMech TX",
+      "path": "print/0.20mm Standard @InfiMech TX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @InfiMech TX",
+      "path": "print/0.24mm Draft @InfiMech TX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @InfiMech EX",
+      "path": "print/EX/0.08mm Extra Fine @InfiMech EX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @InfiMech EX",
+      "path": "print/EX/0.12mm Fine @InfiMech EX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @InfiMech EX",
+      "path": "print/EX/0.16mm Optimal @InfiMech EX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @InfiMech EX",
+      "path": "print/EX/0.20mm Standard @InfiMech EX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @InfiMech EX",
+      "path": "print/EX/0.24mm Draft @InfiMech EX.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @InfiMech EX+APS",
+      "path": "print/EX+APS/0.08mm Extra Fine @InfiMech EX+APS.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @InfiMech EX+APS",
+      "path": "print/EX+APS/0.12mm Fine @InfiMech EX+APS.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @InfiMech EX+APS",
+      "path": "print/EX+APS/0.16mm Optimal @InfiMech EX+APS.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @InfiMech EX+APS",
+      "path": "print/EX+APS/0.20mm Standard @InfiMech EX+APS.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @InfiMech EX+APS",
+      "path": "print/EX+APS/0.24mm Draft @InfiMech EX+APS.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @InfiMech TX HSN",
+      "path": "print/HSN/0.08mm Extra Fine @InfiMech TX HSN.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @InfiMech TX HSN",
+      "path": "print/HSN/0.12mm Fine @InfiMech TX HSN.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @InfiMech TX HSN",
+      "path": "print/HSN/0.16mm Optimal @InfiMech TX HSN.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @InfiMech TX HSN",
+      "path": "print/HSN/0.20mm Standard @InfiMech TX HSN.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @InfiMech TX HSN",
+      "path": "print/HSN/0.24mm Draft @InfiMech TX HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common_EX",
+      "path": "filament/EX/fdm_filament_common_EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common_EX+APS",
+      "path": "filament/EX+APS/fdm_filament_common_EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common_HSN",
+      "path": "filament/HSN/fdm_filament_common_HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs_other",
+      "path": "filament/fdm_filament_abs_other.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa_other",
+      "path": "filament/fdm_filament_pa_other.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc_other",
+      "path": "filament/fdm_filament_pc_other.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet_other",
+      "path": "filament/fdm_filament_pet_other.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper",
+      "path": "filament/fdm_filament_pla_Hyper.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper_other",
+      "path": "filament/fdm_filament_pla_Hyper_other.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_other",
+      "path": "filament/fdm_filament_pla_other.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu_other",
+      "path": "filament/fdm_filament_tpu_other.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs @EX",
+      "path": "filament/EX/fdm_filament_abs @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa @EX",
+      "path": "filament/EX/fdm_filament_pa @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc @EX",
+      "path": "filament/EX/fdm_filament_pc @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet @EX",
+      "path": "filament/EX/fdm_filament_pet @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla @EX",
+      "path": "filament/EX/fdm_filament_pla @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper @EX",
+      "path": "filament/EX/fdm_filament_pla_Hyper @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu @EX",
+      "path": "filament/EX/fdm_filament_tpu @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs @EX+APS",
+      "path": "filament/EX+APS/fdm_filament_abs @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa @EX+APS",
+      "path": "filament/EX+APS/fdm_filament_pa @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc @EX+APS",
+      "path": "filament/EX+APS/fdm_filament_pc @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet @EX+APS",
+      "path": "filament/EX+APS/fdm_filament_pet @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla @EX+APS",
+      "path": "filament/EX+APS/fdm_filament_pla @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper @EX+APS",
+      "path": "filament/EX+APS/fdm_filament_pla_Hyper @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu @EX+APS",
+      "path": "filament/EX+APS/fdm_filament_tpu @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs @HSN",
+      "path": "filament/HSN/fdm_filament_abs @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs_other @HSN",
+      "path": "filament/HSN/fdm_filament_abs_other @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa @HSN",
+      "path": "filament/HSN/fdm_filament_pa @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa_other @HSN",
+      "path": "filament/HSN/fdm_filament_pa_other @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc @HSN",
+      "path": "filament/HSN/fdm_filament_pc @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc_other @HSN",
+      "path": "filament/HSN/fdm_filament_pc_other @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet @HSN",
+      "path": "filament/HSN/fdm_filament_pet @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet_other @HSN",
+      "path": "filament/HSN/fdm_filament_pet_other @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla @HSN",
+      "path": "filament/HSN/fdm_filament_pla @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper @HSN",
+      "path": "filament/HSN/fdm_filament_pla_Hyper @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_Hyper_other @HSN",
+      "path": "filament/HSN/fdm_filament_pla_Hyper_other @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_other @HSN",
+      "path": "filament/HSN/fdm_filament_pla_other @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu @HSN",
+      "path": "filament/HSN/fdm_filament_tpu @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu_other @HSN",
+      "path": "filament/HSN/fdm_filament_tpu_other @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech Generic ABS",
+      "path": "filament/InfiMech Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other ABS",
+      "path": "filament/Other ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech Generic PA-CF",
+      "path": "filament/InfiMech Generic PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PA-CF",
+      "path": "filament/Other PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech Generic PC",
+      "path": "filament/InfiMech Generic PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PC",
+      "path": "filament/Other PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech Generic PETG",
+      "path": "filament/InfiMech Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PETG",
+      "path": "filament/Other PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech Generic PLA",
+      "path": "filament/InfiMech Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PLA Hyper",
+      "path": "filament/InfiMech PLA Hyper.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PLA Hyper",
+      "path": "filament/Other PLA Hyper.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PLA",
+      "path": "filament/Other PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech Generic TPU",
+      "path": "filament/InfiMech Generic TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other TPU",
+      "path": "filament/Other TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech ABS @EX",
+      "path": "filament/EX/InfiMech ABS @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PA-CF @EX",
+      "path": "filament/EX/InfiMech PA-CF @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PC @EX",
+      "path": "filament/EX/InfiMech PC @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PETG @EX",
+      "path": "filament/EX/InfiMech PETG @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PLA Basic @EX",
+      "path": "filament/EX/InfiMech PLA Basic @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PLA Hyper @EX",
+      "path": "filament/EX/InfiMech PLA Hyper @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech TPU Basic @EX",
+      "path": "filament/EX/InfiMech TPU Basic @EX.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech ABS @EX+APS",
+      "path": "filament/EX+APS/InfiMech ABS @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PA-CF @EX+APS",
+      "path": "filament/EX+APS/InfiMech PA-CF @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PC @EX+APS",
+      "path": "filament/EX+APS/InfiMech PC @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PETG @EX+APS",
+      "path": "filament/EX+APS/InfiMech PETG @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PLA Basic @EX+APS",
+      "path": "filament/EX+APS/InfiMech PLA Basic @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PLA Hyper @EX+APS",
+      "path": "filament/EX+APS/InfiMech PLA Hyper @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech TPU Basic @EX+APS",
+      "path": "filament/EX+APS/InfiMech TPU Basic @EX+APS.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech ABS @HSN",
+      "path": "filament/HSN/InfiMech ABS @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other ABS @HSN",
+      "path": "filament/HSN/Other ABS @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PA-CF @HSN",
+      "path": "filament/HSN/InfiMech PA-CF @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PA-CF @HSN",
+      "path": "filament/HSN/Other PA-CF @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PC @HSN",
+      "path": "filament/HSN/InfiMech PC @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PC @HSN",
+      "path": "filament/HSN/Other PC @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PETG @HSN",
+      "path": "filament/HSN/InfiMech PETG @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PETG @HSN",
+      "path": "filament/HSN/Other PETG @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PLA @HSN",
+      "path": "filament/HSN/InfiMech PLA @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech PLA Hyper @HSN",
+      "path": "filament/HSN/InfiMech PLA Hyper @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PLA Hyper @HSN",
+      "path": "filament/HSN/Other PLA Hyper @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other PLA @HSN",
+      "path": "filament/HSN/Other PLA @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "InfiMech TPU @HSN",
+      "path": "filament/HSN/InfiMech TPU @HSN.json"
+    },
+    {
+      "type": "filament",
+      "name": "Other TPU @HSN",
+      "path": "filament/HSN/Other TPU @HSN.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/InfiMech EX+APS-bed.stl",
+    "assets/InfiMech EX+APS-texture.png",
+    "assets/InfiMech EX+APS_cover.png",
+    "assets/InfiMech EX-bed.stl",
+    "assets/InfiMech EX-texture.png",
+    "assets/InfiMech EX_cover.png",
+    "assets/InfiMech TX Hardened Steel Nozzle_cover.png",
+    "assets/InfiMech TX-bed.stl",
+    "assets/InfiMech TX-bed_HSN.stl",
+    "assets/InfiMech TX-texture.png",
+    "assets/InfiMech TX-texture_HSN.png",
+    "assets/InfiMech TX_cover.png"
+  ]
+}

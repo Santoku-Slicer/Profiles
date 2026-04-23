@@ -1,0 +1,2321 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Snapmaker",
+  "version": "02.03.02.60",
+  "index_name": "Snapmaker.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Snapmaker",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250",
+      "path": "printer_model/Snapmaker A250.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250 BKit",
+      "path": "printer_model/Snapmaker A250 BKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250 Dual",
+      "path": "printer_model/Snapmaker A250 Dual.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250 Dual BKit",
+      "path": "printer_model/Snapmaker A250 Dual BKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250 Dual QS+B Kit",
+      "path": "printer_model/Snapmaker A250 Dual QS+B Kit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250 Dual QSKit",
+      "path": "printer_model/Snapmaker A250 Dual QSKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250 QS+B Kit",
+      "path": "printer_model/Snapmaker A250 QS+B Kit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A250 QSKit",
+      "path": "printer_model/Snapmaker A250 QSKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350",
+      "path": "printer_model/Snapmaker A350.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350 BKit",
+      "path": "printer_model/Snapmaker A350 BKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350 Dual",
+      "path": "printer_model/Snapmaker A350 Dual.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350 Dual BKit",
+      "path": "printer_model/Snapmaker A350 Dual BKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350 Dual QS+B Kit",
+      "path": "printer_model/Snapmaker A350 Dual QS+B Kit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350 Dual QSKit",
+      "path": "printer_model/Snapmaker A350 Dual QSKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350 QS+B Kit",
+      "path": "printer_model/Snapmaker A350 QS+B Kit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker A350 QSKit",
+      "path": "printer_model/Snapmaker A350 QSKit.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker Artisan",
+      "path": "printer_model/Snapmaker Artisan.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker J1",
+      "path": "printer_model/Snapmaker J1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Snapmaker U1",
+      "path": "printer_model/Snapmaker U1.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_common",
+      "path": "printer/fdm_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper",
+      "path": "printer/fdm_klipper.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_idex",
+      "path": "printer/fdm_idex.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_linear2",
+      "path": "printer/fdm_linear2.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_toolchanger",
+      "path": "printer/fdm_toolchanger.json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker J1 (0.2 nozzle)",
+      "path": "printer/Snapmaker J1 (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker J1 (0.4 nozzle)",
+      "path": "printer/Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker J1 (0.6 nozzle)",
+      "path": "printer/Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker J1 (0.8 nozzle)",
+      "path": "printer/Snapmaker J1 (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250",
+      "path": "printer/fdm_a250.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350",
+      "path": "printer/fdm_a350.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_linear2_dual",
+      "path": "printer/fdm_linear2_dual.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_U1",
+      "path": "printer/fdm_U1.json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250_bk",
+      "path": "printer/fdm_a250_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250_qs",
+      "path": "printer/fdm_a250_qs.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250_qs_bk",
+      "path": "printer/fdm_a250_qs_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350_bk",
+      "path": "printer/fdm_a350_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350_qs",
+      "path": "printer/fdm_a350_qs.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350_qs_bk",
+      "path": "printer/fdm_a350_qs_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250_dual",
+      "path": "printer/fdm_a250_dual.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350_dual",
+      "path": "printer/fdm_a350_dual.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a400",
+      "path": "printer/fdm_a400.json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker U1 (0.4 nozzle)",
+      "path": "printer/Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker U1 (0.6 nozzle)",
+      "path": "printer/Snapmaker U1 (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker U1 (0.4+0.6 nozzle)",
+      "path": "printer/Snapmaker U1 (0.4+0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 BKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 BKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 BKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 BKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 BKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 BKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 BKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 BKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QSKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 QSKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QSKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 QSKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QSKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 QSKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QSKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 QSKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QS+B Kit (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 QS+B Kit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QS+B Kit (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 QS+B Kit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QS+B Kit (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 QS+B Kit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 QS+B Kit (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 QS+B Kit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 BKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 BKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 BKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 BKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 BKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 BKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 BKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 BKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QSKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 QSKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QSKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 QSKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QSKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 QSKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QSKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 QSKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QS+B Kit (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 QS+B Kit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QS+B Kit (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 QS+B Kit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QS+B Kit (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 QS+B Kit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 QS+B Kit (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 QS+B Kit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 Dual (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 Dual (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 Dual (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 Dual (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250_dual_bk",
+      "path": "printer/fdm_a250_dual_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250_dual_qs",
+      "path": "printer/fdm_a250_dual_qs.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a250_dual_qs_bk",
+      "path": "printer/fdm_a250_dual_qs_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 Dual (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 Dual (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 Dual (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 Dual (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350_dual_bk",
+      "path": "printer/fdm_a350_dual_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350_dual_qs",
+      "path": "printer/fdm_a350_dual_qs.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_a350_dual_qs_bk",
+      "path": "printer/fdm_a350_dual_qs_bk.json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker Artisan (0.2 nozzle)",
+      "path": "printer/Snapmaker Artisan (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker Artisan (0.4 nozzle)",
+      "path": "printer/Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker Artisan (0.6 nozzle)",
+      "path": "printer/Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker Artisan (0.8 nozzle)",
+      "path": "printer/Snapmaker Artisan (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual BKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 Dual BKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual BKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 Dual BKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual BKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 Dual BKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual BKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 Dual BKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QSKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QSKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QSKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QSKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QSKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QSKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QSKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QSKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QS+B Kit (0.2 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QS+B Kit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QS+B Kit (0.4 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QS+B Kit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QS+B Kit (0.6 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QS+B Kit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A250 Dual QS+B Kit (0.8 nozzle)",
+      "path": "printer/Snapmaker A250 Dual QS+B Kit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual BKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 Dual BKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual BKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 Dual BKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual BKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 Dual BKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual BKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 Dual BKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QSKit (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QSKit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QSKit (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QSKit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QSKit (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QSKit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QSKit (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QSKit (0.8 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QS+B Kit (0.2 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QS+B Kit (0.2 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QS+B Kit (0.4 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QS+B Kit (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QS+B Kit (0.6 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QS+B Kit (0.6 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "Snapmaker A350 Dual QS+B Kit (0.8 nozzle)",
+      "path": "printer/Snapmaker A350 Dual QS+B Kit (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1",
+      "path": "print/fdm_process_U1.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25 Benchy @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.25 Benchy @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_common",
+      "path": "print/fdm_process_U1_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06 Standard @Snapmaker (0.2 nozzle)",
+      "path": "print/0.06 Standard @Snapmaker (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08 Extra Fine @Snapmaker (0.4 nozzle)",
+      "path": "print/0.08 Extra Fine @Snapmaker (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.10 Standard @Snapmaker (0.2 nozzle)",
+      "path": "print/0.10 Standard @Snapmaker (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12 Fine @Snapmaker (0.4 nozzle)",
+      "path": "print/0.12 Fine @Snapmaker (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.14 Standard @Snapmaker (0.2 nozzle)",
+      "path": "print/0.14 Standard @Snapmaker (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16 Optimal @Snapmaker (0.4 nozzle)",
+      "path": "print/0.16 Optimal @Snapmaker (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.18 Standard @Snapmaker (0.6 nozzle)",
+      "path": "print/0.18 Standard @Snapmaker (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Standard @Snapmaker (0.4 nozzle)",
+      "path": "print/0.20 Standard @Snapmaker (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Strength @Snapmaker (0.4 nozzle)",
+      "path": "print/0.20 Strength @Snapmaker (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Draft @Snapmaker (0.4 nozzle)",
+      "path": "print/0.24 Draft @Snapmaker (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Standard @Snapmaker (0.6 nozzle)",
+      "path": "print/0.24 Standard @Snapmaker (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Standard @Snapmaker (0.8 nozzle)",
+      "path": "print/0.24 Standard @Snapmaker (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28 Extra Draft @Snapmaker (0.4 nozzle)",
+      "path": "print/0.28 Extra Draft @Snapmaker (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.30 Standard @Snapmaker (0.6 nozzle)",
+      "path": "print/0.30 Standard @Snapmaker (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.30 Strength @Snapmaker (0.6 nozzle)",
+      "path": "print/0.30 Strength @Snapmaker (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.32 Standard @Snapmaker (0.8 nozzle)",
+      "path": "print/0.32 Standard @Snapmaker (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.34 Standard @Snapmaker (0.6 nozzle)",
+      "path": "print/0.34 Standard @Snapmaker (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.36 Standard @Snapmaker (0.8 nozzle)",
+      "path": "print/0.36 Standard @Snapmaker (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.38 Standard @Snapmaker (0.6 nozzle)",
+      "path": "print/0.38 Standard @Snapmaker (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.40 Standard @Snapmaker (0.8 nozzle)",
+      "path": "print/0.40 Standard @Snapmaker (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.42 Draft @Snapmaker (0.6 nozzle)",
+      "path": "print/0.42 Draft @Snapmaker (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.48 Draft @Snapmaker (0.8 nozzle)",
+      "path": "print/0.48 Draft @Snapmaker (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_a400",
+      "path": "print/fdm_process_a400.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_idex",
+      "path": "print/fdm_process_idex.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_0.08",
+      "path": "print/fdm_process_U1_0.08.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_0.12",
+      "path": "print/fdm_process_U1_0.12.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_0.16",
+      "path": "print/fdm_process_U1_0.16.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_0.20",
+      "path": "print/fdm_process_U1_0.20.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_0.24",
+      "path": "print/fdm_process_U1_0.24.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_0.28",
+      "path": "print/fdm_process_U1_0.28.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08 Extra Fine @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.08 Extra Fine @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.10 Standard @Snapmaker Artisan (0.2 nozzle)",
+      "path": "print/0.10 Standard @Snapmaker Artisan (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12 Fine @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.12 Fine @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.14 Standard @Snapmaker Artisan (0.2 nozzle)",
+      "path": "print/0.14 Standard @Snapmaker Artisan (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16 Optimal @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.16 Optimal @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.18 Standard @Snapmaker Artisan (0.6 nozzle)",
+      "path": "print/0.18 Standard @Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Standard @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.20 Standard @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Strength @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.20 Strength @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Draft @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.24 Draft @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Standard @Snapmaker Artisan (0.6 nozzle)",
+      "path": "print/0.24 Standard @Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Standard @Snapmaker Artisan (0.8 nozzle)",
+      "path": "print/0.24 Standard @Snapmaker Artisan (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.25 Benchy @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.25 Benchy @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28 Extra Draft @Snapmaker Artisan (0.4 nozzle)",
+      "path": "print/0.28 Extra Draft @Snapmaker Artisan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.30 Standard @Snapmaker Artisan (0.6 nozzle)",
+      "path": "print/0.30 Standard @Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.30 Strength @Snapmaker Artisan (0.6 nozzle)",
+      "path": "print/0.30 Strength @Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.32 Standard @Snapmaker Artisan (0.8 nozzle)",
+      "path": "print/0.32 Standard @Snapmaker Artisan (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.34 Standard @Snapmaker Artisan (0.6 nozzle)",
+      "path": "print/0.34 Standard @Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.36 Standard @Snapmaker Artisan (0.8 nozzle)",
+      "path": "print/0.36 Standard @Snapmaker Artisan (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.38 Standard @Snapmaker Artisan (0.6 nozzle)",
+      "path": "print/0.38 Standard @Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.40 Standard @Snapmaker Artisan (0.8 nozzle)",
+      "path": "print/0.40 Standard @Snapmaker Artisan (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.42 Draft @Snapmaker Artisan (0.6 nozzle)",
+      "path": "print/0.42 Draft @Snapmaker Artisan (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.48 Draft @Snapmaker Artisan (0.8 nozzle)",
+      "path": "print/0.48 Draft @Snapmaker Artisan (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.06 Standard @Snapmaker J1 (0.2 nozzle)",
+      "path": "print/0.06 Standard @Snapmaker J1 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08 Extra Fine @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.08 Extra Fine @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.10 Standard @Snapmaker J1 (0.2 nozzle)",
+      "path": "print/0.10 Standard @Snapmaker J1 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12 Fine @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.12 Fine @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.14 Standard @Snapmaker J1 (0.2 nozzle)",
+      "path": "print/0.14 Standard @Snapmaker J1 (0.2 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16 Optimal @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.16 Optimal @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.18 Standard @Snapmaker J1 (0.6 nozzle)",
+      "path": "print/0.18 Standard @Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Standard @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.20 Standard @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Strength @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.20 Strength @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Draft @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.24 Draft @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Standard @Snapmaker J1 (0.6 nozzle)",
+      "path": "print/0.24 Standard @Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Standard @Snapmaker J1 (0.8 nozzle)",
+      "path": "print/0.24 Standard @Snapmaker J1 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.25 Benchy @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.25 Benchy @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28 Extra Draft @Snapmaker J1 (0.4 nozzle)",
+      "path": "print/0.28 Extra Draft @Snapmaker J1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.30 Standard @Snapmaker J1 (0.6 nozzle)",
+      "path": "print/0.30 Standard @Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.30 Strength @Snapmaker J1 (0.6 nozzle)",
+      "path": "print/0.30 Strength @Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.32 Standard @Snapmaker J1 (0.8 nozzle)",
+      "path": "print/0.32 Standard @Snapmaker J1 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.34 Standard @Snapmaker J1 (0.6 nozzle)",
+      "path": "print/0.34 Standard @Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.36 Standard @Snapmaker J1 (0.8 nozzle)",
+      "path": "print/0.36 Standard @Snapmaker J1 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.38 Standard @Snapmaker J1 (0.6 nozzle)",
+      "path": "print/0.38 Standard @Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.40 Standard @Snapmaker J1 (0.8 nozzle)",
+      "path": "print/0.40 Standard @Snapmaker J1 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.42 Draft @Snapmaker J1 (0.6 nozzle)",
+      "path": "print/0.42 Draft @Snapmaker J1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.48 Draft @Snapmaker J1 (0.8 nozzle)",
+      "path": "print/0.48 Draft @Snapmaker J1 (0.8 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08 Extra Fine @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.08 Extra Fine @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.08 High Quality @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.08 High Quality @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12 Fine @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.12 Fine @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12 High Quality @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.12 High Quality @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16 High Quality @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.16 High Quality @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.16 Optimal @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.16 Optimal @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Bambu Support W @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.20 Bambu Support W @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Quality @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.20 Quality @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Standard @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.20 Standard @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Strength @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.20 Strength @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Support @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.20 Support @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Support W @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.20 Support W @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24 Draft @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.24 Draft @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.28 Extra Draft @Snapmaker U1 (0.4 nozzle)",
+      "path": "print/0.28 Extra Draft @Snapmaker U1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_U1_0.6_common",
+      "path": "print/fdm_process_U1_0.6_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Standard @Snapmaker U1 (0.6 nozzle)",
+      "path": "print/0.20 Standard @Snapmaker U1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.30 Draft @Snapmaker U1 (0.6 nozzle)",
+      "path": "print/0.30 Draft @Snapmaker U1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.40 Extra Draft @Snapmaker U1 (0.6 nozzle)",
+      "path": "print/0.40 Extra Draft @Snapmaker U1 (0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20 Standard @Snapmaker U1 (0.4+0.6 nozzle)",
+      "path": "print/0.20 Standard @Snapmaker U1 (0.4+0.6 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.06 Standard @Snapmaker Artisan (0.2 nozzle)",
+      "path": "print/0.06 Standard @Snapmaker Artisan (0.2 nozzle).json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra PLA @0.2 nozzle",
+      "path": "filament/Polymaker/PolyTerra PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Lite @U1 base",
+      "path": "filament/Snapmaker PLA Lite @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA SnapSpeed @U1 base",
+      "path": "filament/Snapmaker PLA SnapSpeed @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPU 95A @U1 base",
+      "path": "filament/Snapmaker TPU 95A @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra Dual PLA @0.2 nozzle",
+      "path": "filament/Polymaker/PolyTerra Dual PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra J1 PLA @0.2 nozzle",
+      "path": "filament/Polymaker/PolyTerra J1 PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Lite @U1",
+      "path": "filament/Snapmaker PLA Lite @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA SnapSpeed @U1",
+      "path": "filament/Snapmaker PLA SnapSpeed @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPU 95A @U1",
+      "path": "filament/Snapmaker TPU 95A @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_breakaway",
+      "path": "filament/fdm_filament_breakaway.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_petg",
+      "path": "filament/fdm_filament_petg.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pva",
+      "path": "filament/fdm_filament_pva.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ABS @U1 base",
+      "path": "filament/Snapmaker ABS @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ABS @base",
+      "path": "filament/Snapmaker ABS @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ABS @base",
+      "path": "filament/Snapmaker Dual ABS @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ABS @base",
+      "path": "filament/Snapmaker J1 ABS @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ASA @U1 base",
+      "path": "filament/Snapmaker ASA @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ASA @base",
+      "path": "filament/Snapmaker ASA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ASA @base",
+      "path": "filament/Snapmaker Dual ASA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ASA @base",
+      "path": "filament/Snapmaker J1 ASA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual Breakaway @base",
+      "path": "filament/Snapmaker Dual Breakaway @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 Breakaway @base",
+      "path": "filament/Snapmaker J1 Breakaway @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PA-CF @base",
+      "path": "filament/Snapmaker Dual PA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PA-CF @base",
+      "path": "filament/Snapmaker J1 PA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PA-CF @U1 base",
+      "path": "filament/Snapmaker PA-CF @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PA-CF @base",
+      "path": "filament/Snapmaker PA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PET @base",
+      "path": "filament/Snapmaker Dual PET @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PET @base",
+      "path": "filament/Snapmaker J1 PET @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PET @U1 base",
+      "path": "filament/Snapmaker PET @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PET @base",
+      "path": "filament/Snapmaker PET @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PETG @Base",
+      "path": "filament/Polymaker/PolyLite PETG @Base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PETG @Base",
+      "path": "filament/Polymaker/Polymaker PETG @Base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PETG @base",
+      "path": "filament/Snapmaker Dual PETG @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PETG-CF @base",
+      "path": "filament/Snapmaker Dual PETG-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PETG @base",
+      "path": "filament/Snapmaker J1 PETG @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PETG-CF @base",
+      "path": "filament/Snapmaker J1 PETG-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG @U1 base",
+      "path": "filament/Snapmaker PETG @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG @base",
+      "path": "filament/Snapmaker PETG @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG-CF @U1 base",
+      "path": "filament/Snapmaker PETG-CF @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG-CF @base",
+      "path": "filament/Snapmaker PETG-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma CoPE @U1 base",
+      "path": "filament/Polymaker/Panchroma CoPE @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Celestial @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Celestial @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Galaxy @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Galaxy @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Glow @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Glow @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Luminous @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Luminous @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Marble @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Marble @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Matte @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Matte @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Metallic @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Metallic @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Neon @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Neon @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Satin @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Satin @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Silk @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Silk @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Starlight @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Starlight @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Temp Shift @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Temp Shift @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Translucent @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA Translucent @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA UV Shift @U1 base",
+      "path": "filament/Polymaker/Panchroma PLA UV Shift @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA @U1 base",
+      "path": "filament/Polymaker/PolyLite PLA @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA @base",
+      "path": "filament/Polymaker/PolyLite PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA Pro @U1 base",
+      "path": "filament/Polymaker/PolyLite PLA Pro @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra PLA @U1 base",
+      "path": "filament/Polymaker/PolyTerra PLA @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA @Base",
+      "path": "filament/Polymaker/Polymaker HT-PLA @Base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA @U1 base",
+      "path": "filament/Polymaker/Polymaker HT-PLA @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA-GF @Base",
+      "path": "filament/Polymaker/Polymaker HT-PLA-GF @Base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA-GF @U1 base",
+      "path": "filament/Polymaker/Polymaker HT-PLA-GF @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PLA Pro @Base",
+      "path": "filament/Polymaker/Polymaker PLA Pro @Base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA @base",
+      "path": "filament/Snapmaker Dual PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Matte @base",
+      "path": "filament/Snapmaker Dual PLA Matte @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Metal @base",
+      "path": "filament/Snapmaker Dual PLA Metal @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Silk @base",
+      "path": "filament/Snapmaker Dual PLA Silk @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA-CF @base",
+      "path": "filament/Snapmaker Dual PLA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA @base",
+      "path": "filament/Snapmaker J1 PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Matte @base",
+      "path": "filament/Snapmaker J1 PLA Matte @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Metal @base",
+      "path": "filament/Snapmaker J1 PLA Metal @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Silk @base",
+      "path": "filament/Snapmaker J1 PLA Silk @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA-CF @base",
+      "path": "filament/Snapmaker J1 PLA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA @U1 base",
+      "path": "filament/Snapmaker PLA @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA @base",
+      "path": "filament/Snapmaker PLA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Metal @U1 base",
+      "path": "filament/Snapmaker PLA Metal @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Silk @U1 base",
+      "path": "filament/Snapmaker PLA Silk @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Silk @base",
+      "path": "filament/Snapmaker PLA Silk @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA-CF @U1 base",
+      "path": "filament/Snapmaker PLA-CF @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA-CF @base",
+      "path": "filament/Snapmaker PLA-CF @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla_eco",
+      "path": "filament/fdm_filament_pla_eco.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PVA @base",
+      "path": "filament/Snapmaker Dual PVA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PVA @base",
+      "path": "filament/Snapmaker J1 PVA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PVA @U1 base",
+      "path": "filament/Snapmaker PVA @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PVA @base",
+      "path": "filament/Snapmaker PVA @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual TPU @base",
+      "path": "filament/Snapmaker Dual TPU @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 TPU @base",
+      "path": "filament/Snapmaker J1 TPU @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPU @U1 base",
+      "path": "filament/Snapmaker TPU @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPU @base",
+      "path": "filament/Snapmaker TPU @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ABS @U1",
+      "path": "filament/Snapmaker ABS @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ABS Benchy @U1",
+      "path": "filament/Snapmaker ABS Benchy @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ABS",
+      "path": "filament/Snapmaker ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ABS @0.2 nozzle",
+      "path": "filament/Snapmaker ABS @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ABS",
+      "path": "filament/Snapmaker Dual ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ABS @0.2 nozzle",
+      "path": "filament/Snapmaker Dual ABS @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ABS @0.8 nozzle",
+      "path": "filament/Snapmaker Dual ABS @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ABS Benchy",
+      "path": "filament/Snapmaker Dual ABS Benchy.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ABS",
+      "path": "filament/Snapmaker J1 ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ABS @0.2 nozzle",
+      "path": "filament/Snapmaker J1 ABS @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ABS @0.8 nozzle",
+      "path": "filament/Snapmaker J1 ABS @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ABS Benchy",
+      "path": "filament/Snapmaker J1 ABS Benchy.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ASA @U1",
+      "path": "filament/Snapmaker ASA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ASA",
+      "path": "filament/Snapmaker ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker ASA @0.2 nozzle",
+      "path": "filament/Snapmaker ASA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ASA",
+      "path": "filament/Snapmaker Dual ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual ASA @0.2 nozzle",
+      "path": "filament/Snapmaker Dual ASA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ASA",
+      "path": "filament/Snapmaker J1 ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 ASA @0.2 nozzle",
+      "path": "filament/Snapmaker J1 ASA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual Breakaway",
+      "path": "filament/Snapmaker Dual Breakaway.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual Breakaway @0.2 nozzle",
+      "path": "filament/Snapmaker Dual Breakaway @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 Breakaway",
+      "path": "filament/Snapmaker J1 Breakaway.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 Breakaway @0.2 nozzle",
+      "path": "filament/Snapmaker J1 Breakaway @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PA-CF",
+      "path": "filament/Snapmaker Dual PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PA-CF",
+      "path": "filament/Snapmaker J1 PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PA-CF @U1",
+      "path": "filament/Snapmaker PA-CF @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PA-CF",
+      "path": "filament/Snapmaker PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PET",
+      "path": "filament/Snapmaker Dual PET.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PET @Dual",
+      "path": "filament/Snapmaker PET @Dual.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PET",
+      "path": "filament/Snapmaker J1 PET.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PET @U1",
+      "path": "filament/Snapmaker PET @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PET",
+      "path": "filament/Snapmaker PET.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PETG @Snapmaker U1",
+      "path": "filament/Polymaker/PolyLite PETG @Snapmaker U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PETG @Snapmaker U1",
+      "path": "filament/Polymaker/Polymaker PETG @Snapmaker U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PETG",
+      "path": "filament/Snapmaker Dual PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PETG @0.2 nozzle",
+      "path": "filament/Snapmaker Dual PETG @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PETG @0.8 nozzle",
+      "path": "filament/Snapmaker Dual PETG @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PETG-CF",
+      "path": "filament/Snapmaker Dual PETG-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PETG",
+      "path": "filament/Snapmaker J1 PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PETG @0.2 nozzle",
+      "path": "filament/Snapmaker J1 PETG @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PETG @0.8 nozzle",
+      "path": "filament/Snapmaker J1 PETG @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PETG-CF",
+      "path": "filament/Snapmaker J1 PETG-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG @U1",
+      "path": "filament/Snapmaker PETG @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG",
+      "path": "filament/Snapmaker PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG @0.2 nozzle",
+      "path": "filament/Snapmaker PETG @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG-CF @U1",
+      "path": "filament/Snapmaker PETG-CF @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PETG-CF",
+      "path": "filament/Snapmaker PETG-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma CoPE @U1",
+      "path": "filament/Polymaker/Panchroma CoPE @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA @U1",
+      "path": "filament/Polymaker/Panchroma PLA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Celestial @U1",
+      "path": "filament/Polymaker/Panchroma PLA Celestial @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Galaxy @U1",
+      "path": "filament/Polymaker/Panchroma PLA Galaxy @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Glow @U1",
+      "path": "filament/Polymaker/Panchroma PLA Glow @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Luminous @U1",
+      "path": "filament/Polymaker/Panchroma PLA Luminous @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Marble @U1",
+      "path": "filament/Polymaker/Panchroma PLA Marble @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Matte @U1",
+      "path": "filament/Polymaker/Panchroma PLA Matte @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Metallic @U1",
+      "path": "filament/Polymaker/Panchroma PLA Metallic @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Neon @U1",
+      "path": "filament/Polymaker/Panchroma PLA Neon @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Satin @U1",
+      "path": "filament/Polymaker/Panchroma PLA Satin @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Silk @U1",
+      "path": "filament/Polymaker/Panchroma PLA Silk @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Starlight @U1",
+      "path": "filament/Polymaker/Panchroma PLA Starlight @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Temp Shift @U1",
+      "path": "filament/Polymaker/Panchroma PLA Temp Shift @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA Translucent @U1",
+      "path": "filament/Polymaker/Panchroma PLA Translucent @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Panchroma PLA UV Shift @U1",
+      "path": "filament/Polymaker/Panchroma PLA UV Shift @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA @U1",
+      "path": "filament/Polymaker/PolyLite PLA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite J1 PLA",
+      "path": "filament/Polymaker/PolyLite J1 PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA @0.2 nozzle",
+      "path": "filament/Polymaker/PolyLite PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite PLA Pro @U1",
+      "path": "filament/Polymaker/PolyLite PLA Pro @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra PLA @U1",
+      "path": "filament/Polymaker/PolyTerra PLA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA @Snapmaker U1",
+      "path": "filament/Polymaker/Polymaker HT-PLA @Snapmaker U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA @U1",
+      "path": "filament/Polymaker/Polymaker HT-PLA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA-GF @Snapmaker U1",
+      "path": "filament/Polymaker/Polymaker HT-PLA-GF @Snapmaker U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker HT-PLA-GF @U1",
+      "path": "filament/Polymaker/Polymaker HT-PLA-GF @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PLA Pro @Snapmaker U1",
+      "path": "filament/Polymaker/Polymaker PLA Pro @Snapmaker U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA",
+      "path": "filament/Snapmaker Dual PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Matte",
+      "path": "filament/Snapmaker Dual PLA Matte.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Matte @0.2 nozzle",
+      "path": "filament/Snapmaker Dual PLA Matte @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Matte @0.8 nozzle",
+      "path": "filament/Snapmaker Dual PLA Matte @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Metal",
+      "path": "filament/Snapmaker Dual PLA Metal.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Metal @0.2 nozzle",
+      "path": "filament/Snapmaker Dual PLA Metal @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Silk",
+      "path": "filament/Snapmaker Dual PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Silk @0.2 nozzle",
+      "path": "filament/Snapmaker Dual PLA Silk @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA-CF",
+      "path": "filament/Snapmaker Dual PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA-CF @0.8 nozzle",
+      "path": "filament/Snapmaker Dual PLA-CF @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA",
+      "path": "filament/Snapmaker J1 PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Matte",
+      "path": "filament/Snapmaker J1 PLA Matte.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Matte @0.2 nozzle",
+      "path": "filament/Snapmaker J1 PLA Matte @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Matte @0.8 nozzle",
+      "path": "filament/Snapmaker J1 PLA Matte @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Metal",
+      "path": "filament/Snapmaker J1 PLA Metal.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Metal @0.2 nozzle",
+      "path": "filament/Snapmaker J1 PLA Metal @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Silk",
+      "path": "filament/Snapmaker J1 PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Silk @0.2 nozzle",
+      "path": "filament/Snapmaker J1 PLA Silk @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA-CF",
+      "path": "filament/Snapmaker J1 PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA-CF @0.8 nozzle",
+      "path": "filament/Snapmaker J1 PLA-CF @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA @U1",
+      "path": "filament/Snapmaker PLA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Matte @U1",
+      "path": "filament/Snapmaker PLA Matte @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA",
+      "path": "filament/Snapmaker PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Metal @U1",
+      "path": "filament/Snapmaker PLA Metal @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Silk @U1",
+      "path": "filament/Snapmaker PLA Silk @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Silk",
+      "path": "filament/Snapmaker PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Silk @0.2 nozzle",
+      "path": "filament/Snapmaker PLA Silk @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA-CF @U1",
+      "path": "filament/Snapmaker PLA-CF @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA-CF",
+      "path": "filament/Snapmaker PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Eco @base",
+      "path": "filament/Snapmaker Dual PLA Eco @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Eco @base",
+      "path": "filament/Snapmaker J1 PLA Eco @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Eco @U1 base",
+      "path": "filament/Snapmaker PLA Eco @U1 base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Eco @base",
+      "path": "filament/Snapmaker PLA Eco @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PVA",
+      "path": "filament/Snapmaker Dual PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PVA @0.2 nozzle",
+      "path": "filament/Snapmaker Dual PVA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PVA",
+      "path": "filament/Snapmaker J1 PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PVA @0.2 nozzle",
+      "path": "filament/Snapmaker J1 PVA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PVA @U1",
+      "path": "filament/Snapmaker PVA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PVA",
+      "path": "filament/Snapmaker PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PVA @0.2 nozzle",
+      "path": "filament/Snapmaker PVA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual TPE",
+      "path": "filament/Snapmaker Dual TPE.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual TPU",
+      "path": "filament/Snapmaker Dual TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual TPU High-Flow",
+      "path": "filament/Snapmaker Dual TPU High-Flow.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 TPE",
+      "path": "filament/Snapmaker J1 TPE.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 TPU",
+      "path": "filament/Snapmaker J1 TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 TPU High-Flow",
+      "path": "filament/Snapmaker J1 TPU High-Flow.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPE @U1",
+      "path": "filament/Snapmaker TPE @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPU @U1",
+      "path": "filament/Snapmaker TPU @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPU High-Flow @U1",
+      "path": "filament/Snapmaker TPU High-Flow @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPE",
+      "path": "filament/Snapmaker TPE.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker TPU",
+      "path": "filament/Snapmaker TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite Dual PLA @0.2 nozzle",
+      "path": "filament/Polymaker/PolyLite Dual PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyLite J1 PLA @0.2 nozzle",
+      "path": "filament/Polymaker/PolyLite J1 PLA @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Eco",
+      "path": "filament/Snapmaker Dual PLA Eco.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Eco @0.2 nozzle",
+      "path": "filament/Snapmaker Dual PLA Eco @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Dual PLA Eco @0.8 nozzle",
+      "path": "filament/Snapmaker Dual PLA Eco @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Eco",
+      "path": "filament/Snapmaker J1 PLA Eco.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Eco @0.2 nozzle",
+      "path": "filament/Snapmaker J1 PLA Eco @0.2 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker J1 PLA Eco @0.8 nozzle",
+      "path": "filament/Snapmaker J1 PLA Eco @0.8 nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Eco @U1",
+      "path": "filament/Snapmaker PLA Eco @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Eco",
+      "path": "filament/Snapmaker PLA Eco.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Breakaway Support @base",
+      "path": "filament/Snapmaker Breakaway Support @base.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker Breakaway Support For PLA @U1",
+      "path": "filament/Snapmaker Breakaway Support For PLA @U1.json"
+    },
+    {
+      "type": "filament",
+      "name": "PolyTerra J1 PLA",
+      "path": "filament/Polymaker/PolyTerra J1 PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Snapmaker PLA Matte @U1 base",
+      "path": "filament/Snapmaker PLA Matte @U1 base.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Snapmaker A250 BKit_cover.png",
+    "assets/Snapmaker A250 Dual BKit_cover.png",
+    "assets/Snapmaker A250 Dual QS+B Kit_cover.png",
+    "assets/Snapmaker A250 Dual QSKit_cover.png",
+    "assets/Snapmaker A250 Dual_cover.png",
+    "assets/Snapmaker A250 Dual_texture.svg",
+    "assets/Snapmaker A250 QS+B Kit_cover.png",
+    "assets/Snapmaker A250 QSKit_cover.png",
+    "assets/Snapmaker A250_bed.stl",
+    "assets/Snapmaker A250_cover.png",
+    "assets/Snapmaker A250_texture.svg",
+    "assets/Snapmaker A350 BKit_cover.png",
+    "assets/Snapmaker A350 Dual BKit_cover.png",
+    "assets/Snapmaker A350 Dual QS+B Kit_cover.png",
+    "assets/Snapmaker A350 Dual QSKit_cover.png",
+    "assets/Snapmaker A350 Dual_cover.png",
+    "assets/Snapmaker A350 Dual_texture.svg",
+    "assets/Snapmaker A350 QS+B Kit_cover.png",
+    "assets/Snapmaker A350 QSKit_cover.png",
+    "assets/Snapmaker A350_bed.stl",
+    "assets/Snapmaker A350_cover.png",
+    "assets/Snapmaker A350_texture.svg",
+    "assets/Snapmaker Artisan_bed.stl",
+    "assets/Snapmaker Artisan_cover.png",
+    "assets/Snapmaker Artisan_texture.svg",
+    "assets/Snapmaker J1_bed.stl",
+    "assets/Snapmaker J1_cover.png",
+    "assets/Snapmaker J1_texture.svg",
+    "assets/Snapmaker U1_bed.stl",
+    "assets/Snapmaker U1_bed.svg",
+    "assets/Snapmaker U1_cover.png"
+  ]
+}

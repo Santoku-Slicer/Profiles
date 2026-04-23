@@ -1,0 +1,154 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "BIQU",
+  "version": "02.03.02.60",
+  "index_name": "BIQU.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "BIQU",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "BIQU B1",
+      "path": "printer_model/BIQU B1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "BIQU BX",
+      "path": "printer_model/BIQU BX.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "BIQU Hurakan",
+      "path": "printer_model/BIQU Hurakan.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_biqu_common",
+      "path": "printer/fdm_biqu_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "BIQU B1 (0.4 nozzle)",
+      "path": "printer/BIQU B1 (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "BIQU BX (0.4 nozzle)",
+      "path": "printer/BIQU BX (0.4 nozzle).json"
+    },
+    {
+      "type": "printer",
+      "name": "BIQU Hurakan (0.4 nozzle)",
+      "path": "printer/BIQU Hurakan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_biqu_common",
+      "path": "print/fdm_process_biqu_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @BIQU B1 (0.4 nozzle)",
+      "path": "print/0.12mm Fine @BIQU B1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @BIQU BX (0.4 nozzle)",
+      "path": "print/0.12mm Fine @BIQU BX (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @BIQU Hurakan (0.4 nozzle)",
+      "path": "print/0.12mm Fine @BIQU Hurakan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @BIQU B1 (0.4 nozzle)",
+      "path": "print/0.15mm Optimal @BIQU B1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @BIQU BX (0.4 nozzle)",
+      "path": "print/0.15mm Optimal @BIQU BX (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @BIQU B1 (0.4 nozzle)",
+      "path": "print/0.20mm Standard @BIQU B1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @BIQU BX (0.4 nozzle)",
+      "path": "print/0.20mm Standard @BIQU BX (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @BIQU B1 (0.4 nozzle)",
+      "path": "print/0.24mm Draft @BIQU B1 (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @BIQU BX (0.4 nozzle)",
+      "path": "print/0.24mm Draft @BIQU BX (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_hurakan_common",
+      "path": "print/fdm_process_hurakan_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @BIQU Hurakan (0.4 nozzle)",
+      "path": "print/0.15mm Optimal @BIQU Hurakan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @BIQU Hurakan (0.4 nozzle)",
+      "path": "print/0.20mm Standard @BIQU Hurakan (0.4 nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @BIQU Hurakan (0.4 nozzle)",
+      "path": "print/0.24mm Draft @BIQU Hurakan (0.4 nozzle).json"
+    }
+  ],
+  "asset_paths": [
+    "assets/BIQU B1_cover.png",
+    "assets/BIQU BX_cover.png",
+    "assets/BIQU Hurakan_cover.png",
+    "assets/BIQU_B1_buildplate_model.stl",
+    "assets/BIQU_B1_buildplate_texture.png",
+    "assets/BIQU_BX_buildplate_model.stl",
+    "assets/BIQU_BX_buildplate_texture.png",
+    "assets/BIQU_Hurakan_buildplate_model.stl",
+    "assets/BIQU_Hurakan_buildplate_texture.png"
+  ]
+}

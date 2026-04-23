@@ -1,0 +1,202 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "SecKit",
+  "version": "02.03.02.60",
+  "index_name": "SecKit.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "SecKit",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "SecKit SK-Tank",
+      "path": "printer_model/SecKit SK-Tank.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Seckit Go3",
+      "path": "printer_model/Seckit Go3.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "SecKit Go3 0.4 nozzle",
+      "path": "printer/SecKit Go3 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "SecKit SK-Tank 0.4 nozzle",
+      "path": "printer/SecKit SK-Tank 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_seckit_common",
+      "path": "print/fdm_process_seckit_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @SecKit",
+      "path": "print/0.08mm Extra Fine @SecKit.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @SecKit",
+      "path": "print/0.12mm Fine @SecKit.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @SecKit",
+      "path": "print/0.15mm Optimal @SecKit.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @SecKit",
+      "path": "print/0.20mm Standard @SecKit.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @SecKit",
+      "path": "print/0.24mm Draft @SecKit.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @SecKit",
+      "path": "print/0.28mm Extra Draft @SecKit.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fast @SecKit",
+      "path": "print/0.30mm Fast @SecKit.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pva",
+      "path": "filament/fdm_filament_pva.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic ABS",
+      "path": "filament/SecKit Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic ASA",
+      "path": "filament/SecKit Generic ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic PA",
+      "path": "filament/SecKit Generic PA.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic PA-CF",
+      "path": "filament/SecKit Generic PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic PC",
+      "path": "filament/SecKit Generic PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic PETG",
+      "path": "filament/SecKit Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic PLA",
+      "path": "filament/SecKit Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic PLA-CF",
+      "path": "filament/SecKit Generic PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic PVA",
+      "path": "filament/SecKit Generic PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "SecKit Generic TPU",
+      "path": "filament/SecKit Generic TPU.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/SK-Go3_Bed.stl",
+    "assets/SK-Tank_Bed.stl",
+    "assets/SecKit SK-Tank_cover.png",
+    "assets/Seckit Go3_cover.png",
+    "assets/hotend.stl",
+    "assets/seckit-hotend.stl",
+    "assets/seckit_logo.svg"
+  ]
+}

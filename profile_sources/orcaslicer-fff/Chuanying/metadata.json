@@ -1,0 +1,199 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Chuanying",
+  "version": "02.03.02.60",
+  "index_name": "Chuanying.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Chuanying",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Chuanying X1",
+      "path": "printer_model/Chuanying X1.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_chuanying_common",
+      "path": "printer/fdm_chuanying_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_x1_common",
+      "path": "printer/fdm_x1_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Chuanying X1 0.25 Nozzle",
+      "path": "printer/Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Chuanying X1 0.4 Nozzle",
+      "path": "printer/Chuanying X1 0.4 Nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Chuanying X1 0.6 Nozzle",
+      "path": "printer/Chuanying X1 0.6 Nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Chuanying X1 0.8 Nozzle",
+      "path": "printer/Chuanying X1 0.8 Nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_chuanying_common",
+      "path": "print/fdm_process_chuanying_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_chuanying_0.20",
+      "path": "print/fdm_process_chuanying_0.20.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_chuanying_0.30",
+      "path": "print/fdm_process_chuanying_0.30.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Chuanying X1 0.4 Nozzle",
+      "path": "print/0.20mm Standard @Chuanying X1 0.4 Nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard @Chuanying X1 0.6 Nozzle",
+      "path": "print/0.30mm Standard @Chuanying X1 0.6 Nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Standard @Chuanying X1 0.25 Nozzle",
+      "path": "print/0.12mm Standard @Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @Chuanying X1 0.8 Nozzle",
+      "path": "print/0.40mm Standard @Chuanying X1 0.8 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic ABS",
+      "path": "filament/Chuanying Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic ASA",
+      "path": "filament/Chuanying Generic ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic HS PLA",
+      "path": "filament/Chuanying Generic HS PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic PETG",
+      "path": "filament/Chuanying Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic PLA",
+      "path": "filament/Chuanying Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic PLA-Silk",
+      "path": "filament/Chuanying Generic PLA-Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying ABS @Chuanying X1 0.25 Nozzle",
+      "path": "filament/Chuanying ABS @Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic HIPS",
+      "path": "filament/Chuanying Generic HIPS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying ASA @Chuanying X1 0.25 Nozzle",
+      "path": "filament/Chuanying ASA @Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying HS PLA @Chuanying X1 0.25 Nozzle",
+      "path": "filament/Chuanying HS PLA @Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying PETG @Chuanying X1 0.25 Nozzle",
+      "path": "filament/Chuanying PETG @Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic PVA",
+      "path": "filament/Chuanying Generic PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying PLA @Chuanying X1 0.25 Nozzle",
+      "path": "filament/Chuanying PLA @Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying PLA-SILK @Chuanying X1 0.25 Nozzle",
+      "path": "filament/Chuanying PLA-SILK @Chuanying X1 0.25 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic PETG-CF10",
+      "path": "filament/Chuanying Generic PETG-CF10.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic PLA-CF10",
+      "path": "filament/Chuanying Generic PLA-CF10.json"
+    },
+    {
+      "type": "filament",
+      "name": "Chuanying Generic TPU",
+      "path": "filament/Chuanying Generic TPU.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Chuanying X1_cover.png",
+    "assets/chuanying_x1_buildplate_model.STL",
+    "assets/chuanying_x1_buildplate_texture.png",
+    "assets/chuanying_x1_hotend.stl"
+  ]
+}

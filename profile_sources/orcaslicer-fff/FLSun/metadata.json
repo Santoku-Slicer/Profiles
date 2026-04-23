@@ -1,0 +1,408 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "FLSun",
+  "version": "02.03.02.60",
+  "index_name": "FLSun.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "FLSun",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FLSun Q5",
+      "path": "printer_model/FLSun Q5.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FLSun QQ-S Pro",
+      "path": "printer_model/FLSun QQ-S Pro.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FLSun S1",
+      "path": "printer_model/FLSun S1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FLSun Super Racer (SR)",
+      "path": "printer_model/FLSun SR.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FLSun T1",
+      "path": "printer_model/FLSun T1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "FLSun V400",
+      "path": "printer_model/FLSun V400.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun Q5 0.4 nozzle",
+      "path": "printer/FLSun Q5 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun QQ-S Pro 0.4 nozzle",
+      "path": "printer/FLSun QQ-S Pro 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun S1 0.4 nozzle",
+      "path": "printer/FLSun S1 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun Super Racer 0.4 nozzle",
+      "path": "printer/FLSun SR 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun T1 0.4 nozzle",
+      "path": "printer/FLSun T1 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "FLSun V400 0.4 nozzle",
+      "path": "printer/FLSun V400 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Fine @FLSun Q5",
+      "path": "print/0.08mm Fine @FLSun Q5.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Fine @FLSun QQSPro",
+      "path": "print/0.08mm Fine @FLSun QQSPro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Fine @FLSun SR",
+      "path": "print/0.08mm Fine @FLSun SR.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @FLSun S1",
+      "path": "print/0.12mm Fine @FLSun S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @FLSun T1",
+      "path": "print/0.12mm Fine @FLSun T1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FLSun Q5",
+      "path": "print/0.16mm Optimal @FLSun Q5.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FLSun QQSPro",
+      "path": "print/0.16mm Optimal @FLSun QQSPro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FLSun S1",
+      "path": "print/0.16mm Optimal @FLSun S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FLSun SR",
+      "path": "print/0.16mm Optimal @FLSun SR.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @FLSun T1",
+      "path": "print/0.16mm Optimal @FLSun T1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FLSun Q5",
+      "path": "print/0.20mm Standard @FLSun Q5.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FLSun QQSPro",
+      "path": "print/0.20mm Standard @FLSun QQSPro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FLSun S1",
+      "path": "print/0.20mm Standard @FLSun S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FLSun SR",
+      "path": "print/0.20mm Standard @FLSun SR.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FLSun T1",
+      "path": "print/0.20mm Standard @FLSun T1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @FLSun V400",
+      "path": "print/0.20mm Standard @FLSun V400.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FLSun Q5",
+      "path": "print/0.24mm Draft @FLSun Q5.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FLSun QQSPro",
+      "path": "print/0.24mm Draft @FLSun QQSPro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FLSun S1",
+      "path": "print/0.24mm Draft @FLSun S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FLSun SR",
+      "path": "print/0.24mm Draft @FLSun SR.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @FLSun T1",
+      "path": "print/0.24mm Draft @FLSun T1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Extra Draft @FLSun Q5",
+      "path": "print/0.30mm Extra Draft @FLSun Q5.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Extra Draft @FLSun QQSPro",
+      "path": "print/0.30mm Extra Draft @FLSun QQSPro.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Extra Draft @FLSun S1",
+      "path": "print/0.30mm Extra Draft @FLSun S1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Extra Draft @FLSun SR",
+      "path": "print/0.30mm Extra Draft @FLSun SR.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Extra Draft @FLSun T1",
+      "path": "print/0.30mm Extra Draft @FLSun T1.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pa",
+      "path": "filament/fdm_filament_pa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pc",
+      "path": "filament/fdm_filament_pc.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pva",
+      "path": "filament/fdm_filament_pva.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic ABS",
+      "path": "filament/FLSun Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic ASA",
+      "path": "filament/FLSun Generic ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic PA",
+      "path": "filament/FLSun Generic PA.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic PA-CF",
+      "path": "filament/FLSun Generic PA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic PC",
+      "path": "filament/FLSun Generic PC.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic PETG",
+      "path": "filament/FLSun Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic PLA",
+      "path": "filament/FLSun Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic PLA-CF",
+      "path": "filament/FLSun Generic PLA-CF.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic PVA",
+      "path": "filament/FLSun Generic PVA.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun Generic TPU",
+      "path": "filament/FLSun Generic TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun S1 ABS",
+      "path": "filament/FLSun S1 ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun T1 ABS",
+      "path": "filament/FLSun T1 ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun S1 ASA",
+      "path": "filament/FLSun S1 ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun T1 ASA",
+      "path": "filament/FLSun T1 ASA.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun S1 PETG",
+      "path": "filament/FLSun S1 PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun T1 PETG",
+      "path": "filament/FLSun T1 PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun S1 PLA Generic",
+      "path": "filament/FLSun S1 PLA Generic.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun S1 PLA High Speed",
+      "path": "filament/FLSun S1 PLA High Speed.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun S1 PLA Silk",
+      "path": "filament/FLSun S1 PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun T1 PLA Generic",
+      "path": "filament/FLSun T1 PLA Generic.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun T1 PLA High Speed",
+      "path": "filament/FLSun T1 PLA High Speed.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun T1 PLA Silk",
+      "path": "filament/FLSun T1 PLA Silk.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun S1 TPU",
+      "path": "filament/FLSun S1 TPU.json"
+    },
+    {
+      "type": "filament",
+      "name": "FLSun T1 TPU",
+      "path": "filament/FLSun T1 TPU.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/FLSun Q5_cover.png",
+    "assets/FLSun QQ-S Pro_cover.png",
+    "assets/FLSun S1_cover.png",
+    "assets/FLSun Super Racer (SR)_cover.png",
+    "assets/FLSun T1_cover.png",
+    "assets/FLSun V400_cover.png",
+    "assets/FLSun_S1_buildplate_texture.svg",
+    "assets/FLSun_T1_buildplate_texture.svg",
+    "assets/flsun_SR_buildplate_model.stl",
+    "assets/flsun_SR_buildplate_texture.svg",
+    "assets/flsun_T1_buildplate_model.stl",
+    "assets/flsun_q5_buildplate_model.stl",
+    "assets/flsun_q5_buildplate_texture.png",
+    "assets/flsun_qqspro_buildplate_model.stl",
+    "assets/flsun_qqspro_buildplate_texture.png",
+    "assets/flsun_s1_buildplate_model.stl",
+    "assets/flsun_v400_buildplate_model.stl",
+    "assets/flsun_v400_buildplate_texture.svg"
+  ]
+}

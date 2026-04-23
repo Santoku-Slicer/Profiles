@@ -8,6 +8,14 @@
     "index_url": "./repos/non-prusa-fff/vendor_indices.zip"
   },
   {
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": "",
+    "id": "orcaslicer-fff",
+    "url": "./repos/orcaslicer-fff",
+    "index_url": "./repos/orcaslicer-fff/vendor_indices.zip"
+  },
+  {
     "name": "Prusa FFF",
     "description": "Prusa FFF printers",
     "visibility": "",

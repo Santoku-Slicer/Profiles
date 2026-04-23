@@ -1,0 +1,178 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "RH3D",
+  "version": "02.03.02.60",
+  "index_name": "RH3D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "RH3D",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "E3NG v1.2S",
+      "path": "printer_model/E3NG v1.2S.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_common_E3NG v1.2S",
+      "path": "printer/fdm_common_E3NG v1.2S.json"
+    },
+    {
+      "type": "printer",
+      "name": "E3NG v1.2S - 0.2 nozzle",
+      "path": "printer/E3NG v1.2S - 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "E3NG v1.2S - 0.3 nozzle",
+      "path": "printer/E3NG v1.2S - 0.3 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "E3NG v1.2S - 0.4 nozzle",
+      "path": "printer/E3NG v1.2S - 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "E3NG v1.2S - 0.5 nozzle",
+      "path": "printer/E3NG v1.2S - 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "E3NG v1.2S - 0.6 nozzle",
+      "path": "printer/E3NG v1.2S - 0.6 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "process_common_E3NG v1.2S",
+      "path": "print/process_common_E3NG v1.2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard @E3NG v1.2S",
+      "path": "print/0.10mm Standard @E3NG v1.2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @E3NG v1.2S",
+      "path": "print/0.15mm Standard @E3NG v1.2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Fast @E3NG v1.2S",
+      "path": "print/0.20mm Fast @E3NG v1.2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Slow @E3NG v1.2S",
+      "path": "print/0.20mm Slow @E3NG v1.2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @E3NG v1.2S",
+      "path": "print/0.20mm Standard @E3NG v1.2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Fast @E3NG v1.2S",
+      "path": "print/0.25mm Fast @E3NG v1.2S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @E3NG v1.2S",
+      "path": "print/0.25mm Standard @E3NG v1.2S.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_asa",
+      "path": "filament/fdm_filament_asa.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pccf",
+      "path": "filament/fdm_filament_pccf.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_petg",
+      "path": "filament/fdm_filament_petg.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @E3NG v1.2S",
+      "path": "filament/Generic ABS @E3NG v1.2S.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @E3NG v1.2S",
+      "path": "filament/Generic ASA @E3NG v1.2S.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PCCF @E3NG v1.2S",
+      "path": "filament/Generic PCCF @E3NG v1.2S.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @E3NG v1.2S",
+      "path": "filament/Generic PETG @E3NG v1.2S.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @E3NG v1.2S",
+      "path": "filament/Generic PLA @E3NG v1.2S.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @E3NG v1.2S",
+      "path": "filament/Generic TPU @E3NG v1.2S.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/E3NG v1.2S_cover.png",
+    "assets/E3NG-bed-texture.svg",
+    "assets/E3NG-bed.stl"
+  ]
+}

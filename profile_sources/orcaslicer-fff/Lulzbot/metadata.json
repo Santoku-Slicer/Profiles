@@ -1,0 +1,146 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Lulzbot",
+  "version": "02.03.02.60",
+  "index_name": "Lulzbot.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Lulzbot",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Lulzbot Taz 4 or 5",
+      "path": "printer_model/Lulzbot Taz 4 or 5.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Lulzbot Taz 6",
+      "path": "printer_model/Lulzbot Taz 6.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Lulzbot Taz Pro Dual",
+      "path": "printer_model/Lulzbot Taz Pro Dual.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Lulzbot Taz Pro S",
+      "path": "printer_model/Lulzbot Taz Pro S.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Lulzbot Taz 4 or 5 0.5 nozzle",
+      "path": "printer/Lulzbot Taz 4 or 5 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Lulzbot Taz 6 0.5 nozzle",
+      "path": "printer/Lulzbot Taz 6 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Lulzbot Taz Pro Common",
+      "path": "printer/Lulzbot Taz Pro Common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Lulzbot Taz Pro Dual 0.5 nozzle",
+      "path": "printer/Lulzbot Taz Pro Dual 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Lulzbot Taz Pro S 0.5 nozzle",
+      "path": "printer/Lulzbot Taz Pro S 0.5 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @Lulzbot Taz 4 or 5",
+      "path": "print/0.25mm Standard @Lulzbot Taz 4 or 5.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @Lulzbot Taz 6",
+      "path": "print/0.25mm Standard @Lulzbot Taz 6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @Lulzbot Taz Pro Dual",
+      "path": "print/0.25mm Standard @Lulzbot Taz Pro Dual.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard @Lulzbot Taz Pro S",
+      "path": "print/0.25mm Standard @Lulzbot Taz Pro S.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm High Detail @Lulzbot Taz 4 or 5",
+      "path": "print/0.18mm High Detail @Lulzbot Taz 4 or 5.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm High Detail @Lulzbot Taz 6",
+      "path": "print/0.18mm High Detail @Lulzbot Taz 6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm High Detail @Lulzbot Taz Pro Dual",
+      "path": "print/0.18mm High Detail @Lulzbot Taz Pro Dual.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm High Detail @Lulzbot Taz Pro S",
+      "path": "print/0.18mm High Detail @Lulzbot Taz Pro S.json"
+    },
+    {
+      "type": "filament",
+      "name": "Lulzbot 2.85mm ABS",
+      "path": "filament/Lulzbot 2.85mm ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Lulzbot 2.85mm PETG",
+      "path": "filament/Lulzbot 2.85mm PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Lulzbot 2.85mm PLA",
+      "path": "filament/Lulzbot 2.85mm PLA.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Lulzbot Taz 4 or 5_cover.png",
+    "assets/Lulzbot Taz 6_cover.png",
+    "assets/Lulzbot Taz Mini 2_cover.png",
+    "assets/Lulzbot Taz Pro Dual_cover.png",
+    "assets/Lulzbot Taz Pro S_cover.png",
+    "assets/Lulzbot Taz Workhorse_cover.png",
+    "assets/Taz_Pro_Dual_printbed.png",
+    "assets/lulzbot_logo.png",
+    "assets/taz_4_or_5_build_plate.stl",
+    "assets/taz_6_build_plate.stl",
+    "assets/taz_pro_dual_build_plate.stl"
+  ]
+}

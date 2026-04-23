@@ -1,0 +1,135 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "DeltaMaker",
+  "version": "02.03.02.60",
+  "index_name": "DeltaMaker.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "DeltaMaker",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "DeltaMaker 2",
+      "path": "printer_model/DeltaMaker 2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "DeltaMaker 2T",
+      "path": "printer_model/DeltaMaker 2T.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "DeltaMaker 2XT",
+      "path": "printer_model/DeltaMaker 2XT.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "DeltaMaker 2 0.35 nozzle",
+      "path": "printer/DeltaMaker 2 0.35 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "DeltaMaker 2T 0.5 nozzle",
+      "path": "printer/DeltaMaker 2T 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "DeltaMaker 2XT 0.5 nozzle",
+      "path": "printer/DeltaMaker 2XT 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @DeltaMaker",
+      "path": "print/0.12mm Fine @DeltaMaker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Standard @DeltaMaker",
+      "path": "print/0.18mm Standard @DeltaMaker.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Draft @DeltaMaker",
+      "path": "print/0.25mm Draft @DeltaMaker.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_klipper_common",
+      "path": "print/fdm_process_klipper_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "DeltaMaker Generic PETG",
+      "path": "filament/DeltaMaker Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "DeltaMaker Brand PLA",
+      "path": "filament/DeltaMaker Brand PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "DeltaMaker Generic PLA",
+      "path": "filament/DeltaMaker Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "DeltaMaker Generic TPU",
+      "path": "filament/DeltaMaker Generic TPU.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/DeltaMaker 2T_cover.png",
+    "assets/DeltaMaker 2XT_cover.png",
+    "assets/DeltaMaker 2_cover.png",
+    "assets/deltamaker_2_buildplate_model.stl",
+    "assets/deltamaker_2_buildplate_texture.svg"
+  ]
+}

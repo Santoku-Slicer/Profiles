@@ -1,0 +1,301 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "WEMAKE3D",
+  "version": "02.03.02.60",
+  "index_name": "WEMAKE3D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "WEMAKE3D",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "WEMAKE3D PhoenixProV1",
+      "path": "printer_model/WEMAKE3D PhoenixProV1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "WEMAKE3D TinyBotV1",
+      "path": "printer_model/WEMAKE3D TinyBotV1.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_phoenixprov1_common",
+      "path": "printer/fdm_machine_phoenixprov1_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_tinybotv1_common",
+      "path": "printer/fdm_machine_tinybotv1_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D PhoenixProV1 0.2mm nozzle",
+      "path": "printer/WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "printer/WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D PhoenixProV1 0.4mm nozzle",
+      "path": "printer/WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D PhoenixProV1 0.6mm nozzle",
+      "path": "printer/WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D TinyBotV1 0.2mm nozzle",
+      "path": "printer/WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "printer/WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D TinyBotV1 0.4mm nozzle",
+      "path": "printer/WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "WEMAKE3D TinyBotV1 0.6mm nozzle",
+      "path": "printer/WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_phoenixProV1_common",
+      "path": "print/fdm_process_phoenixProV1_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_tinyBotV1_common",
+      "path": "print/fdm_process_tinyBotV1_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm Extra Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "print/0.06mm Extra Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "print/0.08mm ExtraFine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Fine @WEMAKE3D PhoenixProV1 0.2mm nozzle",
+      "path": "print/0.08mm Fine @WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle",
+      "path": "print/0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
+      "path": "print/0.12mm Extra Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "print/0.12mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle",
+      "path": "print/0.15mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "print/0.15mm Standard @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle",
+      "path": "print/0.16mm Draft @WEMAKE3D PhoenixProV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.1mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle",
+      "path": "print/0.1mm Extra Fine @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.1mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "print/0.1mm Fine @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "print/0.24mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle",
+      "path": "print/0.25mm Draft @WEMAKE3D PhoenixProV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle",
+      "path": "print/0.25mm Fine @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Standard @WEMAKE3D PhoenixProV1 0.4mm nozzle",
+      "path": "print/0.2mm Standard @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle",
+      "path": "print/0.32mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle",
+      "path": "print/0.3mm Draft @WEMAKE3D PhoenixProV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Extra Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle",
+      "path": "print/0.48mm Extra Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle",
+      "path": "print/0.4mm Draft @WEMAKE3D PhoenixProV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "print/0.06mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "print/0.08mm Extra Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Fine @WEMAKE3D TinyBotV1 0.2mm nozzle",
+      "path": "print/0.08mm Fine @WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle",
+      "path": "print/0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.6mm nozzle",
+      "path": "print/0.12mm Extra Fine @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "print/0.12mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
+      "path": "print/0.15mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Standard @WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "print/0.15mm Standard @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle",
+      "path": "print/0.16mm Draft @WEMAKE3D TinyBotV1 0.2mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.1mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle",
+      "path": "print/0.1mm Extra Fine @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.1mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "print/0.1mm Fine @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "print/0.24mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle",
+      "path": "print/0.25mm Draft @WEMAKE3D TinyBotV1 0.3mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Fine @WEMAKE3D TinyBotV1 0.6mm nozzle",
+      "path": "print/0.25mm Fine @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.2mm Standard @WEMAKE3D TinyBotV1 0.4mm nozzle",
+      "path": "print/0.2mm Standard @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle",
+      "path": "print/0.32mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.3mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle",
+      "path": "print/0.3mm Draft @WEMAKE3D TinyBotV1 0.4mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Extra Draft @WEMAKE3D TinyBotV1 0.6mm nozzle",
+      "path": "print/0.48mm Extra Draft @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "0.4mm Draft @WEMAKE3D TinyBotV1 0.6mm nozzle",
+      "path": "print/0.4mm Draft @WEMAKE3D TinyBotV1 0.6mm nozzle.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/WEMAKE3D PhoenixProV1_buildplate_model.stl",
+    "assets/WEMAKE3D PhoenixProV1_buildplate_texture.png",
+    "assets/WEMAKE3D PhoenixProV1_cover.png",
+    "assets/WEMAKE3D TinyBotV1_buildplate_model.stl",
+    "assets/WEMAKE3D TinyBotV1_buildplate_texture.png",
+    "assets/WEMAKE3D TinyBotV1_cover.png"
+  ]
+}

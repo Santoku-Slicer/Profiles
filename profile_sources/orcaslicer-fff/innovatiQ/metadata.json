@@ -1,0 +1,151 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "innovatiQ",
+  "version": "02.03.02.60",
+  "index_name": "innovatiQ.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "innovatiQ",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "TiQ2",
+      "path": "printer_model/TiQ2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "TiQ8",
+      "path": "printer_model/TiQ8.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_tiq_common",
+      "path": "printer/fdm_tiq_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ2 0.25 Nozzle",
+      "path": "printer/iQ TiQ2 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ2 0.4 Nozzle",
+      "path": "printer/iQ TiQ2 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ2 0.6 Nozzle",
+      "path": "printer/iQ TiQ2 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ2 0.8 Nozzle",
+      "path": "printer/iQ TiQ2 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ8 0.25 Nozzle",
+      "path": "printer/iQ TiQ8 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ8 0.4 Nozzle",
+      "path": "printer/iQ TiQ8 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ8 0.6 Nozzle",
+      "path": "printer/iQ TiQ8 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "iQ TiQ8 0.8 Nozzle",
+      "path": "printer/iQ TiQ8 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_tiq_common",
+      "path": "print/fdm_process_tiq_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @iQ TiQ2 P1 - HPP4GF25 Grauts (0.4 Nozzle)",
+      "path": "print/0.20mm Standard @iQ TiQ2 P1 - HPP4GF25 Grauts (0.4 Nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @iQ TiQ2 P1 - PACF Pro Fiberthree (0.4 Nozzle)",
+      "path": "print/0.20mm Standard @iQ TiQ2 P1 - PACF Pro Fiberthree (0.4 Nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @iQ TiQ2 P1 - PETG Polymax Polymaker (0.4 Nozzle)",
+      "path": "print/0.20mm Standard @iQ TiQ2 P1 - PETG Polymax Polymaker (0.4 Nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @iQ TiQ2 P2 - PACF Pro Fiberthree + VXL90 Xioneer (0.4 Nozzle)",
+      "path": "print/0.20mm Standard @iQ TiQ2 P2 - PACF Pro Fiberthree + VXL90 Xioneer (0.4 Nozzle).json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @iQ TiQ8 P1 - ABS Natur Material4Print (0.4 Nozzle)",
+      "path": "print/0.20mm Standard @iQ TiQ8 P1 - ABS Natur Material4Print (0.4 Nozzle).json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberthree PACF Pro P1 @iQ TiQ2 0.4 Nozzle",
+      "path": "filament/Fiberthree PACF Pro P1 @iQ TiQ2 0.4 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Fiberthree PACF Pro P2 @iQ TiQ2 0.4 Nozzle",
+      "path": "filament/Fiberthree PACF Pro P2 @iQ TiQ2 0.4 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Grauts HPP4GF25 P1 @iQ TiQ2 0.4 Nozzle",
+      "path": "filament/Grauts HPP4GF25 P1 @iQ TiQ2 0.4 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Material4Print ABS Natur P1 @iQ TiQ8 0.4 Nozzle",
+      "path": "filament/Material4Print ABS Natur P1 @iQ TiQ8 0.4 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "Polymaker PETG Polymax black P1 @iQ TiQ2 0.4 Nozzle",
+      "path": "filament/Polymaker PETG Polymax black P1 @iQ TiQ2 0.4 Nozzle.json"
+    },
+    {
+      "type": "filament",
+      "name": "VXL90 TiQ2 P2 @iQ TiQ2 0.4 Nozzle",
+      "path": "filament/VXL90 TiQ2 P2 @iQ TiQ2 0.4 Nozzle.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/TiQ2.stl",
+    "assets/TiQ2_cover.png",
+    "assets/TiQ2_texture.png",
+    "assets/TiQ8.stl",
+    "assets/TiQ8_cover.png",
+    "assets/TiQ8_texture.png"
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Custom Printer",
+  "version": "02.03.02.60",
+  "index_name": "Custom Printer.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Custom Printer",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Generic Klipper Printer",
+      "path": "printer_model/MyKlipper.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Generic Marlin Printer",
+      "path": "printer_model/MyMarlin.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Generic RRF Printer",
+      "path": "printer_model/MyRRF.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Generic ToolChanger Printer",
+      "path": "printer_model/MyToolChanger.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyMarlin 0.4 nozzle",
+      "path": "printer/MyMarlin 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_rrf_common",
+      "path": "printer/fdm_rrf_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyKlipper 0.2 nozzle",
+      "path": "printer/MyKlipper 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyKlipper 0.4 nozzle",
+      "path": "printer/MyKlipper 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyKlipper 0.6 nozzle",
+      "path": "printer/MyKlipper 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyKlipper 0.8 nozzle",
+      "path": "printer/MyKlipper 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_toolchanger_common",
+      "path": "printer/fdm_toolchanger_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyRRF 0.4 nozzle",
+      "path": "printer/MyRRF 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyToolChanger 0.2 nozzle",
+      "path": "printer/MyToolChanger 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyToolChanger 0.4 nozzle",
+      "path": "printer/MyToolChanger 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyToolChanger 0.6 nozzle",
+      "path": "printer/MyToolChanger 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "MyToolChanger 0.8 nozzle",
+      "path": "printer/MyToolChanger 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_klipper_common",
+      "path": "print/fdm_process_klipper_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_marlin_common",
+      "path": "print/fdm_process_marlin_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_rrf_common",
+      "path": "print/fdm_process_rrf_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @MyKlipper",
+      "path": "print/0.08mm Extra Fine @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @MyKlipper",
+      "path": "print/0.12mm Fine @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @MyKlipper",
+      "path": "print/0.15mm Optimal @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @MyKlipper",
+      "path": "print/0.16mm Optimal @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MyKlipper",
+      "path": "print/0.20mm Standard @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @MyKlipper",
+      "path": "print/0.24mm Draft @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @MyKlipper",
+      "path": "print/0.28mm Extra Draft @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @MyKlipper",
+      "path": "print/0.32mm Extra Draft @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @MyKlipper",
+      "path": "print/0.40mm Extra Draft @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm Standard @MyKlipper",
+      "path": "print/0.56mm Extra Draft @MyKlipper.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_mytoolchanger_common",
+      "path": "print/fdm_process_mytoolchanger_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @MyMarlin",
+      "path": "print/0.08mm Extra Fine @MyMarlin.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @MyMarlin",
+      "path": "print/0.12mm Fine @MyMarlin.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @MyMarlin",
+      "path": "print/0.15mm Optimal @MyMarlin.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MyMarlin",
+      "path": "print/0.20mm Standard @MyMarlin.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @MyMarlin",
+      "path": "print/0.24mm Draft @MyMarlin.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @MyMarlin",
+      "path": "print/0.28mm Extra Draft @MyMarlin.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @MyRRF",
+      "path": "print/0.08mm Extra Fine @MyRRF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @MyRRF",
+      "path": "print/0.12mm Fine @MyRRF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @MyRRF",
+      "path": "print/0.15mm Optimal @MyRRF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MyRRF",
+      "path": "print/0.20mm Standard @MyRRF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @MyRRF",
+      "path": "print/0.24mm Draft @MyRRF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @MyRRF",
+      "path": "print/0.28mm Extra Draft @MyRRF.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @MyToolChanger",
+      "path": "print/0.08mm Extra Fine @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @MyToolChanger",
+      "path": "print/0.12mm Fine @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @MyToolChanger",
+      "path": "print/0.15mm Optimal @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @MyToolChanger",
+      "path": "print/0.16mm Optimal @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @MyToolChanger",
+      "path": "print/0.20mm Standard @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @MyToolChanger",
+      "path": "print/0.24mm Draft @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @MyToolChanger",
+      "path": "print/0.28mm Extra Draft @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Extra Draft @MyToolChanger",
+      "path": "print/0.32mm Extra Draft @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @MyToolChanger",
+      "path": "print/0.40mm Extra Draft @MyToolChanger.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm Standard @MyToolChanger",
+      "path": "print/0.56mm Extra Draft @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ABS @MyToolChanger",
+      "path": "filament/Generic ABS @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic ASA @MyToolChanger",
+      "path": "filament/Generic ASA @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PA @MyToolChanger",
+      "path": "filament/Generic PA @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PA-CF @MyToolChanger",
+      "path": "filament/Generic PA-CF @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PC @MyToolChanger",
+      "path": "filament/Generic PC @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PETG @MyToolChanger",
+      "path": "filament/Generic PETG @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA @MyToolChanger",
+      "path": "filament/Generic PLA @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PLA-CF @MyToolChanger",
+      "path": "filament/Generic PLA-CF @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic PVA @MyToolChanger",
+      "path": "filament/Generic PVA @MyToolChanger.json"
+    },
+    {
+      "type": "filament",
+      "name": "Generic TPU @MyToolChanger",
+      "path": "filament/Generic TPU @MyToolChanger.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Custom_350_bed.stl",
+    "assets/Generic Klipper Printer_cover.png",
+    "assets/Generic Marlin Printer_cover.png",
+    "assets/Generic RRF Printer_cover.png",
+    "assets/Generic ToolChanger Printer_cover.png",
+    "assets/orcaslicer_bed_texture.svg"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Comgrow",
+  "version": "02.03.02.60",
+  "index_name": "Comgrow.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Comgrow",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Comgrow T300",
+      "path": "printer_model/Comgrow T300.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Comgrow T500",
+      "path": "printer_model/Comgrow T500.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_comgrow_common",
+      "path": "printer/fdm_comgrow_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Comgrow T300 0.4 nozzle",
+      "path": "printer/Comgrow T300 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Comgrow T500 0.4 nozzle",
+      "path": "printer/Comgrow T500 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Comgrow T500 0.6 nozzle",
+      "path": "printer/Comgrow T500 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Comgrow T500 0.8 nozzle",
+      "path": "printer/Comgrow T500 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Optimal @Comgrow T500",
+      "path": "print/0.18mm Optimal @Comgrow T500.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Comgrow T500",
+      "path": "print/0.20mm Standard @Comgrow T500.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_comgrow_common",
+      "path": "print/fdm_process_comgrow_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Opitmal @Comgrow T500 0.6",
+      "path": "print/0.16mm Opitmal @Comgrow T500 0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @Comgrow T500 0.4",
+      "path": "print/0.16mm Optimal @Comgrow T500 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Optimal @Comgrow T300 0.4 - official",
+      "path": "print/0.20mm Optimal @Comgrow T300 0.4 - official.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Comgrow T500 0.4",
+      "path": "print/0.20mm Standard @Comgrow T500 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Comgrow T500 0.6",
+      "path": "print/0.20mm Standard @Comgrow T500 0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Comgrow T500 1.0",
+      "path": "print/0.20mm Standard @Comgrow T500 1.0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Comgrow T500 0.4",
+      "path": "print/0.24mm Draft @Comgrow T500 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Comgrow T500 0.6",
+      "path": "print/0.24mm Draft @Comgrow T500 0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Optimal @Comgrow T500 0.8",
+      "path": "print/0.24mm Optimal @Comgrow T500 0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm SuperDraft @Comgrow T500 0.4",
+      "path": "print/0.28mm SuperDraft @Comgrow T500 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm SuperDraft @Comgrow T500 0.6",
+      "path": "print/0.28mm SuperDraft @Comgrow T500 0.6.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @Comgrow T500 0.8",
+      "path": "print/0.32mm Standard @Comgrow T500 0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Draft @Comgrow T500 0.8",
+      "path": "print/0.40mm Draft @Comgrow T500 0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Draft @Comgrow T500 0.8",
+      "path": "print/0.48mm Draft @Comgrow T500 0.8.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm SuperChunky @Comgrow T500 0.8",
+      "path": "print/0.56mm SuperDraft @Comgrow T500 0.8.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "Comgrow Generic ABS",
+      "path": "filament/Comgrow Generic ABS.json"
+    },
+    {
+      "type": "filament",
+      "name": "Comgrow Generic PETG",
+      "path": "filament/Comgrow Generic PETG.json"
+    },
+    {
+      "type": "filament",
+      "name": "Comgrow Generic PLA",
+      "path": "filament/Comgrow Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Comgrow T300 PLA",
+      "path": "filament/Comgrow T300 PLA.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Comgrow T300_cover.png",
+    "assets/Comgrow T500_cover.png",
+    "assets/comgrow_t300_buildplate_model.stl",
+    "assets/comgrow_t300_buildplate_texture.png",
+    "assets/comgrow_t500_buildplate_model.stl",
+    "assets/comgrow_t500_buildplate_texture.png"
+  ]
+}

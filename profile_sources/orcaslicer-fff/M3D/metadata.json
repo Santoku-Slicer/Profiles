@@ -1,0 +1,58 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "M3D",
+  "version": "02.03.02.60",
+  "index_name": "M3D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "M3D",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "M3D Enabler D8500 MM Model",
+      "path": "printer_model/M3D Enabler D8500 MM Model.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "M3D Enabler D8500 MM",
+      "path": "printer/M3D Enabler D8500 MM.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm MM @D8500",
+      "path": "print/0.15mm MM @D8500.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm MM @D8500",
+      "path": "print/0.20mm MM @D8500.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/M3D Enabler D8500 MM Model_cover.png",
+    "assets/model/M3D_bed_model.stl",
+    "assets/model/M3D_bed_texture.png"
+  ]
+}

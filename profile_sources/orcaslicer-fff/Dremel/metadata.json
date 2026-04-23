@@ -1,0 +1,176 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Dremel",
+  "version": "02.03.02.60",
+  "index_name": "Dremel.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Dremel",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Dremel 3D20",
+      "path": "printer_model/Dremel 3D20.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Dremel 3D40",
+      "path": "printer_model/Dremel 3D40.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Dremel 3D45",
+      "path": "printer_model/Dremel 3D45.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_dremel_common",
+      "path": "printer/fdm_dremel_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Dremel 3D20 0.4 nozzle",
+      "path": "printer/Dremel 3D20 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Dremel 3D40 0.4 nozzle",
+      "path": "printer/Dremel 3D40 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Dremel 3D45 0.4 nozzle",
+      "path": "printer/Dremel 3D45 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_dremel_common",
+      "path": "print/fdm_process_dremel_common.json"
+    },
+    {
+      "type": "print",
+      "name": ".05mm Super Detail @Dremel 3D40 0.4",
+      "path": "print/.05mm Super Detail @Dremel 3D40 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".05mm Super Detail @Dremel 3D45 0.4",
+      "path": "print/.05mm Super Detail @Dremel 3D45 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".10mm Detail @Dremel 3D20 0.4",
+      "path": "print/.10mm Detail @Dremel 3D20 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".10mm Detail @Dremel 3D40 0.4",
+      "path": "print/.10mm Detail @Dremel 3D40 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".10mm Detail @Dremel 3D45 0.4",
+      "path": "print/.10mm Detail @Dremel 3D45 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".20mm Standard @Dremel 3D20 0.4",
+      "path": "print/.20mm Standard @Dremel 3D20 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".20mm Standard @Dremel 3D40 0.4",
+      "path": "print/.20mm Standard @Dremel 3D40 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".20mm Standard @Dremel 3D45 0.4",
+      "path": "print/.20mm Standard @Dremel 3D45 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".30mm Draft @Dremel 3D20 0.4",
+      "path": "print/.30mm Draft @Dremel 3D20 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".30mm Draft @Dremel 3D40 0.4",
+      "path": "print/.30mm Draft @Dremel 3D40 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".30mm Draft @Dremel 3D45 0.4",
+      "path": "print/.30mm Draft @Dremel 3D45 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".34mm SuperDraft @Dremel 3D40 0.4",
+      "path": "print/.34mm SuperDraft @Dremel 3D40 0.4.json"
+    },
+    {
+      "type": "print",
+      "name": ".34mm SuperDraft @Dremel 3D45 0.4",
+      "path": "print/.34mm SuperDraft @Dremel 3D45 0.4.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "Dremel Generic PLA",
+      "path": "filament/Dremel Generic PLA.json"
+    },
+    {
+      "type": "filament",
+      "name": "Dremel Generic PLA @3D20 all",
+      "path": "filament/Dremel Generic PLA @3D20 all.json"
+    },
+    {
+      "type": "filament",
+      "name": "Dremel Generic PLA @3D40 all",
+      "path": "filament/Dremel Generic PLA @3D40 all.json"
+    },
+    {
+      "type": "filament",
+      "name": "Dremel Generic PLA @3D45 all",
+      "path": "filament/Dremel Generic PLA @3D45 all.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Dremel 3D20_cover.png",
+    "assets/Dremel 3D40_cover.png",
+    "assets/Dremel 3D45_cover.png",
+    "assets/dremel_3d20_buildplate_model.stl",
+    "assets/dremel_3d40_3d45_buildplate_model.stl",
+    "assets/dremel_3d45.stl"
+  ]
+}

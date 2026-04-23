@@ -1,0 +1,118 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Positron 3D",
+  "version": "02.03.02.60",
+  "index_name": "Positron 3D.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Positron 3D",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "The Positron",
+      "path": "printer_model/The Positron.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_common_the_positron",
+      "path": "printer/fdm_common_the_positron.json"
+    },
+    {
+      "type": "printer",
+      "name": "The Positron 0.2 nozzle",
+      "path": "printer/The Positron 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "The Positron 0.4 nozzle",
+      "path": "printer/The Positron 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "The Positron 0.6 nozzle",
+      "path": "printer/The Positron 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "The Positron 0.8 nozzle",
+      "path": "printer/The Positron 0.8 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_the_positron_common",
+      "path": "print/fdm_process_the_positron_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @The Positron",
+      "path": "print/0.08mm Extra Fine @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @The Positron",
+      "path": "print/0.12mm Fine @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @The Positron",
+      "path": "print/0.16mm Optimal @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @The Positron",
+      "path": "print/0.20mm Standard @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @The Positron",
+      "path": "print/0.24mm Draft @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @The Positron",
+      "path": "print/0.28mm Extra Draft @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @The Positron",
+      "path": "print/0.32mm Extra Draft @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard @The Positron",
+      "path": "print/0.40mm Extra Draft @The Positron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm Standard @The Positron",
+      "path": "print/0.56mm Extra Draft @The Positron.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/The Positron_cover.png",
+    "assets/ThePositron_bed_model.stl",
+    "assets/ThePositron_bed_texture.svg"
+  ]
+}

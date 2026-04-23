@@ -1,0 +1,654 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "Voron",
+  "version": "02.03.02.60",
+  "index_name": "Voron.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "Voron",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron 0.1",
+      "path": "printer_model/Voron 0.1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron 2.4 250",
+      "path": "printer_model/Voron 2.4 250.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron 2.4 300",
+      "path": "printer_model/Voron 2.4 300.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron 2.4 350",
+      "path": "printer_model/Voron 2.4 350.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron Switchwire 250",
+      "path": "printer_model/Voron Switchwire 250.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron Trident 250",
+      "path": "printer_model/Voron Trident 250.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron Trident 300",
+      "path": "printer_model/Voron Trident 300.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "Voron Trident 350",
+      "path": "printer_model/Voron Trident 350.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 0.15 nozzle",
+      "path": "printer/Voron 0.1 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 0.2 nozzle",
+      "path": "printer/Voron 0.1 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 0.25 nozzle",
+      "path": "printer/Voron 0.1 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 0.4 nozzle",
+      "path": "printer/Voron 0.1 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 0.5 nozzle",
+      "path": "printer/Voron 0.1 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 0.6 nozzle",
+      "path": "printer/Voron 0.1 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 0.8 nozzle",
+      "path": "printer/Voron 0.1 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 0.1 1.0 nozzle",
+      "path": "printer/Voron 0.1 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 0.15 nozzle",
+      "path": "printer/Voron 2.4 250 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 0.2 nozzle",
+      "path": "printer/Voron 2.4 250 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 0.25 nozzle",
+      "path": "printer/Voron 2.4 250 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 0.4 nozzle",
+      "path": "printer/Voron 2.4 250 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 0.5 nozzle",
+      "path": "printer/Voron 2.4 250 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 0.6 nozzle",
+      "path": "printer/Voron 2.4 250 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 0.8 nozzle",
+      "path": "printer/Voron 2.4 250 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 250 1.0 nozzle",
+      "path": "printer/Voron 2.4 250 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 0.15 nozzle",
+      "path": "printer/Voron 2.4 300 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 0.2 nozzle",
+      "path": "printer/Voron 2.4 300 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 0.25 nozzle",
+      "path": "printer/Voron 2.4 300 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 0.4 nozzle",
+      "path": "printer/Voron 2.4 300 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 0.5 nozzle",
+      "path": "printer/Voron 2.4 300 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 0.6 nozzle",
+      "path": "printer/Voron 2.4 300 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 0.8 nozzle",
+      "path": "printer/Voron 2.4 300 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 300 1.0 nozzle",
+      "path": "printer/Voron 2.4 300 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 0.15 nozzle",
+      "path": "printer/Voron 2.4 350 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 0.2 nozzle",
+      "path": "printer/Voron 2.4 350 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 0.25 nozzle",
+      "path": "printer/Voron 2.4 350 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 0.4 nozzle",
+      "path": "printer/Voron 2.4 350 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 0.5 nozzle",
+      "path": "printer/Voron 2.4 350 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 0.6 nozzle",
+      "path": "printer/Voron 2.4 350 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 0.8 nozzle",
+      "path": "printer/Voron 2.4 350 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron 2.4 350 1.0 nozzle",
+      "path": "printer/Voron 2.4 350 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 0.15 nozzle",
+      "path": "printer/Voron Switchwire 250 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 0.2 nozzle",
+      "path": "printer/Voron Switchwire 250 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 0.25 nozzle",
+      "path": "printer/Voron Switchwire 250 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 0.4 nozzle",
+      "path": "printer/Voron Switchwire 250 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 0.5 nozzle",
+      "path": "printer/Voron Switchwire 250 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 0.6 nozzle",
+      "path": "printer/Voron Switchwire 250 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 0.8 nozzle",
+      "path": "printer/Voron Switchwire 250 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Switchwire 250 1.0 nozzle",
+      "path": "printer/Voron Switchwire 250 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 0.15 nozzle",
+      "path": "printer/Voron Trident 250 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 0.2 nozzle",
+      "path": "printer/Voron Trident 250 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 0.25 nozzle",
+      "path": "printer/Voron Trident 250 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 0.4 nozzle",
+      "path": "printer/Voron Trident 250 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 0.5 nozzle",
+      "path": "printer/Voron Trident 250 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 0.6 nozzle",
+      "path": "printer/Voron Trident 250 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 0.8 nozzle",
+      "path": "printer/Voron Trident 250 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 250 1.0 nozzle",
+      "path": "printer/Voron Trident 250 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 0.15 nozzle",
+      "path": "printer/Voron Trident 300 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 0.2 nozzle",
+      "path": "printer/Voron Trident 300 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 0.25 nozzle",
+      "path": "printer/Voron Trident 300 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 0.4 nozzle",
+      "path": "printer/Voron Trident 300 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 0.5 nozzle",
+      "path": "printer/Voron Trident 300 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 0.6 nozzle",
+      "path": "printer/Voron Trident 300 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 0.8 nozzle",
+      "path": "printer/Voron Trident 300 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 300 1.0 nozzle",
+      "path": "printer/Voron Trident 300 1.0 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 0.15 nozzle",
+      "path": "printer/Voron Trident 350 0.15 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 0.2 nozzle",
+      "path": "printer/Voron Trident 350 0.2 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 0.25 nozzle",
+      "path": "printer/Voron Trident 350 0.25 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 0.4 nozzle",
+      "path": "printer/Voron Trident 350 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 0.5 nozzle",
+      "path": "printer/Voron Trident 350 0.5 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 0.6 nozzle",
+      "path": "printer/Voron Trident 350 0.6 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 0.8 nozzle",
+      "path": "printer/Voron Trident 350 0.8 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "Voron Trident 350 1.0 nozzle",
+      "path": "printer/Voron Trident 350 1.0 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common",
+      "path": "print/fdm_process_voron_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @Voron",
+      "path": "print/0.08mm Extra Fine @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @Voron",
+      "path": "print/0.12mm Fine @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @Voron",
+      "path": "print/0.15mm Optimal @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @Voron",
+      "path": "print/0.20mm Standard @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @Voron",
+      "path": "print/0.24mm Draft @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @Voron",
+      "path": "print/0.28mm Extra Draft @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common_0_1_5",
+      "path": "print/fdm_process_voron_common_0_1_5.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common_0_2",
+      "path": "print/fdm_process_voron_common_0_2.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common_0_2_5",
+      "path": "print/fdm_process_voron_common_0_2_5.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common_0_5",
+      "path": "print/fdm_process_voron_common_0_5.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common_0_6",
+      "path": "print/fdm_process_voron_common_0_6.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common_0_8",
+      "path": "print/fdm_process_voron_common_0_8.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_voron_common_1_0",
+      "path": "print/fdm_process_voron_common_1_0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.05mm Fine 0.15 nozzle @Voron",
+      "path": "print/0.05mm Fine 0.15 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.07mm Optimal 0.15 nozzle @Voron",
+      "path": "print/0.07mm Optimal 0.15 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.09mm Standard 0.15 nozzle @Voron",
+      "path": "print/0.09mm Standard 0.15 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Draft 0.15 nozzle @Voron",
+      "path": "print/0.12mm Draft 0.15 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm Fine 0.2 nozzle @Voron",
+      "path": "print/0.06mm Fine 0.2 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Optimal 0.2 nozzle @Voron",
+      "path": "print/0.08mm Optimal 0.2 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard 0.2 nozzle @Voron",
+      "path": "print/0.10mm Standard 0.2 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Draft 0.2 nozzle @Voron",
+      "path": "print/0.12mm Draft 0.2 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.14mm Extra Draft 0.2 nozzle @Voron",
+      "path": "print/0.14mm Extra Draft 0.2 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.06mm Fine 0.25 nozzle @Voron",
+      "path": "print/0.06mm Fine 0.25 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Optimal 0.25 nozzle @Voron",
+      "path": "print/0.08mm Optimal 0.25 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Standard 0.25 nozzle @Voron",
+      "path": "print/0.10mm Standard 0.25 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Draft 0.25 nozzle @Voron",
+      "path": "print/0.12mm Draft 0.25 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.14mm Extra Draft 0.25 nozzle @Voron",
+      "path": "print/0.14mm Extra Draft 0.25 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.10mm Extra Fine 0.5 nozzle @Voron",
+      "path": "print/0.10mm Extra Fine 0.5 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Fine 0.5 nozzle @Voron",
+      "path": "print/0.15mm Fine 0.5 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Optimal 0.5 nozzle @Voron",
+      "path": "print/0.20mm Optimal 0.5 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.25mm Standard 0.5 nozzle @Voron",
+      "path": "print/0.25mm Standard 0.5 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Draft 0.5 nozzle @Voron",
+      "path": "print/0.30mm Draft 0.5 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.35mm Extra Draft 0.5 nozzle @Voron",
+      "path": "print/0.35mm Extra Draft 0.5 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.18mm Fine 0.6 nozzle @Voron",
+      "path": "print/0.18mm Fine 0.6 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Optimal 0.6 nozzle @Voron",
+      "path": "print/0.24mm Optimal 0.6 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Standard 0.6 nozzle @Voron",
+      "path": "print/0.30mm Standard 0.6 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Optimal 0.6 nozzle @Voron",
+      "path": "print/0.32mm Optimal 0.6 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.36mm Draft 0.6 nozzle @Voron",
+      "path": "print/0.36mm Draft 0.6 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.42mm Extra Draft 0.6 nozzle @Voron",
+      "path": "print/0.42mm Extra Draft 0.6 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Fine 0.8 nozzle @Voron",
+      "path": "print/0.24mm Fine 0.8 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.40mm Standard 0.8 nozzle @Voron",
+      "path": "print/0.40mm Standard 0.8 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.48mm Draft 0.8 nozzle @Voron",
+      "path": "print/0.48mm Draft 0.8 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.56mm Extra Draft 0.8 nozzle @Voron",
+      "path": "print/0.56mm Extra Draft 0.8 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.30mm Fine 1.0 nozzle @Voron",
+      "path": "print/0.30mm Fine 1.0 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.50mm Standard 1.0 nozzle @Voron",
+      "path": "print/0.50mm Standard 1.0 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.60mm Draft 1.0 nozzle @Voron",
+      "path": "print/0.60mm Draft 1.0 nozzle @Voron.json"
+    },
+    {
+      "type": "print",
+      "name": "0.80mm Extra Draft 1.0 nozzle @Voron",
+      "path": "print/0.80mm Extra Draft 1.0 nozzle @Voron.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/Voron 0.1_cover.png",
+    "assets/Voron 2.4 250_cover.png",
+    "assets/Voron 2.4 300_cover.png",
+    "assets/Voron 2.4 350_cover.png",
+    "assets/Voron Switchwire 250_cover.png",
+    "assets/Voron Trident 250_cover.png",
+    "assets/Voron Trident 300_cover.png",
+    "assets/Voron Trident 350_cover.png",
+    "assets/Voron_120_build_plate.stl",
+    "assets/Voron_250_build_plate.stl",
+    "assets/Voron_300_build_plate.stl",
+    "assets/Voron_350_build_plate.stl",
+    "assets/voron_logo.svg",
+    "assets/voron_switchwire_logo.svg"
+  ]
+}

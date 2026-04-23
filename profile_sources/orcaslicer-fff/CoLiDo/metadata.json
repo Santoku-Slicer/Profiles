@@ -1,0 +1,350 @@
+{
+  "format": "orcaslicer-json-split",
+  "repo": {
+    "id": "orcaslicer-fff",
+    "name": "OrcaSlicer FFF",
+    "description": "Profiles imported from the official OrcaSlicer repository",
+    "visibility": ""
+  },
+  "source": {
+    "upstream": "https://github.com/OrcaSlicer/OrcaSlicer",
+    "profile_root": "resources/profiles"
+  },
+  "vendor": "CoLiDo",
+  "version": "02.03.02.60",
+  "index_name": "CoLiDo.idx",
+  "section_order": [
+    {
+      "type": "vendor",
+      "name": "CoLiDo",
+      "path": "vendor/vendor.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "CoLiDo 160 V2",
+      "path": "printer_model/CoLiDo 160 V2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "CoLiDo DIY 4.0",
+      "path": "printer_model/CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "CoLiDo DIY 4.0 V2",
+      "path": "printer_model/CoLiDo DIY 4.0 V2.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "CoLiDo SR1",
+      "path": "printer_model/CoLiDo SR1.json"
+    },
+    {
+      "type": "printer_model",
+      "name": "CoLiDo X16",
+      "path": "printer_model/CoLiDo X16.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_machine_common",
+      "path": "printer/fdm_machine_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "fdm_klipper_common",
+      "path": "printer/fdm_klipper_common.json"
+    },
+    {
+      "type": "printer",
+      "name": "CoLiDo DIY 4.0 V2 0.4 nozzle",
+      "path": "printer/CoLiDo DIY 4.0 V2 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "CoLiDo SR1 0.4 nozzle",
+      "path": "printer/CoLiDo SR1 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "CoLiDo 160 V2 0.4 nozzle",
+      "path": "printer/CoLiDo 160 V2 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "CoLiDo DIY 4.0 0.4 nozzle",
+      "path": "printer/CoLiDo DIY 4.0 0.4 nozzle.json"
+    },
+    {
+      "type": "printer",
+      "name": "CoLiDo X16 0.4 nozzle",
+      "path": "printer/CoLiDo X16 0.4 nozzle.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_common",
+      "path": "print/fdm_process_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_colido_common",
+      "path": "print/fdm_process_colido_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_colidodiy40_common",
+      "path": "print/fdm_process_colidodiy40_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_colidodiy40v2_common",
+      "path": "print/fdm_process_colidodiy40v2_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_colidosr1_common",
+      "path": "print/fdm_process_colidosr1_common.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_colidox16_common",
+      "path": "print/fdm_process_colidox16_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @CoLiDo DIY 4.0",
+      "path": "print/0.08mm Extra Fine @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @CoLiDo DIY 4.0",
+      "path": "print/0.12mm Fine @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @CoLiDo DIY 4.0",
+      "path": "print/0.15mm Optimal @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @CoLiDo DIY 4.0",
+      "path": "print/0.20mm Standard @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @CoLiDo DIY 4.0",
+      "path": "print/0.24mm Draft @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @CoLiDo DIY 4.0",
+      "path": "print/0.28mm Extra Draft @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @CoLiDo DIY 4.0 V2",
+      "path": "print/0.20mm Standard @CoLiDo DIY 4.0 V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @CoLiDo SR1",
+      "path": "print/0.08mm Extra Fine @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @CoLiDo SR1",
+      "path": "print/0.12mm Fine @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @CoLiDo SR1",
+      "path": "print/0.15mm Optimal @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.16mm Optimal @CoLiDo SR1",
+      "path": "print/0.16mm Optimal @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @CoLiDo SR1",
+      "path": "print/0.20mm Standard @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @CoLiDo SR1",
+      "path": "print/0.24mm Draft @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @CoLiDo SR1",
+      "path": "print/0.28mm Extra Draft @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.32mm Standard @CoLiDo SR1",
+      "path": "print/0.32mm Standard @CoLiDo SR1.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @CoLiDo X16",
+      "path": "print/0.08mm Extra Fine @CoLiDo X16.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @CoLiDo X16",
+      "path": "print/0.12mm Fine @CoLiDo X16.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @CoLiDo X16",
+      "path": "print/0.15mm Optimal @CoLiDo X16.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @CoLiDo X16",
+      "path": "print/0.20mm Standard @CoLiDo X16.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @CoLiDo X16",
+      "path": "print/0.24mm Draft @CoLiDo X16.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @CoLiDo X16",
+      "path": "print/0.28mm Extra Draft @CoLiDo X16.json"
+    },
+    {
+      "type": "print",
+      "name": "fdm_process_colido160v2_common",
+      "path": "print/fdm_process_colido160v2_common.json"
+    },
+    {
+      "type": "print",
+      "name": "0.08mm Extra Fine @CoLiDo 160 V2",
+      "path": "print/0.08mm Extra Fine @CoLiDo 160 V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.12mm Fine @CoLiDo 160 V2",
+      "path": "print/0.12mm Fine @CoLiDo 160 V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.15mm Optimal @CoLiDo 160 V2",
+      "path": "print/0.15mm Optimal @CoLiDo 160 V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.20mm Standard @CoLiDo 160 V2",
+      "path": "print/0.20mm Standard @CoLiDo 160 V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.24mm Draft @CoLiDo 160 V2",
+      "path": "print/0.24mm Draft @CoLiDo 160 V2.json"
+    },
+    {
+      "type": "print",
+      "name": "0.28mm Extra Draft @CoLiDo 160 V2",
+      "path": "print/0.28mm Extra Draft @CoLiDo 160 V2.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_common",
+      "path": "filament/fdm_filament_common.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_abs",
+      "path": "filament/fdm_filament_abs.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pet",
+      "path": "filament/fdm_filament_pet.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_pla",
+      "path": "filament/fdm_filament_pla.json"
+    },
+    {
+      "type": "filament",
+      "name": "fdm_filament_tpu",
+      "path": "filament/fdm_filament_tpu.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo ABS @CoLiDo SR1",
+      "path": "filament/CoLiDo ABS @CoLiDo SR1.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic ABS @CoLiDo DIY 4.0",
+      "path": "filament/CoLiDo Generic ABS @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic ABS @CoLiDo X16",
+      "path": "filament/CoLiDo Generic ABS @CoLiDo X16.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic PETG @CoLiDo DIY 4.0",
+      "path": "filament/CoLiDo Generic PETG @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic PETG @CoLiDo X16",
+      "path": "filament/CoLiDo Generic PETG @CoLiDo X16.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo PETG @CoLiDo SR1",
+      "path": "filament/CoLiDo PETG @CoLiDo SR1.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic PLA @CoLiDo DIY 4.0",
+      "path": "filament/CoLiDo Generic PLA @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic PLA @CoLiDo X16",
+      "path": "filament/CoLiDo Generic PLA @CoLiDo X16.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo PLA @CoLiDo SR1",
+      "path": "filament/CoLiDo PLA @CoLiDo SR1.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo PLA Silk @CoLiDo SR1",
+      "path": "filament/CoLiDo PLA Silk @CoLiDo SR1.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo PLA+ @CoLiDo DIY 4.0 V2",
+      "path": "filament/CoLiDo PLA+ @CoLiDo DIY 4.0 V2.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic TPU @CoLiDo DIY 4.0",
+      "path": "filament/CoLiDo Generic TPU @CoLiDo DIY 4.0.json"
+    },
+    {
+      "type": "filament",
+      "name": "CoLiDo Generic TPU @CoLiDo X16",
+      "path": "filament/CoLiDo Generic TPU @CoLiDo X16.json"
+    }
+  ],
+  "asset_paths": [
+    "assets/CoLiDo 160 V2_cover.png",
+    "assets/CoLiDo DIY 4.0 V2_cover.png",
+    "assets/CoLiDo DIY 4.0_cover.png",
+    "assets/CoLiDo SR1_cover.png",
+    "assets/CoLiDo X16_cover.png"
+  ]
+}
