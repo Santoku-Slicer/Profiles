@@ -1,8 +1,8 @@
 {
   "repo": {
-    "id": "non-prusa-fff",
-    "name": "Other FFF",
-    "description": "FFF Printers by other vendors",
+    "id": "santoku-fff",
+    "name": "Santoku FFF",
+    "description": "Santoku-maintained FFF printer profiles",
     "visibility": ""
   },
   "vendor": "EasyThreeD",

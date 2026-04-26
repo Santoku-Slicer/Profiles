@@ -24,6 +24,14 @@
     "index_url": "./repos/prusa-fff/vendor_indices.zip"
   },
   {
+    "name": "Santoku FFF",
+    "description": "Santoku-maintained FFF printer profiles",
+    "visibility": "",
+    "id": "santoku-fff",
+    "url": "./repos/santoku-fff",
+    "index_url": "./repos/santoku-fff/vendor_indices.zip"
+  },
+  {
     "name": "Vendor Dumps",
     "description": "Profiles from proprietary slicers",
     "visibility": "",
